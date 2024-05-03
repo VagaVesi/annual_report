@@ -1,0 +1,169 @@
+{
+    "code": "VARAGRUPP2024ap",
+    "name": {
+        "en": "Asset group",
+        "et": "Vara grupp"
+    },
+    "elements": [
+        {
+            "code": "VG_101",
+            "name": {
+                "en": "Land",
+                "et": "Maa"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_102",
+            "name": {
+                "en": "Buildings (new)",
+                "et": "Hooned  ja rajatised (kasutatud)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_103",
+            "name": {
+                "en": "Buildings (used)",
+                "et": "Hooned  ja rajatised (uued)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_104",
+            "name": {
+                "en": "Transportation",
+                "et": "Transpordivahendid"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_105",
+            "name": {
+                "en": "Computers and computer systems",
+                "et": "Arvutid ja arvutisüsteemid"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_106",
+            "name": {
+                "en": "Medical equipment",
+                "et": "Meditsiiniseadmed"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_107",
+            "name": {
+                "en": "Machinery and equipment",
+                "et": "Masinad ja seadmed ning inventar"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_108",
+            "name": {
+                "en": "Goodwill",
+                "et": "Firmaväärtus"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_109",
+            "name": {
+                "en": "Development expenditures",
+                "et": "Arenguväljaminekud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_110",
+            "name": {
+                "en": "Computer software",
+                "et": "Arvutitarkvara"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_111",
+            "name": {
+                "en": "Concessions, patents, licences, trademarks",
+                "et": "Kontsessioonid, patendid, litsentsid, kaubamärgid"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_112",
+            "name": {
+                "en": "Animals",
+                "et": "Loomsed varad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_113",
+            "name": {
+                "en": "Plantations",
+                "et": "Istandikud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_114",
+            "name": {
+                "en": "Forest",
+                "et": "Mets"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_115",
+            "name": {
+                "en": "Crop",
+                "et": "Vili"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_116",
+            "name": {
+                "en": "Grasslands",
+                "et": "Rohumaad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_201",
+            "name": {
+                "en": "Shares",
+                "et": "Osalused"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_202",
+            "name": {
+                "en": "Fund Units",
+                "et": "Fondiosakud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_203",
+            "name": {
+                "en": "Bonds",
+                "et": "Võlakirjad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "VG_999",
+            "name": {
+                "en": "Others",
+                "et": "Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        }
+    ]
+}

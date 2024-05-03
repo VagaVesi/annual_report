@@ -1,0 +1,129 @@
+{
+    "code": "ANDMETEESITLUSVIIS2024ap",
+    "name": {
+        "en": "Presentation of data",
+        "et": "Andmete esitlusviis"
+    },
+    "elements": [
+        {
+            "code": "AE_11",
+            "name": {
+                "en": "Fair value method",
+                "et": "Õiglase väärtuse meetod"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_12",
+            "name": {
+                "en": "Cost method - individual cost method",
+                "et": "Soetusmaksumuse meetod - individuaalse hindamise meetod"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_13",
+            "name": {
+                "en": "Cost method - FIFO",
+                "et": "Soetusmaksumuse meetod - FIFO"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_14",
+            "name": {
+                "en": "Cost method - Average cost method",
+                "et": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_15",
+            "name": {
+                "en": "Corrected cost (amortised cost) method",
+                "et": "Korrigeeritud soetusmaksumuse meetod"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_16",
+            "name": {
+                "en": "Equity method",
+                "et": "Kapitaliosaluse meetod"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_17",
+            "name": {
+                "en": "Management Estimate",
+                "et": "Juhtkonna hinnang"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_20",
+            "name": {
+                "en": "Cost of Sales",
+                "et": "Müüdud toodangu kulu (Põhitegevuse kulud)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_21",
+            "name": {
+                "en": "Distribution costs",
+                "et": "Turustuskulud (Mitmesugused tegevuskulud)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_22",
+            "name": {
+                "en": "Administrative expenses",
+                "et": "Halduskulud (Mitmesugused tegevuskulud)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_31",
+            "name": {
+                "en": "Depreciation - linear method",
+                "et": "Kulum - lineaarne meetod"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_32",
+            "name": {
+                "en": "Depreciation - diminishing balance method",
+                "et": "Kulum - kahaneva jäägi meetod"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_33",
+            "name": {
+                "en": "Depreciation - units of production method",
+                "et": "Kulum - tootmisühiku meetod"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_40",
+            "name": {
+                "en": "Gross method",
+                "et": "Brutomeetod"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "AE_41",
+            "name": {
+                "en": "Net method",
+                "et": "Netomeetod"
+            },
+            "valid_from_date": "2024-01-01"
+        }
+    ]
+}

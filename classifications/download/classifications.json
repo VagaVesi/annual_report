@@ -1,0 +1,85 @@
+[
+    {
+        "code": "MAJANDUSLIKSISU2024ap",
+        "name": {
+            "en": "Economic content of the transaction",
+            "et": "Tehingu majanduslik sisu"
+        },
+        "links": {
+            "get": "https://demo-datahub.rik.ee/api/v1/meta/classifications/MAJANDUSLIKSISU2024ap",
+            "help": "https://rikpublic.atlassian.net/wiki/x/PQAsBg",
+            "source": "https://estat.stat.ee/codelists/codelist/MAJANDUSLIKSISU2024ap"
+        }
+    },
+    {
+        "code": "ANDMETEESITLUSVIIS2024ap",
+        "name": {
+            "en": "Presentation of data",
+            "et": "Andmete esitlusviis"
+        },
+        "links": {
+            "get": "https://demo-datahub.rik.ee/api/v1/meta/classifications/ANDMETEESITLUSVIIS2024ap",
+            "help": "https://rikpublic.atlassian.net/wiki/x/KYAwBw",
+            "source": "https://estat.stat.ee/codelists/codelist/ANDMETEESITLUSVIIS2024ap"
+        }
+    },
+    {
+        "code": "EMTAK2008ap",
+        "name": {
+            "en": "The Estonian Classification of Economic Activities",
+            "et": "Eesti Majanduse Tegevusalade Klassifikaator"
+        },
+        "links": {
+            "get": "https://demo-datahub.rik.ee/api/v1/meta/classifications/EMTAK2008ap",
+            "help": "https://abiinfo.rik.ee/emtak",
+            "source": "https://emtak.rik.ee/EMTAK/pages/klassifikaatorOtsing.jspx"
+        }
+    },
+    {
+        "code": "MUUTUSELIIK2024ap",
+        "name": {
+            "en": "Type of debit or credit change",
+            "et": "Deebet või kreedit muutuse liik"
+        },
+        "links": {
+            "get": "https://demo-datahub.rik.ee/api/v1/meta/classifications/MUUTUSELIIK2024ap",
+            "help": "https://rikpublic.atlassian.net/wiki/x/IADCBg",
+            "source": "https://estat.stat.ee/codelists/codelist/MUUTUSELIIK2024ap"
+        }
+    },
+    {
+        "code": "RTK2T2013ap",
+        "name": {
+            "en": "Country Codes ISO-3166 (two-letter code)",
+            "et": "Riikide koodid ISO-3166 (2 täheline kood)"
+        },
+        "links": {
+            "get": "https://demo-datahub.rik.ee/api/v1/meta/classifications/RTK2T2013ap",
+            "source": "https://estat.stat.ee/codelists/codelist/RTK2T2013ap"
+        }
+    },
+    {
+        "code": "SEOTUDOSAPOOL2024ap",
+        "name": {
+            "en": "Type of related party",
+            "et": "Seotud osapoole liik"
+        },
+        "links": {
+            "get": "https://demo-datahub.rik.ee/api/v1/meta/classifications/SEOTUDOSAPOOL2024ap",
+            "help": "https://rikpublic.atlassian.net/wiki/x/QwAtBw",
+            "source": "https://estat.stat.ee/codelists/codelist/SEOTUDOSAPOOL2024ap"
+        }
+    },
+    {
+        "code": "VARAGRUPP2024ap",
+        "name": {
+            "en": "Asset group",
+            "et": "Vara grupp"
+        },
+        "links": {
+            "get": "https://demo-datahub.rik.ee/api/v1/meta/classifications/VARAGRUPP2024ap",
+            "help": "https://rikpublic.atlassian.net/wiki/x/J4AsBw",
+            "source": "https://estat.stat.ee/codelists/codelist/VARAGRUPP2024ap"
+        }
+    }
+]

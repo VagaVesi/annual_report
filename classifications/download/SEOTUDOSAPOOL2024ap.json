@@ -1,0 +1,89 @@
+{
+    "code": "SEOTUDOSAPOOL2024ap",
+    "name": {
+        "en": "Type of related party",
+        "et": "Seotud osapoole liik"
+    },
+    "elements": [
+        {
+            "code": "SOP_11",
+            "name": {
+                "en": "Parent company",
+                "et": "Emaettevõtja"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "SOP_12",
+            "name": {
+                "en": "Subsidiary",
+                "et": "Tütarettevõtja"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "SOP_13",
+            "name": {
+                "en": "Associates",
+                "et": "Sidusettevõtja"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "SOP_14",
+            "name": {
+                "en": "Other entities belonging to the same consolidation group",
+                "et": "Sama kontserni muud ettevõtjad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "SOP_21",
+            "name": {
+                "en": "Operational and senior management and the entrepreneurs under their control or significant influence",
+                "et": "Tegev- ja kõrgem juhtkond nende valitseva või olulise mõju all olevad ettevõtjad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "SOP_22",
+            "name": {
+                "en": "Individual owners with significant ownership stakes and the entrepreneurs under their control or significant influence",
+                "et": "Olulise osalusega eraisikust omanikud ning nende valitseva või olulise mõju all olevad ettevõtjad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "SOP_23",
+            "name": {
+                "en": "Owners who are legal entities with significant ownership stakes and the entrepreneurs under their control or significant influence",
+                "et": "Olulise osalusega juriidilisest isikust omanikud ning nende valitseva või olulise mõju all olevad ettevõtjad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "SOP_24",
+            "name": {
+                "en": "Close family members and the entrepreneurs under their control or significant influence who are close to the operational and senior management and individuals with significant ownership stakes",
+                "et": "Lähedased pereliikmed ning nende valitseva või olulise mõju all olevad ettevõtjad, kes on lähedased tegev- ja kõrgema juhtkonna ning olulise osalusega eraisikust omanikega"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "SOP_51",
+            "name": {
+                "en": "Founders and members",
+                "et": "Asutajad ja liikmed"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "SOP_99",
+            "name": {
+                "en": "Other related parties",
+                "et": "Muud seotud osapooled"
+            },
+            "valid_from_date": "2024-01-01"
+        }
+    ]
+}

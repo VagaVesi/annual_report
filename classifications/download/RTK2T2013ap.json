@@ -1,0 +1,2017 @@
+{
+    "code": "RTK2T2013ap",
+    "name": {
+        "en": "Country Codes ISO-3166 (two-letter code)",
+        "et": "Riikide koodid ISO-3166 (2 täheline kood)"
+    },
+    "elements": [
+        {
+            "code": "AD",
+            "name": {
+                "en": "Andorra",
+                "et": "Andorra"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AE",
+            "name": {
+                "en": "United Arab Emirates",
+                "et": "Araabia Ühendemiraadid"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AF",
+            "name": {
+                "en": "Afghanistan",
+                "et": "Afganistan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AG",
+            "name": {
+                "en": "Antigua and Barbuda",
+                "et": "Antigua ja Barbuda"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AI",
+            "name": {
+                "en": "Anguilla",
+                "et": "Anguilla (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AL",
+            "name": {
+                "en": "Albania",
+                "et": "Albaania"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AM",
+            "name": {
+                "en": "Armenia",
+                "et": "Armeenia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AO",
+            "name": {
+                "en": "Angola",
+                "et": "Angola"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AQ",
+            "name": {
+                "en": "Antarctica",
+                "et": "Antarktis"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AR",
+            "name": {
+                "en": "Argentina",
+                "et": "Argentina"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AS",
+            "name": {
+                "en": "American Samoa",
+                "et": "Ameerika Samoa (US)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AT",
+            "name": {
+                "en": "Austria",
+                "et": "Austria"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AU",
+            "name": {
+                "en": "Australia",
+                "et": "Austraalia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AW",
+            "name": {
+                "en": "Aruba",
+                "et": "Aruba (NL)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AX",
+            "name": {
+                "en": "Åland Islands",
+                "et": "Ahvenamaa (FI)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "AZ",
+            "name": {
+                "en": "Azerbaijan",
+                "et": "Aserbaidžaan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BA",
+            "name": {
+                "en": "Bosnia and Herzegovina",
+                "et": "Bosnia ja Hertsegoviina"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BB",
+            "name": {
+                "en": "Barbados",
+                "et": "Barbados"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BD",
+            "name": {
+                "en": "Bangladesh",
+                "et": "Bangladesh"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BE",
+            "name": {
+                "en": "Belgium",
+                "et": "Belgia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BF",
+            "name": {
+                "en": "Burkina Faso",
+                "et": "Burkina Faso"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BG",
+            "name": {
+                "en": "Bulgaria",
+                "et": "Bulgaaria"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BH",
+            "name": {
+                "en": "Bahrain",
+                "et": "Bahrein"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BI",
+            "name": {
+                "en": "Burundi",
+                "et": "Burundi"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BJ",
+            "name": {
+                "en": "Benin",
+                "et": "Benin"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BL",
+            "name": {
+                "en": "Saint Barthélemy",
+                "et": "Saint-Barthélemy (FR)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BM",
+            "name": {
+                "en": "Bermuda",
+                "et": "Bermuda (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BN",
+            "name": {
+                "en": "Brunei Darussalam",
+                "et": "Brunei"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BO",
+            "name": {
+                "en": "Bolivia",
+                "et": "Boliivia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BQ",
+            "name": {
+                "en": "Bonaire, Saint Eustatius and Saba",
+                "et": "Bonaire, Sint Eustatius ja Saba (NL)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BR",
+            "name": {
+                "en": "Brazil",
+                "et": "Brasiilia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BS",
+            "name": {
+                "en": "Bahamas",
+                "et": "Bahama"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BT",
+            "name": {
+                "en": "Bhutan",
+                "et": "Bhutan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BV",
+            "name": {
+                "en": "Bouvet Island",
+                "et": "Bouvet’ saar (NO)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BW",
+            "name": {
+                "en": "Botswana",
+                "et": "Botswana"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BY",
+            "name": {
+                "en": "Belarus",
+                "et": "Valgevene"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "BZ",
+            "name": {
+                "en": "Belize",
+                "et": "Belize"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CA",
+            "name": {
+                "en": "Canada",
+                "et": "Kanada"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CC",
+            "name": {
+                "en": "Cocos (Keeling) Islands",
+                "et": "Kookossaared (Keelingi saared) (AU)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CD",
+            "name": {
+                "en": "Congo (the Democratic Republic of the)",
+                "et": "Kongo DV"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CF",
+            "name": {
+                "en": "Central African Republic",
+                "et": "Kesk-Aafrika Vabariik"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CG",
+            "name": {
+                "en": "Congo",
+                "et": "Kongo Vabariik"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CH",
+            "name": {
+                "en": "Switzerland",
+                "et": "Šveits"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CI",
+            "name": {
+                "en": "Cote d'Ivoire",
+                "et": "Côte d'Ivoire"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CK",
+            "name": {
+                "en": "Cook Islands",
+                "et": "Cooki saared (NZ)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CL",
+            "name": {
+                "en": "Chile",
+                "et": "Tšiili"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CM",
+            "name": {
+                "en": "Cameroon",
+                "et": "Kamerun"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CN",
+            "name": {
+                "en": "China",
+                "et": "Hiina"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CO",
+            "name": {
+                "en": "Colombia",
+                "et": "Colombia (Kolumbia)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CR",
+            "name": {
+                "en": "Costa Rica",
+                "et": "Costa Rica"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CU",
+            "name": {
+                "en": "Cuba",
+                "et": "Kuuba"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CV",
+            "name": {
+                "en": "Cape Verde",
+                "et": "Roheneemesaared"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CW",
+            "name": {
+                "en": "Curaçao",
+                "et": "Curaçao (NL)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CX",
+            "name": {
+                "en": "Christmas Island",
+                "et": "Jõulusaar (AU)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CY",
+            "name": {
+                "en": "Cyprus",
+                "et": "Küpros"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "CZ",
+            "name": {
+                "en": "Czechia",
+                "et": "Tšehhi"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "DE",
+            "name": {
+                "en": "Germany",
+                "et": "Saksamaa"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "DJ",
+            "name": {
+                "en": "Djibouti",
+                "et": "Djibouti"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "DK",
+            "name": {
+                "en": "Denmark",
+                "et": "Taani"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "DM",
+            "name": {
+                "en": "Dominica",
+                "et": "Dominica"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "DO",
+            "name": {
+                "en": "Dominican Republic",
+                "et": "Dominikaani Vabariik"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "DZ",
+            "name": {
+                "en": "Algeria",
+                "et": "Alžeeria"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "EC",
+            "name": {
+                "en": "Ecuador",
+                "et": "Ecuador"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "EE",
+            "name": {
+                "en": "Estonia",
+                "et": "Eesti"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "EG",
+            "name": {
+                "en": "Egypt",
+                "et": "Egiptus"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "EH",
+            "name": {
+                "en": "Western Sahara",
+                "et": "Lääne-Sahara (MA)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "ER",
+            "name": {
+                "en": "Eritrea",
+                "et": "Eritrea"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "ES",
+            "name": {
+                "en": "Spain",
+                "et": "Hispaania"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "ET",
+            "name": {
+                "en": "Ethiopia",
+                "et": "Etioopia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "FI",
+            "name": {
+                "en": "Finland",
+                "et": "Soome"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "FJ",
+            "name": {
+                "en": "Fiji",
+                "et": "Fidži"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "FK",
+            "name": {
+                "en": "Falkland Islands (Malvinas)",
+                "et": "Falklandi (Malviini) saared (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "FM",
+            "name": {
+                "en": "Micronesia",
+                "et": "Mikroneesia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "FO",
+            "name": {
+                "en": "Faroe Islands",
+                "et": "Fääri saared (DK)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "FR",
+            "name": {
+                "en": "France",
+                "et": "Prantsusmaa"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GA",
+            "name": {
+                "en": "Gabon",
+                "et": "Gabon"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GB",
+            "name": {
+                "en": "United Kingdom",
+                "et": "Suurbritannia ja Põhja-Iiri Ühendkuningriik"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GD",
+            "name": {
+                "en": "Grenada",
+                "et": "Grenada"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GE",
+            "name": {
+                "en": "Georgia",
+                "et": "Gruusia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GF",
+            "name": {
+                "en": "French Guiana",
+                "et": "Prantsuse Guajaana (FR)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GG",
+            "name": {
+                "en": "Guernsey",
+                "et": "Guernsey (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GH",
+            "name": {
+                "en": "Ghana",
+                "et": "Ghana"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GI",
+            "name": {
+                "en": "Gibraltar",
+                "et": "Gibraltar (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GL",
+            "name": {
+                "en": "Greenland",
+                "et": "Gröönimaa (DK)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GM",
+            "name": {
+                "en": "Gambia",
+                "et": "Gambia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GN",
+            "name": {
+                "en": "Guinea",
+                "et": "Guinea"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GP",
+            "name": {
+                "en": "Guadeloupe",
+                "et": "Guadeloupe (FR)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GQ",
+            "name": {
+                "en": "Equatorial Guinea",
+                "et": "Ekvatoriaal-Guinea"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GR",
+            "name": {
+                "en": "Greece",
+                "et": "Kreeka"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GS",
+            "name": {
+                "en": "South Georgia and the South Sandwich Islands",
+                "et": "Lõuna-Georgia ja Lõuna-Sandwichi saared (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GT",
+            "name": {
+                "en": "Guatemala",
+                "et": "Guatemala"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GU",
+            "name": {
+                "en": "Guam",
+                "et": "Guam (US)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GW",
+            "name": {
+                "en": "Guinea-Bissau",
+                "et": "Guinea-Bissau"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "GY",
+            "name": {
+                "en": "Guyana",
+                "et": "Guyana"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "HK",
+            "name": {
+                "en": "Hong Kong",
+                "et": "Hongkong (CN)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "HM",
+            "name": {
+                "en": "Heard and McDonald Islands",
+                "et": "Heard ja McDonald (AU)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "HN",
+            "name": {
+                "en": "Honduras",
+                "et": "Honduras"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "HR",
+            "name": {
+                "en": "Croatia",
+                "et": "Horvaatia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "HT",
+            "name": {
+                "en": "Haiti",
+                "et": "Haiti"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "HU",
+            "name": {
+                "en": "Hungary",
+                "et": "Ungari"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "ID",
+            "name": {
+                "en": "Indonesia",
+                "et": "Indoneesia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "IE",
+            "name": {
+                "en": "Ireland",
+                "et": "Iirimaa"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "IL",
+            "name": {
+                "en": "Israel",
+                "et": "Iisrael"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "IM",
+            "name": {
+                "en": "Isle of Man",
+                "et": "Mani saar (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "IN",
+            "name": {
+                "en": "India",
+                "et": "India"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "IO",
+            "name": {
+                "en": "British Indian Ocean Territory",
+                "et": "Briti India ookeani ala (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "IQ",
+            "name": {
+                "en": "Iraq",
+                "et": "Iraak"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "IR",
+            "name": {
+                "en": "Iran",
+                "et": "Iraan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "IS",
+            "name": {
+                "en": "Iceland",
+                "et": "Island"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "IT",
+            "name": {
+                "en": "Italy",
+                "et": "Itaalia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "JE",
+            "name": {
+                "en": "Jersey",
+                "et": "Jersey (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "JM",
+            "name": {
+                "en": "Jamaica",
+                "et": "Jamaica"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "JO",
+            "name": {
+                "en": "Jordan",
+                "et": "Jordaania"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "JP",
+            "name": {
+                "en": "Japan",
+                "et": "Jaapan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "KE",
+            "name": {
+                "en": "Kenya",
+                "et": "Kenya"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "KG",
+            "name": {
+                "en": "Kyrgyzstan",
+                "et": "Kõrgõzstan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "KH",
+            "name": {
+                "en": "Cambodia",
+                "et": "Kambodža"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "KI",
+            "name": {
+                "en": "Kiribati",
+                "et": "Kiribati"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "KM",
+            "name": {
+                "en": "Comoros",
+                "et": "Komoorid"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "KN",
+            "name": {
+                "en": "Saint Kitts and Nevis",
+                "et": "Saint Kitts ja Nevis"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "KP",
+            "name": {
+                "en": "Korea, Democratic People's Republic of",
+                "et": "Korea RDV"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "KR",
+            "name": {
+                "en": "Korea, Republic of",
+                "et": "Korea Vabariik"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "KW",
+            "name": {
+                "en": "Kuwait",
+                "et": "Kuveit"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "KY",
+            "name": {
+                "en": "Cayman Islands",
+                "et": "Kaimanisaared (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "KZ",
+            "name": {
+                "en": "Kazakhstan",
+                "et": "Kasahstan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "LA",
+            "name": {
+                "en": "Lao People's Democratic Republic",
+                "et": "Laos"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "LB",
+            "name": {
+                "en": "Lebanon",
+                "et": "Liibanon"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "LC",
+            "name": {
+                "en": "Saint Lucia",
+                "et": "Saint Lucia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "LI",
+            "name": {
+                "en": "Liechtenstein",
+                "et": "Liechtenstein"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "LK",
+            "name": {
+                "en": "Sri Lanka",
+                "et": "Sri Lanka"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "LR",
+            "name": {
+                "en": "Liberia",
+                "et": "Libeeria"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "LS",
+            "name": {
+                "en": "Lesotho",
+                "et": "Lesotho"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "LT",
+            "name": {
+                "en": "Lithuania",
+                "et": "Leedu"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "LU",
+            "name": {
+                "en": "Luxembourg",
+                "et": "Luksemburg"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "LV",
+            "name": {
+                "en": "Latvia",
+                "et": "Läti"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "LY",
+            "name": {
+                "en": "Libya",
+                "et": "Liibüa"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MA",
+            "name": {
+                "en": "Morocco",
+                "et": "Maroko"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MC",
+            "name": {
+                "en": "Monaco",
+                "et": "Monaco"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MD",
+            "name": {
+                "en": "Moldova, Republic of",
+                "et": "Moldova"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "ME",
+            "name": {
+                "en": "Montenegro",
+                "et": "Montenegro"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MF",
+            "name": {
+                "en": "Saint Martin (French part)",
+                "et": "Saint-Martin (Prantsuse osa) (FR) "
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MG",
+            "name": {
+                "en": "Madagascar",
+                "et": "Madagaskar"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MH",
+            "name": {
+                "en": "Marshall Islands",
+                "et": "Marshalli Saared"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MK",
+            "name": {
+                "en": "North Macedonia",
+                "et": "Põhja-Makedoonia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "ML",
+            "name": {
+                "en": "Mali",
+                "et": "Mali"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MM",
+            "name": {
+                "en": "Myanmar",
+                "et": "Myanmar (Birma)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MN",
+            "name": {
+                "en": "Mongolia",
+                "et": "Mongoolia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MO",
+            "name": {
+                "en": "Macao",
+                "et": "Macau (Aomen) (CH)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MP",
+            "name": {
+                "en": "Northern Mariana Islands",
+                "et": "Põhja-Mariaanid (US)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MQ",
+            "name": {
+                "en": "Martinique",
+                "et": "Martinique (FR)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MR",
+            "name": {
+                "en": "Mauritania",
+                "et": "Mauritaania"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MS",
+            "name": {
+                "en": "Montserrat",
+                "et": "Montserrat (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MT",
+            "name": {
+                "en": "Malta",
+                "et": "Malta"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MU",
+            "name": {
+                "en": "Mauritius",
+                "et": "Mauritius"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MV",
+            "name": {
+                "en": "Maldives",
+                "et": "Maldiivid"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MW",
+            "name": {
+                "en": "Malawi",
+                "et": "Malawi"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MX",
+            "name": {
+                "en": "Mexico",
+                "et": "Mehhiko"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MY",
+            "name": {
+                "en": "Malaysia",
+                "et": "Malaisia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "MZ",
+            "name": {
+                "en": "Mozambique",
+                "et": "Mosambiik"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NA",
+            "name": {
+                "en": "Namibia",
+                "et": "Namiibia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NC",
+            "name": {
+                "en": "New Caledonia",
+                "et": "Uus-Kaledoonia (FR)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NE",
+            "name": {
+                "en": "Niger",
+                "et": "Niger"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NF",
+            "name": {
+                "en": "Norfolk Island",
+                "et": "Norfolk (AU)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NG",
+            "name": {
+                "en": "Nigeria",
+                "et": "Nigeeria"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NI",
+            "name": {
+                "en": "Nicaragua",
+                "et": "Nicaragua"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NL",
+            "name": {
+                "en": "Netherlands",
+                "et": "Madalmaad (Holland)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NO",
+            "name": {
+                "en": "Norway",
+                "et": "Norra"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NP",
+            "name": {
+                "en": "Nepal",
+                "et": "Nepal"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NR",
+            "name": {
+                "en": "Nauru",
+                "et": "Nauru"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NU",
+            "name": {
+                "en": "Niue",
+                "et": "Niue (NZ)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "NZ",
+            "name": {
+                "en": "New Zealand",
+                "et": "Uus-Meremaa"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "OM",
+            "name": {
+                "en": "Oman",
+                "et": "Omaan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PA",
+            "name": {
+                "en": "Panama",
+                "et": "Panama"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PE",
+            "name": {
+                "en": "Peru",
+                "et": "Peruu"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PF",
+            "name": {
+                "en": "French Polynesia",
+                "et": "Prantsuse Polüneesia (FR)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PG",
+            "name": {
+                "en": "Papua New Guinea",
+                "et": "Paapua Uus-Guinea"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PH",
+            "name": {
+                "en": "Philippines",
+                "et": "Filipiinid"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PK",
+            "name": {
+                "en": "Pakistan",
+                "et": "Pakistan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PL",
+            "name": {
+                "en": "Poland",
+                "et": "Poola"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PM",
+            "name": {
+                "en": "Saint Pierre and Miquelon",
+                "et": "Saint-Pierre ja Miquelon (FR)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PN",
+            "name": {
+                "en": "Pitcairn",
+                "et": "Pitcairn (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PR",
+            "name": {
+                "en": "Puerto Rico",
+                "et": "Puerto Rico (US)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PS",
+            "name": {
+                "en": "Palestine, State of",
+                "et": "Palestiina"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PT",
+            "name": {
+                "en": "Portugal",
+                "et": "Portugal"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PW",
+            "name": {
+                "en": "Palau",
+                "et": "Belau"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "PY",
+            "name": {
+                "en": "Paraguay",
+                "et": "Paraguay"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "QA",
+            "name": {
+                "en": "Qatar",
+                "et": "Katar"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "RE",
+            "name": {
+                "en": "Réunion",
+                "et": "Réunion (FR)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "RO",
+            "name": {
+                "en": "Romania",
+                "et": "Rumeenia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "RS",
+            "name": {
+                "en": "Serbia",
+                "et": "Serbia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "RU",
+            "name": {
+                "en": "Russian Federation",
+                "et": "Venemaa"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "RW",
+            "name": {
+                "en": "Rwanda",
+                "et": "Rwanda"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SA",
+            "name": {
+                "en": "Saudi Arabia",
+                "et": "Saudi Araabia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SB",
+            "name": {
+                "en": "Solomon Islands",
+                "et": "Saalomoni Saared"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SC",
+            "name": {
+                "en": "Seychelles",
+                "et": "Seišellid"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SD",
+            "name": {
+                "en": "Sudan",
+                "et": "Sudaan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SE",
+            "name": {
+                "en": "Sweden",
+                "et": "Rootsi"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SG",
+            "name": {
+                "en": "Singapore",
+                "et": "Singapur"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SH",
+            "name": {
+                "en": "Saint Helena",
+                "et": "Saint Helena (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SI",
+            "name": {
+                "en": "Slovenia",
+                "et": "Sloveenia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SJ",
+            "name": {
+                "en": "Svalbard and Jan Mayen",
+                "et": "Svalbard ja Jan Mayen (NO)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SK",
+            "name": {
+                "en": "Slovakia",
+                "et": "Slovakkia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SL",
+            "name": {
+                "en": "Sierra Leone",
+                "et": "Sierra Leone"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SM",
+            "name": {
+                "en": "San Marino",
+                "et": "San Marino"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SN",
+            "name": {
+                "en": "Senegal",
+                "et": "Senegal"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SO",
+            "name": {
+                "en": "Somalia",
+                "et": "Somaalia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SR",
+            "name": {
+                "en": "Suriname",
+                "et": "Suriname"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SS",
+            "name": {
+                "en": "South Sudan",
+                "et": "Lõuna-Sudaan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "ST",
+            "name": {
+                "en": "Sao Tome and Principe",
+                "et": "São Tomé ja Príncipe"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SV",
+            "name": {
+                "en": "El Salvador",
+                "et": "El Salvador"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SX",
+            "name": {
+                "en": "Sint Maarten (Dutch part)",
+                "et": "Sint Maarten (Madalmaad)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SY",
+            "name": {
+                "en": "Syrian Arab Republic",
+                "et": "Süüria"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "SZ",
+            "name": {
+                "en": "Swaziland",
+                "et": "Svaasimaa"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TC",
+            "name": {
+                "en": "Turks and Caicos Islands",
+                "et": "Turks ja Caicos (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TD",
+            "name": {
+                "en": "Chad",
+                "et": "Tšaad"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TF",
+            "name": {
+                "en": "French Southern Territories",
+                "et": "Prantsuse Lõunaalad (FR)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TG",
+            "name": {
+                "en": "Togo",
+                "et": "Togo"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TH",
+            "name": {
+                "en": "Thailand",
+                "et": "Tai"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TJ",
+            "name": {
+                "en": "Tajikistan",
+                "et": "Tadžikistan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TK",
+            "name": {
+                "en": "Tokelau",
+                "et": "Tokelau (NZ)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TL",
+            "name": {
+                "en": "Timor-Leste",
+                "et": "Timor-Leste"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TM",
+            "name": {
+                "en": "Turkmenistan",
+                "et": "Türkmenistan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TN",
+            "name": {
+                "en": "Tunisia",
+                "et": "Tuneesia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TO",
+            "name": {
+                "en": "Tonga",
+                "et": "Tonga"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TR",
+            "name": {
+                "en": "Türkiye",
+                "et": "Türgi"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TT",
+            "name": {
+                "en": "Trinidad and Tobago",
+                "et": "Trinidad ja Tobago"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TV",
+            "name": {
+                "en": "Tuvalu",
+                "et": "Tuvalu"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TW",
+            "name": {
+                "en": "Taiwan (Province of China)",
+                "et": "Taiwan (Hiina provints)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "TZ",
+            "name": {
+                "en": "Tanzania, United Republic of",
+                "et": "Tansaania"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "UA",
+            "name": {
+                "en": "Ukraine",
+                "et": "Ukraina"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "UG",
+            "name": {
+                "en": "Uganda",
+                "et": "Uganda"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "UM",
+            "name": {
+                "en": "United States Minor Outlying Islands",
+                "et": "Ühendriikide hajasaared (US)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "US",
+            "name": {
+                "en": "United States of America",
+                "et": "Ameerika Ühendriigid"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "UY",
+            "name": {
+                "en": "Uruguay",
+                "et": "Uruguay"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "UZ",
+            "name": {
+                "en": "Uzbekistan",
+                "et": "Usbekistan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "VA",
+            "name": {
+                "en": "Holy See (Vatican City State)",
+                "et": "Vatikan"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "VC",
+            "name": {
+                "en": "Saint Vincent and the Grenadines",
+                "et": "Saint Vincent ja Grenadiinid"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "VE",
+            "name": {
+                "en": "Venezuela",
+                "et": "Venezuela"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "VG",
+            "name": {
+                "en": "Virgin Islands (British)",
+                "et": "Briti Neitsisaared (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "VI",
+            "name": {
+                "en": "Virgin Islands (U.S.)",
+                "et": "USA Neitsisaared (US)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "VN",
+            "name": {
+                "en": "Viet Nam",
+                "et": "Vietnam"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "VU",
+            "name": {
+                "en": "Vanuatu",
+                "et": "Vanuatu"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "WF",
+            "name": {
+                "en": "Wallis and Futuna Islands",
+                "et": "Wallis ja Futuna (FR)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "WS",
+            "name": {
+                "en": "Samoa",
+                "et": "Samoa"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "XI",
+            "name": {
+                "en": "Northern Ireland",
+                "et": "Põhja-Iirimaa (GB)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "XK",
+            "name": {
+                "en": "Kosovo",
+                "et": "Kosovo"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "YE",
+            "name": {
+                "en": "Yemen",
+                "et": "Jeemen"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "YT",
+            "name": {
+                "en": "Mayotte",
+                "et": "Mayotte (FR)"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "ZA",
+            "name": {
+                "en": "South Africa",
+                "et": "Lõuna-Aafrika Vabariik"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "ZM",
+            "name": {
+                "en": "Zambia",
+                "et": "Sambia"
+            },
+            "valid_from_date": "2013-01-01"
+        },
+        {
+            "code": "ZW",
+            "name": {
+                "en": "Zimbabwe",
+                "et": "Zimbabwe"
+            },
+            "valid_from_date": "2013-01-01"
+        }
+    ]
+}

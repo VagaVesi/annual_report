@@ -1,0 +1,1425 @@
+{
+    "code": "MAJANDUSLIKSISU2024ap",
+    "name": {
+        "en": "Economic content of the transaction",
+        "et": "Tehingu majanduslik sisu"
+    },
+    "elements": [
+        {
+            "code": "101010",
+            "name": {
+                "en": "Cash - Cash in hand",
+                "et": "Raha - Sularaha"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "101020",
+            "name": {
+                "en": "Cash - Bank accounts",
+                "et": "Raha - Arvelduskontod"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "101030",
+            "name": {
+                "en": "Cash - Deposits",
+                "et": "Raha - Hoiused"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "101990",
+            "name": {
+                "en": "Cash - Other",
+                "et": "Raha - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "102010",
+            "name": {
+                "en": "Financial Investments (Short-term)",
+                "et": "Finantsinvesteeringud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "102011",
+            "name": {
+                "en": "Financial Investments (Long-term)",
+                "et": "Finantsinvesteeringud (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103010",
+            "name": {
+                "en": "Receivables - Accounts Receivable (Short-term)",
+                "et": "Nõuded - Ostjate vastu (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103011",
+            "name": {
+                "en": "Receivables - Accounts Receivable (Long-term)",
+                "et": "Nõuded - Ostjate vastu (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103020",
+            "name": {
+                "en": "Receivables - Allowance For Doubtful Receivables (Short-term)",
+                "et": "Nõuded - Ebatõenäoliselt laekuvad nõuded ostjate vastu(Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103030",
+            "name": {
+                "en": "Receivables - Loans (Short-term)",
+                "et": "Nõuded - Laenud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103031",
+            "name": {
+                "en": "Receivables - Loans (Long-term)",
+                "et": "Nõuded - Laenud (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103040",
+            "name": {
+                "en": "Receivables - Interest (Short-term)",
+                "et": "Nõuded - Intressid (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103041",
+            "name": {
+                "en": "Receivables - Interest (Long-term)",
+                "et": "Nõuded - Intressid (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103050",
+            "name": {
+                "en": "Receivables - Dividend (Short-term)",
+                "et": "Nõuded - Dividendid (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103051",
+            "name": {
+                "en": "Receivables - Dividend (Long-term)",
+                "et": "Nõuded - Dividendid (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103060",
+            "name": {
+                "en": "Receivables - Accrued Income (Short-term)",
+                "et": "Nõuded - Viitlaekumised (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103061",
+            "name": {
+                "en": "Receivables - Accrued Income (Long-term)",
+                "et": "Nõuded - Viitlaekumised (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103990",
+            "name": {
+                "en": "Receivables - Other (Short-term)",
+                "et": "Nõuded - Muud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "103991",
+            "name": {
+                "en": "Receivables - Other (Long-term)",
+                "et": "Nõuded - Muud (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "104010",
+            "name": {
+                "en": "Tax prepayments - Prepayment account balance (Short-term)",
+                "et": "Maksunõuded - Maksude ettemaksukonto (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "104011",
+            "name": {
+                "en": "Tax prepayments - Tax receivables (Long-term)",
+                "et": "Maksunõuded - Maksunõuded (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "104020",
+            "name": {
+                "en": "Tax prepayments - Tax receivables (Short-term)",
+                "et": "Maksunõuded - Maksunõuded (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "105010",
+            "name": {
+                "en": "Paid Prepayments - Deferred expenses (Short-term)",
+                "et": "Makstud Ettemaksed - Tulevaste perioodide kulud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "105011",
+            "name": {
+                "en": "Paid Prepayments - Deferred expenses (Long-term)",
+                "et": "Makstud Ettemaksed - Tulevaste perioodide kulud (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "105990",
+            "name": {
+                "en": "Paid Prepayments - Other (Short-term)",
+                "et": "Makstud Ettemaksed - Muud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "105991",
+            "name": {
+                "en": "Paid Prepayments - Other (Long-term)",
+                "et": "Makstud Ettemaksed - Muud (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "106010",
+            "name": {
+                "en": "Inventories - Raw Materials",
+                "et": "Varud - Tooraine ja materjal"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "106020",
+            "name": {
+                "en": "Inventories - Work In Progress",
+                "et": "Varud - Lõpetamata toodang"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "106030",
+            "name": {
+                "en": "Inventories - Finished Goods",
+                "et": "Varud - Valmistoodang"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "106040",
+            "name": {
+                "en": "Inventories - Merchandise",
+                "et": "Varud - Müügiks ostetud kaubad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "106050",
+            "name": {
+                "en": "Inventories - Prepayments",
+                "et": "Varud - Ettemaksed"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "106990",
+            "name": {
+                "en": "Inventories - Other",
+                "et": "Varud - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "107010",
+            "name": {
+                "en": "Biological Assets - (current assets)",
+                "et": "Bioloogilised varad - (Käibevara)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "107011",
+            "name": {
+                "en": "Biological Assets - (Long term)",
+                "et": "Bioloogilised varad - (Põhivara)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "107020",
+            "name": {
+                "en": "Biological Assets - Prepayments (current assets)",
+                "et": "Bioloogilised varad - Ettemaksed (Käibevara)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "107021",
+            "name": {
+                "en": "Biological Assets - Prepayments (Long term)",
+                "et": "Bioloogilised varad - Ettemaksed (Põhivara)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "108011",
+            "name": {
+                "en": "Shares of Subsidiaries and Associates",
+                "et": "Osalused - Tütar- ja sidusettevõtted"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "109011",
+            "name": {
+                "en": "Investment Property ",
+                "et": "Kinnisvarainvesteering"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "109021",
+            "name": {
+                "en": "Investment Property - Depreciation",
+                "et": "Kinnisvarainvesteering - Akumuleerunud kulum"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "109031",
+            "name": {
+                "en": "Investment Property - Under Construction",
+                "et": "Kinnisvarainvesteering - Lõpetamata projektid"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "109041",
+            "name": {
+                "en": "Investment Property - Capitalized interest",
+                "et": "Kinnisvarainvesteering - Lõpetamata projektid - kapitaliseeritud laenukulutused"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "109051",
+            "name": {
+                "en": "Investment Property - Prepayments",
+                "et": "Kinnisvarainvesteering - Ettemaksed"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "110011",
+            "name": {
+                "en": "Property Plant And Equipment at Acquisition Cost",
+                "et": "Materiaalne põhivara soetusmaksumuses"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "110021",
+            "name": {
+                "en": "Property Plant And Equipment - Depreciation",
+                "et": "Materiaalne põhivara - Akumuleerunud kulum"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "110031",
+            "name": {
+                "en": "Property Plant And Equipment - Under Construction",
+                "et": "Materiaalne põhivara - Lõpetamata projektid"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "110041",
+            "name": {
+                "en": "Property Plant And Equipment - Capitalized interest",
+                "et": "Materiaalne põhivara - Lõpetamata projektid - kapitaliseeritud laenukulutused"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "110051",
+            "name": {
+                "en": "Property Plant And Equipment - Prepayments",
+                "et": "Materiaalne põhivara - Ettemaksed"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "111011",
+            "name": {
+                "en": "Intangible Assets at Acquisition Cost",
+                "et": "Immateriaalne põhivara soetusmaksumuses"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "111021",
+            "name": {
+                "en": "Intangible Assets - Depreciation",
+                "et": "Immateriaalne põhivara - Akumuleerunud kulum"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "111031",
+            "name": {
+                "en": "Intangible Assets - Under Construction",
+                "et": "Immateriaalne põhivara - Lõpetamata projektid"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "111041",
+            "name": {
+                "en": "Intangible Assets - Prepayments",
+                "et": "Immateriaalne põhivara - Ettemaksed"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204010",
+            "name": {
+                "en": "Tax liabilities - Corporate income tax (Short-term)",
+                "et": "Maksuvõlad - Ettevõtte tulumaks (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204020",
+            "name": {
+                "en": "Tax liabilities - Value added tax (Short-term)",
+                "et": "Maksuvõlad - Käibemaks (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204030",
+            "name": {
+                "en": "Tax liabilities - Personal income tax (Short-term)",
+                "et": "Maksuvõlad - Üksikisiku tulumaks (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204040",
+            "name": {
+                "en": "Tax liabilities - Fringe benefit income tax (Short-term)",
+                "et": "Maksuvõlad - Erisoodustuse tulumaks (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204050",
+            "name": {
+                "en": "Tax liabilities - Social tax (Short-term)",
+                "et": "Maksuvõlad - Sotsiaalmaks (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204060",
+            "name": {
+                "en": "Tax liabilities - Contributions to mandatory funded pension (Short-term)",
+                "et": "Maksuvõlad - Kohustuslik kogumispension (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204070",
+            "name": {
+                "en": "Tax liabilities - Unemployment insurance tax (Short-term)",
+                "et": "Maksuvõlad - Töötuskindlustusmaksed (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204080",
+            "name": {
+                "en": "Tax liabilities - Land tax (Short-term)",
+                "et": "Maksuvõlad - Maamaks (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204090",
+            "name": {
+                "en": "Tax liabilities - Excise duty tax (Short-term)",
+                "et": "Maksuvõlad - Aktsiisimaks (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204100",
+            "name": {
+                "en": "Tax liabilities - Interest (Short-term)",
+                "et": "Maksuvõlad - Intress (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204990",
+            "name": {
+                "en": "Tax liabilities - Other (Short-term)",
+                "et": "Maksuvõlad - Muud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "204991",
+            "name": {
+                "en": "Tax liabilities - Other (Long-term)",
+                "et": "Maksuvõlad - Muud (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "205010",
+            "name": {
+                "en": "Prepayments - Deferred income (Short-term)",
+                "et": "Saadud Ettemaksed - Tulevaste perioodide tulud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "205011",
+            "name": {
+                "en": "Prepayments - Deferred income (Long-term)",
+                "et": "Saadud Ettemaksed - Tulevaste perioodide tulud (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "205990",
+            "name": {
+                "en": "Prepayments - Other (Short-term)",
+                "et": "Saadud Ettemaksed - Muud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "205991",
+            "name": {
+                "en": "Prepayments - Other (Long-term)",
+                "et": "Saadud Ettemaksed - Muud (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212010",
+            "name": {
+                "en": "Liabilities - Trade Payables (Short-term)",
+                "et": "Võlad - Tarnijad (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212011",
+            "name": {
+                "en": "Liabilities - Trade Payables (Long-term)",
+                "et": "Võlad - Tarnijad (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212020",
+            "name": {
+                "en": "Liabilities - Employee Payables (Short-term)",
+                "et": "Võlad - Töövõtjad - palgavõlg (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212021",
+            "name": {
+                "en": "Liabilities - Employee Payables (Long-term)",
+                "et": "Võlad - Töövõtjad (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212030",
+            "name": {
+                "en": "Liabilities - Employee Vacation Reserve (Short-term)",
+                "et": "Võlad - Töövõtjad - puhkusereserv (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212040",
+            "name": {
+                "en": "Liabilities - Employee Other (Short-term)",
+                "et": "Võlad - Töövõtjad - Muu arvestatud tasud koos maksudega (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212050",
+            "name": {
+                "en": "Liabilities - Overdraft",
+                "et": "Võlad - Arvelduskrediit"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212060",
+            "name": {
+                "en": "Liabilities - Loans (Short-term)",
+                "et": "Võlad - Laenud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212061",
+            "name": {
+                "en": "Liabilities - Loans (Long-term)",
+                "et": "Võlad - Laenud (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212070",
+            "name": {
+                "en": "Liabilities - Financial Lease (Short-term)",
+                "et": "Võlad - Kapitalirent (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212071",
+            "name": {
+                "en": "Liabilities - Financial Lease (Long-term)",
+                "et": "Võlad - Kapitalirent (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212080",
+            "name": {
+                "en": "Liabilities - Bonds (Short-term)",
+                "et": "Võlad - Võlakirjad (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212081",
+            "name": {
+                "en": "Liabilities - Bonds (Long-term)",
+                "et": "Võlad - Võlakirjad (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212090",
+            "name": {
+                "en": "Liabilities - Interest (Short-term)",
+                "et": "Võlad - Intressid (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212100",
+            "name": {
+                "en": "Liabilities - Dividend (Short-term)",
+                "et": "Võlad - Dividendid (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212990",
+            "name": {
+                "en": "Liabilities - Other (Short-term)",
+                "et": "Võlad - Muud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "212991",
+            "name": {
+                "en": "Liabilities - Other (Long-term)",
+                "et": "Võlad - Muud (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "213010",
+            "name": {
+                "en": "Provisions - Warranty Provision (Short-term)",
+                "et": "Eraldised - Garantiieraldis (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "213011",
+            "name": {
+                "en": "Provisions - Warranty Provision (Long-term)",
+                "et": "Eraldised - Garantiieraldis (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "213020",
+            "name": {
+                "en": "Provisions - Tax Provision (Short-term)",
+                "et": "Eraldised - Maksueraldis (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "213021",
+            "name": {
+                "en": "Provisions - Tax Provision (Long-term)",
+                "et": "Eraldised - Maksueraldis (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "213990",
+            "name": {
+                "en": "Provisions - Other (Short-term)",
+                "et": "Eraldised - Muud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "213991",
+            "name": {
+                "en": "Provisions - Other (Long-term)",
+                "et": "Eraldised - Muud (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "214010",
+            "name": {
+                "en": "Government Grants Prepayments - Operating expenses (Short-term)",
+                "et": "Sihtfinantseerimise ettemaksed - Tegevuskulud (Lühiajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "214021",
+            "name": {
+                "en": "Government Grants Prepayments - Grants related to assets (Long-term)",
+                "et": "Sihtfinantseerimise ettemaksed - Põhivara (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "214031",
+            "name": {
+                "en": "Government Grants Prepayments - Grant amortisation related to assets (Long-term)",
+                "et": "Sihtfinantseerimise ettemaksed - Sihtfinantseerimise amortisatsioon (Pikaajaline)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "315011",
+            "name": {
+                "en": "Share Capital - Issued Capital",
+                "et": "Omakapital - Registreeritud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "315021",
+            "name": {
+                "en": "Share Capital - Unregistered Capital",
+                "et": "Omakapital - Registreerimata"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "315031",
+            "name": {
+                "en": "Share Capital - Unpaid Capital",
+                "et": "Omakapital - Sisse maksmata"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "315041",
+            "name": {
+                "en": "Share Capital - Share Premium",
+                "et": "Omakapital - Ülekurss"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "315051",
+            "name": {
+                "en": "Share Capital - Treasury Shares",
+                "et": "Omakapital - Omaosad/aktisad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "315991",
+            "name": {
+                "en": "Share Capital - Other",
+                "et": "Omakapital - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "316011",
+            "name": {
+                "en": "Reserves - Statutory Reserve Capital",
+                "et": "Reservid - Kohustuslik reservkapital"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "316991",
+            "name": {
+                "en": "Reserves - Other",
+                "et": "Reservid - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "317011",
+            "name": {
+                "en": "Earnings And Loss - Retained Earnings or Loss",
+                "et": "Kasumid/kahjumid - Akumuleerunud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "317021",
+            "name": {
+                "en": "Earnings And Loss - Annual Period Profit or Loss",
+                "et": "Kasumid/kahjumid - Aruandeperiood"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "418012",
+            "name": {
+                "en": "Revenue - Business income",
+                "et": "Müügitulu - Tulu ettevõtlusest"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "418022",
+            "name": {
+                "en": "Revenue - Membership fees",
+                "et": "Müügitulu - Liikmemaksud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "418032",
+            "name": {
+                "en": "Revenue - Entrance fees",
+                "et": "Müügitulu - Sisseastumistasud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "418042",
+            "name": {
+                "en": "Revenue - Maintenance fees",
+                "et": "Müügitulu - Hooldustasud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "418052",
+            "name": {
+                "en": "Revenue - Repair fees",
+                "et": "Müügitulu - Remonditasud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "418992",
+            "name": {
+                "en": "Revenue - Other",
+                "et": "Müügitulu - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520012",
+            "name": {
+                "en": "Expenses - Raw materials and consumables used",
+                "et": "Kulud - Tooraine ja materjal põhitegevuseks"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520022",
+            "name": {
+                "en": "Expenses - Inventory write-off",
+                "et": "Kulud - Varude allahindlus ja mahakandmine"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520032",
+            "name": {
+                "en": "Expenses - Goods purchased for resale",
+                "et": "Kulud - Müügi eesmärgil ostetud kaubad, toore, materjal"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520042",
+            "name": {
+                "en": "Expenses - Investment property purchased for resale",
+                "et": "Kulud - Müügi eesmärgil ostetud kinnisvara"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520052",
+            "name": {
+                "en": "Expenses - Services purchased for resale",
+                "et": "Kulud - Müügi eesmärgil ostetud teenused"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520102",
+            "name": {
+                "en": "Expenses - Electricity",
+                "et": "Kulud - Elektrienergia"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520112",
+            "name": {
+                "en": "Expenses - Heat energy",
+                "et": "Kulud - Soojusenergia"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520122",
+            "name": {
+                "en": "Expenses - Fuel",
+                "et": "Kulud - Kütus"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520132",
+            "name": {
+                "en": "Expenses - Water supply services",
+                "et": "Kulud - Veevarustusteenused"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520202",
+            "name": {
+                "en": "Expenses - Subcontracting work -construction (buildings)",
+                "et": "Kulud - Alltöövõtutööd- ehitus hoonetes"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520212",
+            "name": {
+                "en": "Expenses - Subcontracting work -construction other(building excl)",
+                "et": "Kulud - Alltöövõtutööd- ehitusel (va hoonetes)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520222",
+            "name": {
+                "en": "Expenses - Subcontracting work - production",
+                "et": "Kulud - Alltöövõtutööd- tööstustoodangu allhange"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520292",
+            "name": {
+                "en": "Expenses - Subcontracting work - Other",
+                "et": "Kulud - Alltöövõtutööd  - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520302",
+            "name": {
+                "en": "Expenses - Transportation expense",
+                "et": "Kulud - Transpordikulud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520312",
+            "name": {
+                "en": "Expenses - Logistics expense",
+                "et": "Kulud - Logistikakulud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520322",
+            "name": {
+                "en": "Expenses - Rental of land",
+                "et": "Kulud - Maarent"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520332",
+            "name": {
+                "en": "Expenses - Rental of property",
+                "et": "Kulud - Kinnistute, hoonete ja ruumide rent"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520342",
+            "name": {
+                "en": "Expenses - Rental of transportation",
+                "et": "Kulud - Transpordivahendite rent"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520382",
+            "name": {
+                "en": "Expenses - Labor supply expense",
+                "et": "Kulud - Tööjõurent"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520392",
+            "name": {
+                "en": "Expenses - Rental of other assets",
+                "et": "Kulud - Muu vara rent"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520402",
+            "name": {
+                "en": "Expenses - Assets maintenance and repair",
+                "et": "Kulud - Varade hooldus ja remont"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520412",
+            "name": {
+                "en": "Expenses - Tools and assets with low value",
+                "et": "Kulud - Tööriistad ja väheväärtuslikud varad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520422",
+            "name": {
+                "en": "Expenses - Marketing and advertising costs",
+                "et": "Kulud - Turunduse ja reklaami kulud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520432",
+            "name": {
+                "en": "Expenses - Exploration and development expense",
+                "et": "Kulud - Uurimis- ja arengukulud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520492",
+            "name": {
+                "en": "Expenses - Others purchased services (for own use)",
+                "et": "Kulud - Ostetud muud teenused (oma tarbeks)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520512",
+            "name": {
+                "en": "Expenses - Miscellaneous office expenses",
+                "et": "Kulud - Mitmesugused bürookulud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520552",
+            "name": {
+                "en": "Expenses - Travel expenses",
+                "et": "Kulud - Lähetuskulud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520562",
+            "name": {
+                "en": "Expenses - Training expenses",
+                "et": "Kulud - Koolituskulud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520572",
+            "name": {
+                "en": "Expenses - Cost of work and special clothing",
+                "et": "Kulud - Töö- ja eririiete kulu"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520612",
+            "name": {
+                "en": "Expenses - Cost of bed accessories",
+                "et": "Kulud - Vooditarvikute kulu"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520702",
+            "name": {
+                "en": "Expenses - State and local taxes",
+                "et": "Kulud - Riiklikud ja kohalikud maksud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520712",
+            "name": {
+                "en": "Expenses - State fee",
+                "et": "Kulud - Riigilõiv"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520802",
+            "name": {
+                "en": "Expenses - Provisions",
+                "et": "Kulud - Kulud eraldiste moodustamiseks"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520812",
+            "name": {
+                "en": "Expenses - Doubtful debts",
+                "et": "Kulud - Kulu ebatõenäoliselt laekuvatest nõuetest"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520822",
+            "name": {
+                "en": "Expenses - Donations and grants",
+                "et": "Kulud - Jagatud annetused ja toetused"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "520992",
+            "name": {
+                "en": "Expenses - Other",
+                "et": "Kulud - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "521012",
+            "name": {
+                "en": "Employee Expense - Wage and salary expense",
+                "et": "Tööjõukulud - Palgakulu"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "521022",
+            "name": {
+                "en": "Employee Expense - Social security taxes",
+                "et": "Tööjõukulud - Sotsiaalmaks ja tööandja töötuskindlustusmakse"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "521032",
+            "name": {
+                "en": "Employee Expense - Pension expense",
+                "et": "Tööjõukulud - Pensionikulu"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "521102",
+            "name": {
+                "en": "Employee Expense - Fringe benefits",
+                "et": "Tööjõukulud - Erisoodustused"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "521112",
+            "name": {
+                "en": "Employee Expense - Fringe benefits taxes",
+                "et": "Tööjõukulud - Erisoodustuse maksud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "521992",
+            "name": {
+                "en": "Employee Expense - Other",
+                "et": "Tööjõukulud - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "522012",
+            "name": {
+                "en": "Depreciation - Depreciation And Impairment Loss Reversal",
+                "et": "Kulum - Kulum ja väärtuse langus"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "619012",
+            "name": {
+                "en": "Other Income - Grants related to assets",
+                "et": "Muud tulud - Põhivara sihtfinantseerimine"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "619022",
+            "name": {
+                "en": "Other Income - Grants related to income",
+                "et": "Muud tulud - Tegevuskulude sihtfinantseerimine"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "619032",
+            "name": {
+                "en": "Other Income - Donations",
+                "et": "Muud tulud - Annetused"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "619042",
+            "name": {
+                "en": "Other Income - Lease income",
+                "et": "Muud tulud - Rendi- ja üüritulu"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "619052",
+            "name": {
+                "en": "Other Income - Licence fees",
+                "et": "Muud tulud - Litsentsitasud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "619062",
+            "name": {
+                "en": "Other Income - Changes in inventories of finished goods and work in progress",
+                "et": "Muud tulud - Valmis- ja lõpetamata toodangu varude jääkide muutus"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "619072",
+            "name": {
+                "en": "Other Income - Changes in inventories of biological assets",
+                "et": "Muud tulud - Põllumajandusliku toodangu varude jääkide muutus"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "619082",
+            "name": {
+                "en": "Other Income - Work performed by entity and capitalised",
+                "et": "Muud tulud - Kapitaliseeritud väljaminekud oma tarbeks põhivarade valmistamisel"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "619992",
+            "name": {
+                "en": "Other Income - Other",
+                "et": "Muud tulud - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "623012",
+            "name": {
+                "en": "Other Expense or Income - Investment property",
+                "et": "Äritulu ja kulu - Kinnisvarainvesteeringute müük (Kasum/kahjum)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "623022",
+            "name": {
+                "en": "Other Expense or Income - Sales of fixed assets",
+                "et": "Äritulu ja kulu - Materiaalse ja immateriaalse põhivarade müük (Kasum/kahjum)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "623032",
+            "name": {
+                "en": "Other Expense or Income - Gains and losses from changes of value",
+                "et": "Äritulu ja kulu - Kasum ja kahjum varade õiglase väärtuse muutusest- Kinnisvarainvesteeringud ja bioloogilised varad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "623042",
+            "name": {
+                "en": "Other Expense or Income - Exchange rate differences from business activities",
+                "et": "Äritulu ja kulu - Valuutakursi muutused seoses äritegevusega(Kasum/kahjum)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "623052",
+            "name": {
+                "en": "Other Expense or Income - Penalties, fines and compensations",
+                "et": "Äritulu ja kulu - Trahvid, viivised ja hüvitised"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "623062",
+            "name": {
+                "en": "Other Expense or Income - Membership fees",
+                "et": "Äritulu ja kulu - Liikmemaksud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "623992",
+            "name": {
+                "en": "Other Expense or Income - Other",
+                "et": "Äritulu ja kulu - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "624012",
+            "name": {
+                "en": "Financial Expense and Income - From Subsidiaries and Associates",
+                "et": "Finantstulud ja kulud - Tütar- ja sidusettevõtjad"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "624032",
+            "name": {
+                "en": "Financial Expense and Income - Other Financial Investments",
+                "et": "Finantstulud ja kulud - Muud investeeringud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "624042",
+            "name": {
+                "en": "Financial Expense and Income - Interest Income",
+                "et": "Finantstulud ja kulud - Intressitulu"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "624052",
+            "name": {
+                "en": "Financial Expense and Income - Interest Expenses Operating Lease",
+                "et": "Finantstulud ja kulud - Intressikulu - kasutusrent"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "624062",
+            "name": {
+                "en": "Financial Expense and Income - Interest Expenses",
+                "et": "Finantstulud ja kulud - Intressikulu laenud ja kapitalirent"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "624992",
+            "name": {
+                "en": "Financial Expense and Income - Other",
+                "et": "Finantstulud ja kulud - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "625012",
+            "name": {
+                "en": "Income Tax Expense",
+                "et": "Ettevõtte tulumaks"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "626012",
+            "name": {
+                "en": "Comprehensive Income - Unrealised exchange rate differences",
+                "et": "Koondkasum - Realiseerimata kursivahed"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "626992",
+            "name": {
+                "en": "Comprehensive Income - Others",
+                "et": "Koondkasum - Muud"
+            },
+            "valid_from_date": "2024-01-01"
+        }
+    ]
+}
