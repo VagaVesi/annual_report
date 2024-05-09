@@ -2,6 +2,7 @@
 from path import Path
 from json import dumps, loads
 from tools.api_request import get_data
+from datetime import date, datetime
 from annual_report.tools.json_validator import validate
 
 
@@ -17,7 +18,7 @@ class ClassificationsList:
     def __init__(self, do_update=False) -> None:
         """Init ClassificationsList.
 
-        param: 
+        param:
         update (boolean): update classification list from API if True
         """
         self.classifications = self.load_classifications_list(do_update=False)
@@ -25,8 +26,8 @@ class ClassificationsList:
     def load_classifications_list(self, do_update=False) -> list:
         """load classications list from directory or from API.
 
-        Default is from local file, if file exists. To update local file 
-        content set do_update=True  
+        Default is from local file, if file exists. To update local file
+        content set do_update=True
 
         params:
         update (boolean): update classification list from API if True
@@ -53,14 +54,16 @@ class ClassificationsList:
         return classifications
 
     def get_links(self) -> dict:
-        """Returns classifivcation code - get link pairs."""
+        """Returns links to download classifications.
+
+        result: pairs: classification code - link."""
         links = {}
         for item in self.classifications:
             links[item["code"]] = item["links"]["get"]
         return links
 
     def update_classification_elements(self):
-        """Load all classification elements and save to file"""
+        """Download classifications elementss from API and save to file."""
         for code, api_link in self.get_links().items():
             file_path = CLASSIFICATION_DOWNLOAD_PATH + code + ".json"
             path = Path(file_path)
@@ -78,14 +81,81 @@ class Classification:
     """Class for XBRL-GL classification."""
 
     def __init__(self, classification_code: str) -> None:
-        pass
+        """Init classification object from JSON file."""
+        path = Path(CLASSIFICATION_DOWNLOAD_PATH +
+                    classification_code + ".json")
 
-    def is_code_valid(code: str) -> bool:
-        """Check is classification code valid.
+        if path.exists():
+            classification = loads(path.read_text(encoding="utf-8"))
+            self.code = classification["code"]
+            self.name = classification["name"]
+            self.__elements = make_elements_list(classification["elements"])
+            self.element_codes = set()
 
-        params: 
-        code (str): Code to validate
+    @property
+    def elements(self):
+        return self.__elements
 
-        returns (boolean): If valid return True   
+    def is_code_correct(self, element_code: str) -> bool:
+        """Check if classification code exists.
+
+        initsialises classification elements_codes set 
+
+        params:
+        code (str): Element code to validate
+
+        returns (boolean): If valid return True
         """
+        if len(self.element_codes) == 0:
+            for item in self.__elements:
+                self.element_codes.add(item.code)
+        if element_code in self.element_codes:
+            return True
+        else:
+            return False
+
+    def get_element_name(self, element_id: str, languages=["et"]) -> dict:
+        """Return MainAccount name basded on language codes."""
+        if self.is_code_correct(element_id):
+            for element in self.elements:
+                if element.code == element_id:
+                    return element.get_name(languages)
+
+
+class Element:
+    """Class for classification element"""
+
+    def __init__(self, code: str, name: dict, valid_from_date: str, valid_until_date=None) -> None:
+        """Init classification element"""
+        self.code = code
+        self.name = name
+        self.valid_from_date = date.fromisoformat(valid_from_date)
+        self.valid_until_date = None if valid_until_date == None else date.fromisoformat(
+            valid_until_date)
+
+    def get_name(self, languages=["et"]) -> dict:
+        """Return Element name based on language codes."""
+        name = {}
+        for lang in languages:
+            name[lang] = self.name[lang]
+        return name
+
+    def was_valid(self, period_start: date, period_end: date) -> bool:
+        """Return was element valid between dates"""
+        if period_end < period_start:
+            return False
+        # TODO
         pass
+
+
+def make_elements_list(elements: list) -> list:
+    """Create Elements objects list from list of dict."""
+    result = []
+    for element in elements:
+        if "valid_until_date" in element.keys():
+            valid_until = element["valid_until_date"]
+        else:
+            valid_until = None
+        result.append(Element(element["code"], element["name"],
+                      element["valid_from_date"], valid_until))
+    return result

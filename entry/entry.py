@@ -1,12 +1,13 @@
-"""Validate sample entries."""
+"""Module for adding sample entries and validate entries"""
 from datetime import date
 from json import dumps, loads
 
 from path import Path
-from annual_report.classifications.classification import CLASSIFICATION_DOWNLOAD_PATH
+from annual_report.classifications.classification import CLASSIFICATION_DOWNLOAD_PATH, Classification
 from entry.entry_validation_error import EntryValidationError, ValidationErrorType
 
 SAMPLE_ENTRIES_FILE = "annual_report/sample_data/sample_entries.json"
+MAIN_ACCOUNTS = Classification("MAJANDUSLIKSISU2024ap")
 
 
 class Entry:
@@ -140,7 +141,7 @@ def make_dict_from_entry(entry: Entry) -> dict:
             "lineNumber": item.line_number,
             "accountMain": {
                 "accountMainID": item.main_account,
-
+                "name": MAIN_ACCOUNTS.get_element_name(item.main_account)
             },
             "debitCreditCode": item.debit_credit,
             "amount": item.amount
@@ -150,20 +151,4 @@ def make_dict_from_entry(entry: Entry) -> dict:
         if len(item.sub_account) > 0:
             line["accountSub"] = item.sub_account
 
-        line["accountMain"]["name"] = get_main_account_name(
-            item.main_account)
-
     return response
-
-
-def get_main_account_name(main_account_id: str, languages=["et"]) -> dict:
-    """Return MainAccount name basded on language codes."""
-    name = {}
-    path = Path(CLASSIFICATION_DOWNLOAD_PATH + "MAJANDUSLIKSISU2024ap.json")
-    if path.exists():
-        classification = loads(path.read_text(encoding="utf-8"))
-        for element in classification["elements"]:
-            if element["code"] == main_account_id:
-                for lang in languages:
-                    name[lang] = element["name"][lang]
-    return name

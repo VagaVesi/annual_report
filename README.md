@@ -6,5 +6,4 @@ Steps
 3. Generate annual dataset from sample XBRL GL transactions. Save file.
 4. Prepare mapping rules (JSON format)
 5. Convert XBRL-GL annual data to Annual Report elememnts using mapping
-6. Genereta simple Annual Report object from Annual Report elements
-7. Generate XBRL report from Annual Report object
+6. Generata simple Annual Report object from Annual Report elements

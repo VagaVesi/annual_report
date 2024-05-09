@@ -20,7 +20,7 @@ class TestEntryValidationError():
         error_message = str(error)
         assert error_message == correct_message
 
-    def test_error_message_name_lane_number_missing(self):
+    def test_error_message_name_row_number_missing(self):
         """Error message string eith 2 attributes"""
         error = EntryValidationError(
             ValidationErrorType.DEBIT_NOT_EQUALS_CREDIT, "2000")

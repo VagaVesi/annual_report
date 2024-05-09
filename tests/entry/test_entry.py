@@ -1,6 +1,6 @@
 """Test Entry class and functions."""
 from datetime import date
-from annual_report.entry.entry import Entry, EntryDetail, calculate_entry_debit_total_minus_credit_total, load_entries, get_next_entry_number, add_simple_entry_to_json_file, make_dict_from_entry, get_main_account_name
+from annual_report.entry.entry import Entry, EntryDetail, calculate_entry_debit_total_minus_credit_total, load_entries, get_next_entry_number, add_simple_entry_to_json_file, make_dict_from_entry
 
 
 class TestEntry():
@@ -42,7 +42,7 @@ class TestEntry():
     def test_load_sample_entries(self):
         """File opened and data loaded."""
         sample_data = load_entries(
-            "annual_report/tests/one_entry.json")
+            "annual_report/tests/entry/one_entry.json")
 
         assert len(sample_data["entries"]) > 0
         assert sample_data["entity"] == "small_company"
@@ -50,34 +50,16 @@ class TestEntry():
     def test_get_next_entry_number_one_entry(self):
         """If first_entry_list next entry number is 1."""
         sample_data = load_entries(
-            "annual_report/tests/one_entry.json")
+            "annual_report/tests/entry/one_entry.json")
 
         assert get_next_entry_number(sample_data) == 2
 
     def test_get_next_entry_number_empty_entrylist(self):
         """list next entry number is current + 1."""
         sample_data = load_entries(
-            "annual_report/tests/empty_entry_list.json")
+            "annual_report/tests/entry/empty_entry_list.json")
 
         assert get_next_entry_number(sample_data) == 1
-
-    def test_get_main_account_name_default_lang_et(self):
-        """Returns name default language value."""
-        name = get_main_account_name("101010")
-
-        assert name == {"et": "Raha - Sularaha"}
-
-    def test_get_main_account_name_param_lang_en(self):
-        """Returns name default language value."""
-        name = get_main_account_name("101010", languages=["en"])
-
-        assert name == {"en": "Cash - Cash in hand"}
-
-    def test_get_main_account_name_param_multiple_lang(self):
-        """Returns name default language value."""
-        name = get_main_account_name("101010", languages=["et", "en"])
-
-        assert name == {"en": "Cash - Cash in hand", "et": "Raha - Sularaha"}
 
     def test_make_dict_from_simple_entry(self):
         """Make dict from simple_entry_to save entry json file.
@@ -130,12 +112,12 @@ class TestEntry():
     def test_add_simple_entry_to_json_file(self):
         """Load original_list, add entry to list and save modified_list to file. No Subaccounts"""
         sample_data = load_entries(
-            "annual_report/tests/modified_entries_list.json")
+            "annual_report/tests/entry/modified_entries_list.json")
         entries_count_before = len(sample_data["entries"])
         add_simple_entry_to_json_file(str(date.today()), "Test simple entry", 200.00, "101020",
-                                      "101030", file_path="annual_report/tests/modified_entries_list.json")
+                                      "101030", file_path="annual_report/tests/entry/modified_entries_list.json")
         sample_data = load_entries(
-            "annual_report/tests/modified_entries_list.json")
+            "annual_report/tests/entry/modified_entries_list.json")
         entries_count_after = len(sample_data["entries"])
 
         assert entries_count_after == entries_count_before + 1

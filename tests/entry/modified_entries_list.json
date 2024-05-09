@@ -1,0 +1,471 @@
+{
+    "entity": "small_company",
+    "entries": [
+        {
+            "entryHeader": {
+                "entryNumber": 1,
+                "postingDate": "2023-01-15",
+                "decription": {
+                    "et": "Sissemakse osakapitali",
+                    "en": "Contribution to share capital"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 2500.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "315011",
+                        "name": {
+                            "et": "Omakapital - Registreeritud"
+                        }
+                    },
+                    "accountSub": {
+                        "MUUTUSELIIK2024ap": "ML_11"
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 2500.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 2,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 3,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 4,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 5,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 6,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 7,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 8,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 9,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 10,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 11,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 12,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 13,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 14,
+                "postingDate": "2024-05-09",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        }
+    ]
+}
