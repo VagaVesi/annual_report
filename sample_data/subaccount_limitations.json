@@ -1,0 +1,2083 @@
+{
+    "limitations": [
+        {
+            "accountMainID": "101010",
+            "name": {
+                "et": "Raha - Sularaha"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "101020",
+            "name": {
+                "et": "Raha - Arvelduskontod"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "101030",
+            "name": {
+                "et": "Raha - Hoiused"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "101990",
+            "name": {
+                "et": "Raha - Muud"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "102010",
+            "name": {
+                "et": "Finantsinvesteeringud (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_201": "Osalused",
+                    "VG_202": "Fondiosakud",
+                    "VG_203": "Võlakirjad",
+                    "VG_999": "Muud"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod",
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_15": "Korrigeeritud soetusmaksumuse meetod"
+                }
+            }
+        },
+        {
+            "accountMainID": "103010",
+            "name": {
+                "et": "Nõuded - Ostjate vastu (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "103020",
+            "name": {
+                "et": "Nõuded - Ebatõenäoliselt laekuvad nõuded ostjate vastu (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "103030",
+            "name": {
+                "et": "Nõuded - Laenud (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {
+                    "ML_11": "Suurenemine",
+                    "ML_12": "Vähenemine",
+                    "ML_13": "Ümberliigitamine",
+                    "ML_14": "Äriühendus"
+                }
+            }
+        },
+        {
+            "accountMainID": "103040",
+            "name": {
+                "et": "Nõuded - Intressid (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "103050",
+            "name": {
+                "et": "Nõuded - Dividendid (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "103060",
+            "name": {
+                "et": "Nõuded - Viitlaekumised (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "103990",
+            "name": {
+                "et": "Nõuded - Muud (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "104010",
+            "name": {
+                "et": "Maksunõuded - Maksude ettemaksukonto (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "104020",
+            "name": {
+                "et": "Maksunõuded - Maksunõuded (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "105010",
+            "name": {
+                "et": "Makstud Ettemaksed - Tulevaste perioodide kulud (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "105990",
+            "name": {
+                "et": "Makstud Ettemaksed - Muud (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "106010",
+            "name": {
+                "et": "Varud - Tooraine ja materjal"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                }
+            }
+        },
+        {
+            "accountMainID": "106020",
+            "name": {
+                "et": "Varud - Lõpetamata toodang"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                }
+            }
+        },
+        {
+            "accountMainID": "106030",
+            "name": {
+                "et": "Varud - Valmistoodang"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                }
+            }
+        },
+        {
+            "accountMainID": "106040",
+            "name": {
+                "et": "Varud - Müügiks ostetud kaubad"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                }
+            }
+        },
+        {
+            "accountMainID": "106050",
+            "name": {
+                "et": "Varud - Ettemaksed"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "106990",
+            "name": {
+                "et": "Varud - Muud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                }
+            }
+        },
+        {
+            "accountMainID": "107010",
+            "name": {
+                "et": "Bioloogilised varad - (Käibevara)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_112": "Loomsed varad",
+                    "VG_113": "Istandikud",
+                    "VG_114": "Mets",
+                    "VG_115": "Vili",
+                    "VG_116": "Rohumaad",
+                    "VG_999": "Muud"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "107020",
+            "name": {
+                "et": "Bioloogilised varad - Ettemaksed (Käibevara)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "108011",
+            "name": {
+                "et": "Osalused - Tütar- ja sidusettevõtted"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {
+                    "SOP_12": "Tütarettevõtja",
+                    "SOP_13": "Sidusettevõtja"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod",
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_16": "Kapitaliosaluse meetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "102011",
+            "name": {
+                "et": "Finantsinvesteeringud (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_201": "Osalused",
+                    "VG_202": "Fondiosakud",
+                    "VG_203": "Võlakirjad",
+                    "VG_999": "Muud"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod",
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_15": "Korrigeeritud soetusmaksumuse meetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "103011",
+            "name": {
+                "et": "Nõuded - Ostjate vastu (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "103031",
+            "name": {
+                "et": "Nõuded - Laenud (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {
+                    "ML_11": "Suurenemine",
+                    "ML_12": "Vähenemine",
+                    "ML_13": "Ümberliigitamine",
+                    "ML_14": "Äriühendus"
+                }
+            }
+        },
+        {
+            "accountMainID": "103041",
+            "name": {
+                "et": "Nõuded - Intressid (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "103051",
+            "name": {
+                "et": "Nõuded - Dividendid (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "103061",
+            "name": {
+                "et": "Nõuded - Viitlaekumised (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "103991",
+            "name": {
+                "et": "Nõuded - Muud (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "104011",
+            "name": {
+                "et": "Maksunõuded - Maksunõuded (Pikaajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "105011",
+            "name": {
+                "et": "Makstud Ettemaksed - Tulevaste perioodide kulud (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "105991",
+            "name": {
+                "et": "Makstud Ettemaksed - Muud (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "107011",
+            "name": {
+                "et": "Bioloogilised varad - (Põhivara)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_112": "Loomsed varad",
+                    "VG_113": "Istandikud",
+                    "VG_114": "Mets",
+                    "VG_115": "Vili",
+                    "VG_116": "Rohumaad",
+                    "VG_999": "Muud"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "107021",
+            "name": {
+                "et": "Bioloogilised varad - Ettemaksed (Põhivara)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_112": "Loomsed varad",
+                    "VG_113": "Istandikud",
+                    "VG_114": "Mets",
+                    "VG_115": "Vili",
+                    "VG_116": "Rohumaad",
+                    "VG_999": "Muud"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "109011",
+            "name": {
+                "et": "Kinnisvarainvesteering"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod",
+                    "AE_15": "Korrigeeritud soetusmaksumuse meetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "109021",
+            "name": {
+                "et": "Kinnisvarainvesteering - Akumuleerunud kulum"
+            },
+            "subAccounts": {
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_31": "Kulum - lineaarne meetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "109031",
+            "name": {
+                "et": "Kinnisvarainvesteering - Lõpetamata projektid"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "109041",
+            "name": {
+                "et": "Kinnisvarainvesteering - Lõpetamata projektid - kapitaliseeritud laenukulutused"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "109051",
+            "name": {
+                "et": "Kinnisvarainvesteering - Ettemaksed"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "110011",
+            "name": {
+                "et": "Materiaalne põhivara soetusmaksumuses"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_999": "Muud"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "110021",
+            "name": {
+                "et": "Materiaalne põhivara - Akumuleerunud kulum"
+            },
+            "subAccounts": {
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_999": "Muud"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_31": "Kulum - lineaarne meetod",
+                    "AE_32": "Kulum - kahaneva jäägi meetod",
+                    "AE_33": "Kulum - tootmisühiku meetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "110031",
+            "name": {
+                "et": "Materiaalne põhivara - Lõpetamata projektid"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_999": "Muud"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "110041",
+            "name": {
+                "et": "Materiaalne põhivara - Lõpetamata projektid - kapitaliseeritud laenukulutused"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_999": "Muud"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "110051",
+            "name": {
+                "et": "Materiaalne põhivara - Ettemaksed"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_999": "Muud"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "111011",
+            "name": {
+                "et": "Immateriaalne põhivara soetusmaksumuses"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_108": "Firmaväärtus",
+                    "VG_109": "Arenguväljaminekud",
+                    "VG_110": "Arvutitarkvara",
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid",
+                    "VG_999": "Muud"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod",
+                    "AE_15": "Korrigeeritud soetusmaksumuse meetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "111021",
+            "name": {
+                "et": "Immateriaalne põhivara - Akumuleerunud kulum"
+            },
+            "subAccounts": {
+                "VARAGRUPP2024ap": {
+                    "VG_108": "Firmaväärtus",
+                    "VG_109": "Arenguväljaminekud",
+                    "VG_110": "Arvutitarkvara",
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid",
+                    "VG_999": "Muud"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_31": "Kulum - lineaarne meetod",
+                    "AE_32": "Kulum - kahaneva jäägi meetod",
+                    "AE_33": "Kulum - tootmisühiku meetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "111031",
+            "name": {
+                "et": "Immateriaalne põhivara - Lõpetamata projektid"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_108": "Firmaväärtus",
+                    "VG_109": "Arenguväljaminekud",
+                    "VG_110": "Arvutitarkvara",
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid",
+                    "VG_999": "Muud"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "111041",
+            "name": {
+                "et": "Immateriaalne põhivara - Ettemaksed"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_108": "Firmaväärtus",
+                    "VG_109": "Arenguväljaminekud",
+                    "VG_110": "Arvutitarkvara",
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid",
+                    "VG_999": "Muud"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212010",
+            "name": {
+                "et": "Võlad - Tarnijad (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212020",
+            "name": {
+                "et": "Võlad - Töövõtjad - palgavõlg (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212030",
+            "name": {
+                "et": "Võlad - Töövõtjad - puhkusereserv (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212040",
+            "name": {
+                "et": "Võlad - Töövõtjad - Muu arvestatud tasud koos maksudega (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "204010",
+            "name": {
+                "et": "Maksuvõlad - Ettevõtte tulumaks (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "204020",
+            "name": {
+                "et": "Maksuvõlad - Käibemaks (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "204030",
+            "name": {
+                "et": "Maksuvõlad - Üksikisiku tulumaks (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "204040",
+            "name": {
+                "et": "Maksuvõlad - Erisoodustuse tulumaks (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "204050",
+            "name": {
+                "et": "Maksuvõlad - Sotsiaalmaks (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "204060",
+            "name": {
+                "et": "Maksuvõlad - Kohustuslik kogumispension (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "204070",
+            "name": {
+                "et": "Maksuvõlad - Töötuskindlustusmaksed (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "204080",
+            "name": {
+                "et": "Maksuvõlad - Maamaks (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "204090",
+            "name": {
+                "et": "Maksuvõlad - Aktsiisimaks (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "204100",
+            "name": {
+                "et": "Maksuvõlad - Intress (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "204990",
+            "name": {
+                "et": "Maksuvõlad - Muud (Lühiajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "212050",
+            "name": {
+                "et": "Võlad - Arvelduskrediit"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212060",
+            "name": {
+                "et": "Võlad - Laenud (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212070",
+            "name": {
+                "et": "Võlad - Kapitalirent (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {},
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212080",
+            "name": {
+                "et": "Võlad - Võlakirjad (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212090",
+            "name": {
+                "et": "Võlad - Intressid (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212100",
+            "name": {
+                "et": "Võlad - Dividendid (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212990",
+            "name": {
+                "et": "Võlad - Muud (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "205010",
+            "name": {
+                "et": "Saadud Ettemaksed - Tulevaste perioodide tulud (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "205990",
+            "name": {
+                "et": "Saadud Ettemaksed - Muud (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "213010",
+            "name": {
+                "et": "Eraldised - Garantiieraldis (Lühiajaline)"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "213020",
+            "name": {
+                "et": "Eraldised - Maksueraldis (Lühiajaline)"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "213990",
+            "name": {
+                "et": "Eraldised - Muud (Lühiajaline)"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "214010",
+            "name": {
+                "et": "Sihtfinantseerimise ettemaksed - Tegevuskulud (Lühiajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_40": "Brutomeetod",
+                    "AE_41": "Netomeetod"
+                }
+            }
+        },
+        {
+            "accountMainID": "212011",
+            "name": {
+                "et": "Võlad - Tarnijad (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212021",
+            "name": {
+                "et": "Võlad - Töövõtjad (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "204991",
+            "name": {
+                "et": "Maksuvõlad - Muud (Pikaajaline)"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "212061",
+            "name": {
+                "et": "Võlad - Laenud (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212071",
+            "name": {
+                "et": "Võlad - Kapitalirent (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {},
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212081",
+            "name": {
+                "et": "Võlad - Võlakirjad (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "212991",
+            "name": {
+                "et": "Võlad - Muud (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "205011",
+            "name": {
+                "et": "Saadud Ettemaksed - Tulevaste perioodide tulud (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "205991",
+            "name": {
+                "et": "Saadud Ettemaksed - Muud (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "213011",
+            "name": {
+                "et": "Eraldised - Garantiieraldis (Pikaajaline)"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "213021",
+            "name": {
+                "et": "Eraldised - Maksueraldis (Pikaajaline)"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "213991",
+            "name": {
+                "et": "Eraldised - Muud (Pikaajaline)"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "214021",
+            "name": {
+                "et": "Sihtfinantseerimise ettemaksed - Põhivara (Pikaajaline)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_40": "Brutomeetod",
+                    "AE_41": "Netomeetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "214031",
+            "name": {
+                "et": "Sihtfinantseerimise ettemaksed - Sihtfinantseerimise amortisatsioon (Pikaajaline)"
+            },
+            "subAccounts": {
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_40": "Brutomeetod"
+                },
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "315011",
+            "name": {
+                "et": "Omakapital - Registreeritud"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "315021",
+            "name": {
+                "et": "Omakapital - Registreerimata"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "315031",
+            "name": {
+                "et": "Omakapital - Sisse maksmata"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "315041",
+            "name": {
+                "et": "Omakapital - Ülekurss"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "315051",
+            "name": {
+                "et": "Omakapital - Omaosad/aktisad"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "315991",
+            "name": {
+                "et": "Omakapital - Muud"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "316011",
+            "name": {
+                "et": "Reservid - Kohustuslik reservkapital"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "316991",
+            "name": {
+                "et": "Reservid - Muud"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "317011",
+            "name": {
+                "et": "Kasumid/kahjumid - Akumuleerunud"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "317021",
+            "name": {
+                "et": "Kasumid/kahjumid - Aruandeperiood"
+            },
+            "subAccounts": {
+                "MUUTUSELIIK2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "418012",
+            "name": {
+                "et": "Müügitulu - Tulu ettevõtlusest"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
+            }
+        },
+        {
+            "accountMainID": "418022",
+            "name": {
+                "et": "Müügitulu - Liikmemaksud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
+            }
+        },
+        {
+            "accountMainID": "418032",
+            "name": {
+                "et": "Müügitulu - Sisseastumistasud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
+            }
+        },
+        {
+            "accountMainID": "418042",
+            "name": {
+                "et": "Müügitulu - Hooldustasud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
+            }
+        },
+        {
+            "accountMainID": "418052",
+            "name": {
+                "et": "Müügitulu - Remonditasud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
+            }
+        },
+        {
+            "accountMainID": "418992",
+            "name": {
+                "et": "Müügitulu - Muud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
+            }
+        },
+        {
+            "accountMainID": "520012",
+            "name": {
+                "et": "Kulud - Tooraine ja materjal põhitegevuseks"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520022",
+            "name": {
+                "et": "Kulud - Varude allahindlus ja mahakandmine"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520032",
+            "name": {
+                "et": "Kulud - Müügi eesmärgil ostetud kaubad, toore, materjal"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520042",
+            "name": {
+                "et": "Kulud - Müügi eesmärgil ostetud kinnisvara"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520052",
+            "name": {
+                "et": "Kulud - Müügi eesmärgil ostetud teenused"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520102",
+            "name": {
+                "et": "Kulud - Elektrienergia"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520112",
+            "name": {
+                "et": "Kulud - Soojusenergia"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520122",
+            "name": {
+                "et": "Kulud - Kütus"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520132",
+            "name": {
+                "et": "Kulud - Veevarustusteenused"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520202",
+            "name": {
+                "et": "Kulud - Alltöövõtutööd- ehitus hoonetes"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520212",
+            "name": {
+                "et": "Kulud - Alltöövõtutööd- ehitusel (va hoonetes)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520222",
+            "name": {
+                "et": "Kulud - Alltöövõtutööd- tööstustoodangu allhange"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520292",
+            "name": {
+                "et": "Kulud - Alltöövõtutööd - Muud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520302",
+            "name": {
+                "et": "Kulud - Transpordikulud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520312",
+            "name": {
+                "et": "Kulud - Logistikakulud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520322",
+            "name": {
+                "et": "Kulud - Maarent"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520332",
+            "name": {
+                "et": "Kulud - Kinnistute, hoonete ja ruumide rent"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520342",
+            "name": {
+                "et": "Kulud - Transpordivahendite rent"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520382",
+            "name": {
+                "et": "Kulud - Tööjõurent"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520392",
+            "name": {
+                "et": "Kulud - Muu vara rent"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520402",
+            "name": {
+                "et": "Kulud - Varade hooldus ja remont"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520412",
+            "name": {
+                "et": "Kulud - Tööriistad ja väheväärtuslikud varad"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520422",
+            "name": {
+                "et": "Kulud - Turunduse ja reklaami kulud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520432",
+            "name": {
+                "et": "Kulud - Uurimis- ja arengukulud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520492",
+            "name": {
+                "et": "Kulud - Ostetud muud teenused (oma tarbeks)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520512",
+            "name": {
+                "et": "Kulud - Mitmesugused bürookulud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520552",
+            "name": {
+                "et": "Kulud - Lähetuskulud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520562",
+            "name": {
+                "et": "Kulud - Koolituskulud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520572",
+            "name": {
+                "et": "Kulud - Töö- ja eririiete kulu"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520612",
+            "name": {
+                "et": "Kulud - Vooditarvikute kulu"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520702",
+            "name": {
+                "et": "Kulud - Riiklikud ja kohalikud maksud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520712",
+            "name": {
+                "et": "Kulud - Riigilõiv"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520802",
+            "name": {
+                "et": "Kulud - Kulud eraldiste moodustamiseks"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520812",
+            "name": {
+                "et": "Kulud - Kulu ebatõenäoliselt laekuvatest nõuetest"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520822",
+            "name": {
+                "et": "Kulud - Jagatud annetused ja toetused"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "520992",
+            "name": {
+                "et": "Kulud - Muud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "521012",
+            "name": {
+                "et": "Tööjõukulud - Palgakulu"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "521022",
+            "name": {
+                "et": "Tööjõukulud - Sotsiaalmaks ja tööandja töötuskindlustusmakse"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "521032",
+            "name": {
+                "et": "Tööjõukulud - Pensionikulu"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "521102",
+            "name": {
+                "et": "Tööjõukulud - Erisoodustused"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "521112",
+            "name": {
+                "et": "Tööjõukulud - Erisoodustuse maksud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "521992",
+            "name": {
+                "et": "Tööjõukulud - Muud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "522012",
+            "name": {
+                "et": "Kulum - Kulum ja väärtuse langus"
+            },
+            "subAccounts": {
+                "VARAGRUPP2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
+            }
+        },
+        {
+            "accountMainID": "619012",
+            "name": {
+                "et": "Muud tulud - Põhivara sihtfinantseerimine"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "619022",
+            "name": {
+                "et": "Muud tulud - Tegevuskulude sihtfinantseerimine"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "619032",
+            "name": {
+                "et": "Muud tulud - Annetused"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "619042",
+            "name": {
+                "et": "Muud tulud - Rendi- ja üüritulu"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "619052",
+            "name": {
+                "et": "Muud tulud - Litsentsitasud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "619062",
+            "name": {
+                "et": "Muud tulud - Valmis- ja lõpetamata toodangu varude jääkide muutus"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "619072",
+            "name": {
+                "et": "Muud tulud - Põllumajandusliku toodangu varude jääkide muutus"
+            },
+            "subAccounts": {
+                "VARAGRUPP2024ap": {
+                    "VG_112": "Loomsed varad",
+                    "VG_113": "Istandikud",
+                    "VG_114": "Mets",
+                    "VG_115": "Vili",
+                    "VG_116": "Rohumaad",
+                    "VG_999": "Muud"
+                }
+            }
+        },
+        {
+            "accountMainID": "619082",
+            "name": {
+                "et": "Muud tulud - Kapitaliseeritud väljaminekud oma tarbeks põhivarade valmistamisel"
+            },
+            "subAccounts": {
+                "VARAGRUPP2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "619992",
+            "name": {
+                "et": "Muud tulud - Muud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "623012",
+            "name": {
+                "et": "Äritulu ja kulu - Kinnisvarainvesteeringute müük (Kasum/kahjum)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
+                }
+            }
+        },
+        {
+            "accountMainID": "623022",
+            "name": {
+                "et": "Äritulu ja kulu - Materiaalse ja immateriaalse põhivarade müük (Kasum/kahjum)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_108": "Firmaväärtus",
+                    "VG_109": "Arenguväljaminekud",
+                    "VG_110": "Arvutitarkvara",
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid",
+                    "VG_999": "Muud"
+                }
+            }
+        },
+        {
+            "accountMainID": "623032",
+            "name": {
+                "et": "Äritulu ja kulu - Kasum ja kahjum varade õiglase väärtuse muutusest- Kinnisvarainvesteeringud ja bioloogilised varad"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_112": "Loomsed varad",
+                    "VG_113": "Istandikud",
+                    "VG_114": "Mets",
+                    "VG_115": "Vili",
+                    "VG_116": "Rohumaad",
+                    "VG_999": "Muud"
+                }
+            }
+        },
+        {
+            "accountMainID": "623042",
+            "name": {
+                "et": "Äritulu ja kulu - Valuutakursi muutused seoses äritegevusega (Kasum/kahjum)"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "623052",
+            "name": {
+                "et": "Äritulu ja kulu - Trahvid, viivised ja hüvitised"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "623062",
+            "name": {
+                "et": "Äritulu ja kulu - Liikmemaksud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "623992",
+            "name": {
+                "et": "Äritulu ja kulu - Muud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "624012",
+            "name": {
+                "et": "Finantstulud ja kulud - Tütar- ja sidusettevõtjad"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {
+                    "SOP_12": "Tütarettevõtja",
+                    "SOP_13": "Sidusettevõtja"
+                }
+            }
+        },
+        {
+            "accountMainID": "624032",
+            "name": {
+                "et": "Finantstulud ja kulud - Muud investeeringud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "624042",
+            "name": {
+                "et": "Finantstulud ja kulud - Intressitulu"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "624052",
+            "name": {
+                "et": "Finantstulud ja kulud - Intressikulu - kasutusrent"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "624062",
+            "name": {
+                "et": "Finantstulud ja kulud - Intressikulu laenud ja kapitalirent"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "624992",
+            "name": {
+                "et": "Finantstulud ja kulud - Muud"
+            },
+            "subAccounts": {
+                "SEOTUDOSAPOOL2024ap": {}
+            }
+        },
+        {
+            "accountMainID": "625012",
+            "name": {
+                "et": "Ettevõtte tulumaks"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "626012",
+            "name": {
+                "et": "Koondkasum - Realiseerimata kursivahed"
+            },
+            "subAccounts": {}
+        },
+        {
+            "accountMainID": "626992",
+            "name": {
+                "et": "Koondkasum - Muud"
+            },
+            "subAccounts": {}
+        }
+    ]
+}

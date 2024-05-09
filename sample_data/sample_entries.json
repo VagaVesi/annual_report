@@ -1,0 +1,42 @@
+{
+    "entity": "small_company",
+    "entries": [
+        {
+            "entryHeader": {
+                "entryNumber": 1,
+                "postingDate": "2023-01-15",
+                "decription": {
+                    "et": "Sissemakse osakapitali",
+                    "en": "Contribution to share capital"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 2500.00
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "315011",
+                        "name": {
+                            "et": "Omakapital - Registreeritud"
+                        }
+                    },
+                    "accountSub": {
+                        "MUUTUSELIIK2024ap": "ML_11"
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 2500.00
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://datahub.rik.ee/schemas/json/EE0301020.json",
+    "title": "Annual Accounts Balances - standard (small entity)",
+    "type": "object",
+    "required":[ "documentInfo","entityInformation", "datasets"],
+    "properties": {
+        "documentInfo": {
+            "type:": "object",
+            "required": [
+                "uniqueID",
+                "language",
+                "creationDate",
+                "creator",
+                "periodCoveredStart",
+                "periodCoveredEnd",
+                "sourceApplication",
+                "defaultCurrency"
+            ],
+            "properties": { 
+                "uniqueID": {"type:": "string"},
+                "language": {"type:": "string","const": "iso639:et"},
+                "creationDate": {"type:": "string", "format": "date", "pattern":"^([1-2]\\d{3})-([0][1-9]|[1][0-2])-([0][1-9]|[12][0-9]|[3][0-1])$"},
+                "creator": {"type:": "string"},
+                "periodCoveredStart": {"type:": "string", "format": "date", "pattern":"^([1-2]\\d{3})-([0][1-9]|[1][0-2])-([0][1-9]|[12][0-9]|[3][0-1])$"},
+                "periodCoveredEnd": {"type:": "string", "format": "date", "pattern":"^([1-2]\\d{3})-([0][1-9]|[1][0-2])-([0][1-9]|[12][0-9]|[3][0-1])$"},
+                "sourceApplication": {"type:": "string", "enum":["e-arveldaja", "SAF"]},
+                "defaultCurrency": {"type:": "string", "const": "iso4217:eur"}      
+            }
+        },  
+        "entityInformation":{
+            "type:": "object",
+            "required": [
+                "organizationIdentifier",
+                "organizationDescription"
+            ],
+            "properties": { 
+                "organizationIdentifier": {"type:": "string", "pattern":"^\\d{8}$"},
+                "organizationDescription": {"type:": "string", "const": "e-äriregister"}
+        }},
+        "datasets":{
+            "type:": "array",
+            "minItems": 1,
+            "items":{
+                "type:": "object",
+                "required":[ "entryNumber", "entryDetail"],
+                "properties": {
+                    "entryNumber":{"type:": "string", "const": "EE0301020"},
+                    "entryDetail": {
+                        "type:": "array",
+                        "minItems": 1,
+                        "items":{
+                            "type": "object",
+                            "required": [
+                                "lineNumberCounter",
+                                "accountMainID",
+                                "debitCreditCode",
+                                "amount"],     
+                            "properties":{
+                                "lineNumberCounter":{"type": "number"},
+                                "accountMainID": {"type:": "string", "pattern":"^\\d{6}$"},
+                                "accountSub":{
+                                    "type": "object",
+                                    "properties":{
+                                        "ANDMETEESITLUSVIIS2024ap":{"type": "string", "pattern":"^AE_\\d{2}$"},
+                                        "VARAGRUPP2024ap":{"type": "string", "pattern":"^VG_\\d{3}$"},
+                                        "SEOTUDOSAPOOL2024ap":{"type": "string", "pattern":"^SOP_\\d{2}$"},
+                                        "EMTAK2008ap":{"type": "string", "pattern":"^\\d{5}$"},
+                                        "EMTAK2025ap":{"type": "string", "pattern":"^\\d{5}$"},
+                                        "RTK2T2013ap":{"type": "string", "pattern":"^[A-Z]{2}$"}
+                                    },
+                                    "additionalProperties": false
+                                    },  
+                                "debitCreditCode":{"type:": "string", "pattern": "^[D|C]$"},
+                                "amount":{"type:": "number"}
+                                }     
+                            }
+                        }
+                    }
+                }
+            }       
+    }
+}

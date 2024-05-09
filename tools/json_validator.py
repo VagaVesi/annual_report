@@ -4,7 +4,7 @@ from json import loads
 from path import Path
 
 
-def validate_json(input: str, schema_location: str) -> list:
+def validate(input: str, schema_location: str) -> list:
     """Validate input with JSONschema.
 
     params:

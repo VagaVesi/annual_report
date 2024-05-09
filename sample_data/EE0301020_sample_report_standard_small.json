@@ -1,0 +1,61 @@
+{
+    "documentInfo":
+        {
+            "uniqueID": "11308014-2023-08-10T09:36:51:554",
+            "language": "iso639:et",
+            "creationDate": "2023-01-31",
+            "creator": "EE37309050312",
+            "periodCoveredStart": "2023-01-01",
+            "periodCoveredEnd": "2023-12-31",
+            "sourceApplication": "e-arveldaja",
+            "defaultCurrency": "iso4217:eur"  
+        },
+    "entityInformation":{
+        "organizationIdentifier": "11308014",
+        "organizationDescription": "e-äriregister"
+        },
+    "datasets":[
+        {
+            "entryNumber": "EE0301020",
+            "entryDetail": [
+                { "lineNumberCounter": 1, "accountMainID": "101010", "debitCreditCode":"D", "amount": 200.00 },
+                { "lineNumberCounter": 2, "accountMainID": "101020", "debitCreditCode":"D", "amount": 11432.32 },
+                { "lineNumberCounter": 3, "accountMainID": "103010", "debitCreditCode":"D", "amount": 4400.00 },
+                { "lineNumberCounter": 4, "accountMainID": "103990", "debitCreditCode":"D", "amount": 400.00 },
+                { "lineNumberCounter": 5, "accountMainID": "104010", "debitCreditCode":"D", "amount": 60.00 },
+                { "lineNumberCounter": 6, "accountMainID": "106010", "debitCreditCode":"D", "amount": 2844.00,
+                 "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_13"} },
+                { "lineNumberCounter": 7, "accountMainID": "110011", "debitCreditCode":"D", "amount": 1200.00,
+                "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_12", "VARAGRUPP2024ap": "VG_102"} },
+                { "lineNumberCounter": 8, "accountMainID": "110021", "debitCreditCode":"C", "amount": 300.00,
+                "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_31", "VARAGRUPP2024ap": "VG_102"} },
+                { "lineNumberCounter": 9, "accountMainID": "212010", "debitCreditCode":"C", "amount": 1735.00 },
+                { "lineNumberCounter": 10, "accountMainID": "212020", "debitCreditCode":"C", "amount": 1330.00 },
+                { "lineNumberCounter": 11, "accountMainID": "204020", "debitCreditCode":"C", "amount": 400.00 },
+                { "lineNumberCounter": 12, "accountMainID": "204050", "debitCreditCode":"C", "amount": 330.10 },
+                { "lineNumberCounter": 13, "accountMainID": "212060", "debitCreditCode":"C", "amount": 10000.00,
+                "accountSub": {"SEOTUDOSAPOOL2024ap": "SOP_22"} },
+                { "lineNumberCounter": 14, "accountMainID": "315011", "debitCreditCode":"C", "amount": 2500.00 },
+                { "lineNumberCounter": 15, "accountMainID": "317011", "debitCreditCode":"C", "amount": 1266.67},
+                { "lineNumberCounter": 16, "accountMainID": "418012", "debitCreditCode":"C", "amount": 12990.00, 
+                "accountSub": {"EMTAK2008ap": "71111", "RTK2T2013ap": "EE"} },
+                { "lineNumberCounter": 17, "accountMainID": "520032", "debitCreditCode":"D", "amount": 4000.00,
+                "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_20"} },
+                { "lineNumberCounter": 18, "accountMainID": "520252", "debitCreditCode":"D", "amount": 400.00,
+                "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_20"} },
+                { "lineNumberCounter": 19, "accountMainID": "520322", "debitCreditCode":"D", "amount": 1200.00,
+                "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_20"} },
+                { "lineNumberCounter": 20, "accountMainID": "520522", "debitCreditCode":"D", "amount": 424.45,
+                "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_22"} },
+                { "lineNumberCounter": 21, "accountMainID": "521012", "debitCreditCode":"D", "amount": 3000.00,
+                "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_22", "SEOTUDOSAPOOL2024ap": "SOP_22"} },
+                { "lineNumberCounter": 22, "accountMainID": "521022", "debitCreditCode":"D", "amount": 990.00,
+                "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_22", "SEOTUDOSAPOOL2024ap": "SOP_22"} },
+                { "lineNumberCounter": 23, "accountMainID": "520512", "debitCreditCode":"D", "amount": 1.00,
+                "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_20"} },
+                { "lineNumberCounter": 24, "accountMainID": "522012", "debitCreditCode":"D", "amount": 300.00,
+                "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_20", "VARAGRUPP2024ap": "VG_102"} }
+            ]
+        }
+    ]
+}

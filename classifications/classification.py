@@ -1,8 +1,8 @@
 """Module to store XBRL-GL classifications."""
 from path import Path
 from json import dumps, loads
-from tools.api_request import request_data
-from tools.validator import validate_json
+from tools.api_request import get_data
+from annual_report.tools.json_validator import validate
 
 
 CLASSIFICATION_DOWNLOAD_PATH = "annual_report/classifications/download/"
@@ -41,8 +41,8 @@ class ClassificationsList:
             do_update = True
 
         if do_update:
-            classifications_update = request_data(CLASSIFICATIONS_API_PATH)
-            validation_result = validate_json(
+            classifications_update = get_data(CLASSIFICATIONS_API_PATH)
+            validation_result = validate(
                 classifications_update, CLASSIFICATIONS_LIST_SCHEMA)
             if len(validation_result) > 0:
                 print(validation_result)
@@ -64,8 +64,8 @@ class ClassificationsList:
         for code, api_link in self.get_links().items():
             file_path = CLASSIFICATION_DOWNLOAD_PATH + code + ".json"
             path = Path(file_path)
-            classifications_update = request_data(api_link)
-            validation_result = validate_json(
+            classifications_update = get_data(api_link)
+            validation_result = validate(
                 classifications_update, CLASSIFICATION_ELEMENTS_SCHEMA)
             if len(validation_result) > 0:
                 print(validation_result)

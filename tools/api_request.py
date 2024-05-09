@@ -2,7 +2,7 @@
 from requests import get
 
 
-def request_data(api_path: str) -> str:
+def get_data(api_path: str) -> str:
     """Reguest data list from API 
 
     parameters:
