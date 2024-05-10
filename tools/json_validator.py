@@ -11,7 +11,7 @@ def validate(input: str, schema_location: str) -> list:
     input (str): data to validate
     schema_location (str): file path
 
-    return: List of errors if any else mepty list 
+    return: List of errors if any else empty list 
     """
     if Path(schema_location).exists():
         shcema = loads(Path(schema_location).read_text())

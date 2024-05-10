@@ -1,6 +1,6 @@
 """Test Entry class and functions."""
 from datetime import date
-from annual_report.entry.entry import Entry, EntryDetail, calculate_entry_debit_total_minus_credit_total, load_entries, get_next_entry_number, add_simple_entry_to_json_file, make_dict_from_entry
+from annual_report.entry.entry import Entry, EntryDetail, calculate_entry_debit_total_minus_credit_total, load_entries, get_next_entry_number, add_simple_entry_to_json_file, make_dict_from_entry, make_entry_from_json, make_entry_list_from_json_list
 
 
 class TestEntry():
@@ -13,7 +13,7 @@ class TestEntry():
         assert entry_line_1.amount == 2500.00
         assert entry_line_1.debit_credit == "D"
         assert entry_line_1.line_number == 1
-        assert entry_line_1.sub_account == []
+        assert entry_line_1.sub_accounts == []
 
     def test_calculate_entry_debit_total_minus_credit_total_equal_no_diffrenece(self):
         """Debit and Credit equal, difference 0.0"""
@@ -121,3 +121,49 @@ class TestEntry():
         entries_count_after = len(sample_data["entries"])
 
         assert entries_count_after == entries_count_before + 1
+
+    def test_make_entry_from_json(self):
+        sample_entry_json = {
+            "entryHeader": {
+                "entryNumber": 1,
+                "postingDate": "2023-01-15",
+                "decription": {"et": "Sissemakse osakapitali", "en": "Contribution to share capital"}
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {"et": "Raha - Arvelduskontod"}
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 2500.00
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "315011",
+                        "name": {"et": "Omakapital - Registreeritud"}
+                    },
+                    "accountSub": {"MUUTUSELIIK2024ap": "ML_11"},
+                    "debitCreditCode": "C",
+                    "amount": 2500.00
+                }
+            ]
+        }
+
+        entry = make_entry_from_json(sample_entry_json)
+        assert entry.entry_number == 1
+        assert entry.entry_details[0].main_account == "101020"
+        assert entry.entry_details[1].main_account == "315011"
+        assert entry.entry_details[0].sub_accounts == {}
+        assert entry.entry_details[1].sub_accounts == {
+            "MUUTUSELIIK2024ap": "ML_11"}
+
+    def test_make_entry_list_from_json_list(self):
+        sample_json = load_entries(
+            "annual_report/tests/entry/modified_entries_list.json")
+        input_length = len(sample_json["entries"])
+        entries_list = make_entry_list_from_json_list(sample_json)
+
+        assert len(entries_list) == input_length

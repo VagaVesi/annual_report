@@ -22,7 +22,7 @@ class Entry:
         decription (dict): entry description language string pairs 
         entry_details (EntryDetail): List of entry lines
         """
-        self.entry_ref = entry_number
+        self.entry_number = entry_number
         self.date = posting_date
         self.decription = decription
         self.entry_details = entry_details
@@ -43,7 +43,7 @@ class EntryDetail:
         """
         self.line_number = line_number
         self.main_account = account_main_id
-        self.sub_account = account_sub_list
+        self.sub_accounts = account_sub_list
         self.debit_credit = debit_credit
         self.amount = amount
 
@@ -55,7 +55,7 @@ def validate_entry(entry: Entry) -> list:
 
     if abs(calculate_entry_debit_total_minus_credit_total(entry)) > EntryValidationError.NOT_MATERIAL_DIFFERENCE:
         errors.append(EntryValidationError(
-            ValidationErrorType.DEBIT_NOT_EQUALS_CREDIT, entry.entry_ref))
+            ValidationErrorType.DEBIT_NOT_EQUALS_CREDIT, entry.entry_number))
 
     return errors
 
@@ -94,7 +94,7 @@ def add_simple_entry_to_json_file(
 
 
 def load_entries(file_path: str) -> dict:
-    """Load sample entries to dict."""
+    """Load sample entries to dict (JSON)."""
 
     sample_entries = {
         "entity": "empty_entity",
@@ -129,7 +129,7 @@ def get_next_entry_number(entity_entries: dict) -> int:
 def make_dict_from_entry(entry: Entry) -> dict:
     """Make custom dictionary fron Entry object."""
 
-    response = {"entryHeader": {"entryNumber": entry.entry_ref,
+    response = {"entryHeader": {"entryNumber": entry.entry_number,
                                 "postingDate": entry.date,
                                 "decription": {
                                     "en": entry.decription
@@ -152,3 +152,32 @@ def make_dict_from_entry(entry: Entry) -> dict:
             line["accountSub"] = item.sub_account
 
     return response
+
+
+def make_entry_from_json(json_entry: dict) -> Entry:
+    """Convert json entry to Entry object"""
+    entry_number = json_entry["entryHeader"]["entryNumber"]
+    posting_date = json_entry["entryHeader"]["postingDate"]
+    description = json_entry["entryHeader"]["decription"]
+    entry_details = []
+    for entry_detail in json_entry["entryDetail"]:
+        line_number = entry_detail["lineNumber"]
+        account_main_id = entry_detail["accountMain"]["accountMainID"]
+        if "accountSub" in entry_detail.keys():
+            account_sub_list = entry_detail["accountSub"]
+        else:
+            account_sub_list = {}
+        debit_credit = entry_detail["debitCreditCode"]
+        amount = entry_detail["amount"]
+        entry_details.append(EntryDetail(
+            line_number, account_main_id, account_sub_list, debit_credit, amount))
+
+    return Entry(entry_number, posting_date, description, entry_details)
+
+
+def make_entry_list_from_json_list(json_data: dict) -> list:
+    """Parse JSON entries to Entry object list"""
+    result = []
+    for entry_json in json_data["entries"]:
+        result.append(make_entry_from_json(entry_json))
+    return result
