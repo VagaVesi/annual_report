@@ -3,7 +3,7 @@
     "$id": "https://datahub.rik.ee/schemas/json/EE0301020.json",
     "title": "Annual Accounts Balances - standard (small entity)",
     "type": "object",
-    "required":[ "documentInfo","entityInformation", "datasets"],
+    "required":["documentInfo", "entityInformation", "datasets"],
     "properties": {
         "documentInfo": {
             "type:": "object",
@@ -43,7 +43,7 @@
             "minItems": 1,
             "items":{
                 "type:": "object",
-                "required":[ "entryNumber", "entryDetail"],
+                "required":["entryNumber", "entryDetail"],
                 "properties": {
                     "entryNumber":{"type:": "string", "const": "EE0301020"},
                     "entryDetail": {
@@ -65,8 +65,8 @@
                                         "ANDMETEESITLUSVIIS2024ap":{"type": "string", "pattern":"^AE_\\d{2}$"},
                                         "VARAGRUPP2024ap":{"type": "string", "pattern":"^VG_\\d{3}$"},
                                         "SEOTUDOSAPOOL2024ap":{"type": "string", "pattern":"^SOP_\\d{2}$"},
+                                        "MUUTUSELIIK2024ap":{"type": "string", "pattern":"^ML_\\d{2}$"},
                                         "EMTAK2008ap":{"type": "string", "pattern":"^\\d{5}$"},
-                                        "EMTAK2025ap":{"type": "string", "pattern":"^\\d{5}$"},
                                         "RTK2T2013ap":{"type": "string", "pattern":"^[A-Z]{2}$"}
                                     },
                                     "additionalProperties": false

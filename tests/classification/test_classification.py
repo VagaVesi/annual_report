@@ -1,6 +1,5 @@
 """Test Element class and its properties."""
-from datetime import date
-from classifications.classification import Classification
+from annual_report.classifications.classification import Classification
 
 
 class TestClassification():

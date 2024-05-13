@@ -3,7 +3,7 @@ from datetime import date
 from json import dumps, loads
 
 from path import Path
-from annual_report.classifications.classification import CLASSIFICATION_DOWNLOAD_PATH, Classification
+from classifications.classification import Classification
 from entry.entry_validation_error import EntryValidationError, ValidationErrorType
 
 SAMPLE_ENTRIES_FILE = "annual_report/sample_data/sample_entries.json"
@@ -148,7 +148,7 @@ def make_dict_from_entry(entry: Entry) -> dict:
         }
         response["entryDetail"].append(line)
 
-        if len(item.sub_account) > 0:
+        if len(item.sub_accounts) > 0:
             line["accountSub"] = item.sub_account
 
     return response
@@ -159,6 +159,11 @@ def make_entry_from_json(json_entry: dict) -> Entry:
     entry_number = json_entry["entryHeader"]["entryNumber"]
     posting_date = json_entry["entryHeader"]["postingDate"]
     description = json_entry["entryHeader"]["decription"]
+    entry_details = make_entry_details_list_from_json(json_entry)
+    return Entry(entry_number, posting_date, description, entry_details)
+
+
+def make_entry_details_list_from_json(json_entry: str) -> list:
     entry_details = []
     for entry_detail in json_entry["entryDetail"]:
         line_number = entry_detail["lineNumber"]
@@ -171,8 +176,7 @@ def make_entry_from_json(json_entry: dict) -> Entry:
         amount = entry_detail["amount"]
         entry_details.append(EntryDetail(
             line_number, account_main_id, account_sub_list, debit_credit, amount))
-
-    return Entry(entry_number, posting_date, description, entry_details)
+    return entry_details
 
 
 def make_entry_list_from_json_list(json_data: dict) -> list:

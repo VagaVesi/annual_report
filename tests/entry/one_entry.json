@@ -31,7 +31,8 @@
                         }
                     },
                     "accountSub": {
-                        "MUUTUSELIIK2024ap": "ML_11"
+                        "MUUTUSELIIK2024ap": "ML_11",
+                        "SEOTUDOSAPOOL2024ap": "SOP_11"
                     },
                     "debitCreditCode": "C",
                     "amount": 2500.00

@@ -2,8 +2,8 @@
 from path import Path
 from json import dumps, loads
 from tools.api_request import get_data
-from datetime import date, datetime
-from annual_report.tools.json_validator import validate
+from datetime import date
+from tools.json_validator import validate
 
 
 CLASSIFICATION_DOWNLOAD_PATH = "annual_report/classifications/download/"

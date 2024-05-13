@@ -1,9 +1,8 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://datahub.rik.ee/schemas/json/EE0301010.json",
     "title": "Annual Accounts Balances - micro",
     "type": "object",
-    "required":[ "documentInfo","entityInformation", "datasets"],
+    "required":["documentInfo","entityInformation", "datasets"],
     "properties": {
         "documentInfo": {
             "type:": "object",
@@ -44,7 +43,7 @@
             "minItems": 1,
             "items":{
                 "type:": "object",
-                "required":[ "entryNumber", "entryDetail"],
+                "required":["entryNumber", "entryDetail"],
                 "properties": {
                     "entryNumber":{"type:": "string", "const": "EE0301010"},
                     "entryDetail": {
@@ -52,11 +51,7 @@
                         "minItems": 1,
                         "items":{
                             "type": "object",
-                            "required": [
-                                "lineNumberCounter",
-                                "accountMainID",
-                                "debitCreditCode",
-                                "amount"],     
+                            "required": ["lineNumberCounter", "accountMainID", "debitCreditCode", "amount"],     
                             "properties":{
                                 "lineNumberCounter":{"type": "number"},
                                 "accountMainID": {"type:": "string", "pattern":"^\\d{6}$"},
@@ -64,7 +59,6 @@
                                     "type": "object",
                                     "properties":{
                                         "SEOTUDOSAPOOL2024ap":{"type": "string", "pattern":"^SOP_\\d{2}$"},
-                                        "EMTAK2025ap":{"type": "string", "pattern":"^\\d{5}$"},
                                         "EMTAK2008ap":{"type": "string", "pattern":"^\\d{5}$"}
                                     },
                                     "additionalProperties": false
