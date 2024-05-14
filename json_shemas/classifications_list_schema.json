@@ -1,59 +1,51 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://datahub.rik.ee/schemas/json/classifications_list.json",
-    "title": "Classifications list",
-    "type": "array",
-    "items": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://datahub.rik.ee/schemas/json/classifications_list.json",
+  "title": "Classifications list",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["code", "name", "links"],
+    "properties": {
+      "code": {
+        "type:": "string",
+        "enum": [
+          "MAJANDUSLIKSISU2024ap",
+          "VARAGRUPP2024ap",
+          "ANDMETEESITLUSVIIS2024ap",
+          "SEOTUDOSAPOOL2024ap",
+          "MUUTUSELIIK2024ap",
+          "RTK2T2013ap",
+          "EMTAK2008ap"
+        ]
+      },
+      "name": {
         "type": "object",
-        "required": [
-            "code",
-            "name",
-            "links"
-        ],
         "properties": {
-            "code": {
-                "type:": "string",
-                "enum": [
-                    "MAJANDUSLIKSISU2024ap",
-                    "VARAGRUPP2024ap",
-                    "ANDMETEESITLUSVIIS2024ap",
-                    "SEOTUDOSAPOOL2024ap",
-                    "MUUTUSELIIK2024ap",
-                    "RTK2T2013ap",
-                    "EMTAK2008ap"
-                ]
-            },
-            "name": {
-                "type": "object",
-                "properties": {
-                    "et": {
-                        "type": "string"
-                    },
-                    "en": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "et"
-                ]
-            },
-            "links": {
-                "type": "object",
-                "properties": {
-                    "get": {
-                        "type": "string"
-                    },
-                    "help": {
-                        "type": "string"
-                    },
-                    "source": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "get"
-                ]
-            }
-        }
+          "et": {
+            "type": "string"
+          },
+          "en": {
+            "type": "string"
+          }
+        },
+        "required": ["et"]
+      },
+      "links": {
+        "type": "object",
+        "properties": {
+          "get": {
+            "type": "string"
+          },
+          "help": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          }
+        },
+        "required": ["get"]
+      }
     }
+  }
 }

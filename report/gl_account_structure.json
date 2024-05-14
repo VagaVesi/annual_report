@@ -1,0 +1,157 @@
+{
+  "Account group - MainAccountId[0]": [
+    {
+      "code": "1",
+      "name": { "et": "Varad", "en": "Assets" }
+    },
+    {
+      "code": "2",
+      "name": { "et": "Kohustised", "en": "Liabilities" }
+    },
+    {
+      "code": "3",
+      "name": { "et": "Omakapital", "en": "Equity" }
+    },
+    {
+      "code": "4",
+      "name": { "et": "Tulud", "en": "Revenues" }
+    },
+    {
+      "code": "5",
+      "name": { "et": "Kulud", "en": "Expenses" }
+    },
+    {
+      "code": "6",
+      "name": { "et": "Muud tulud ja kulud", "en": "Other Income and expenses" }
+    }
+  ],
+  "Transaction group - MainAccountId[1:2]": [
+    {
+      "code": "01",
+      "name": { "et": "Raha", "en": "Cash" }
+    },
+    {
+      "code": "02",
+      "name": { "et": "Finantsinvesteeringud", "en": "Financial Investments" }
+    },
+    {
+      "code": "03",
+      "name": { "et": "Nõuded", "en": "Receivables" }
+    },
+    {
+      "code": "04",
+      "name": { "et": "Maksud", "en": "Taxes" }
+    },
+    {
+      "code": "05",
+      "name": { "et": "Ettemakstud kulud", "en": "Prepaid Expenses" }
+    },
+    {
+      "code": "06",
+      "name": { "et": "Varud", "en": "Inventories" }
+    },
+    {
+      "code": "07",
+      "name": { "et": "Bioloogilised varad", "en": "Biological Assets" }
+    },
+    {
+      "code": "08",
+      "name": { "et": "Osalused", "en": "Shares" }
+    },
+    {
+      "code": "09",
+      "name": { "et": "Kinnisvarainvesteeringud", "en": "Investment Property" }
+    },
+    {
+      "code": "10",
+      "name": {
+        "et": "Materiaalne põhivara",
+        "en": "Property, Plant and Equipment"
+      }
+    },
+    {
+      "code": "11",
+      "name": { "et": "Immateriaalsed varad", "en": "Intangible Assets" }
+    },
+    {
+      "code": "12",
+      "name": { "et": "Kohustised", "en": "Payables" }
+    },
+    {
+      "code": "13",
+      "name": { "et": "Eraldised", "en": "Provisions" }
+    },
+    {
+      "code": "14",
+      "name": { "et": "Sihtfinantseerimine", "en": "Government Grants" }
+    },
+    {
+      "code": "15",
+      "name": { "et": "Emiteeritud kapital", "en": "Issued Equity" }
+    },
+    {
+      "code": "16",
+      "name": { "et": "Reservid", "en": "Reserves" }
+    },
+    {
+      "code": "17",
+      "name": { "et": "Kasumid/kahjumid", "en": "Retained Earnings" }
+    },
+    {
+      "code": "18",
+      "name": { "et": "Tulud (Sissetulekud)", "en": "Revenue" }
+    },
+    {
+      "code": "19",
+      "name": { "et": "Muud tulud", "en": "Other Income" }
+    },
+    {
+      "code": "20",
+      "name": {
+        "et": "Materjalid, kaubad ja tegevuskulud",
+        "en": "Materials,  Goods and Operating Expenses"
+      }
+    },
+    {
+      "code": "21",
+      "name": { "et": "Tööjõukulud", "en": "Employee Expenses" }
+    },
+    {
+      "code": "22",
+      "name": { "et": "Kulum", "en": "Depreciation" }
+    },
+    {
+      "code": "23",
+      "name": { "et": "Muud kasud ja kahjud", "en": "Other gains and losses" }
+    },
+    {
+      "code": "24",
+      "name": {
+        "et": "Finantskulud ja tulud",
+        "en": "Financial expenses and incomes"
+      }
+    },
+    {
+      "code": "25",
+      "name": { "et": "Tulumaksu kulu", "en": "Income Tax" }
+    },
+    {
+      "code": "26",
+      "name": { "et": "Koondkasumiaruanne", "en": "Comprehensive Income" }
+    }
+  ],
+  "Account SubGroup - MainAccountId[-1]": [
+    {
+      "code": "0",
+      "name": { "et": "Lühiajaline", "en": "Short Term" }
+    },
+    {
+      "code": "1",
+      "name": { "et": "Pikaajaline", "en": "Long Term" }
+    },
+    {
+      "code": "2",
+      "name": { "et": "Ei ole asjakohane", "en": "Not Applicable" }
+    }
+  ]
+}

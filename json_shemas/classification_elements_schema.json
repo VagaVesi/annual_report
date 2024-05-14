@@ -1,221 +1,209 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://datahub.rik.ee/schemas/json/classification_elements_schema.json",
-    "title": "Classification elements",
-    "type": "object",
-    "required": [
-        "code",
-        "name",
-        "elements"
-    ],
-    "properties": {
-        "code": {
-            "type:": "string",
-            "enum": [
-                "MAJANDUSLIKSISU2024ap",
-                "VARAGRUPP2024ap",
-                "ANDMETEESITLUSVIIS2024ap",
-                "SEOTUDOSAPOOL2024ap",
-                "MUUTUSELIIK2024ap",
-                "RTK2T2013ap",
-                "EMTAK2008ap"
-            ]
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://datahub.rik.ee/schemas/json/classification_elements_schema.json",
+  "title": "Classification elements",
+  "type": "object",
+  "required": ["code", "name", "elements"],
+  "properties": {
+    "code": {
+      "type:": "string",
+      "enum": [
+        "MAJANDUSLIKSISU2024ap",
+        "VARAGRUPP2024ap",
+        "ANDMETEESITLUSVIIS2024ap",
+        "SEOTUDOSAPOOL2024ap",
+        "MUUTUSELIIK2024ap",
+        "RTK2T2013ap",
+        "EMTAK2008ap"
+      ]
+    },
+    "name": {
+      "type": "object",
+      "properties": {
+        "et": {
+          "type": "string"
         },
-        "name": {
+        "en": {
+          "type": "string"
+        }
+      },
+      "required": ["et"]
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "name", "valid_from_date"],
+        "properties": {
+          "code": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30
+          },
+          "name": {
             "type": "object",
             "properties": {
-                "et": {
-                    "type": "string"
-                },
-                "en": {
-                    "type": "string"
-                }
+              "et": {
+                "type": "string"
+              },
+              "en": {
+                "type": "string"
+              }
             },
-            "required": [
-                "et"
-            ]
-        },
-        "elements": {
-            "type": "array",
+            "required": ["et"]
+          },
+          "valid_from_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "valid_until_date": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    }
+  },
+  "anyOf": [
+    {
+      "if": {
+        "code": {
+          "const": "MAJANDUSLIKSISU2024ap"
+        }
+      },
+      "then": {
+        "properties": {
+          "elements": {
             "items": {
-                "type": "object",
-                "required": [
-                    "code",
-                    "name",
-                    "valid_from_date"
-                ],
-                "properties": {
-                    "code": {
-                        "type": "string",
-                        "minLength": 1,
-                        "maxLength": 30
-                    },
-                    "name": {
-                        "type": "object",
-                        "properties": {
-                            "et": {
-                                "type": "string"
-                            },
-                            "en": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "et"
-                        ]
-                    },
-                    "valid_from_date": {
-                        "type": "string",
-                        "format": "date"
-                    },
-                    "valid_until_date": {
-                        "type": "string",
-                        "format": "date"
-                    }
+              "properties": {
+                "code": {
+                  "pattern": "^\\d{6}$"
                 }
+              }
             }
+          }
         }
+      }
     },
-    "anyOf": [
-        {
-            "if": {
-                "code": {
-                    "const": "MAJANDUSLIKSISU2024ap"
-                }
-            },
-            "then": {
-                "properties": {
-                    "elements": {
-                        "items": {
-                            "properties": {
-                                "code": {
-                                    "pattern": "^\\d{6}$"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "if": {
-                "code": {
-                    "const": "VARAGRUPP2024ap"
-                }
-            },
-            "then": {
-                "properties": {
-                    "elements": {
-                        "items": {
-                            "properties": {
-                                "code": {
-                                    "pattern": "^VG_\\d{3}$"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "if": {
-                "code": {
-                    "const": "ANDMETEESITLUSVIIS2024ap"
-                }
-            },
-            "then": {
-                "properties": {
-                    "elements": {
-                        "items": {
-                            "properties": {
-                                "code": {
-                                    "pattern": "^AE_\\d{2}$"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "if": {
-                "classification_code": {
-                    "const": "SEOTUDOSAPOOL2024ap"
-                }
-            },
-            "then": {
-                "properties": {
-                    "elements": {
-                        "items": {
-                            "properties": {
-                                "code": {
-                                    "pattern": "^SOP_\\d{2}$"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "if": {
-                "classification_code": {
-                    "const": "MUUTUSELIIK2024ap"
-                }
-            },
-            "then": {
-                "properties": {
-                    "elements": {
-                        "items": {
-                            "properties": {
-                                "code": {
-                                    "pattern": "^ML_\\d{2}$"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "if": {
-                "classification_code": {
-                    "const": "RTK2T2013ap"
-                }
-            },
-            "then": {
-                "properties": {
-                    "elements": {
-                        "items": {
-                            "properties": {
-                                "code": {
-                                    "pattern": "^[A-Z]{2}$"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "if": {
-                "code": {
-                    "const": "EMTAK2008ap"
-                }
-            },
-            "then": {
-                "properties": {
-                    "elements": {
-                        "items": {
-                            "properties": {
-                                "code": {
-                                    "pattern": "^\\d{5}$"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+    {
+      "if": {
+        "code": {
+          "const": "VARAGRUPP2024ap"
         }
-    ]
+      },
+      "then": {
+        "properties": {
+          "elements": {
+            "items": {
+              "properties": {
+                "code": {
+                  "pattern": "^VG_\\d{3}$"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "code": {
+          "const": "ANDMETEESITLUSVIIS2024ap"
+        }
+      },
+      "then": {
+        "properties": {
+          "elements": {
+            "items": {
+              "properties": {
+                "code": {
+                  "pattern": "^AE_\\d{2}$"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "classification_code": {
+          "const": "SEOTUDOSAPOOL2024ap"
+        }
+      },
+      "then": {
+        "properties": {
+          "elements": {
+            "items": {
+              "properties": {
+                "code": {
+                  "pattern": "^SOP_\\d{2}$"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "classification_code": {
+          "const": "MUUTUSELIIK2024ap"
+        }
+      },
+      "then": {
+        "properties": {
+          "elements": {
+            "items": {
+              "properties": {
+                "code": {
+                  "pattern": "^ML_\\d{2}$"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "classification_code": {
+          "const": "RTK2T2013ap"
+        }
+      },
+      "then": {
+        "properties": {
+          "elements": {
+            "items": {
+              "properties": {
+                "code": {
+                  "pattern": "^[A-Z]{2}$"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "code": {
+          "const": "EMTAK2008ap"
+        }
+      },
+      "then": {
+        "properties": {
+          "elements": {
+            "items": {
+              "properties": {
+                "code": {
+                  "pattern": "^\\d{5}$"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
 }

@@ -1,0 +1,67 @@
+{
+  "Report components": [
+    {
+      "code": "BS",
+      "name": {
+        "et": "Bilanss",
+        "en": "Statement of financial position"
+      },
+      "component-type": "statement",
+      "pattern": { "accountMainID": "^[123456]\\d{5}$" }
+    },
+    {
+      "code": "IS",
+      "name": {
+        "et": "Kasumiaruanne",
+        "en": "Income Statement"
+      },
+      "component-type": "statement",
+      "pattern": { "accountMainID": "^[456]\\d{5}$" }
+    },
+    {
+      "code": "CIE",
+      "name": {
+        "et": "Omakapitali muutuste aruanne",
+        "en": "Statement on Changes in Equity"
+      },
+      "component-type": "statement",
+      "pattern": { "accountMainID": "^[3456]\\d{5}$" }
+    },
+    {
+      "code": "Note-Cash",
+      "name": {
+        "et": "Lisa: Raha",
+        "en": "Note: Cash and cash equivalents"
+      },
+      "component-type": "Note",
+      "pattern": { "accountMainID": "^101\\d{3}$" }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short",
+      "name": {
+        "et": "Lisa: Lühiajalised finantsinevsteeringud",
+        "en": "Note: Current financial Investments"
+      },
+      "component-type": "Note",
+      "pattern": { "accountMainID": "^102\\d{2}0$" }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long",
+      "name": {
+        "et": "Lisa: Lühiajalised finantsinevsteeringud",
+        "en": "Note: Current financial Investments"
+      },
+      "component-type": "Note",
+      "pattern": { "accountMainID": "^102\\d{2}1$" }
+    },
+    {
+      "code": "Note-ShareCapital",
+      "name": {
+        "et": "Lisa: Osakapital",
+        "en": "Note: Share capital"
+      },
+
+      "pattern": { "accountMainID": "^3150\\d{1}1$" }
+    }
+  ]
+}
