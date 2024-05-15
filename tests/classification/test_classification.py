@@ -13,6 +13,5 @@ class TestClassification():
 
     def test_is_code_correct(self):
         cls_presentation = Classification("ANDMETEESITLUSVIIS2024ap")
-        assert len(cls_presentation.element_codes) == 0
         assert cls_presentation.is_code_correct("AE_15") == True
         assert cls_presentation.is_code_correct("AX_15") == False

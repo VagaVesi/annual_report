@@ -4,6 +4,7 @@
 
 
 from json import loads
+from report_data.report_data import generate_mapping_rules
 from tools.json_validator import validate
 from path import Path
 
@@ -22,14 +23,16 @@ def main():
     # save_dataset(dataset)
 
     """Validate json file."""
-    file_name = "annual_report/agregator/output/11308014-2024-05-13T14:14:07:726.json"
-    schema = "annual_report/json_shemas/EE0301020_schema.json"
+    # file_name = "annual_report/agregator/output/11308014-2024-05-13T14:14:07:726.json"
+    # schema = "annual_report/json_shemas/EE0301020_schema.json"
 
-    if Path(file_name).exists():
-        dataset = loads(Path(file_name).read_text())
-    result = validate(dataset, schema)
+    # if Path(file_name).exists():
+    #     dataset = loads(Path(file_name).read_text())
+    # result = validate(dataset, schema)
+    # print(result)
 
-    print(result)
+    """Generate report elemets"""
+    generate_mapping_rules()
 
 
 if __name__ == "__main__":

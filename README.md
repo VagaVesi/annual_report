@@ -9,4 +9,4 @@ Steps
 5. Validate dataset with schema - OK
 6. Prepare report mapping rules (JSON format) - OK
 7. Convert XBRL-GL annual data to Annual Report elememnts using mapping rules -> store result in json
-8. Generata simple Annual Report object from Annual Report elements
+8. Generate simple Annual Report object from Annual Report elements

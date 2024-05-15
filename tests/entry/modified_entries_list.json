@@ -697,6 +697,72 @@
                     "amount": 200.0
                 }
             ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 22,
+                "postingDate": "2024-05-15",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 23,
+                "postingDate": "2024-05-15",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMain": {
+                        "accountMainID": "101020",
+                        "name": {
+                            "et": "Raha - Arvelduskontod"
+                        }
+                    },
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMain": {
+                        "accountMainID": "101030",
+                        "name": {
+                            "et": "Raha - Hoiused"
+                        }
+                    },
+                    "debitCreditCode": "C",
+                    "amount": 200.0
+                }
+            ]
         }
     ]
 }

@@ -91,6 +91,9 @@ class Classification:
             self.name = classification["name"]
             self.__elements = make_elements_list(classification["elements"])
             self.element_codes = set()
+            if len(self.element_codes) == 0:
+                for item in self.__elements:
+                    self.element_codes.add(item.code)
 
     @property
     def elements(self):
@@ -106,9 +109,7 @@ class Classification:
 
         returns (boolean): If valid return True
         """
-        if len(self.element_codes) == 0:
-            for item in self.__elements:
-                self.element_codes.add(item.code)
+
         if element_code in self.element_codes:
             return True
         else:

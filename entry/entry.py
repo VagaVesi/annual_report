@@ -1,8 +1,8 @@
 """Module for adding sample entries and validate entries"""
 from datetime import date
 from json import dumps, loads
-
 from path import Path
+
 from classifications.classification import Classification
 from entry.entry_validation_error import EntryValidationError, ValidationErrorType
 

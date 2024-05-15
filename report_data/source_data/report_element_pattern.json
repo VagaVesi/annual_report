@@ -1,0 +1,86 @@
+{
+  "Report element pattern": [
+    {
+      "code": "BS-AssetsShort-Cash",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^101\\d{3}$" }
+    },
+    {
+      "code": "BS-AssetsShort-FinancialInvestments",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^102\\d{2}0$" }
+    },
+    {
+      "code": "BS-AssetsShort-ReceivablesAndPrepayments",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^10[345]\\d{2}0$" }
+    },
+    {
+      "code": "BS-AssetsShort-Inventories",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^106\\d{3}$" }
+    },
+    {
+      "code": "BS-AssetsShort-Total",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^1\\d{4}0$" }
+    },
+    {
+      "code": "BS-Assets-Total",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^1\\d{5}$" }
+    },
+    {
+      "code": "BS-Equity-IssuedCapital",
+      "elements": { "MAJANDUSLIKSISU2024ap": ["315011"] }
+    },
+    {
+      "code": "BS-Equity-RetainedEarningsLoss",
+      "elements": { "MAJANDUSLIKSISU2024ap": ["317011"] }
+    },
+    {
+      "code": "BS-Equity-AnnualPeriodProfitLoss",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^[456]\\d{5}$" },
+      "elements": { "MAJANDUSLIKSISU2024ap": ["317021"] }
+    },
+    {
+      "code": "BS-Equity-Total",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^[3456]\\d{5}$" }
+    },
+    {
+      "code": "BS-LiabilitiesAndEquity-Total",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^[23456]\\d{5}$" }
+    },
+    {
+      "code": "IS-Revenue",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^4\\d{5}$" }
+    },
+    {
+      "code": "IS-NetProfit",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^[456]\\d{5}$" }
+    },
+    {
+      "code": "CIE-Equity-IssuedCapital-Closing-Balance",
+      "elements": { "MAJANDUSLIKSISU2024ap": ["315011"] }
+    },
+    {
+      "code": "CIE-AnnualPeriodProfitLoss-Closing-Balance",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^[456]\\d{5}$" },
+      "elements": { "MAJANDUSLIKSISU2024ap": ["317021"] }
+    },
+    {
+      "code": "Note-Cash-CashInHand",
+      "elements": { "MAJANDUSLIKSISU2024ap": ["101010"] }
+    },
+    {
+      "code": "Note-Cash-BankAccounts",
+      "elements": { "MAJANDUSLIKSISU2024ap": ["101020"] }
+    },
+    {
+      "code": "Note-Cash-Deposits",
+      "elements": { "MAJANDUSLIKSISU2024ap": ["101030"] }
+    },
+    {
+      "code": "Note-Cash-Total",
+      "pattern": { "MAJANDUSLIKSISU2024ap": "^101\\d{3}$" }
+    },
+    {
+      "code": "Note-ShareCapital",
+      "elements": { "MAJANDUSLIKSISU2024ap": ["315011"] }
+    }
+  ]
+}

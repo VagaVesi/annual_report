@@ -1,10 +1,11 @@
 """Agregator finds available combinations and agregates debit and credit amounts."""
 from datetime import datetime
 from json import dumps
-
-from path import Path
-from entry.entry import load_entries
 import time
+from path import Path
+
+from entry.entry import load_entries
+
 
 DATASET_OUTPUT_PATH = "annual_report/agregator/output/"
 
