@@ -8,6 +8,7 @@ from classifications.classification import Classification
 CLASSIFICATIONS = ["MAJANDUSLIKSISU2024ap"]
 ELEMENT_CODES = {}
 SOURCE_DATA_PATH = "annual_report/report_data/source_data/"
+OUTPUT_PATH = "annual_report/report_data/output/"
 
 
 class ReportData():
@@ -72,10 +73,9 @@ def find_elements_based_pattern(classification: str, pattern: str) -> list:
     return result
 
 
-def generate_mapping_rules(pattern_file="report_element_pattern.json", output_file_name="report_element_mapping_rules.json", ):
+def generate_report_element_accounts_selection_rules(pattern_file="report_element_pattern.json") -> dict:
     """Generate mapping JSON file based on pattern."""
     source_path = Path(SOURCE_DATA_PATH + pattern_file)
-    output_path = Path(SOURCE_DATA_PATH + output_file_name)
     if source_path.exists:
         mapping_rules = []
         pattern_source = loads(source_path.read_text(encoding="utf-8"))
@@ -94,8 +94,46 @@ def generate_mapping_rules(pattern_file="report_element_pattern.json", output_fi
                         element_codes[classification] = item["elements"][classification]
             mapping_rules.append({
                 "code": item["code"],
-                "mapping_rule": element_codes
+                "selection_rule": element_codes
             })
-        rules_update = {"Report element mapping rules": mapping_rules}
-        output_path.write_text(dumps(rules_update,
-                                     indent=4, ensure_ascii=False), encoding="utf-8")
+        return {"Report element mapping rules": mapping_rules}
+
+
+def save_as_json(data: dict,  output_file_name: str):
+    output_path = Path(SOURCE_DATA_PATH + output_file_name + ".json")
+    output_path.write_text(
+        dumps(data, indent=4, ensure_ascii=False), encoding="utf-8")
+
+
+def generate_account_combination_report_elements_mapping_rules(pattern_file="report_element_pattern.json") -> dict:
+    source = generate_report_element_accounts_selection_rules(pattern_file)
+    result = {}
+    for item in source["Report element mapping rules"]:
+        combinations = []
+        for mainAccountId in item["selection_rule"]["MAJANDUSLIKSISU2024ap"]:
+            combinations.append(mainAccountId)
+        if "VARAGRUPP2024ap" in item["selection_rule"].keys():
+            combinations = make_combinations(
+                combinations, item["selection_rule"]["VARAGRUPP2024ap"])
+        else:
+            combinations = make_combinations(combinations, ["*"])
+        if "MUUTUSELIIK2024ap" in item["selection_rule"].keys():
+            combinations = make_combinations(
+                combinations, item["selection_rule"]["MUUTUSELIIK2024ap"])
+        else:
+            combinations = make_combinations(combinations, ["*"])
+
+        for combination in combinations:
+            if combination not in result.keys():
+                result[combination] = []
+            result[combination].append(item["code"])
+    return result
+
+
+def make_combinations(list1: list, list2: list) -> list:
+    """Make list on combinations based on two list elements"""
+    combinations = []
+    for i1 in list1:
+        for i2 in list2:
+            combinations.append(f"{i1}-{i2}")
+    return combinations

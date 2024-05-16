@@ -6,7 +6,45 @@
     },
     {
       "code": "BS-AssetsShort-FinancialInvestments",
-      "pattern": { "MAJANDUSLIKSISU2024ap": "^102\\d{2}0$" }
+      "elements": { "MAJANDUSLIKSISU2024ap": ["102010"] }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-Aquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-ProfitLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"],
+        "MUUTUSELIIK2024ap": ["ML_23", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-FundUnits-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_202"]
+      }
     },
     {
       "code": "BS-AssetsShort-ReceivablesAndPrepayments",

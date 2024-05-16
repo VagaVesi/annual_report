@@ -4,7 +4,7 @@
 
 
 from json import loads
-from report_data.report_data import generate_mapping_rules
+from report_data.report_data import generate_report_element_accounts_selection_rules, generate_account_combination_report_elements_mapping_rules, save_as_json
 from tools.json_validator import validate
 from path import Path
 
@@ -31,8 +31,11 @@ def main():
     # result = validate(dataset, schema)
     # print(result)
 
-    """Generate report elemets"""
-    generate_mapping_rules()
+    """Generate report elemens from dataset"""
+    mapping1 = generate_report_element_accounts_selection_rules()
+    mapping2 = generate_account_combination_report_elements_mapping_rules()
+    save_as_json(mapping1, "report_element_accounts_selection_rules")
+    save_as_json(mapping2, "account_combination_report_elements_mapping")
 
 
 if __name__ == "__main__":

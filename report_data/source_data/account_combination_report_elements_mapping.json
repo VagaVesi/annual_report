@@ -1,0 +1,747 @@
+{
+  "101030-*-*": [
+    "BS-AssetsShort-Cash",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total",
+    "Note-Cash-Deposits",
+    "Note-Cash-Total"
+  ],
+  "101010-*-*": [
+    "BS-AssetsShort-Cash",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total",
+    "Note-Cash-CashInHand",
+    "Note-Cash-Total"
+  ],
+  "101990-*-*": [
+    "BS-AssetsShort-Cash",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total",
+    "Note-Cash-Total"
+  ],
+  "101020-*-*": [
+    "BS-AssetsShort-Cash",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total",
+    "Note-Cash-BankAccounts",
+    "Note-Cash-Total"
+  ],
+  "102010-*-*": [
+    "BS-AssetsShort-FinancialInvestments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "102010-VG_201-*": ["Note-FinancialInvestments-Short-Shares-ClosingBalance"],
+  "102010-VG_201-ML_11": ["Note-FinancialInvestments-Short-Shares-Aquisition"],
+  "102010-VG_201-ML_12": ["Note-FinancialInvestments-Short-Shares-Disposal"],
+  "102010-VG_201-ML_23": ["Note-FinancialInvestments-Short-Shares-ProfitLoss"],
+  "102010-VG_201-ML_13": ["Note-FinancialInvestments-Short-Shares-ProfitLoss"],
+  "102010-VG_202-*": [
+    "Note-FinancialInvestments-Short-FundUnits-ClosingBalance"
+  ],
+  "103050-*-*": [
+    "BS-AssetsShort-ReceivablesAndPrepayments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "103020-*-*": [
+    "BS-AssetsShort-ReceivablesAndPrepayments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "103990-*-*": [
+    "BS-AssetsShort-ReceivablesAndPrepayments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "103030-*-*": [
+    "BS-AssetsShort-ReceivablesAndPrepayments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "103060-*-*": [
+    "BS-AssetsShort-ReceivablesAndPrepayments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "103010-*-*": [
+    "BS-AssetsShort-ReceivablesAndPrepayments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "104020-*-*": [
+    "BS-AssetsShort-ReceivablesAndPrepayments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "105990-*-*": [
+    "BS-AssetsShort-ReceivablesAndPrepayments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "103040-*-*": [
+    "BS-AssetsShort-ReceivablesAndPrepayments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "105010-*-*": [
+    "BS-AssetsShort-ReceivablesAndPrepayments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "104010-*-*": [
+    "BS-AssetsShort-ReceivablesAndPrepayments",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "106020-*-*": [
+    "BS-AssetsShort-Inventories",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "106050-*-*": [
+    "BS-AssetsShort-Inventories",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "106030-*-*": [
+    "BS-AssetsShort-Inventories",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "106040-*-*": [
+    "BS-AssetsShort-Inventories",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "106990-*-*": [
+    "BS-AssetsShort-Inventories",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "106010-*-*": [
+    "BS-AssetsShort-Inventories",
+    "BS-AssetsShort-Total",
+    "BS-Assets-Total"
+  ],
+  "107020-*-*": ["BS-AssetsShort-Total", "BS-Assets-Total"],
+  "107010-*-*": ["BS-AssetsShort-Total", "BS-Assets-Total"],
+  "108011-*-*": ["BS-Assets-Total"],
+  "111031-*-*": ["BS-Assets-Total"],
+  "103041-*-*": ["BS-Assets-Total"],
+  "111021-*-*": ["BS-Assets-Total"],
+  "111011-*-*": ["BS-Assets-Total"],
+  "107021-*-*": ["BS-Assets-Total"],
+  "109021-*-*": ["BS-Assets-Total"],
+  "102011-*-*": ["BS-Assets-Total"],
+  "110011-*-*": ["BS-Assets-Total"],
+  "103011-*-*": ["BS-Assets-Total"],
+  "103991-*-*": ["BS-Assets-Total"],
+  "105991-*-*": ["BS-Assets-Total"],
+  "104011-*-*": ["BS-Assets-Total"],
+  "110041-*-*": ["BS-Assets-Total"],
+  "110051-*-*": ["BS-Assets-Total"],
+  "103061-*-*": ["BS-Assets-Total"],
+  "103051-*-*": ["BS-Assets-Total"],
+  "109041-*-*": ["BS-Assets-Total"],
+  "109011-*-*": ["BS-Assets-Total"],
+  "107011-*-*": ["BS-Assets-Total"],
+  "105011-*-*": ["BS-Assets-Total"],
+  "110021-*-*": ["BS-Assets-Total"],
+  "110031-*-*": ["BS-Assets-Total"],
+  "111041-*-*": ["BS-Assets-Total"],
+  "109051-*-*": ["BS-Assets-Total"],
+  "109031-*-*": ["BS-Assets-Total"],
+  "103031-*-*": ["BS-Assets-Total"],
+  "315011-*-*": [
+    "BS-Equity-IssuedCapital",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "CIE-Equity-IssuedCapital-Closing-Balance",
+    "Note-ShareCapital"
+  ],
+  "317011-*-*": [
+    "BS-Equity-RetainedEarningsLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total"
+  ],
+  "619072-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520102-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "619022-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "418052-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-Revenue",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "522012-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520052-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520012-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "619042-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "623032-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520382-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "619062-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "623042-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "625012-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "619032-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520032-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520492-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520132-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "418042-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-Revenue",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "521992-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520042-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "521032-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "624012-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "624042-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "418012-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-Revenue",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520612-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520112-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520222-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "626992-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "623062-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520562-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520712-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "418992-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-Revenue",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520322-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520342-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520992-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "619082-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520412-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520022-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520402-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "619052-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520512-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520432-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520422-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520822-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520302-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520802-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "626012-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "623052-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520392-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "623022-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "624992-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520552-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520292-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520702-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "521102-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "623012-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520212-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520312-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "521112-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520202-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "624052-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520812-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520122-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "619012-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "418032-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-Revenue",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "624062-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "521012-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "418022-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-Revenue",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520332-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "623992-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "520572-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "619992-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "624032-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "521022-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "IS-NetProfit",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "317021-*-*": [
+    "BS-Equity-AnnualPeriodProfitLoss",
+    "BS-Equity-Total",
+    "BS-LiabilitiesAndEquity-Total",
+    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
+  ],
+  "315021-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
+  "315031-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
+  "315991-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
+  "316991-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
+  "315041-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
+  "316011-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
+  "315051-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
+  "204010-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "204070-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212021-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "213011-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "214021-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212050-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "214031-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212010-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "205991-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "204991-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "213990-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212071-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "214010-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "213020-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "204990-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "213021-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212080-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "204050-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212991-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "213991-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212060-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212030-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "205990-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "204030-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212011-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "205011-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212040-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212100-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "204100-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212990-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "204040-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212070-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212081-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212090-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212061-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "204090-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "204020-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "205010-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "213010-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "204080-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "204060-*-*": ["BS-LiabilitiesAndEquity-Total"],
+  "212020-*-*": ["BS-LiabilitiesAndEquity-Total"]
+}
