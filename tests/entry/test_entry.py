@@ -78,28 +78,19 @@ class TestEntry():
             "entryDetail": [
                 {
                     "lineNumber": 1,
-                    "accountMain": {
-                        "accountMainID": "101010",
-                        "name": {"et": "Raha - Sularaha"}
-                    },
+                    "accountMainID": "101010",
                     "debitCreditCode": "D",
                     "amount": 1003.01
                 },
                 {
                     "lineNumber": 2,
-                    "accountMain": {
-                        "accountMainID": "101020",
-                        "name": {"et": "Raha - Arvelduskontod"}
-                    },
+                    "accountMainID": "101020",
                     "debitCreditCode": "C",
                     "amount": 103.01
                 },
                 {
                     "lineNumber": 3,
-                    "accountMain": {
-                        "accountMainID": "101030",
-                        "name": {"et": "Raha - Hoiused"}
-                    },
+                    "accountMainID": "101030",
                     "debitCreditCode": "C",
                     "amount": 900.00
                 }
@@ -132,19 +123,13 @@ class TestEntry():
             "entryDetail": [
                 {
                     "lineNumber": 1,
-                    "accountMain": {
-                        "accountMainID": "101020",
-                        "name": {"et": "Raha - Arvelduskontod"}
-                    },
+                    "accountMainID": "101020",
                     "debitCreditCode": "D",
                     "amount": 2500.00
                 },
                 {
                     "lineNumber": 2,
-                    "accountMain": {
-                        "accountMainID": "315011",
-                        "name": {"et": "Omakapital - Registreeritud"}
-                    },
+                    "accountMainID": "315011",
                     "accountSub": {"MUUTUSELIIK2024ap": "ML_11"},
                     "debitCreditCode": "C",
                     "amount": 2500.00

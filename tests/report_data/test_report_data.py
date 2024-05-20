@@ -1,4 +1,6 @@
-from annual_report.report_data.report_data import find_elements_based_pattern, make_combinations
+from json import loads
+from path import Path
+from annual_report.report_data.report_data import ReportData, ReportElement, find_gl_element_codes_based_pattern, make_combinations
 
 
 class TestReportData():
@@ -9,7 +11,8 @@ class TestReportData():
         classification = "MAJANDUSLIKSISU2024ap"
         pattern = "^101\\d{3}$"
 
-        element_list = find_elements_based_pattern(classification, pattern)
+        element_list = find_gl_element_codes_based_pattern(
+            classification, pattern)
         assert len(element_list) == 4
 
     def test_make_combinations_first_list_1_element_second_3_elements(self):
@@ -32,3 +35,56 @@ class TestReportData():
         combinations = make_combinations(list1, list2)
         assert len(combinations) == 2
         assert combinations[1] == "ACCOUNT2-*"
+
+    def test_report_data_is_element_in_list(self):
+        """Test returning elements by name if they """
+        path = Path(
+            "annual_report/tests/report_data/source_data/sample_dataset_micro.json")
+        sample_dataset = loads(path.read_text(encoding="utf-8"))
+        report_data = ReportData(sample_dataset)
+        report_element = ReportElement("BS-AssetsShort-Cash")
+        report_data.report_elements.append(report_element)
+
+        assert report_data.is_element_in_list(
+            "BS-AssetsShort-Cash") == [report_element]
+        assert report_data.is_element_in_list("") == []
+
+    def test_report_data_find_elements_based_combination(self):
+        """Return elements based combination"""
+        path = Path(
+            "annual_report/tests/report_data/source_data/sample_dataset_micro.json")
+        sample_dataset = loads(path.read_text(encoding="utf-8"))
+        report_data = ReportData(sample_dataset)
+
+        elements1 = report_data.find_elements_based_combination(
+            "102010-VG_201-ML_11")
+        elements3 = report_data.find_elements_based_combination(
+            "102010-*-*")
+
+        assert elements1 == [
+            "Note-FinancialInvestments-Short-Shares-Aquisition"]
+
+        assert elements3 == [
+            "BS-AssetsShort-FinancialInvestments",
+            "BS-AssetsShort-Total",
+            "BS-Assets-Total"
+        ]
+
+    def test_calcucate_elements_values(self):
+        """Test report element calculations"""
+        path = Path(
+            "annual_report/tests/report_data/source_data/sample_dataset_micro.json")
+        sample_dataset = loads(path.read_text(encoding="utf-8"))
+        report_data = ReportData(sample_dataset)
+        report_data.calcucate_elements_values()
+
+        assert len(report_data.report_elements) > 1
+
+    def test_return_elements(self):
+        path = Path(
+            "annual_report/tests/report_data/source_data/sample_dataset_micro.json")
+        sample_dataset = loads(path.read_text(encoding="utf-8"))
+        report_data = ReportData(sample_dataset)
+        report_elements_for_xbrl = report_data.return_report_elements()
+
+        assert len(report_elements_for_xbrl) > 1

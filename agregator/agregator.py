@@ -8,59 +8,40 @@ from entry.entry import load_entries
 
 
 DATASET_OUTPUT_PATH = "annual_report/agregator/output/"
+DATASET_BALANCE_MICRO = "EE0301010"
+DATASET_BALANCE_STARDARD = "EE0301020"
+DATASET_CHANGES_STARDARD = "EE0302010"
+
+DATASET_CLASSIFICATIONS = {
+    DATASET_BALANCE_MICRO: ["MAJANDUSLIKSISU2024ap",
+                            "EMTAK2008ap", "SEOTUDOSAPOOL2024ap"],
+    DATASET_BALANCE_STARDARD: ["MAJANDUSLIKSISU2024ap",
+                               "EMTAK2008ap", "SEOTUDOSAPOOL2024ap", "ANDMETEESITLUSVIIS2024ap", "RTK2T2013ap", "VARAGRUPP2024ap"],
+    DATASET_CHANGES_STARDARD: ["MAJANDUSLIKSISU2024ap",
+                               "MUUTUSELIIK2024ap", "ANDMETEESITLUSVIIS2024ap", "VARAGRUPP2024ap", "SEOTUDOSAPOOL2024ap"]
+}
 
 
 class AgregatorEntries:
     """Agregate data by column combinations"""
 
-    def __init__(self, file_path: str) -> None:
+    def __init__(self) -> None:
         """Stores entry details for calculations in normalized structure."""
-        self.entries = []
-        self.combinations = {}
+        self.entries = []  # normalized entries
+        self.combinations = {}  # possible combinations based on entries
 
+    def add_normalized_entry(self, entry_normalized: dict):
+        """Add normalized entry to agregator"""
+        self.entries.append(entry_normalized)
+        self.combinations[entry_normalized["hash"]
+                          ] = entry_normalized["combination"]
+
+    def load_entries_from_file(self, file_path: str):
+        """Load entries from file"""
         for entry in load_entries(file_path)["entries"]:
             for entrydetail in entry["entryDetail"]:
-                entry_normalized = {
-                    "hash": {},
-                    "MainAccountId": entrydetail["accountMain"]["accountMainID"],
-                    "PresentationId": "",
-                    "AssetTypeId": "",
-                    "ChangeTypeId": "",
-                    "CountryId": "",
-                    "RelatedPartyId": "",
-                    "ActivityId": "",
-                    "DebitAmount": 0.0,
-                    "CreditAmount": 0.0
-                }
-                if "accountSub" in entrydetail.keys():
-                    for key, value in entrydetail["accountSub"].items():
-                        if key == "ANDMETEESITLUSVIIS2024ap":
-                            entry_normalized["PresentationId"] = value
-                        elif key == "VARAGRUPP2024ap":
-                            entry_normalized["AssetTypeId"] = value
-                        elif key == "MUUTUSELIIK2024ap":
-                            entry_normalized["ChangeTypeId"] = value
-                        elif key == "RTK2T2013ap":
-                            entry_normalized["CountryId"] = value
-                        elif key == "SEOTUDOSAPOOL2024ap":
-                            entry_normalized["RelatedPartyId"] = value
-                        elif key == "EMTAK2008ap":
-                            entry_normalized["ActivityId"] = value
-                if entrydetail["debitCreditCode"] == "D":
-                    entry_normalized["DebitAmount"] = entrydetail["amount"]
-                else:
-                    entry_normalized["CreditAmount"] = entrydetail["amount"]
-                combination = (entry_normalized["MainAccountId"],
-                               entry_normalized["PresentationId"],
-                               entry_normalized["AssetTypeId"],
-                               entry_normalized["ChangeTypeId"],
-                               entry_normalized["RelatedPartyId"],
-                               entry_normalized["CountryId"],
-                               entry_normalized["ActivityId"]
-                               )
-                entry_normalized["hash"] = hash(combination)
-                self.entries.append(entry_normalized)
-                self.combinations[entry_normalized["hash"]] = combination
+                entry_normalized = get_normalised_entry_detail(entrydetail)
+                self.add_normalized_entry(entry_normalized)
 
     def aggregate_combination_amounts(self) -> list:
         """Return combination and debit and credit amount total"""
@@ -74,7 +55,7 @@ class AgregatorEntries:
                 debit_amount_sum = debit_amount_sum + item["DebitAmount"]
                 credit_amount_sum = credit_amount_sum + item["CreditAmount"]
             result.append({"Combination": combination, "Debit_total": debit_amount_sum,
-                          "Credit_total": credit_amount_sum})
+                           "Credit_total": credit_amount_sum})
         return result
 
     def get_aggregated_entryDetail_for_dataset(self) -> list:
@@ -108,18 +89,37 @@ class AgregatorEntries:
         return entryDetail
 
 
-def generate_dataset_from_entries(file_path: str, entity_id: str, period_start: str, period_end: str) -> dict:
+class AgregatorEntriesDataSet(AgregatorEntries):
+    """Agregator modifies source data to generate dataset."""
+
+    def __init__(self, dataset_code: str, source_entries: AgregatorEntries) -> None:
+        """Make dataset specific entries list from agregated entries"""
+        super().__init__()
+        self.dataset = dataset_code
+        for entry in source_entries.entries:
+            self.__add_normalized_entry(entry, dataset_code)
+
+    def __add_normalized_entry(self, entry_normalized: dict):
+        """Add modified normalized entry to agregator"""
+        modified_entry = modify_data_according_dataset(
+            entry_normalized, self.dataset)
+        if modified_entry != {}:
+            self.entries.append(modified_entry)
+            self.combinations[modified_entry["hash"]
+                              ] = modified_entry["combination"]
+
+
+def generate_dataset_from_entries(source_data: AgregatorEntriesDataSet, entity_id: str, period_start: str, period_end: str) -> dict:
     """Aggregate data from entries and generate dataset.
 
-    param: 
-    file path(str): path to json file with entries  
+    param:
+    file path(str): path to json file with entries
     entity_id(str): entity identification code
     period_start(str): dataset period start in format 'YYYY-MM-DD'
     period_en(str): dataset period end in format 'YYYY-MM-DD'
 
     result: dataset
     """
-    source_data = AgregatorEntries(file_path)
     agregated_data = source_data.get_aggregated_entryDetail_for_dataset()
     report_timestamp = datetime.fromtimestamp(
         time.time()).strftime("%Y-%m-%dT%H:%M:%S:%f")
@@ -141,7 +141,7 @@ def generate_dataset_from_entries(file_path: str, entity_id: str, period_start: 
         },
         "datasets": [
             {
-                "entryNumber": "EE0301020",
+                "entryNumber": source_data.dataset,
                 "entryDetail": agregated_data
             }
         ]
@@ -155,3 +155,75 @@ def save_dataset(dataset_data: dict, dir=DATASET_OUTPUT_PATH):
     path = Path(dir + filename+".json")
     path.write_text(dumps(dataset_data, indent=4,
                     ensure_ascii=False), encoding="utf-8")
+
+
+def get_normalised_entry_detail(entrydetail: dict):
+    """Normalize entry details for calculations."""
+    entry_normalized = {
+        "hash": {},
+        "combination": None,
+        "MainAccountId": entrydetail["accountMainID"],
+        "PresentationId": "",
+        "AssetTypeId": "",
+        "ChangeTypeId": "",
+        "CountryId": "",
+        "RelatedPartyId": "",
+        "ActivityId": "",
+        "DebitAmount": 0.0,
+        "CreditAmount": 0.0
+    }
+    if "accountSub" in entrydetail.keys():
+        for key, value in entrydetail["accountSub"].items():
+            if key == "ANDMETEESITLUSVIIS2024ap":
+                entry_normalized["PresentationId"] = value
+            elif key == "VARAGRUPP2024ap":
+                entry_normalized["AssetTypeId"] = value
+            elif key == "MUUTUSELIIK2024ap":
+                entry_normalized["ChangeTypeId"] = value
+            elif key == "RTK2T2013ap":
+                entry_normalized["CountryId"] = value
+            elif key == "SEOTUDOSAPOOL2024ap":
+                entry_normalized["RelatedPartyId"] = value
+            elif key == "EMTAK2008ap":
+                entry_normalized["ActivityId"] = value
+    if entrydetail["debitCreditCode"] == "D":
+        entry_normalized["DebitAmount"] = entrydetail["amount"]
+    else:
+        entry_normalized["CreditAmount"] = entrydetail["amount"]
+    entry_normalized["combination"] = (entry_normalized["MainAccountId"],
+                                       entry_normalized["PresentationId"],
+                                       entry_normalized["AssetTypeId"],
+                                       entry_normalized["ChangeTypeId"],
+                                       entry_normalized["RelatedPartyId"],
+                                       entry_normalized["CountryId"],
+                                       entry_normalized["ActivityId"]
+                                       )
+    entry_normalized["hash"] = hash(entry_normalized["combination"])
+    return entry_normalized
+
+
+def modify_data_according_dataset(entry_normalized: dict, dataset_code: str) -> dict:
+    """Modify normalized entry baserd on dataset requirements"""
+    modified_entry = entry_normalized
+    if dataset_code == DATASET_BALANCE_MICRO:
+        modified_entry["PresentationId"] = ""
+        modified_entry["ChangeTypeId"] = ""
+        modified_entry["AssetTypeId"] = ""
+    if dataset_code == DATASET_BALANCE_STARDARD:
+        modified_entry["ChangeTypeId"] = ""
+    if dataset_code == DATASET_CHANGES_STARDARD:
+        if "ChangeTypeId" in modified_entry.keys():
+            return {}
+        else:
+            modified_entry["CountryId"] = ""
+            modified_entry["ActivityId"] = ""
+    modified_entry["combination"] = (modified_entry["MainAccountId"],
+                                     modified_entry["PresentationId"],
+                                     modified_entry["AssetTypeId"],
+                                     modified_entry["ChangeTypeId"],
+                                     modified_entry["RelatedPartyId"],
+                                     modified_entry["CountryId"],
+                                     modified_entry["ActivityId"]
+                                     )
+    modified_entry["hash"] = hash(modified_entry["combination"])
+    return modified_entry

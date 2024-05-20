@@ -4,40 +4,131 @@ import re
 from path import Path
 
 from classifications.classification import Classification
+from agregator.agregator import get_normalised_entry_detail
+
+SOURCE_DATA_PATH = "annual_report/report_data/source_data/"
+OUTPUT_PATH = "annual_report/report_data/output/"
+PATTERN_FILE = "report_element_pattern.json"
 
 CLASSIFICATIONS = ["MAJANDUSLIKSISU2024ap"]
 ELEMENT_CODES = {}
-SOURCE_DATA_PATH = "annual_report/report_data/source_data/"
-OUTPUT_PATH = "annual_report/report_data/output/"
 
 
 class ReportData():
     """Report holds its components"""
 
-    def __init__(self, dataset: dict) -> None:
+    def __init__(self, dataset: dict, pattern_file=PATTERN_FILE) -> None:
         """Init data for report based on dataset."""
         self.source_data = dataset
-        self.uniqueID = dataset["entityInformation"]["uniqueID"]
-        self.creator = dataset["entityInformation"]["creator"]
-        self.sourceApplication = dataset["entityInformation"]["sourceApplication"]
+        self.uniqueID = dataset["documentInfo"]["uniqueID"]
+        self.creator = dataset["documentInfo"]["creator"]
+        self.sourceApplication = dataset["documentInfo"]["sourceApplication"]
         self.organizationIdentifier = dataset["entityInformation"]["organizationIdentifier"]
         self.periodCoveredStart = dataset["documentInfo"]["periodCoveredStart"]
         self.periodCoveredEnd = dataset["documentInfo"]["periodCoveredEnd"]
-        self.datasets = []  # datasets codes are for finding report type
+        self.datasets = []  # datasets codes are needed for determine report type
         self.report_elements = []
-        self.values_calculated = False
+        self.is_values_calculated = False
+        self.element_finding_rules = generate_report_element_filtering_rules(
+            pattern_file)  # report element : filter input
+        self.account_combinations_mapping = self.generate_account_combination_report_elements_mapping_rules(
+            pattern_file)  # combination: [report elements]
+
+    def prepare_elements_list(self, dataset: dict):
+        """Based on dataset entries prepare report elements with source data."""
+        self.datasets.append(dataset["entryNumber"])
+        for entrydetail in dataset["entryDetail"]:
+            # find combination
+            combinations = [entrydetail["accountMainID"]]
+            if "accountSub" in entrydetail.keys():
+                if "VARAGRUPP2024ap" in entrydetail["accountSub"].keys():
+                    combinations = make_combinations(
+                        combinations, [entrydetail["accountSub"]["VARAGRUPP2024ap"]])
+                else:
+                    combinations = make_combinations(combinations, ["*"])
+                if "MUUTUSELIIK2024ap" in entrydetail["accountSub"].keys():
+                    combinations = make_combinations(
+                        combinations, [entrydetail["accountSub"]["MUUTUSELIIK2024ap"]])
+                else:
+                    combinations = make_combinations(combinations, ["*"])
+            else:
+                combinations = make_combinations(combinations, ["*-*"])
+            # add element to report_elements based on combination
+            for combination in combinations:
+                for element_code in self.find_elements_based_combination(combination):
+                    self.add_element_with_entry(element_code, entrydetail)
+
+    def find_elements_based_combination(self, combination: str) -> list:
+        """Find elememnts based combination."""
+        if combination in self.account_combinations_mapping.keys():
+            return self.account_combinations_mapping[combination]
+        else:
+            return []
+
+    def add_element_with_entry(self, element_name: str, entry: dict):
+        """Create ReportElement if not already in list. Add entry data for calculations."""
+        is_element = self.is_element_in_list(element_name)
+        if len(is_element) == 0:
+            element = ReportElement(element_name)
+            self.report_elements.append(element)
+        else:
+            element = is_element[0]
+        element.source_data.append(get_normalised_entry_detail(entry))
+
+    def is_element_in_list(self, element_code: str) -> list:
+        """Return elements if ReportElement exists in list."""
+        filtered = [
+            item for item in self.report_elements if item.code == element_code]
+        return [] if len(filtered) == 0 else filtered
 
     def calcucate_elements_values(self):
-        """Iter all elements in list and calculate values."""
-        # TODO
-        self.values_calculated = True
+        """Iter all entries and calculates report elements values."""
+        if len(self.report_elements) == 0:
+            for dataset in self.source_data["datasets"]:
+                self.prepare_elements_list(dataset)
+        for element in self.report_elements:
+            element.calculate_element_amount()
+        self.is_values_calculated = True
 
-    def return_result(self) -> dict:
-        """Returns calculated elements list as dict"""
-        if self.values_calculated == False:
+    def return_report_elements(self) -> list:
+        """Returns calculated report elements list"""
+        report_elements = []
+        if self.is_values_calculated == False:
             self.calcucate_elements_values()
-        # TODO
-        return {}
+        for element in self.report_elements:
+            report_elements.append(
+                {"code": element.code, "debitCreditCode": element.debitCreditCode, "amount": element.amount})
+
+        return report_elements
+
+    def generate_account_combination_report_elements_mapping_rules(self, pattern_file=PATTERN_FILE) -> dict:
+        """Generate account combination and list of report elements.
+
+        result: dict {mainAccountId-AssetsGroupId-ChangeTypeId: [report element codes]}
+        """
+        source = self.element_finding_rules if len(
+            self.element_finding_rules) > 1 else generate_report_element_filtering_rules(pattern_file)
+        result = {}
+        for item in source["Report element mapping rules"]:
+            combinations = []
+            for mainAccountId in item["filter_rule"]["MAJANDUSLIKSISU2024ap"]:
+                combinations.append(mainAccountId)
+            if "VARAGRUPP2024ap" in item["filter_rule"].keys():
+                combinations = make_combinations(
+                    combinations, item["filter_rule"]["VARAGRUPP2024ap"])
+            else:
+                combinations = make_combinations(combinations, ["*"])
+            if "MUUTUSELIIK2024ap" in item["filter_rule"].keys():
+                combinations = make_combinations(
+                    combinations, item["filter_rule"]["MUUTUSELIIK2024ap"])
+            else:
+                combinations = make_combinations(combinations, ["*"])
+
+            for combination in combinations:
+                if combination not in result.keys():
+                    result[combination] = []
+                result[combination].append(item["code"])
+        return result
 
 
 class ReportElement():
@@ -47,25 +138,32 @@ class ReportElement():
         self.code = code
         self.amount = 0.0
         self.debitCreditCode = ""
-        self.source_data = []
+        self.source_data = []  # entries in normalized format
 
     def calculate_element_amount(self):
         """Calculates element amount based on entryDetails."""
-        # TODO - calculate total amount and find D OR C
-        pass
+        debit_amount_sum = 0.0
+        credit_amount_sum = 0.0
+        for item in self.source_data:
+            debit_amount_sum = debit_amount_sum + item["DebitAmount"]
+            credit_amount_sum = credit_amount_sum + item["CreditAmount"]
+        debit_minus_credit = debit_amount_sum - credit_amount_sum
+        if debit_minus_credit != 0:
+            self.debitCreditCode = "D" if debit_minus_credit > 0 else "C"
+            self.amount = abs(debit_minus_credit)
 
 
-def load_element_codes_lists():
-    """Load classifications elements"""
+def load_gl_element_codes():
+    """Load classifications element codes."""
     for classification in CLASSIFICATIONS:
         ELEMENT_CODES[classification] = Classification(
             classification).element_codes
 
 
-def find_elements_based_pattern(classification: str, pattern: str) -> list:
-    """Rerurn list of elements matching pattern"""
+def find_gl_element_codes_based_pattern(classification: str, pattern: str) -> list:
+    """Return elements list based on pattern."""
     if len(ELEMENT_CODES) == 0:
-        load_element_codes_lists()
+        load_gl_element_codes()
     result = []
     for item in ELEMENT_CODES[classification]:
         if re.search(pattern, item) != None:
@@ -73,8 +171,8 @@ def find_elements_based_pattern(classification: str, pattern: str) -> list:
     return result
 
 
-def generate_report_element_accounts_selection_rules(pattern_file="report_element_pattern.json") -> dict:
-    """Generate mapping JSON file based on pattern."""
+def generate_report_element_filtering_rules(pattern_file=PATTERN_FILE) -> dict:
+    """Generate report element with list of gl-element to select."""
     source_path = Path(SOURCE_DATA_PATH + pattern_file)
     if source_path.exists:
         mapping_rules = []
@@ -83,7 +181,7 @@ def generate_report_element_accounts_selection_rules(pattern_file="report_elemen
             element_codes = {}
             if "pattern" in item.keys():
                 for classification in item["pattern"].keys():
-                    element_codes[classification] = find_elements_based_pattern(
+                    element_codes[classification] = find_gl_element_codes_based_pattern(
                         classification, item["pattern"][classification])
             if "elements" in item.keys():
                 for classification in item["elements"].keys():
@@ -94,40 +192,9 @@ def generate_report_element_accounts_selection_rules(pattern_file="report_elemen
                         element_codes[classification] = item["elements"][classification]
             mapping_rules.append({
                 "code": item["code"],
-                "selection_rule": element_codes
+                "filter_rule": element_codes
             })
         return {"Report element mapping rules": mapping_rules}
-
-
-def save_as_json(data: dict,  output_file_name: str):
-    output_path = Path(SOURCE_DATA_PATH + output_file_name + ".json")
-    output_path.write_text(
-        dumps(data, indent=4, ensure_ascii=False), encoding="utf-8")
-
-
-def generate_account_combination_report_elements_mapping_rules(pattern_file="report_element_pattern.json") -> dict:
-    source = generate_report_element_accounts_selection_rules(pattern_file)
-    result = {}
-    for item in source["Report element mapping rules"]:
-        combinations = []
-        for mainAccountId in item["selection_rule"]["MAJANDUSLIKSISU2024ap"]:
-            combinations.append(mainAccountId)
-        if "VARAGRUPP2024ap" in item["selection_rule"].keys():
-            combinations = make_combinations(
-                combinations, item["selection_rule"]["VARAGRUPP2024ap"])
-        else:
-            combinations = make_combinations(combinations, ["*"])
-        if "MUUTUSELIIK2024ap" in item["selection_rule"].keys():
-            combinations = make_combinations(
-                combinations, item["selection_rule"]["MUUTUSELIIK2024ap"])
-        else:
-            combinations = make_combinations(combinations, ["*"])
-
-        for combination in combinations:
-            if combination not in result.keys():
-                result[combination] = []
-            result[combination].append(item["code"])
-    return result
 
 
 def make_combinations(list1: list, list2: list) -> list:
@@ -137,3 +204,9 @@ def make_combinations(list1: list, list2: list) -> list:
         for i2 in list2:
             combinations.append(f"{i1}-{i2}")
     return combinations
+
+
+def save_as_json(data: dict,  output_file_name: str):
+    output_path = Path(SOURCE_DATA_PATH + output_file_name + ".json")
+    output_path.write_text(
+        dumps(data, indent=4, ensure_ascii=False), encoding="utf-8")

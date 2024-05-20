@@ -1,0 +1,41 @@
+{
+  "documentInfo": {
+    "uniqueID": "11308014-2024-05-13T14:14:07:726",
+    "language": "iso639:et",
+    "creationDate": "2024-05-13",
+    "creator": "EE37903216506",
+    "periodCoveredStart": "2023-01-01",
+    "periodCoveredEnd": "2023-12-31",
+    "sourceApplication": "python-test",
+    "defaultCurrency": "iso4217:eur"
+  },
+  "entityInformation": {
+    "organizationIdentifier": "11308014",
+    "organizationDescription": "e-äriregister"
+  },
+  "datasets": [
+    {
+      "entryNumber": "EE0301010",
+      "entryDetail": [
+        {
+          "lineNumberCounter": 1,
+          "accountMainID": "101010",
+          "debitCreditCode": "D",
+          "amount": 500.0
+        },
+        {
+          "lineNumberCounter": 2,
+          "accountMainID": "101020",
+          "debitCreditCode": "D",
+          "amount": 2000.0
+        },
+        {
+          "lineNumberCounter": 3,
+          "accountMainID": "315011",
+          "debitCreditCode": "C",
+          "amount": 2500.0
+        }
+      ]
+    }
+  ]
+}

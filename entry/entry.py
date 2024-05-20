@@ -139,10 +139,7 @@ def make_dict_from_entry(entry: Entry) -> dict:
     for item in entry.entry_details:
         line = {
             "lineNumber": item.line_number,
-            "accountMain": {
-                "accountMainID": item.main_account,
-                "name": MAIN_ACCOUNTS.get_element_name(item.main_account)
-            },
+            "accountMainID": item.main_account,
             "debitCreditCode": item.debit_credit,
             "amount": item.amount
         }
@@ -167,7 +164,7 @@ def make_entry_details_list_from_json(json_entry: str) -> list:
     entry_details = []
     for entry_detail in json_entry["entryDetail"]:
         line_number = entry_detail["lineNumber"]
-        account_main_id = entry_detail["accountMain"]["accountMainID"]
+        account_main_id = entry_detail["accountMainID"]
         if "accountSub" in entry_detail.keys():
             account_sub_list = entry_detail["accountSub"]
         else:
