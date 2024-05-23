@@ -7,7 +7,7 @@ from path import Path
 from entry.entry import load_entries
 
 
-DATASET_OUTPUT_PATH = "annual_report/agregator/output/"
+LEDGER_OUTPUT_PATH = "annual_report/agregator/output/"
 DATASET_BALANCE_MICRO = "EE0301010"
 DATASET_BALANCE_STARDARD = "EE0301020"
 DATASET_CHANGES_STARDARD = "EE0302010"
@@ -109,7 +109,7 @@ class AgregatorEntriesDataSet(AgregatorEntries):
                               ] = modified_entry["combination"]
 
 
-def generate_dataset_from_entries(source_data: AgregatorEntriesDataSet, entity_id: str, period_start: str, period_end: str) -> dict:
+def generate_ledger_from_entries(source_data: AgregatorEntriesDataSet, entity_id: str, period_start: str, period_end: str) -> dict:
     """Aggregate data from entries and generate dataset.
 
     param:
@@ -148,12 +148,12 @@ def generate_dataset_from_entries(source_data: AgregatorEntriesDataSet, entity_i
     }
 
 
-def save_dataset(dataset_data: dict, dir=DATASET_OUTPUT_PATH):
+def save_ledger(ledger: dict, dir=LEDGER_OUTPUT_PATH):
     """Save dataset data to json file"""
-    filename = dataset_data["documentInfo"]["uniqueID"]
+    filename = ledger["documentInfo"]["uniqueID"]
 
     path = Path(dir + filename+".json")
-    path.write_text(dumps(dataset_data, indent=4,
+    path.write_text(dumps(ledger, indent=4,
                     ensure_ascii=False), encoding="utf-8")
 
 

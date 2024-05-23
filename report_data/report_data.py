@@ -15,17 +15,17 @@ ELEMENT_CODES = {}
 
 
 class ReportData():
-    """Report holds its components"""
+    """Report holds its source data (ledger) and result (report elements)"""
 
-    def __init__(self, dataset: dict, pattern_file=PATTERN_FILE) -> None:
-        """Init data for report based on dataset."""
-        self.source_data = dataset
-        self.uniqueID = dataset["documentInfo"]["uniqueID"]
-        self.creator = dataset["documentInfo"]["creator"]
-        self.sourceApplication = dataset["documentInfo"]["sourceApplication"]
-        self.organizationIdentifier = dataset["entityInformation"]["organizationIdentifier"]
-        self.periodCoveredStart = dataset["documentInfo"]["periodCoveredStart"]
-        self.periodCoveredEnd = dataset["documentInfo"]["periodCoveredEnd"]
+    def __init__(self, ledger: dict, pattern_file=PATTERN_FILE) -> None:
+        """Init data to generate report elements."""
+        self.source_data = ledger
+        self.uniqueID = ledger["documentInfo"]["uniqueID"]
+        self.creator = ledger["documentInfo"]["creator"]
+        self.sourceApplication = ledger["documentInfo"]["sourceApplication"]
+        self.organizationIdentifier = ledger["entityInformation"]["organizationIdentifier"]
+        self.periodCoveredStart = ledger["documentInfo"]["periodCoveredStart"]
+        self.periodCoveredEnd = ledger["documentInfo"]["periodCoveredEnd"]
         self.datasets = []  # datasets codes are needed for determine report type
         self.report_elements = []
         self.is_values_calculated = False
@@ -35,7 +35,7 @@ class ReportData():
             pattern_file)  # combination: [report elements]
 
     def prepare_elements_list(self, dataset: dict):
-        """Based on dataset entries prepare report elements with source data."""
+        """Based on dataset entries prepare report elements."""
         self.datasets.append(dataset["entryNumber"])
         for entrydetail in dataset["entryDetail"]:
             # find combination
