@@ -1,4 +1,4 @@
-from tools.pattern import Pattern, make_pattern
+from tools.pattern import Pattern, make_pattern, return_pattern_and_elements_from_string
 
 
 class TestPattern():
@@ -43,3 +43,25 @@ class TestPattern():
         pattern = make_pattern(elements)
 
         assert pattern == "^11111\\d{1}$"
+
+    def test_return_pattern_and_elements_from_string_only_elements(self):
+        elements_string = "107011, 107021"
+        result = return_pattern_and_elements_from_string(elements_string)
+
+        assert result[0] == ""
+        assert result[1] == ["107011", "107021"]
+
+    def test_return_pattern_and_elements_from_string_pattern_and_element(self):
+        elements_string = "107011, 10**31"
+        result = return_pattern_and_elements_from_string(elements_string)
+
+        assert result[0] == "^10\\d{2}31$"
+        assert result[1] == ["107011"]
+
+    def test_init_pattern_generate_combinations(self):
+        """Generate combinations from xls"""
+        pattern_v1 = Pattern()
+        pattern_v1.generate_combinations()
+
+        assert pattern_v1.patterns["created"] != ""
+        assert len(pattern_v1.patterns["Report element pattern"]) > 1

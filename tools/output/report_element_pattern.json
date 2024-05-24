@@ -1,0 +1,3047 @@
+{
+  "created": "2024-05-24",
+  "Report element pattern": [
+    {
+      "code": "BS-AssetsShort-Cash",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^101\\d{3}$"
+      }
+    },
+    {
+      "code": "BS-AssetsShort-FinancialInvestments",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^102\\d{2}0$"
+      }
+    },
+    {
+      "code": "BS-AssetsShort-ReceivablesAndPrepayments",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10[345]\\d{2}0$"
+      }
+    },
+    {
+      "code": "BS-AssetsShort-Inventories",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^106\\d{3}$"
+      }
+    },
+    {
+      "code": "BS-AssetsShort-BiologicalAssets",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^107\\d{2}0$"
+      }
+    },
+    {
+      "code": "BS-AssetsShort-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^1\\d{4}0$"
+      }
+    },
+    {
+      "code": "BS-AssetsLong-InvestmentsInSubsidiariesAndAssociates",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^108\\d{2}0$"
+      }
+    },
+    {
+      "code": "BS-AssetsLong-FinancialInvestments",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^102\\d{2}1$"
+      }
+    },
+    {
+      "code": "BS-AssetsLong-ReceivablesAndPrepayments",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10[345]\\d{2}1$"
+      }
+    },
+    {
+      "code": "BS-AssetsLong-InvestmentProperty",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^109\\d{3}$"
+      }
+    },
+    {
+      "code": "BS-AssetsLong-PropertyPlantAndEquipment",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^110\\d{3}$"
+      }
+    },
+    {
+      "code": "BS-AssetsLong-BiologicalAssets",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^107\\d{2}1$"
+      }
+    },
+    {
+      "code": "BS-AssetsLong-IntangibleAssets",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^111\\d{3}$"
+      }
+    },
+    {
+      "code": "BS-AssetsLong-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^1\\d{4}1$"
+      }
+    },
+    {
+      "code": "BS-Assets-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^1\\d{5}$"
+      }
+    },
+    {
+      "code": "BS-LiabilitiesShort-LoanLiablities",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^212\\d{2}0$"
+      }
+    },
+    {
+      "code": "BS-LiabilitiesShort-PayablesAndPrepayments",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^2[01][245]\\d{2}0$"
+      }
+    },
+    {
+      "code": "BS-LiabilitiesShort-Provisions",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^213\\d{2}0$"
+      }
+    },
+    {
+      "code": "BS-LiabilitiesShort-GovernmentGrants",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^214\\d{2}0$"
+      }
+    },
+    {
+      "code": "BS-LiabilitiesShort-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^2\\d{4}0$"
+      }
+    },
+    {
+      "code": "BS-LiabilitiesLong-LoanLiablities",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^212\\d{2}1$"
+      }
+    },
+    {
+      "code": "BS-LiabilitiesLong-PayablesAndPrepayments",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^2[01][245]\\d{2}1$"
+      }
+    },
+    {
+      "code": "BS-LiabilitiesLong-Provisions",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^213\\d{2}1$"
+      }
+    },
+    {
+      "code": "BS-LiabilitiesLong-GovernmentGrants",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^214\\d{2}1$"
+      }
+    },
+    {
+      "code": "BS-LiabilitiesLong-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^2\\d{4}1$"
+      }
+    },
+    {
+      "code": "BS-Liabilities-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^2\\d{5}$"
+      }
+    },
+    {
+      "code": "BS-Equity-IssuedCapital",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["315011"]
+      }
+    },
+    {
+      "code": "BS-Equity-UnregistredEquity",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["315021"]
+      }
+    },
+    {
+      "code": "BS-Equity-UnpaidCapital",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["315031"]
+      }
+    },
+    {
+      "code": "BS-Equity-SharePremium",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["315041"]
+      }
+    },
+    {
+      "code": "BS-Equity-TreasuryShares",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["315051"]
+      }
+    },
+    {
+      "code": "BS-Equity-StatutoryReserveCapital",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["316011"]
+      }
+    },
+    {
+      "code": "BS-Equity-OtherEquity",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["315991"]
+      }
+    },
+    {
+      "code": "BS-Equity-RetainedEarningsLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["317011"]
+      }
+    },
+    {
+      "code": "BS-Equity-AnnualPeriodProfitLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["317021"]
+      }
+    },
+    {
+      "code": "BS-Equity-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^3\\d{4}1$"
+      }
+    },
+    {
+      "code": "BS-LiabilitiesAndEquity-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^3\\d{5}$"
+      }
+    },
+    {
+      "code": "Note-Cash-CashInHand",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["101010"]
+      }
+    },
+    {
+      "code": "Note-Cash-BankAccounts",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["101020"]
+      }
+    },
+    {
+      "code": "Note-Cash-Deposits",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["101030"]
+      }
+    },
+    {
+      "code": "Note-Cash-Other",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["101990"]
+      }
+    },
+    {
+      "code": "Note-Cash-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^101\\d{3}$"
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-ProfitLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"],
+        "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-CorrectedCostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Shares-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102010"],
+        "VARAGRUPP2024ap": ["VG_201"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-FundUnits-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102020"],
+        "VARAGRUPP2024ap": ["VG_202"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-FundUnits-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102020"],
+        "VARAGRUPP2024ap": ["VG_202"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-FundUnits-ProfitLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102020"],
+        "VARAGRUPP2024ap": ["VG_202"],
+        "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-FundUnits-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102020"],
+        "VARAGRUPP2024ap": ["VG_202"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-FundUnits-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102020"],
+        "VARAGRUPP2024ap": ["VG_202"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-FundUnits-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102020"],
+        "VARAGRUPP2024ap": ["VG_202"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-FundUnits-CorrectedCostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102020"],
+        "VARAGRUPP2024ap": ["VG_202"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-FundUnits-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102020"],
+        "VARAGRUPP2024ap": ["VG_202"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Bonds-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102030"],
+        "VARAGRUPP2024ap": ["VG_203"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Bonds-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102030"],
+        "VARAGRUPP2024ap": ["VG_203"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Bonds-ProfitLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102030"],
+        "VARAGRUPP2024ap": ["VG_203"],
+        "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Bonds-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102030"],
+        "VARAGRUPP2024ap": ["VG_203"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Bonds-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102030"],
+        "VARAGRUPP2024ap": ["VG_203"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Bonds-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102030"],
+        "VARAGRUPP2024ap": ["VG_203"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Bonds-CorrectedCostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102030"],
+        "VARAGRUPP2024ap": ["VG_203"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Bonds-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102030"],
+        "VARAGRUPP2024ap": ["VG_203"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Other-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "VARAGRUPP2024ap": ["VG_299"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Other-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "VARAGRUPP2024ap": ["VG_299"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Other-ProfitLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "VARAGRUPP2024ap": ["VG_299"],
+        "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Other-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "VARAGRUPP2024ap": ["VG_299"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Other-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "VARAGRUPP2024ap": ["VG_299"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Other-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "VARAGRUPP2024ap": ["VG_299"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Other-CorrectedCostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "VARAGRUPP2024ap": ["VG_299"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Other-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "VARAGRUPP2024ap": ["VG_299"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Acquisition-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-Disposal-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-ProfitLoss-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-OtherMovements-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-ClosingBalance-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-FairValue-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-CorrectedCostValue-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Short-CostValue-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102990"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Shares-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102011"],
+        "VARAGRUPP2024ap": ["VG_201"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Shares-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102011"],
+        "VARAGRUPP2024ap": ["VG_201"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Shares-ProfitLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102011"],
+        "VARAGRUPP2024ap": ["VG_201"],
+        "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Shares-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102011"],
+        "VARAGRUPP2024ap": ["VG_201"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Shares-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102011"],
+        "VARAGRUPP2024ap": ["VG_201"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Shares-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102011"],
+        "VARAGRUPP2024ap": ["VG_201"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Shares-CorrectedCostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102011"],
+        "VARAGRUPP2024ap": ["VG_201"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Shares-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102011"],
+        "VARAGRUPP2024ap": ["VG_201"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-FundUnits-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102021"],
+        "VARAGRUPP2024ap": ["VG_202"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-FundUnits-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102021"],
+        "VARAGRUPP2024ap": ["VG_202"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-FundUnits-ProfitLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102021"],
+        "VARAGRUPP2024ap": ["VG_202"],
+        "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-FundUnits-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102021"],
+        "VARAGRUPP2024ap": ["VG_202"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-FundUnits-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102021"],
+        "VARAGRUPP2024ap": ["VG_202"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-FundUnits-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102021"],
+        "VARAGRUPP2024ap": ["VG_202"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-FundUnits-CorrectedCostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102021"],
+        "VARAGRUPP2024ap": ["VG_202"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-FundUnits-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102021"],
+        "VARAGRUPP2024ap": ["VG_202"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Bonds-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102031"],
+        "VARAGRUPP2024ap": ["VG_203"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Bonds-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102031"],
+        "VARAGRUPP2024ap": ["VG_203"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Bonds-ProfitLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102031"],
+        "VARAGRUPP2024ap": ["VG_203"],
+        "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Bonds-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102031"],
+        "VARAGRUPP2024ap": ["VG_203"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Bonds-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102031"],
+        "VARAGRUPP2024ap": ["VG_203"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Bonds-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102031"],
+        "VARAGRUPP2024ap": ["VG_203"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Bonds-CorrectedCostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102031"],
+        "VARAGRUPP2024ap": ["VG_203"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Bonds-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102031"],
+        "VARAGRUPP2024ap": ["VG_203"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Other-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "VARAGRUPP2024ap": ["VG_299"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Other-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "VARAGRUPP2024ap": ["VG_299"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Other-ProfitLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "VARAGRUPP2024ap": ["VG_299"],
+        "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Other-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "VARAGRUPP2024ap": ["VG_299"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Other-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "VARAGRUPP2024ap": ["VG_299"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Other-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "VARAGRUPP2024ap": ["VG_299"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Other-CorrectedCostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "VARAGRUPP2024ap": ["VG_299"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Other-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "VARAGRUPP2024ap": ["VG_299"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Acquisition-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-Disposal-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-ProfitLoss-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-OtherMovements-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-ClosingBalance-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-FairValue-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-CorrectedCostValue-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"]
+      }
+    },
+    {
+      "code": "Note-FinancialInvestments-Long-CostValue-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["102991"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-AccountsReceivables",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10301\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-AllowanceForDoubtfulReceivables",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10302\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^103\\d{3}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^1040[12]\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-LoanReceivables",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10303\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-InterestReceivables",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10304\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-DividendReceivables",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10305\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-AccruedIncome",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10306\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-OtherReceivables",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10399\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-DeferredExpenses",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10501\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10599\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10[2345]\\d{2}0$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-AccountsReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103010"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-AllowanceForDoubtfulReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103020"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^103\\d{2}0$",
+        "SEOTUDOSAPOOL2024ap": "^SOP_\\d{2}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-TaxPrepaymentsAndReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["104010", "104020"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-LoanReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103030"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-InterestReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103040"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-DividendReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103050"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-AccruedIncome",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103060"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-OtherReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103990"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-DeferredExpenses",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["105010"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-OtherPaidPrepayments",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["105990"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Short-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10[2345]\\d{2}0$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Long-AccountsReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103011"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^103\\d{2}1$",
+        "SEOTUDOSAPOOL2024ap": "^SOP_\\d{2}$"
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Long-TaxPrepaymentsAndReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["104011"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Long-LoanReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103031"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Long-InterestReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103041"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Long-DividendReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103051"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Long-AccruedIncome",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103061"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Long-OtherReceivables",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["103991"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Long-DeferredExpenses",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["105011"]
+      }
+    },
+    {
+      "code": "Note-ReceivablesAndPrepayments-Long-OtherPaidPrepayments",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["105991"]
+      }
+    },
+    {
+      "code": "Note-AccountsReceivables-Receivables",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10301\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-AccountsReceivables-AllowanceForDoubtfulReceivables",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^10302\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-AccountsReceivables-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^1030[12]\\d{1}$"
+      }
+    },
+    {
+      "code": "Note-Inventories-RawMaterials",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["106010"]
+      }
+    },
+    {
+      "code": "Note-Inventories-WorkInProgress",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["106020"]
+      }
+    },
+    {
+      "code": "Note-Inventories-FinishedGoods",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["106030"]
+      }
+    },
+    {
+      "code": "Note-Inventories-Merchandise",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["106040"]
+      }
+    },
+    {
+      "code": "Note-Inventories-Prepayments",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["106050"]
+      }
+    },
+    {
+      "code": "Note-Inventories-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^106\\d{3}$"
+      }
+    },
+    {
+      "code": "Note-Taxes-Prepayments-CorporateIncomeTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20401\\d{1}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-ValueAddedTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20402\\d{1}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-PersonalIncomeTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20403\\d{1}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-FringeBenefitIncomeTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20404\\d{1}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-SocialTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20405\\d{1}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-ContributionsToMandatoryFundedPension",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20406\\d{1}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-UnemploymentInsuranceTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20407\\d{1}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-LandTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20408\\d{1}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-ExciseDutyTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20409\\d{1}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-Interest",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20410\\d{1}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-OtherTaxPrepaymentsAndLiabilities",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20499\\d{1}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-PrepaymentAccount",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^104\\d{3}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Prepayments-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^[12]04\\d{3}$"
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-CorporateIncomeTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20401\\d{1}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-ValueAddedTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20402\\d{1}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-PersonalIncomeTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20403\\d{1}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-FringeBenefitIncomeTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20404\\d{1}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-SocialTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20405\\d{1}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-ContributionsToMandatoryFundedPension",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20406\\d{1}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-UnemploymentInsuranceTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20407\\d{1}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-LandTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20408\\d{1}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-ExciseDutyTax",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20409\\d{1}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-Interest",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20410\\d{1}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-OtherTaxPrepaymentsAndLiabilities",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^20499\\d{1}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-Taxes-Liabilities-Total",
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^204\\d{3}$"
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-InvestmentsInSubsidiariesAndAssociates-SharesOfSubsidiaries",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["108011"],
+        "SEOTUDOSAPOOL2024ap": ["SOP_12"]
+      }
+    },
+    {
+      "code": "Note-InvestmentsInSubsidiariesAndAssociates-SharesOfAssociates",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["108011"],
+        "SEOTUDOSAPOOL2024ap": ["SOP_13"]
+      }
+    },
+    {
+      "code": "Note-InvestmentsInSubsidiariesAndAssociates-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["108011"],
+        "SEOTUDOSAPOOL2024ap": ["SOP_12", "SOP_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Animals-FairValueChange",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Animals-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Animals-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Animals-DecreaseToProduction",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Animals-IncreaseGrowth",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Animals-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Animals-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Animals-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Animals-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Animals-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-FairValueChange",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-DecreaseToProduction",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-IncreaseGrowth",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-ClosingBalance-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-ClosingBalance-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-ClosingBalance-Depreciation",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107021"],
+        "VARAGRUPP2024ap": ["VG_112"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Animals-ClosingBalance-ResidualValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
+        "VARAGRUPP2024ap": ["VG_112"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Plantations-FairValueChange",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Plantations-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Plantations-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Plantations-DecreaseToProduction",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Plantations-IncreaseGrowth",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Plantations-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Plantations-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Plantations-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Plantations-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Plantations-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_113"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-FairValueChange",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-DecreaseToProduction",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-IncreaseGrowth",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_113"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-ClosingBalance-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_113"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-ClosingBalance-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_113"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-ClosingBalance-Depreciation",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107021"],
+        "VARAGRUPP2024ap": ["VG_113"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Plantations-ClosingBalance-ResidualValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
+        "VARAGRUPP2024ap": ["VG_113"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Forest-FairValueChange",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Forest-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Forest-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Forest-DecreaseToProduction",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Forest-IncreaseGrowth",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Forest-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Forest-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Forest-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Forest-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Forest-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_114"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-FairValueChange",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-DecreaseToProduction",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-IncreaseGrowth",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_114"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-ClosingBalance-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_114"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-ClosingBalance-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_114"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-ClosingBalance-Depreciation",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107021"],
+        "VARAGRUPP2024ap": ["VG_114"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Forest-ClosingBalance-ResidualValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
+        "VARAGRUPP2024ap": ["VG_114"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Crop-FairValueChange",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Crop-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Crop-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Crop-DecreaseToProduction",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Crop-IncreaseGrowth",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Crop-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Crop-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Crop-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Crop-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Crop-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_115"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-FairValueChange",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-DecreaseToProduction",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-IncreaseGrowth",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_115"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-ClosingBalance-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_115"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-ClosingBalance-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_115"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-ClosingBalance-Depreciation",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107021"],
+        "VARAGRUPP2024ap": ["VG_115"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Crop-ClosingBalance-ResidualValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
+        "VARAGRUPP2024ap": ["VG_115"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Grasslands-FairValueChange",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Grasslands-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Grasslands-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Grasslands-DecreaseToProduction",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Grasslands-IncreaseGrowth",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Grasslands-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Grasslands-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Grasslands-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Grasslands-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Grasslands-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_116"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-FairValueChange",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-DecreaseToProduction",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-IncreaseGrowth",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "C"
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      },
+      "DEBIT_CREDIT": "D"
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-FairValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_116"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_116"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-Depreciation",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107021"],
+        "VARAGRUPP2024ap": ["VG_116"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-ResidualValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
+        "VARAGRUPP2024ap": ["VG_116"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Prepayments-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107020"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Prepayments-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107020"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Prepayments-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107020"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Prepayments-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107020"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Prepayments-Acquisition",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107051"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Prepayments-Disposal",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107051"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Prepayments-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107051"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Prepayments-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107051"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-FairValueChange-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Acquisition-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-Disposal-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-DecreaseToProduction-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-IncreaseGrowth-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-OtherMovements-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Short-ClosingBalance-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107010"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-FairValueChange-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_15"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Acquisition-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Disposal-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-DecreaseToProduction-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_18"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-IncreaseGrowth-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_19"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-Depreciation-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_16"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_17"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-OtherMovements-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107021"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+      }
+    },
+    {
+      "code": "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["107011"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Goodwill-AcquisitionAndAdditions",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_108"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Goodwill-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_108"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Goodwill-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_108"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["C"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Goodwill-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_108"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["D"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Goodwill-Disposals",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_108"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Goodwill-Reclassifications",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_108"],
+        "MUUTUSELIIK2024ap": ["ML_13"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Goodwill-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_108"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Goodwill-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_108"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Goodwill-ClosingBalance-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_108"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Goodwill-ClosingBalance-Depreciation",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111021"],
+        "VARAGRUPP2024ap": ["VG_108"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Goodwill-ClosingBalance-ResidualValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
+        "VARAGRUPP2024ap": ["VG_108"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-DevelopmentExpenditures-AcquisitionAndAdditions",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_109"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-DevelopmentExpenditures-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_109"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-DevelopmentExpenditures-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_109"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["C"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-DevelopmentExpenditures-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_109"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["D"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-DevelopmentExpenditures-Disposals",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_109"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-DevelopmentExpenditures-Reclassifications",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_109"],
+        "MUUTUSELIIK2024ap": ["ML_13"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-DevelopmentExpenditures-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_109"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_109"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_109"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-Depreciation",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111021"],
+        "VARAGRUPP2024ap": ["VG_109"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-ResidualValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
+        "VARAGRUPP2024ap": ["VG_109"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ComputerSoftware-AcquisitionAndAdditions",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_110"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ComputerSoftware-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_110"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ComputerSoftware-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_110"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["C"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ComputerSoftware-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_110"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["D"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ComputerSoftware-Disposals",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_110"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ComputerSoftware-Reclassifications",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_110"],
+        "MUUTUSELIIK2024ap": ["ML_13"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ComputerSoftware-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_110"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ComputerSoftware-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_110"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_110"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-Depreciation",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111021"],
+        "VARAGRUPP2024ap": ["VG_110"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-ResidualValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
+        "VARAGRUPP2024ap": ["VG_110"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IntellectualProperty-AcquisitionAndAdditions",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IntellectualProperty-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IntellectualProperty-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["C"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IntellectualProperty-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["D"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IntellectualProperty-Disposals",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IntellectualProperty-Reclassifications",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_13"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IntellectualProperty-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IntellectualProperty-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-Depreciation",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111021"],
+        "VARAGRUPP2024ap": ["VG_111"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-ResidualValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
+        "VARAGRUPP2024ap": ["VG_111"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherIntangibleAssets-AcquisitionAndAdditions",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherIntangibleAssets-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherIntangibleAssets-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["C"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherIntangibleAssets-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["D"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherIntangibleAssets-Disposals",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherIntangibleAssets-Reclassifications",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_13"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherIntangibleAssets-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011"],
+        "VARAGRUPP2024ap": ["VG_111"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-Depreciation",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111021"],
+        "VARAGRUPP2024ap": ["VG_111"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-ResidualValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
+        "VARAGRUPP2024ap": ["VG_111"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-AcquisitionAndAdditions",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-IncreaseBusinessCombnations",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLoss",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["C"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLossReverse",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["D"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Disposals",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Reclassifications",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_13"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-OtherMovements",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-CostValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-Depreciation",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-ResidualValue",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-AcquisitionAndAdditions-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111011", "111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_11"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-IncreaseBusinessCombnations-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ImpairmentLoss-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["C"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ImpairmentLossReverse-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_17"],
+        "SEOTUDOSAPOOL2024ap": ["D"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Disposals-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_12"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Reclassifications-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_13"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-OtherMovements-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ClosingBalance-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ClosingBalance-CostValue-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ClosingBalance-Depreciation-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-ClosingBalance-ResidualValue-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+      }
+    },
+    {
+      "code": "Note-IntangibleAssets-Sales-Total",
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+      }
+    }
+  ]
+}

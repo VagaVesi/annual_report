@@ -45,9 +45,8 @@ def main():
 
     """Generate pattern json from xls"""
     pattern = Pattern()
-    pattern.load_data_from_excel()
-
-    print(pattern.source_data)
+    pattern.generate_combinations()
+    pattern.save_dict_to_json_file()
 
 
 if __name__ == "__main__":

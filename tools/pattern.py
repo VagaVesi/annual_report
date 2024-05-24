@@ -31,14 +31,7 @@ class Pattern:
         if xls_raw != None:
             elements_count = len(xls_raw['Element-code'])
             for i in range(0, elements_count):
-                element = {'code': "",
-                           'MAJANDUSLIKSISU2024ap': "",
-                           "VARAGRUPP2024ap": "",
-                           "ANDMETEESITLUSVIIS2024ap": "",
-                           "MUUTUSELIIK2024ap": "",
-                           "SEOTUDOSAPOOL2024ap": "",
-                           "DEBIT_CREDIT": ""
-                           }
+                element = {}
                 for x, y in xls_raw.items():
                     if pd.notna(y[i]):
                         if x == 'Element-code':
@@ -79,34 +72,40 @@ class Pattern:
             self.load_source_data(file_name, sheetname, skip_rows)
         result = []
         for item in self.source_data:
-            element = {"code": ""}
+            element = {}
             for k, v in item.items():
                 if k == "code":
-                    element["code"] = v
+                    element["code"] = clear_string(v)
                 elif k == "DEBIT_CREDIT":
-                    element["DEBIT_CREDIT"] = v
+                    if v != "":
+                        element["DEBIT_CREDIT"] = v
                 else:
                     combinations = return_pattern_and_elements_from_string(v)
-                    if len(combinations[0]) > 1:
-                        element["pattern"][k] = combinations[0]
-                    if len(combinations[1]) > 1:
-                        element["elements"][k] = combinations[1]
+                    if len(combinations[0]) > 0:
+                        if "pattern" in element.keys():
+                            element["pattern"][k] = combinations[0]
+                        else:
+                            element["pattern"] = {k: combinations[0]}
+                    if len(combinations[1]) > 0:
+                        if "elements" in element.keys():
+                            element["elements"][k] = combinations[1]
+                        else:
+                            element["elements"] = {k: combinations[1]}
             result.append(element)
         self.patterns["Report element pattern"] = result
-        self.patterns["created"] = self.__update_timestamp()
+        self.update_timestamp()
 
-    def __update_timestamp(self):
+    def update_timestamp(self):
         """Update pattern creation date"""
-        self.pattern["created"] = datetime.fromtimestamp(
+        self.patterns["created"] = datetime.fromtimestamp(
             time.time()).strftime("%Y-%m-%d")
 
-    def save_dict_to_json_file(self, dict_object: dict, file_name: str) -> bool:
+    def save_dict_to_json_file(self, file_name=OUTPUT_FILE) -> bool:
         """Save dict to JSON file"""
         try:
-            output = file_name + ".json"
-            with open(output, "w", encoding='utf-8') as outfile:
+            with open(file_name, "w", encoding='utf-8') as outfile:
                 json_object = json.dumps(
-                    dict_object, indent=4, ensure_ascii=False)
+                    self.patterns, indent=4, ensure_ascii=False)
                 outfile.write(json_object)
                 return True
         except:
@@ -156,3 +155,8 @@ def return_pattern_and_elements_from_string(string_of_elements: str) -> tuple:
     if len(pattern_elements) > 0:
         pattern = make_pattern(pattern_elements)
     return (pattern, standard_elements)
+
+
+def clear_string(sentence: str) -> str:
+    """Correct typos in element name string"""
+    return sentence.replace(u"\u00A0", "").strip()
