@@ -1,12 +1,12 @@
 """Call all functions to simulatete annual accounts process."""
+
+# from path import Path
+# from json import loads
+# from report_data.report_data import ReportData, generate_report_element_filtering_rules, save_as_json
+# from tools.json_validator import validate
 # from classifications.classification import ClassificationsList
 # from agregator.agregator import generate_dataset_from_entries, save_dataset
-
-
-from json import loads
-from report_data.report_data import ReportData, generate_report_element_filtering_rules, save_as_json
-from tools.json_validator import validate
-from path import Path
+from tools.pattern import Pattern
 
 from classifications.classification import ClassificationsList
 
@@ -36,12 +36,18 @@ def main():
     # save_as_json(mapping1, "report_element_accounts_filter_rules")
 
     """Generate report elements for micro"""
-    path = Path(
-        "annual_report/tests/report_data/source_data/sample_dataset_micro.json")
-    sample_dataset = loads(path.read_text(encoding="utf-8"))
-    report_data = ReportData(sample_dataset)
-    report_elements_for_xbrl = report_data.return_report_elements()
-    print(report_elements_for_xbrl)
+    # path = Path(
+    #     "annual_report/tests/report_data/source_data/sample_dataset_micro.json")
+    # sample_dataset = loads(path.read_text(encoding="utf-8"))
+    # report_data = ReportData(sample_dataset)
+    # report_elements_for_xbrl = report_data.return_report_elements()
+    # print(report_elements_for_xbrl)
+
+    """Generate pattern json from xls"""
+    pattern = Pattern()
+    pattern.load_data_from_excel()
+
+    print(pattern.source_data)
 
 
 if __name__ == "__main__":
