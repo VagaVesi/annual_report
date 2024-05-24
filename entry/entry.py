@@ -146,7 +146,7 @@ def make_dict_from_entry(entry: Entry) -> dict:
         response["entryDetail"].append(line)
 
         if len(item.sub_accounts) > 0:
-            line["accountSub"] = item.sub_account
+            line["accountSub"] = item.sub_accounts
 
     return response
 

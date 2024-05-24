@@ -106,7 +106,7 @@ class TestEntry():
             "annual_report/tests/entry/modified_entries_list.json")
         entries_count_before = len(sample_data["entries"])
         add_simple_entry_to_json_file(str(date.today()), "Test simple entry", 200.00, "101020",
-                                      "101030", file_path="annual_report/tests/entry/modified_entries_list.json")
+                                      "418012", {}, {"EMTAK2008ap": "07101"}, file_path="annual_report/tests/entry/modified_entries_list.json")
         sample_data = load_entries(
             "annual_report/tests/entry/modified_entries_list.json")
         entries_count_after = len(sample_data["entries"])

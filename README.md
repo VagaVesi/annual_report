@@ -10,7 +10,8 @@ Steps
 6. Prepare report mapping rules (JSON format) - OK
 7. Convert XBRL-GL annual one dataset to Annual Report elements using mapping rules -> store result in json - OK
 8. Prepare mapping rules json from xls
-9. Generate simple Annual Report object from Annual Report elements
+9. Add Debit and Credit for element selection logic
+10. Generate simple Annual Report object from Annual Report elements
 
 # ADDITIONAL FEATURES:
 

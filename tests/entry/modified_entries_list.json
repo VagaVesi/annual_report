@@ -31,7 +31,7 @@
         {
             "entryHeader": {
                 "entryNumber": 2,
-                "postingDate": "2024-05-18",
+                "postingDate": "2024-05-24",
                 "decription": {
                     "en": "Test simple entry"
                 }
@@ -45,16 +45,19 @@
                 },
                 {
                     "lineNumber": 2,
-                    "accountMainID": "101030",
+                    "accountMainID": "418012",
                     "debitCreditCode": "C",
-                    "amount": 200.0
+                    "amount": 200.0,
+                    "accountSub": {
+                        "EMTAK2008ap": "07101"
+                    }
                 }
             ]
         },
         {
             "entryHeader": {
                 "entryNumber": 3,
-                "postingDate": "2024-05-18",
+                "postingDate": "2024-05-24",
                 "decription": {
                     "en": "Test simple entry"
                 }
@@ -68,78 +71,12 @@
                 },
                 {
                     "lineNumber": 2,
-                    "accountMainID": "101030",
+                    "accountMainID": "418012",
                     "debitCreditCode": "C",
-                    "amount": 200.0
-                }
-            ]
-        },
-        {
-            "entryHeader": {
-                "entryNumber": 4,
-                "postingDate": "2024-05-18",
-                "decription": {
-                    "en": "Test simple entry"
-                }
-            },
-            "entryDetail": [
-                {
-                    "lineNumber": 1,
-                    "accountMainID": "101020",
-                    "debitCreditCode": "D",
-                    "amount": 200.0
-                },
-                {
-                    "lineNumber": 2,
-                    "accountMainID": "101030",
-                    "debitCreditCode": "C",
-                    "amount": 200.0
-                }
-            ]
-        },
-        {
-            "entryHeader": {
-                "entryNumber": 5,
-                "postingDate": "2024-05-20",
-                "decription": {
-                    "en": "Test simple entry"
-                }
-            },
-            "entryDetail": [
-                {
-                    "lineNumber": 1,
-                    "accountMainID": "101020",
-                    "debitCreditCode": "D",
-                    "amount": 200.0
-                },
-                {
-                    "lineNumber": 2,
-                    "accountMainID": "101030",
-                    "debitCreditCode": "C",
-                    "amount": 200.0
-                }
-            ]
-        },
-        {
-            "entryHeader": {
-                "entryNumber": 6,
-                "postingDate": "2024-05-20",
-                "decription": {
-                    "en": "Test simple entry"
-                }
-            },
-            "entryDetail": [
-                {
-                    "lineNumber": 1,
-                    "accountMainID": "101020",
-                    "debitCreditCode": "D",
-                    "amount": 200.0
-                },
-                {
-                    "lineNumber": 2,
-                    "accountMainID": "101030",
-                    "debitCreditCode": "C",
-                    "amount": 200.0
+                    "amount": 200.0,
+                    "accountSub": {
+                        "EMTAK2008ap": "07101"
+                    }
                 }
             ]
         }
