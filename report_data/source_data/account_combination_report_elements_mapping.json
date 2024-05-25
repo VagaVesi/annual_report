@@ -1,747 +1,3540 @@
 {
-  "101010-*-*": [
-    "BS-AssetsShort-Cash",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total",
-    "Note-Cash-CashInHand",
-    "Note-Cash-Total"
-  ],
-  "101020-*-*": [
-    "BS-AssetsShort-Cash",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total",
-    "Note-Cash-BankAccounts",
-    "Note-Cash-Total"
-  ],
-  "101990-*-*": [
-    "BS-AssetsShort-Cash",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total",
-    "Note-Cash-Total"
-  ],
-  "101030-*-*": [
-    "BS-AssetsShort-Cash",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total",
-    "Note-Cash-Deposits",
-    "Note-Cash-Total"
-  ],
-  "102010-*-*": [
-    "BS-AssetsShort-FinancialInvestments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "102010-VG_201-*": ["Note-FinancialInvestments-Short-Shares-ClosingBalance"],
-  "102010-VG_201-ML_11": ["Note-FinancialInvestments-Short-Shares-Aquisition"],
-  "102010-VG_201-ML_12": ["Note-FinancialInvestments-Short-Shares-Disposal"],
-  "102010-VG_201-ML_23": ["Note-FinancialInvestments-Short-Shares-ProfitLoss"],
-  "102010-VG_201-ML_13": ["Note-FinancialInvestments-Short-Shares-ProfitLoss"],
-  "102010-VG_202-*": [
-    "Note-FinancialInvestments-Short-FundUnits-ClosingBalance"
-  ],
-  "104020-*-*": [
-    "BS-AssetsShort-ReceivablesAndPrepayments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "104010-*-*": [
-    "BS-AssetsShort-ReceivablesAndPrepayments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "105990-*-*": [
-    "BS-AssetsShort-ReceivablesAndPrepayments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "103020-*-*": [
-    "BS-AssetsShort-ReceivablesAndPrepayments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "103990-*-*": [
-    "BS-AssetsShort-ReceivablesAndPrepayments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "103010-*-*": [
-    "BS-AssetsShort-ReceivablesAndPrepayments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "103050-*-*": [
-    "BS-AssetsShort-ReceivablesAndPrepayments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "105010-*-*": [
-    "BS-AssetsShort-ReceivablesAndPrepayments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "103060-*-*": [
-    "BS-AssetsShort-ReceivablesAndPrepayments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "103040-*-*": [
-    "BS-AssetsShort-ReceivablesAndPrepayments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "103030-*-*": [
-    "BS-AssetsShort-ReceivablesAndPrepayments",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "106030-*-*": [
-    "BS-AssetsShort-Inventories",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "106020-*-*": [
-    "BS-AssetsShort-Inventories",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "106990-*-*": [
-    "BS-AssetsShort-Inventories",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "106050-*-*": [
-    "BS-AssetsShort-Inventories",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "106010-*-*": [
-    "BS-AssetsShort-Inventories",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "106040-*-*": [
-    "BS-AssetsShort-Inventories",
-    "BS-AssetsShort-Total",
-    "BS-Assets-Total"
-  ],
-  "107020-*-*": ["BS-AssetsShort-Total", "BS-Assets-Total"],
-  "107010-*-*": ["BS-AssetsShort-Total", "BS-Assets-Total"],
-  "105991-*-*": ["BS-Assets-Total"],
-  "109011-*-*": ["BS-Assets-Total"],
-  "103051-*-*": ["BS-Assets-Total"],
-  "111031-*-*": ["BS-Assets-Total"],
-  "105011-*-*": ["BS-Assets-Total"],
-  "110011-*-*": ["BS-Assets-Total"],
-  "109031-*-*": ["BS-Assets-Total"],
-  "111021-*-*": ["BS-Assets-Total"],
-  "110051-*-*": ["BS-Assets-Total"],
-  "103041-*-*": ["BS-Assets-Total"],
-  "109021-*-*": ["BS-Assets-Total"],
-  "111011-*-*": ["BS-Assets-Total"],
-  "111041-*-*": ["BS-Assets-Total"],
-  "107011-*-*": ["BS-Assets-Total"],
-  "103061-*-*": ["BS-Assets-Total"],
-  "102011-*-*": ["BS-Assets-Total"],
-  "108011-*-*": ["BS-Assets-Total"],
-  "103031-*-*": ["BS-Assets-Total"],
-  "103991-*-*": ["BS-Assets-Total"],
-  "110021-*-*": ["BS-Assets-Total"],
-  "109041-*-*": ["BS-Assets-Total"],
-  "107021-*-*": ["BS-Assets-Total"],
-  "110041-*-*": ["BS-Assets-Total"],
-  "103011-*-*": ["BS-Assets-Total"],
-  "109051-*-*": ["BS-Assets-Total"],
-  "104011-*-*": ["BS-Assets-Total"],
-  "110031-*-*": ["BS-Assets-Total"],
-  "315011-*-*": [
-    "BS-Equity-IssuedCapital",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "CIE-Equity-IssuedCapital-Closing-Balance",
-    "Note-ShareCapital"
-  ],
-  "317011-*-*": [
-    "BS-Equity-RetainedEarningsLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total"
-  ],
-  "619052-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520562-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "521102-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "521012-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "623052-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520042-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "418052-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-Revenue",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "619072-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "619012-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "521992-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520012-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "624992-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520612-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "418042-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-Revenue",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "626992-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520492-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "623022-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "624032-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "623032-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "623992-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "623012-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520122-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520382-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520422-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520822-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "418992-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-Revenue",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520312-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "418022-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-Revenue",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520432-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "623042-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520032-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "624012-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520392-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520402-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520052-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520112-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "619042-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520222-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "619082-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520572-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "418032-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-Revenue",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520702-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520292-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520322-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "522012-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "624052-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "521022-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520802-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520712-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "521112-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "619992-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520332-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520412-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "625012-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520812-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520512-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "624062-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520132-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520202-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520302-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520992-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "623062-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "521032-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "619062-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "626012-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520342-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520022-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "624042-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520102-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "418012-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-Revenue",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520552-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "619032-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "619022-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "520212-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "IS-NetProfit",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "317021-*-*": [
-    "BS-Equity-AnnualPeriodProfitLoss",
-    "BS-Equity-Total",
-    "BS-LiabilitiesAndEquity-Total",
-    "CIE-AnnualPeriodProfitLoss-Closing-Balance"
-  ],
-  "315021-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
-  "315041-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
-  "315031-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
-  "315991-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
-  "315051-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
-  "316991-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
-  "316011-*-*": ["BS-Equity-Total", "BS-LiabilitiesAndEquity-Total"],
-  "212070-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204090-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "213021-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "205010-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "205991-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212080-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "213991-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212021-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212090-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "214031-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "205011-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212040-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212081-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204010-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "213011-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204020-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204040-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204070-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204991-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212061-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "205990-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212100-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212050-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212010-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204050-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204100-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212060-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "213010-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212011-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204060-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212991-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "214021-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204030-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "213990-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204990-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212030-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212071-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "214010-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "204080-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212020-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "213020-*-*": ["BS-LiabilitiesAndEquity-Total"],
-  "212990-*-*": ["BS-LiabilitiesAndEquity-Total"]
+    "101020-*-*-D": [
+        "BS-AssetsShort-Cash",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Cash-BankAccounts",
+        "Note-Cash-Total"
+    ],
+    "101020-*-*-C": [
+        "BS-AssetsShort-Cash",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Cash-BankAccounts",
+        "Note-Cash-Total"
+    ],
+    "101010-*-*-D": [
+        "BS-AssetsShort-Cash",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Cash-CashInHand",
+        "Note-Cash-Total"
+    ],
+    "101010-*-*-C": [
+        "BS-AssetsShort-Cash",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Cash-CashInHand",
+        "Note-Cash-Total"
+    ],
+    "101990-*-*-D": [
+        "BS-AssetsShort-Cash",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Cash-Other",
+        "Note-Cash-Total"
+    ],
+    "101990-*-*-C": [
+        "BS-AssetsShort-Cash",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Cash-Other",
+        "Note-Cash-Total"
+    ],
+    "101030-*-*-D": [
+        "BS-AssetsShort-Cash",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Cash-Deposits",
+        "Note-Cash-Total"
+    ],
+    "101030-*-*-C": [
+        "BS-AssetsShort-Cash",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Cash-Deposits",
+        "Note-Cash-Total"
+    ],
+    "102010-*-*-D": [
+        "BS-AssetsShort-FinancialInvestments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "102010-*-*-C": [
+        "BS-AssetsShort-FinancialInvestments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103020-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-AllowanceForDoubtfulReceivables",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-AllowanceForDoubtfulReceivables",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-Total",
+        "Note-AccountsReceivables-AllowanceForDoubtfulReceivables",
+        "Note-AccountsReceivables-Total"
+    ],
+    "103020-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-AllowanceForDoubtfulReceivables",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-AllowanceForDoubtfulReceivables",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-Total",
+        "Note-AccountsReceivables-AllowanceForDoubtfulReceivables",
+        "Note-AccountsReceivables-Total"
+    ],
+    "104010-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total",
+        "Note-Taxes-Prepayments-PrepaymentAccount",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "104010-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103040-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-InterestReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-InterestReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103040-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-InterestReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-InterestReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103060-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103060-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "104020-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total",
+        "Note-Taxes-Prepayments-PrepaymentAccount",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "104020-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103010-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-Total",
+        "Note-AccountsReceivables-Receivables",
+        "Note-AccountsReceivables-Total"
+    ],
+    "103010-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-Total",
+        "Note-AccountsReceivables-Receivables",
+        "Note-AccountsReceivables-Total"
+    ],
+    "105990-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "105990-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103990-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103990-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "105010-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-DeferredExpenses",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-DeferredExpenses",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "105010-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-DeferredExpenses",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-DeferredExpenses",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103030-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103030-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103050-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-DividendReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-DividendReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103050-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-DividendReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-DividendReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "106040-*-*-D": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-Merchandise",
+        "Note-Inventories-Total"
+    ],
+    "106040-*-*-C": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-Merchandise",
+        "Note-Inventories-Total"
+    ],
+    "106020-*-*-D": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-WorkInProgress",
+        "Note-Inventories-Total"
+    ],
+    "106020-*-*-C": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-WorkInProgress",
+        "Note-Inventories-Total"
+    ],
+    "106030-*-*-D": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-FinishedGoods",
+        "Note-Inventories-Total"
+    ],
+    "106030-*-*-C": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-FinishedGoods",
+        "Note-Inventories-Total"
+    ],
+    "106990-*-*-D": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-Total"
+    ],
+    "106990-*-*-C": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-Total"
+    ],
+    "106050-*-*-D": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-Prepayments",
+        "Note-Inventories-Total"
+    ],
+    "106050-*-*-C": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-Prepayments",
+        "Note-Inventories-Total"
+    ],
+    "106010-*-*-D": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-RawMaterials",
+        "Note-Inventories-Total"
+    ],
+    "106010-*-*-C": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-RawMaterials",
+        "Note-Inventories-Total"
+    ],
+    "107020-*-*-D": [
+        "BS-AssetsShort-BiologicalAssets",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total"
+    ],
+    "107020-*-*-C": [
+        "BS-AssetsShort-BiologicalAssets",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total"
+    ],
+    "107010-*-*-D": [
+        "BS-AssetsShort-BiologicalAssets",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total"
+    ],
+    "107010-*-*-C": [
+        "BS-AssetsShort-BiologicalAssets",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total"
+    ],
+    "102011-*-*-D": [
+        "BS-AssetsLong-FinancialInvestments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "102011-*-*-C": [
+        "BS-AssetsLong-FinancialInvestments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "103991-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-OtherReceivables"
+    ],
+    "103991-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-OtherReceivables"
+    ],
+    "103031-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-LoanReceivables"
+    ],
+    "103031-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-LoanReceivables"
+    ],
+    "105991-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Long-OtherPaidPrepayments"
+    ],
+    "105991-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Long-OtherPaidPrepayments"
+    ],
+    "103061-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-AccruedIncome"
+    ],
+    "103061-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-AccruedIncome"
+    ],
+    "103051-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-DividendReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-DividendReceivables"
+    ],
+    "103051-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-DividendReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-DividendReceivables"
+    ],
+    "103011-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-AccountsReceivables-Receivables",
+        "Note-AccountsReceivables-Total"
+    ],
+    "103011-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-AccountsReceivables-Receivables",
+        "Note-AccountsReceivables-Total"
+    ],
+    "105011-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-DeferredExpenses",
+        "Note-ReceivablesAndPrepayments-Long-DeferredExpenses"
+    ],
+    "105011-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-DeferredExpenses",
+        "Note-ReceivablesAndPrepayments-Long-DeferredExpenses"
+    ],
+    "103041-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-InterestReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-InterestReceivables"
+    ],
+    "103041-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-InterestReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-InterestReceivables"
+    ],
+    "104011-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Long-TaxPrepaymentsAndReceivables",
+        "Note-Taxes-Prepayments-PrepaymentAccount",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "104011-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Long-TaxPrepaymentsAndReceivables"
+    ],
+    "109031-*-*-D": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "109031-*-*-C": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "109011-*-*-D": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "109011-*-*-C": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "109041-*-*-D": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "109041-*-*-C": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "109021-*-*-D": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "109021-*-*-C": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "109051-*-*-D": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "109051-*-*-C": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110011-*-*-D": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110011-*-*-C": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110041-*-*-D": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110041-*-*-C": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110051-*-*-D": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110051-*-*-C": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110031-*-*-D": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110031-*-*-C": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110021-*-*-D": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110021-*-*-C": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "107011-*-*-D": [
+        "BS-AssetsLong-BiologicalAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "107011-*-*-C": [
+        "BS-AssetsLong-BiologicalAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "107021-*-*-D": [
+        "BS-AssetsLong-BiologicalAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "107021-*-*-C": [
+        "BS-AssetsLong-BiologicalAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "111031-*-*-D": [
+        "BS-AssetsLong-IntangibleAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-ResidualValue",
+        "Note-IntangibleAssets-ClosingBalance-Total",
+        "Note-IntangibleAssets-ClosingBalance-CostValue-Total",
+        "Note-IntangibleAssets-ClosingBalance-Depreciation-Total",
+        "Note-IntangibleAssets-ClosingBalance-ResidualValue-Total",
+        "Note-IntangibleAssets-Sales-Total"
+    ],
+    "111031-*-*-C": [
+        "BS-AssetsLong-IntangibleAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-ResidualValue",
+        "Note-IntangibleAssets-ClosingBalance-Total",
+        "Note-IntangibleAssets-ClosingBalance-CostValue-Total",
+        "Note-IntangibleAssets-ClosingBalance-Depreciation-Total",
+        "Note-IntangibleAssets-ClosingBalance-ResidualValue-Total",
+        "Note-IntangibleAssets-Sales-Total"
+    ],
+    "111021-*-*-D": [
+        "BS-AssetsLong-IntangibleAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "111021-*-*-C": [
+        "BS-AssetsLong-IntangibleAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "111041-*-*-D": [
+        "BS-AssetsLong-IntangibleAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-ResidualValue",
+        "Note-IntangibleAssets-ClosingBalance-Total",
+        "Note-IntangibleAssets-ClosingBalance-CostValue-Total",
+        "Note-IntangibleAssets-ClosingBalance-Depreciation-Total",
+        "Note-IntangibleAssets-ClosingBalance-ResidualValue-Total",
+        "Note-IntangibleAssets-Sales-Total"
+    ],
+    "111041-*-*-C": [
+        "BS-AssetsLong-IntangibleAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-ResidualValue",
+        "Note-IntangibleAssets-ClosingBalance-Total",
+        "Note-IntangibleAssets-ClosingBalance-CostValue-Total",
+        "Note-IntangibleAssets-ClosingBalance-Depreciation-Total",
+        "Note-IntangibleAssets-ClosingBalance-ResidualValue-Total",
+        "Note-IntangibleAssets-Sales-Total"
+    ],
+    "111011-*-*-D": [
+        "BS-AssetsLong-IntangibleAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "111011-*-*-C": [
+        "BS-AssetsLong-IntangibleAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "108011-*-*-D": [
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-InvestmentsInSubsidiariesAndAssociates-SharesOfSubsidiaries",
+        "Note-InvestmentsInSubsidiariesAndAssociates-SharesOfAssociates",
+        "Note-InvestmentsInSubsidiariesAndAssociates-Total"
+    ],
+    "108011-*-*-C": [
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-InvestmentsInSubsidiariesAndAssociates-SharesOfSubsidiaries",
+        "Note-InvestmentsInSubsidiariesAndAssociates-SharesOfAssociates",
+        "Note-InvestmentsInSubsidiariesAndAssociates-Total"
+    ],
+    "212060-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212060-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212090-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212090-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212070-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212070-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212990-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212990-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212050-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212050-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212020-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212020-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212100-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212100-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212030-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212030-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212080-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212080-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212040-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212040-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212010-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212010-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "204040-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-FringeBenefitIncomeTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204040-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-FringeBenefitIncomeTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204020-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-ValueAddedTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204020-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-ValueAddedTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204010-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-CorporateIncomeTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204010-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-CorporateIncomeTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204060-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-ContributionsToMandatoryFundedPension",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204060-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-ContributionsToMandatoryFundedPension",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "205990-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "205990-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "204090-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-ExciseDutyTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204090-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-ExciseDutyTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "205010-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "205010-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "204080-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-LandTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204080-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-LandTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204990-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-OtherTaxPrepaymentsAndLiabilities",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204990-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-OtherTaxPrepaymentsAndLiabilities",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204070-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-UnemploymentInsuranceTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204070-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-UnemploymentInsuranceTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "214010-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-GovernmentGrants",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "214010-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-GovernmentGrants",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "204030-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-PersonalIncomeTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204030-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-PersonalIncomeTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204100-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-Interest",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204100-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-Interest",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204050-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-SocialTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204050-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-SocialTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "213010-*-*-D": [
+        "BS-LiabilitiesShort-Provisions",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "213010-*-*-C": [
+        "BS-LiabilitiesShort-Provisions",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "213990-*-*-D": [
+        "BS-LiabilitiesShort-Provisions",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "213990-*-*-C": [
+        "BS-LiabilitiesShort-Provisions",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "213020-*-*-D": [
+        "BS-LiabilitiesShort-Provisions",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "213020-*-*-C": [
+        "BS-LiabilitiesShort-Provisions",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212061-*-*-D": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212061-*-*-C": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212991-*-*-D": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212991-*-*-C": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212071-*-*-D": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212071-*-*-C": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212021-*-*-D": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212021-*-*-C": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212011-*-*-D": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212011-*-*-C": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212081-*-*-D": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212081-*-*-C": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "214031-*-*-D": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-GovernmentGrants",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "214031-*-*-C": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-GovernmentGrants",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "205011-*-*-D": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "205011-*-*-C": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "214021-*-*-D": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-GovernmentGrants",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "214021-*-*-C": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-GovernmentGrants",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "205991-*-*-D": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "205991-*-*-C": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "204991-*-*-D": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-OtherTaxPrepaymentsAndLiabilities",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204991-*-*-C": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-OtherTaxPrepaymentsAndLiabilities",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "213991-*-*-D": [
+        "BS-LiabilitiesLong-Provisions",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "213991-*-*-C": [
+        "BS-LiabilitiesLong-Provisions",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "213011-*-*-D": [
+        "BS-LiabilitiesLong-Provisions",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "213011-*-*-C": [
+        "BS-LiabilitiesLong-Provisions",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "213021-*-*-D": [
+        "BS-LiabilitiesLong-Provisions",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "213021-*-*-C": [
+        "BS-LiabilitiesLong-Provisions",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "315011-*-*-D": [
+        "BS-Equity-IssuedCapital",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "315011-*-*-C": [
+        "BS-Equity-IssuedCapital",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "315021-*-*-D": [
+        "BS-Equity-UnregistredEquity",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "315021-*-*-C": [
+        "BS-Equity-UnregistredEquity",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "315031-*-*-D": [
+        "BS-Equity-UnpaidCapital",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "315031-*-*-C": [
+        "BS-Equity-UnpaidCapital",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "315041-*-*-D": [
+        "BS-Equity-SharePremium",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "315041-*-*-C": [
+        "BS-Equity-SharePremium",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "315051-*-*-D": [
+        "BS-Equity-TreasuryShares",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "315051-*-*-C": [
+        "BS-Equity-TreasuryShares",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "316011-*-*-D": [
+        "BS-Equity-StatutoryReserveCapital",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "316011-*-*-C": [
+        "BS-Equity-StatutoryReserveCapital",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "315991-*-*-D": [
+        "BS-Equity-OtherEquity",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "315991-*-*-C": [
+        "BS-Equity-OtherEquity",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "317011-*-*-D": [
+        "BS-Equity-RetainedEarningsLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "317011-*-*-C": [
+        "BS-Equity-RetainedEarningsLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "317021-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "317021-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "316991-*-*-D": [
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "316991-*-*-C": [
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total"
+    ],
+    "102010-VG_201-ML_11-D": [
+        "Note-FinancialInvestments-Short-Shares-Acquisition"
+    ],
+    "102010-VG_201-ML_11-C": [
+        "Note-FinancialInvestments-Short-Shares-Acquisition"
+    ],
+    "102010-VG_201-ML_12-D": [
+        "Note-FinancialInvestments-Short-Shares-Disposal"
+    ],
+    "102010-VG_201-ML_12-C": [
+        "Note-FinancialInvestments-Short-Shares-Disposal"
+    ],
+    "102010-VG_201-ML_23-D": [
+        "Note-FinancialInvestments-Short-Shares-ProfitLoss"
+    ],
+    "102010-VG_201-ML_23-C": [
+        "Note-FinancialInvestments-Short-Shares-ProfitLoss"
+    ],
+    "102010-VG_201-ML_13-D": [
+        "Note-FinancialInvestments-Short-Shares-ProfitLoss"
+    ],
+    "102010-VG_201-ML_13-C": [
+        "Note-FinancialInvestments-Short-Shares-ProfitLoss"
+    ],
+    "102010-VG_201-ML_15-D": [
+        "Note-FinancialInvestments-Short-Shares-ProfitLoss"
+    ],
+    "102010-VG_201-ML_15-C": [
+        "Note-FinancialInvestments-Short-Shares-ProfitLoss"
+    ],
+    "102010-VG_201-ML_99-D": [
+        "Note-FinancialInvestments-Short-Shares-OtherMovements"
+    ],
+    "102010-VG_201-ML_99-C": [
+        "Note-FinancialInvestments-Short-Shares-OtherMovements"
+    ],
+    "102010-VG_201-ML_14-D": [
+        "Note-FinancialInvestments-Short-Shares-OtherMovements"
+    ],
+    "102010-VG_201-ML_14-C": [
+        "Note-FinancialInvestments-Short-Shares-OtherMovements"
+    ],
+    "102010-VG_201-*-D": [
+        "Note-FinancialInvestments-Short-Shares-ClosingBalance",
+        "Note-FinancialInvestments-Short-Shares-FairValue",
+        "Note-FinancialInvestments-Short-Shares-CorrectedCostValue",
+        "Note-FinancialInvestments-Short-Shares-CostValue"
+    ],
+    "102010-VG_201-*-C": [
+        "Note-FinancialInvestments-Short-Shares-ClosingBalance",
+        "Note-FinancialInvestments-Short-Shares-FairValue",
+        "Note-FinancialInvestments-Short-Shares-CorrectedCostValue",
+        "Note-FinancialInvestments-Short-Shares-CostValue"
+    ],
+    "102020-VG_202-ML_11-D": [
+        "Note-FinancialInvestments-Short-FundUnits-Acquisition"
+    ],
+    "102020-VG_202-ML_11-C": [
+        "Note-FinancialInvestments-Short-FundUnits-Acquisition"
+    ],
+    "102020-VG_202-ML_12-D": [
+        "Note-FinancialInvestments-Short-FundUnits-Disposal"
+    ],
+    "102020-VG_202-ML_12-C": [
+        "Note-FinancialInvestments-Short-FundUnits-Disposal"
+    ],
+    "102020-VG_202-ML_23-D": [
+        "Note-FinancialInvestments-Short-FundUnits-ProfitLoss"
+    ],
+    "102020-VG_202-ML_23-C": [
+        "Note-FinancialInvestments-Short-FundUnits-ProfitLoss"
+    ],
+    "102020-VG_202-ML_13-D": [
+        "Note-FinancialInvestments-Short-FundUnits-ProfitLoss"
+    ],
+    "102020-VG_202-ML_13-C": [
+        "Note-FinancialInvestments-Short-FundUnits-ProfitLoss"
+    ],
+    "102020-VG_202-ML_15-D": [
+        "Note-FinancialInvestments-Short-FundUnits-ProfitLoss"
+    ],
+    "102020-VG_202-ML_15-C": [
+        "Note-FinancialInvestments-Short-FundUnits-ProfitLoss"
+    ],
+    "102020-VG_202-ML_99-D": [
+        "Note-FinancialInvestments-Short-FundUnits-OtherMovements"
+    ],
+    "102020-VG_202-ML_99-C": [
+        "Note-FinancialInvestments-Short-FundUnits-OtherMovements"
+    ],
+    "102020-VG_202-ML_14-D": [
+        "Note-FinancialInvestments-Short-FundUnits-OtherMovements"
+    ],
+    "102020-VG_202-ML_14-C": [
+        "Note-FinancialInvestments-Short-FundUnits-OtherMovements"
+    ],
+    "102020-VG_202-*-D": [
+        "Note-FinancialInvestments-Short-FundUnits-ClosingBalance",
+        "Note-FinancialInvestments-Short-FundUnits-FairValue",
+        "Note-FinancialInvestments-Short-FundUnits-CorrectedCostValue",
+        "Note-FinancialInvestments-Short-FundUnits-CostValue"
+    ],
+    "102020-VG_202-*-C": [
+        "Note-FinancialInvestments-Short-FundUnits-ClosingBalance",
+        "Note-FinancialInvestments-Short-FundUnits-FairValue",
+        "Note-FinancialInvestments-Short-FundUnits-CorrectedCostValue",
+        "Note-FinancialInvestments-Short-FundUnits-CostValue"
+    ],
+    "102030-VG_203-ML_11-D": [
+        "Note-FinancialInvestments-Short-Bonds-Acquisition"
+    ],
+    "102030-VG_203-ML_11-C": [
+        "Note-FinancialInvestments-Short-Bonds-Acquisition"
+    ],
+    "102030-VG_203-ML_12-D": [
+        "Note-FinancialInvestments-Short-Bonds-Disposal"
+    ],
+    "102030-VG_203-ML_12-C": [
+        "Note-FinancialInvestments-Short-Bonds-Disposal"
+    ],
+    "102030-VG_203-ML_23-D": [
+        "Note-FinancialInvestments-Short-Bonds-ProfitLoss"
+    ],
+    "102030-VG_203-ML_23-C": [
+        "Note-FinancialInvestments-Short-Bonds-ProfitLoss"
+    ],
+    "102030-VG_203-ML_13-D": [
+        "Note-FinancialInvestments-Short-Bonds-ProfitLoss"
+    ],
+    "102030-VG_203-ML_13-C": [
+        "Note-FinancialInvestments-Short-Bonds-ProfitLoss"
+    ],
+    "102030-VG_203-ML_15-D": [
+        "Note-FinancialInvestments-Short-Bonds-ProfitLoss"
+    ],
+    "102030-VG_203-ML_15-C": [
+        "Note-FinancialInvestments-Short-Bonds-ProfitLoss"
+    ],
+    "102030-VG_203-ML_99-D": [
+        "Note-FinancialInvestments-Short-Bonds-OtherMovements"
+    ],
+    "102030-VG_203-ML_99-C": [
+        "Note-FinancialInvestments-Short-Bonds-OtherMovements"
+    ],
+    "102030-VG_203-ML_14-D": [
+        "Note-FinancialInvestments-Short-Bonds-OtherMovements"
+    ],
+    "102030-VG_203-ML_14-C": [
+        "Note-FinancialInvestments-Short-Bonds-OtherMovements"
+    ],
+    "102030-VG_203-*-D": [
+        "Note-FinancialInvestments-Short-Bonds-ClosingBalance",
+        "Note-FinancialInvestments-Short-Bonds-FairValue",
+        "Note-FinancialInvestments-Short-Bonds-CorrectedCostValue",
+        "Note-FinancialInvestments-Short-Bonds-CostValue"
+    ],
+    "102030-VG_203-*-C": [
+        "Note-FinancialInvestments-Short-Bonds-ClosingBalance",
+        "Note-FinancialInvestments-Short-Bonds-FairValue",
+        "Note-FinancialInvestments-Short-Bonds-CorrectedCostValue",
+        "Note-FinancialInvestments-Short-Bonds-CostValue"
+    ],
+    "102990-VG_299-ML_11-D": [
+        "Note-FinancialInvestments-Short-Other-Acquisition"
+    ],
+    "102990-VG_299-ML_11-C": [
+        "Note-FinancialInvestments-Short-Other-Acquisition"
+    ],
+    "102990-VG_299-ML_12-D": [
+        "Note-FinancialInvestments-Short-Other-Disposal"
+    ],
+    "102990-VG_299-ML_12-C": [
+        "Note-FinancialInvestments-Short-Other-Disposal"
+    ],
+    "102990-VG_299-ML_23-D": [
+        "Note-FinancialInvestments-Short-Other-ProfitLoss"
+    ],
+    "102990-VG_299-ML_23-C": [
+        "Note-FinancialInvestments-Short-Other-ProfitLoss"
+    ],
+    "102990-VG_299-ML_13-D": [
+        "Note-FinancialInvestments-Short-Other-ProfitLoss"
+    ],
+    "102990-VG_299-ML_13-C": [
+        "Note-FinancialInvestments-Short-Other-ProfitLoss"
+    ],
+    "102990-VG_299-ML_15-D": [
+        "Note-FinancialInvestments-Short-Other-ProfitLoss"
+    ],
+    "102990-VG_299-ML_15-C": [
+        "Note-FinancialInvestments-Short-Other-ProfitLoss"
+    ],
+    "102990-VG_299-ML_99-D": [
+        "Note-FinancialInvestments-Short-Other-OtherMovements"
+    ],
+    "102990-VG_299-ML_99-C": [
+        "Note-FinancialInvestments-Short-Other-OtherMovements"
+    ],
+    "102990-VG_299-ML_14-D": [
+        "Note-FinancialInvestments-Short-Other-OtherMovements"
+    ],
+    "102990-VG_299-ML_14-C": [
+        "Note-FinancialInvestments-Short-Other-OtherMovements"
+    ],
+    "102990-VG_299-*-D": [
+        "Note-FinancialInvestments-Short-Other-ClosingBalance",
+        "Note-FinancialInvestments-Short-Other-FairValue",
+        "Note-FinancialInvestments-Short-Other-CorrectedCostValue",
+        "Note-FinancialInvestments-Short-Other-CostValue"
+    ],
+    "102990-VG_299-*-C": [
+        "Note-FinancialInvestments-Short-Other-ClosingBalance",
+        "Note-FinancialInvestments-Short-Other-FairValue",
+        "Note-FinancialInvestments-Short-Other-CorrectedCostValue",
+        "Note-FinancialInvestments-Short-Other-CostValue"
+    ],
+    "102990-*-ML_11-D": [
+        "Note-FinancialInvestments-Short-Acquisition-Total"
+    ],
+    "102990-*-ML_11-C": [
+        "Note-FinancialInvestments-Short-Acquisition-Total"
+    ],
+    "102990-*-ML_12-D": [
+        "Note-FinancialInvestments-Short-Disposal-Total"
+    ],
+    "102990-*-ML_12-C": [
+        "Note-FinancialInvestments-Short-Disposal-Total"
+    ],
+    "102990-*-ML_23-D": [
+        "Note-FinancialInvestments-Short-ProfitLoss-Total"
+    ],
+    "102990-*-ML_23-C": [
+        "Note-FinancialInvestments-Short-ProfitLoss-Total"
+    ],
+    "102990-*-ML_13-D": [
+        "Note-FinancialInvestments-Short-ProfitLoss-Total"
+    ],
+    "102990-*-ML_13-C": [
+        "Note-FinancialInvestments-Short-ProfitLoss-Total"
+    ],
+    "102990-*-ML_15-D": [
+        "Note-FinancialInvestments-Short-ProfitLoss-Total"
+    ],
+    "102990-*-ML_15-C": [
+        "Note-FinancialInvestments-Short-ProfitLoss-Total"
+    ],
+    "102990-*-ML_99-D": [
+        "Note-FinancialInvestments-Short-OtherMovements-Total"
+    ],
+    "102990-*-ML_99-C": [
+        "Note-FinancialInvestments-Short-OtherMovements-Total"
+    ],
+    "102990-*-ML_14-D": [
+        "Note-FinancialInvestments-Short-OtherMovements-Total"
+    ],
+    "102990-*-ML_14-C": [
+        "Note-FinancialInvestments-Short-OtherMovements-Total"
+    ],
+    "102990-*-*-D": [
+        "Note-FinancialInvestments-Short-ClosingBalance-Total",
+        "Note-FinancialInvestments-Short-FairValue-Total",
+        "Note-FinancialInvestments-Short-CorrectedCostValue-Total",
+        "Note-FinancialInvestments-Short-CostValue-Total"
+    ],
+    "102990-*-*-C": [
+        "Note-FinancialInvestments-Short-ClosingBalance-Total",
+        "Note-FinancialInvestments-Short-FairValue-Total",
+        "Note-FinancialInvestments-Short-CorrectedCostValue-Total",
+        "Note-FinancialInvestments-Short-CostValue-Total"
+    ],
+    "102011-VG_201-ML_11-D": [
+        "Note-FinancialInvestments-Long-Shares-Acquisition"
+    ],
+    "102011-VG_201-ML_11-C": [
+        "Note-FinancialInvestments-Long-Shares-Acquisition"
+    ],
+    "102011-VG_201-ML_12-D": [
+        "Note-FinancialInvestments-Long-Shares-Disposal"
+    ],
+    "102011-VG_201-ML_12-C": [
+        "Note-FinancialInvestments-Long-Shares-Disposal"
+    ],
+    "102011-VG_201-ML_23-D": [
+        "Note-FinancialInvestments-Long-Shares-ProfitLoss"
+    ],
+    "102011-VG_201-ML_23-C": [
+        "Note-FinancialInvestments-Long-Shares-ProfitLoss"
+    ],
+    "102011-VG_201-ML_13-D": [
+        "Note-FinancialInvestments-Long-Shares-ProfitLoss"
+    ],
+    "102011-VG_201-ML_13-C": [
+        "Note-FinancialInvestments-Long-Shares-ProfitLoss"
+    ],
+    "102011-VG_201-ML_15-D": [
+        "Note-FinancialInvestments-Long-Shares-ProfitLoss"
+    ],
+    "102011-VG_201-ML_15-C": [
+        "Note-FinancialInvestments-Long-Shares-ProfitLoss"
+    ],
+    "102011-VG_201-ML_99-D": [
+        "Note-FinancialInvestments-Long-Shares-OtherMovements"
+    ],
+    "102011-VG_201-ML_99-C": [
+        "Note-FinancialInvestments-Long-Shares-OtherMovements"
+    ],
+    "102011-VG_201-ML_14-D": [
+        "Note-FinancialInvestments-Long-Shares-OtherMovements"
+    ],
+    "102011-VG_201-ML_14-C": [
+        "Note-FinancialInvestments-Long-Shares-OtherMovements"
+    ],
+    "102011-VG_201-*-D": [
+        "Note-FinancialInvestments-Long-Shares-ClosingBalance",
+        "Note-FinancialInvestments-Long-Shares-FairValue",
+        "Note-FinancialInvestments-Long-Shares-CorrectedCostValue",
+        "Note-FinancialInvestments-Long-Shares-CostValue"
+    ],
+    "102011-VG_201-*-C": [
+        "Note-FinancialInvestments-Long-Shares-ClosingBalance",
+        "Note-FinancialInvestments-Long-Shares-FairValue",
+        "Note-FinancialInvestments-Long-Shares-CorrectedCostValue",
+        "Note-FinancialInvestments-Long-Shares-CostValue"
+    ],
+    "102021-VG_202-ML_11-D": [
+        "Note-FinancialInvestments-Long-FundUnits-Acquisition"
+    ],
+    "102021-VG_202-ML_11-C": [
+        "Note-FinancialInvestments-Long-FundUnits-Acquisition"
+    ],
+    "102021-VG_202-ML_12-D": [
+        "Note-FinancialInvestments-Long-FundUnits-Disposal"
+    ],
+    "102021-VG_202-ML_12-C": [
+        "Note-FinancialInvestments-Long-FundUnits-Disposal"
+    ],
+    "102021-VG_202-ML_23-D": [
+        "Note-FinancialInvestments-Long-FundUnits-ProfitLoss"
+    ],
+    "102021-VG_202-ML_23-C": [
+        "Note-FinancialInvestments-Long-FundUnits-ProfitLoss"
+    ],
+    "102021-VG_202-ML_13-D": [
+        "Note-FinancialInvestments-Long-FundUnits-ProfitLoss"
+    ],
+    "102021-VG_202-ML_13-C": [
+        "Note-FinancialInvestments-Long-FundUnits-ProfitLoss"
+    ],
+    "102021-VG_202-ML_15-D": [
+        "Note-FinancialInvestments-Long-FundUnits-ProfitLoss"
+    ],
+    "102021-VG_202-ML_15-C": [
+        "Note-FinancialInvestments-Long-FundUnits-ProfitLoss"
+    ],
+    "102021-VG_202-ML_99-D": [
+        "Note-FinancialInvestments-Long-FundUnits-OtherMovements"
+    ],
+    "102021-VG_202-ML_99-C": [
+        "Note-FinancialInvestments-Long-FundUnits-OtherMovements"
+    ],
+    "102021-VG_202-ML_14-D": [
+        "Note-FinancialInvestments-Long-FundUnits-OtherMovements"
+    ],
+    "102021-VG_202-ML_14-C": [
+        "Note-FinancialInvestments-Long-FundUnits-OtherMovements"
+    ],
+    "102021-VG_202-*-D": [
+        "Note-FinancialInvestments-Long-FundUnits-ClosingBalance",
+        "Note-FinancialInvestments-Long-FundUnits-FairValue",
+        "Note-FinancialInvestments-Long-FundUnits-CorrectedCostValue",
+        "Note-FinancialInvestments-Long-FundUnits-CostValue"
+    ],
+    "102021-VG_202-*-C": [
+        "Note-FinancialInvestments-Long-FundUnits-ClosingBalance",
+        "Note-FinancialInvestments-Long-FundUnits-FairValue",
+        "Note-FinancialInvestments-Long-FundUnits-CorrectedCostValue",
+        "Note-FinancialInvestments-Long-FundUnits-CostValue"
+    ],
+    "102031-VG_203-ML_11-D": [
+        "Note-FinancialInvestments-Long-Bonds-Acquisition"
+    ],
+    "102031-VG_203-ML_11-C": [
+        "Note-FinancialInvestments-Long-Bonds-Acquisition"
+    ],
+    "102031-VG_203-ML_12-D": [
+        "Note-FinancialInvestments-Long-Bonds-Disposal"
+    ],
+    "102031-VG_203-ML_12-C": [
+        "Note-FinancialInvestments-Long-Bonds-Disposal"
+    ],
+    "102031-VG_203-ML_23-D": [
+        "Note-FinancialInvestments-Long-Bonds-ProfitLoss"
+    ],
+    "102031-VG_203-ML_23-C": [
+        "Note-FinancialInvestments-Long-Bonds-ProfitLoss"
+    ],
+    "102031-VG_203-ML_13-D": [
+        "Note-FinancialInvestments-Long-Bonds-ProfitLoss"
+    ],
+    "102031-VG_203-ML_13-C": [
+        "Note-FinancialInvestments-Long-Bonds-ProfitLoss"
+    ],
+    "102031-VG_203-ML_15-D": [
+        "Note-FinancialInvestments-Long-Bonds-ProfitLoss"
+    ],
+    "102031-VG_203-ML_15-C": [
+        "Note-FinancialInvestments-Long-Bonds-ProfitLoss"
+    ],
+    "102031-VG_203-ML_99-D": [
+        "Note-FinancialInvestments-Long-Bonds-OtherMovements"
+    ],
+    "102031-VG_203-ML_99-C": [
+        "Note-FinancialInvestments-Long-Bonds-OtherMovements"
+    ],
+    "102031-VG_203-ML_14-D": [
+        "Note-FinancialInvestments-Long-Bonds-OtherMovements"
+    ],
+    "102031-VG_203-ML_14-C": [
+        "Note-FinancialInvestments-Long-Bonds-OtherMovements"
+    ],
+    "102031-VG_203-*-D": [
+        "Note-FinancialInvestments-Long-Bonds-ClosingBalance",
+        "Note-FinancialInvestments-Long-Bonds-FairValue",
+        "Note-FinancialInvestments-Long-Bonds-CorrectedCostValue",
+        "Note-FinancialInvestments-Long-Bonds-CostValue"
+    ],
+    "102031-VG_203-*-C": [
+        "Note-FinancialInvestments-Long-Bonds-ClosingBalance",
+        "Note-FinancialInvestments-Long-Bonds-FairValue",
+        "Note-FinancialInvestments-Long-Bonds-CorrectedCostValue",
+        "Note-FinancialInvestments-Long-Bonds-CostValue"
+    ],
+    "102991-VG_299-ML_11-D": [
+        "Note-FinancialInvestments-Long-Other-Acquisition"
+    ],
+    "102991-VG_299-ML_11-C": [
+        "Note-FinancialInvestments-Long-Other-Acquisition"
+    ],
+    "102991-VG_299-ML_12-D": [
+        "Note-FinancialInvestments-Long-Other-Disposal"
+    ],
+    "102991-VG_299-ML_12-C": [
+        "Note-FinancialInvestments-Long-Other-Disposal"
+    ],
+    "102991-VG_299-ML_23-D": [
+        "Note-FinancialInvestments-Long-Other-ProfitLoss"
+    ],
+    "102991-VG_299-ML_23-C": [
+        "Note-FinancialInvestments-Long-Other-ProfitLoss"
+    ],
+    "102991-VG_299-ML_13-D": [
+        "Note-FinancialInvestments-Long-Other-ProfitLoss"
+    ],
+    "102991-VG_299-ML_13-C": [
+        "Note-FinancialInvestments-Long-Other-ProfitLoss"
+    ],
+    "102991-VG_299-ML_15-D": [
+        "Note-FinancialInvestments-Long-Other-ProfitLoss"
+    ],
+    "102991-VG_299-ML_15-C": [
+        "Note-FinancialInvestments-Long-Other-ProfitLoss"
+    ],
+    "102991-VG_299-ML_99-D": [
+        "Note-FinancialInvestments-Long-Other-OtherMovements"
+    ],
+    "102991-VG_299-ML_99-C": [
+        "Note-FinancialInvestments-Long-Other-OtherMovements"
+    ],
+    "102991-VG_299-ML_14-D": [
+        "Note-FinancialInvestments-Long-Other-OtherMovements"
+    ],
+    "102991-VG_299-ML_14-C": [
+        "Note-FinancialInvestments-Long-Other-OtherMovements"
+    ],
+    "102991-VG_299-*-D": [
+        "Note-FinancialInvestments-Long-Other-ClosingBalance",
+        "Note-FinancialInvestments-Long-Other-FairValue",
+        "Note-FinancialInvestments-Long-Other-CorrectedCostValue",
+        "Note-FinancialInvestments-Long-Other-CostValue"
+    ],
+    "102991-VG_299-*-C": [
+        "Note-FinancialInvestments-Long-Other-ClosingBalance",
+        "Note-FinancialInvestments-Long-Other-FairValue",
+        "Note-FinancialInvestments-Long-Other-CorrectedCostValue",
+        "Note-FinancialInvestments-Long-Other-CostValue"
+    ],
+    "102991-*-ML_11-D": [
+        "Note-FinancialInvestments-Long-Acquisition-Total"
+    ],
+    "102991-*-ML_11-C": [
+        "Note-FinancialInvestments-Long-Acquisition-Total"
+    ],
+    "102991-*-ML_12-D": [
+        "Note-FinancialInvestments-Long-Disposal-Total"
+    ],
+    "102991-*-ML_12-C": [
+        "Note-FinancialInvestments-Long-Disposal-Total"
+    ],
+    "102991-*-ML_23-D": [
+        "Note-FinancialInvestments-Long-ProfitLoss-Total"
+    ],
+    "102991-*-ML_23-C": [
+        "Note-FinancialInvestments-Long-ProfitLoss-Total"
+    ],
+    "102991-*-ML_13-D": [
+        "Note-FinancialInvestments-Long-ProfitLoss-Total"
+    ],
+    "102991-*-ML_13-C": [
+        "Note-FinancialInvestments-Long-ProfitLoss-Total"
+    ],
+    "102991-*-ML_15-D": [
+        "Note-FinancialInvestments-Long-ProfitLoss-Total"
+    ],
+    "102991-*-ML_15-C": [
+        "Note-FinancialInvestments-Long-ProfitLoss-Total"
+    ],
+    "102991-*-ML_99-D": [
+        "Note-FinancialInvestments-Long-OtherMovements-Total"
+    ],
+    "102991-*-ML_99-C": [
+        "Note-FinancialInvestments-Long-OtherMovements-Total"
+    ],
+    "102991-*-ML_14-D": [
+        "Note-FinancialInvestments-Long-OtherMovements-Total"
+    ],
+    "102991-*-ML_14-C": [
+        "Note-FinancialInvestments-Long-OtherMovements-Total"
+    ],
+    "102991-*-*-D": [
+        "Note-FinancialInvestments-Long-ClosingBalance-Total",
+        "Note-FinancialInvestments-Long-FairValue-Total",
+        "Note-FinancialInvestments-Long-CorrectedCostValue-Total",
+        "Note-FinancialInvestments-Long-CostValue-Total"
+    ],
+    "102991-*-*-C": [
+        "Note-FinancialInvestments-Long-ClosingBalance-Total",
+        "Note-FinancialInvestments-Long-FairValue-Total",
+        "Note-FinancialInvestments-Long-CorrectedCostValue-Total",
+        "Note-FinancialInvestments-Long-CostValue-Total"
+    ],
+    "107010-VG_112-ML_15-D": [
+        "Note-BiologicalAssets-Short-Animals-FairValueChange",
+        "Note-BiologicalAssets-Short-FairValueChange-Total"
+    ],
+    "107010-VG_112-ML_15-C": [
+        "Note-BiologicalAssets-Short-Animals-FairValueChange",
+        "Note-BiologicalAssets-Short-FairValueChange-Total"
+    ],
+    "107010-VG_112-ML_11-D": [
+        "Note-BiologicalAssets-Short-Animals-Acquisition",
+        "Note-BiologicalAssets-Short-Acquisition-Total"
+    ],
+    "107010-VG_112-ML_11-C": [
+        "Note-BiologicalAssets-Short-Animals-Acquisition",
+        "Note-BiologicalAssets-Short-Acquisition-Total"
+    ],
+    "107010-VG_112-ML_12-D": [
+        "Note-BiologicalAssets-Short-Animals-Disposal",
+        "Note-BiologicalAssets-Short-Disposal-Total"
+    ],
+    "107010-VG_112-ML_12-C": [
+        "Note-BiologicalAssets-Short-Animals-Disposal",
+        "Note-BiologicalAssets-Short-Disposal-Total"
+    ],
+    "107010-VG_112-ML_18-D": [
+        "Note-BiologicalAssets-Short-Animals-DecreaseToProduction",
+        "Note-BiologicalAssets-Short-DecreaseToProduction-Total"
+    ],
+    "107010-VG_112-ML_18-C": [
+        "Note-BiologicalAssets-Short-Animals-DecreaseToProduction",
+        "Note-BiologicalAssets-Short-DecreaseToProduction-Total"
+    ],
+    "107010-VG_112-ML_19-D": [
+        "Note-BiologicalAssets-Short-Animals-IncreaseGrowth",
+        "Note-BiologicalAssets-Short-IncreaseGrowth-Total"
+    ],
+    "107010-VG_112-ML_19-C": [
+        "Note-BiologicalAssets-Short-Animals-IncreaseGrowth",
+        "Note-BiologicalAssets-Short-IncreaseGrowth-Total"
+    ],
+    "107010-VG_112-ML_14-D": [
+        "Note-BiologicalAssets-Short-Animals-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total"
+    ],
+    "107010-VG_112-ML_14-C": [
+        "Note-BiologicalAssets-Short-Animals-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total"
+    ],
+    "107010-VG_112-ML_17-C": [
+        "Note-BiologicalAssets-Short-Animals-ImpairmentLoss",
+        "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total"
+    ],
+    "107010-VG_112-ML_17-D": [
+        "Note-BiologicalAssets-Short-Animals-ImpairmentLossReverse",
+        "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total"
+    ],
+    "107010-VG_112-ML_99-D": [
+        "Note-BiologicalAssets-Short-Animals-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_112-ML_99-C": [
+        "Note-BiologicalAssets-Short-Animals-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_112-ML_13-D": [
+        "Note-BiologicalAssets-Short-Animals-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_112-ML_13-C": [
+        "Note-BiologicalAssets-Short-Animals-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_112-*-D": [
+        "Note-BiologicalAssets-Short-Animals-ClosingBalance",
+        "Note-BiologicalAssets-Short-ClosingBalance-Total"
+    ],
+    "107010-VG_112-*-C": [
+        "Note-BiologicalAssets-Short-Animals-ClosingBalance",
+        "Note-BiologicalAssets-Short-ClosingBalance-Total"
+    ],
+    "107011-VG_112-ML_15-D": [
+        "Note-BiologicalAssets-Long-Animals-FairValueChange",
+        "Note-BiologicalAssets-Long-FairValueChange-Total"
+    ],
+    "107011-VG_112-ML_15-C": [
+        "Note-BiologicalAssets-Long-Animals-FairValueChange",
+        "Note-BiologicalAssets-Long-FairValueChange-Total"
+    ],
+    "107011-VG_112-ML_11-D": [
+        "Note-BiologicalAssets-Long-Animals-Acquisition",
+        "Note-BiologicalAssets-Long-Acquisition-Total"
+    ],
+    "107011-VG_112-ML_11-C": [
+        "Note-BiologicalAssets-Long-Animals-Acquisition",
+        "Note-BiologicalAssets-Long-Acquisition-Total"
+    ],
+    "107011-VG_112-ML_12-D": [
+        "Note-BiologicalAssets-Long-Animals-Disposal",
+        "Note-BiologicalAssets-Long-Disposal-Total"
+    ],
+    "107011-VG_112-ML_12-C": [
+        "Note-BiologicalAssets-Long-Animals-Disposal",
+        "Note-BiologicalAssets-Long-Disposal-Total"
+    ],
+    "107011-VG_112-ML_18-D": [
+        "Note-BiologicalAssets-Long-Animals-DecreaseToProduction",
+        "Note-BiologicalAssets-Long-DecreaseToProduction-Total"
+    ],
+    "107011-VG_112-ML_18-C": [
+        "Note-BiologicalAssets-Long-Animals-DecreaseToProduction",
+        "Note-BiologicalAssets-Long-DecreaseToProduction-Total"
+    ],
+    "107011-VG_112-ML_19-D": [
+        "Note-BiologicalAssets-Long-Animals-IncreaseGrowth",
+        "Note-BiologicalAssets-Long-IncreaseGrowth-Total"
+    ],
+    "107011-VG_112-ML_19-C": [
+        "Note-BiologicalAssets-Long-Animals-IncreaseGrowth",
+        "Note-BiologicalAssets-Long-IncreaseGrowth-Total"
+    ],
+    "107011-VG_112-ML_14-D": [
+        "Note-BiologicalAssets-Long-Animals-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total"
+    ],
+    "107011-VG_112-ML_14-C": [
+        "Note-BiologicalAssets-Long-Animals-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total"
+    ],
+    "107011-VG_112-ML_17-C": [
+        "Note-BiologicalAssets-Long-Animals-ImpairmentLoss",
+        "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total"
+    ],
+    "107011-VG_112-ML_17-D": [
+        "Note-BiologicalAssets-Long-Animals-ImpairmentLossReverse",
+        "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total"
+    ],
+    "107011-VG_112-ML_99-D": [
+        "Note-BiologicalAssets-Long-Animals-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_112-ML_99-C": [
+        "Note-BiologicalAssets-Long-Animals-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_112-ML_13-D": [
+        "Note-BiologicalAssets-Long-Animals-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_112-ML_13-C": [
+        "Note-BiologicalAssets-Long-Animals-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_112-*-D": [
+        "Note-BiologicalAssets-Long-Animals-ClosingBalance-FairValue",
+        "Note-BiologicalAssets-Long-Animals-ClosingBalance-CostValue",
+        "Note-BiologicalAssets-Long-Animals-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total"
+    ],
+    "107011-VG_112-*-C": [
+        "Note-BiologicalAssets-Long-Animals-ClosingBalance-FairValue",
+        "Note-BiologicalAssets-Long-Animals-ClosingBalance-CostValue",
+        "Note-BiologicalAssets-Long-Animals-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total"
+    ],
+    "107021-VG_112-*-D": [
+        "Note-BiologicalAssets-Long-Animals-ClosingBalance-Depreciation",
+        "Note-BiologicalAssets-Long-Animals-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total"
+    ],
+    "107021-VG_112-*-C": [
+        "Note-BiologicalAssets-Long-Animals-ClosingBalance-Depreciation",
+        "Note-BiologicalAssets-Long-Animals-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total"
+    ],
+    "107010-VG_113-ML_15-D": [
+        "Note-BiologicalAssets-Short-Plantations-FairValueChange",
+        "Note-BiologicalAssets-Short-FairValueChange-Total"
+    ],
+    "107010-VG_113-ML_15-C": [
+        "Note-BiologicalAssets-Short-Plantations-FairValueChange",
+        "Note-BiologicalAssets-Short-FairValueChange-Total"
+    ],
+    "107010-VG_113-ML_11-D": [
+        "Note-BiologicalAssets-Short-Plantations-Acquisition",
+        "Note-BiologicalAssets-Short-Acquisition-Total"
+    ],
+    "107010-VG_113-ML_11-C": [
+        "Note-BiologicalAssets-Short-Plantations-Acquisition",
+        "Note-BiologicalAssets-Short-Acquisition-Total"
+    ],
+    "107010-VG_113-ML_12-D": [
+        "Note-BiologicalAssets-Short-Plantations-Disposal",
+        "Note-BiologicalAssets-Short-Disposal-Total"
+    ],
+    "107010-VG_113-ML_12-C": [
+        "Note-BiologicalAssets-Short-Plantations-Disposal",
+        "Note-BiologicalAssets-Short-Disposal-Total"
+    ],
+    "107010-VG_113-ML_18-D": [
+        "Note-BiologicalAssets-Short-Plantations-DecreaseToProduction",
+        "Note-BiologicalAssets-Short-DecreaseToProduction-Total"
+    ],
+    "107010-VG_113-ML_18-C": [
+        "Note-BiologicalAssets-Short-Plantations-DecreaseToProduction",
+        "Note-BiologicalAssets-Short-DecreaseToProduction-Total"
+    ],
+    "107010-VG_113-ML_19-D": [
+        "Note-BiologicalAssets-Short-Plantations-IncreaseGrowth",
+        "Note-BiologicalAssets-Short-IncreaseGrowth-Total"
+    ],
+    "107010-VG_113-ML_19-C": [
+        "Note-BiologicalAssets-Short-Plantations-IncreaseGrowth",
+        "Note-BiologicalAssets-Short-IncreaseGrowth-Total"
+    ],
+    "107010-VG_113-ML_14-D": [
+        "Note-BiologicalAssets-Short-Plantations-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total"
+    ],
+    "107010-VG_113-ML_14-C": [
+        "Note-BiologicalAssets-Short-Plantations-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total"
+    ],
+    "107010-VG_113-ML_17-C": [
+        "Note-BiologicalAssets-Short-Plantations-ImpairmentLoss",
+        "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total"
+    ],
+    "107010-VG_113-ML_17-D": [
+        "Note-BiologicalAssets-Short-Plantations-ImpairmentLossReverse",
+        "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total"
+    ],
+    "107010-VG_113-ML_99-D": [
+        "Note-BiologicalAssets-Short-Plantations-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_113-ML_99-C": [
+        "Note-BiologicalAssets-Short-Plantations-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_113-ML_13-D": [
+        "Note-BiologicalAssets-Short-Plantations-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_113-ML_13-C": [
+        "Note-BiologicalAssets-Short-Plantations-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_113-*-D": [
+        "Note-BiologicalAssets-Short-Plantations-ClosingBalance",
+        "Note-BiologicalAssets-Short-ClosingBalance-Total"
+    ],
+    "107010-VG_113-*-C": [
+        "Note-BiologicalAssets-Short-Plantations-ClosingBalance",
+        "Note-BiologicalAssets-Short-ClosingBalance-Total"
+    ],
+    "107011-VG_113-ML_15-D": [
+        "Note-BiologicalAssets-Long-Plantations-FairValueChange",
+        "Note-BiologicalAssets-Long-FairValueChange-Total"
+    ],
+    "107011-VG_113-ML_15-C": [
+        "Note-BiologicalAssets-Long-Plantations-FairValueChange",
+        "Note-BiologicalAssets-Long-FairValueChange-Total"
+    ],
+    "107011-VG_113-ML_11-D": [
+        "Note-BiologicalAssets-Long-Plantations-Acquisition",
+        "Note-BiologicalAssets-Long-Acquisition-Total"
+    ],
+    "107011-VG_113-ML_11-C": [
+        "Note-BiologicalAssets-Long-Plantations-Acquisition",
+        "Note-BiologicalAssets-Long-Acquisition-Total"
+    ],
+    "107011-VG_113-ML_12-D": [
+        "Note-BiologicalAssets-Long-Plantations-Disposal",
+        "Note-BiologicalAssets-Long-Disposal-Total"
+    ],
+    "107011-VG_113-ML_12-C": [
+        "Note-BiologicalAssets-Long-Plantations-Disposal",
+        "Note-BiologicalAssets-Long-Disposal-Total"
+    ],
+    "107011-VG_113-ML_18-D": [
+        "Note-BiologicalAssets-Long-Plantations-DecreaseToProduction",
+        "Note-BiologicalAssets-Long-DecreaseToProduction-Total"
+    ],
+    "107011-VG_113-ML_18-C": [
+        "Note-BiologicalAssets-Long-Plantations-DecreaseToProduction",
+        "Note-BiologicalAssets-Long-DecreaseToProduction-Total"
+    ],
+    "107011-VG_113-ML_19-D": [
+        "Note-BiologicalAssets-Long-Plantations-IncreaseGrowth",
+        "Note-BiologicalAssets-Long-IncreaseGrowth-Total"
+    ],
+    "107011-VG_113-ML_19-C": [
+        "Note-BiologicalAssets-Long-Plantations-IncreaseGrowth",
+        "Note-BiologicalAssets-Long-IncreaseGrowth-Total"
+    ],
+    "107011-VG_113-ML_14-D": [
+        "Note-BiologicalAssets-Long-Plantations-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total"
+    ],
+    "107011-VG_113-ML_14-C": [
+        "Note-BiologicalAssets-Long-Plantations-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total"
+    ],
+    "107011-VG_113-ML_17-C": [
+        "Note-BiologicalAssets-Long-Plantations-ImpairmentLoss",
+        "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total"
+    ],
+    "107011-VG_113-ML_17-D": [
+        "Note-BiologicalAssets-Long-Plantations-ImpairmentLossReverse",
+        "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total"
+    ],
+    "107011-VG_113-ML_99-D": [
+        "Note-BiologicalAssets-Long-Plantations-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_113-ML_99-C": [
+        "Note-BiologicalAssets-Long-Plantations-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_113-ML_13-D": [
+        "Note-BiologicalAssets-Long-Plantations-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_113-ML_13-C": [
+        "Note-BiologicalAssets-Long-Plantations-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_113-*-D": [
+        "Note-BiologicalAssets-Long-Plantations-ClosingBalance-FairValue",
+        "Note-BiologicalAssets-Long-Plantations-ClosingBalance-CostValue",
+        "Note-BiologicalAssets-Long-Plantations-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total"
+    ],
+    "107011-VG_113-*-C": [
+        "Note-BiologicalAssets-Long-Plantations-ClosingBalance-FairValue",
+        "Note-BiologicalAssets-Long-Plantations-ClosingBalance-CostValue",
+        "Note-BiologicalAssets-Long-Plantations-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total"
+    ],
+    "107021-VG_113-*-D": [
+        "Note-BiologicalAssets-Long-Plantations-ClosingBalance-Depreciation",
+        "Note-BiologicalAssets-Long-Plantations-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total"
+    ],
+    "107021-VG_113-*-C": [
+        "Note-BiologicalAssets-Long-Plantations-ClosingBalance-Depreciation",
+        "Note-BiologicalAssets-Long-Plantations-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total"
+    ],
+    "107010-VG_114-ML_15-D": [
+        "Note-BiologicalAssets-Short-Forest-FairValueChange",
+        "Note-BiologicalAssets-Short-FairValueChange-Total"
+    ],
+    "107010-VG_114-ML_15-C": [
+        "Note-BiologicalAssets-Short-Forest-FairValueChange",
+        "Note-BiologicalAssets-Short-FairValueChange-Total"
+    ],
+    "107010-VG_114-ML_11-D": [
+        "Note-BiologicalAssets-Short-Forest-Acquisition",
+        "Note-BiologicalAssets-Short-Acquisition-Total"
+    ],
+    "107010-VG_114-ML_11-C": [
+        "Note-BiologicalAssets-Short-Forest-Acquisition",
+        "Note-BiologicalAssets-Short-Acquisition-Total"
+    ],
+    "107010-VG_114-ML_12-D": [
+        "Note-BiologicalAssets-Short-Forest-Disposal",
+        "Note-BiologicalAssets-Short-Disposal-Total"
+    ],
+    "107010-VG_114-ML_12-C": [
+        "Note-BiologicalAssets-Short-Forest-Disposal",
+        "Note-BiologicalAssets-Short-Disposal-Total"
+    ],
+    "107010-VG_114-ML_18-D": [
+        "Note-BiologicalAssets-Short-Forest-DecreaseToProduction",
+        "Note-BiologicalAssets-Short-DecreaseToProduction-Total"
+    ],
+    "107010-VG_114-ML_18-C": [
+        "Note-BiologicalAssets-Short-Forest-DecreaseToProduction",
+        "Note-BiologicalAssets-Short-DecreaseToProduction-Total"
+    ],
+    "107010-VG_114-ML_19-D": [
+        "Note-BiologicalAssets-Short-Forest-IncreaseGrowth",
+        "Note-BiologicalAssets-Short-IncreaseGrowth-Total"
+    ],
+    "107010-VG_114-ML_19-C": [
+        "Note-BiologicalAssets-Short-Forest-IncreaseGrowth",
+        "Note-BiologicalAssets-Short-IncreaseGrowth-Total"
+    ],
+    "107010-VG_114-ML_14-D": [
+        "Note-BiologicalAssets-Short-Forest-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total"
+    ],
+    "107010-VG_114-ML_14-C": [
+        "Note-BiologicalAssets-Short-Forest-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total"
+    ],
+    "107010-VG_114-ML_17-C": [
+        "Note-BiologicalAssets-Short-Forest-ImpairmentLoss",
+        "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total"
+    ],
+    "107010-VG_114-ML_17-D": [
+        "Note-BiologicalAssets-Short-Forest-ImpairmentLossReverse",
+        "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total"
+    ],
+    "107010-VG_114-ML_99-D": [
+        "Note-BiologicalAssets-Short-Forest-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_114-ML_99-C": [
+        "Note-BiologicalAssets-Short-Forest-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_114-ML_13-D": [
+        "Note-BiologicalAssets-Short-Forest-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_114-ML_13-C": [
+        "Note-BiologicalAssets-Short-Forest-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_114-*-D": [
+        "Note-BiologicalAssets-Short-Forest-ClosingBalance",
+        "Note-BiologicalAssets-Short-ClosingBalance-Total"
+    ],
+    "107010-VG_114-*-C": [
+        "Note-BiologicalAssets-Short-Forest-ClosingBalance",
+        "Note-BiologicalAssets-Short-ClosingBalance-Total"
+    ],
+    "107011-VG_114-ML_15-D": [
+        "Note-BiologicalAssets-Long-Forest-FairValueChange",
+        "Note-BiologicalAssets-Long-FairValueChange-Total"
+    ],
+    "107011-VG_114-ML_15-C": [
+        "Note-BiologicalAssets-Long-Forest-FairValueChange",
+        "Note-BiologicalAssets-Long-FairValueChange-Total"
+    ],
+    "107011-VG_114-ML_11-D": [
+        "Note-BiologicalAssets-Long-Forest-Acquisition",
+        "Note-BiologicalAssets-Long-Acquisition-Total"
+    ],
+    "107011-VG_114-ML_11-C": [
+        "Note-BiologicalAssets-Long-Forest-Acquisition",
+        "Note-BiologicalAssets-Long-Acquisition-Total"
+    ],
+    "107011-VG_114-ML_12-D": [
+        "Note-BiologicalAssets-Long-Forest-Disposal",
+        "Note-BiologicalAssets-Long-Disposal-Total"
+    ],
+    "107011-VG_114-ML_12-C": [
+        "Note-BiologicalAssets-Long-Forest-Disposal",
+        "Note-BiologicalAssets-Long-Disposal-Total"
+    ],
+    "107011-VG_114-ML_18-D": [
+        "Note-BiologicalAssets-Long-Forest-DecreaseToProduction",
+        "Note-BiologicalAssets-Long-DecreaseToProduction-Total"
+    ],
+    "107011-VG_114-ML_18-C": [
+        "Note-BiologicalAssets-Long-Forest-DecreaseToProduction",
+        "Note-BiologicalAssets-Long-DecreaseToProduction-Total"
+    ],
+    "107011-VG_114-ML_19-D": [
+        "Note-BiologicalAssets-Long-Forest-IncreaseGrowth",
+        "Note-BiologicalAssets-Long-IncreaseGrowth-Total"
+    ],
+    "107011-VG_114-ML_19-C": [
+        "Note-BiologicalAssets-Long-Forest-IncreaseGrowth",
+        "Note-BiologicalAssets-Long-IncreaseGrowth-Total"
+    ],
+    "107011-VG_114-ML_14-D": [
+        "Note-BiologicalAssets-Long-Forest-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total"
+    ],
+    "107011-VG_114-ML_14-C": [
+        "Note-BiologicalAssets-Long-Forest-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total"
+    ],
+    "107011-VG_114-ML_17-C": [
+        "Note-BiologicalAssets-Long-Forest-ImpairmentLoss",
+        "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total"
+    ],
+    "107011-VG_114-ML_17-D": [
+        "Note-BiologicalAssets-Long-Forest-ImpairmentLossReverse",
+        "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total"
+    ],
+    "107011-VG_114-ML_99-D": [
+        "Note-BiologicalAssets-Long-Forest-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_114-ML_99-C": [
+        "Note-BiologicalAssets-Long-Forest-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_114-ML_13-D": [
+        "Note-BiologicalAssets-Long-Forest-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_114-ML_13-C": [
+        "Note-BiologicalAssets-Long-Forest-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_114-*-D": [
+        "Note-BiologicalAssets-Long-Forest-ClosingBalance-FairValue",
+        "Note-BiologicalAssets-Long-Forest-ClosingBalance-CostValue",
+        "Note-BiologicalAssets-Long-Forest-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total"
+    ],
+    "107011-VG_114-*-C": [
+        "Note-BiologicalAssets-Long-Forest-ClosingBalance-FairValue",
+        "Note-BiologicalAssets-Long-Forest-ClosingBalance-CostValue",
+        "Note-BiologicalAssets-Long-Forest-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total"
+    ],
+    "107021-VG_114-*-D": [
+        "Note-BiologicalAssets-Long-Forest-ClosingBalance-Depreciation",
+        "Note-BiologicalAssets-Long-Forest-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total"
+    ],
+    "107021-VG_114-*-C": [
+        "Note-BiologicalAssets-Long-Forest-ClosingBalance-Depreciation",
+        "Note-BiologicalAssets-Long-Forest-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total"
+    ],
+    "107010-VG_115-ML_15-D": [
+        "Note-BiologicalAssets-Short-Crop-FairValueChange",
+        "Note-BiologicalAssets-Short-FairValueChange-Total"
+    ],
+    "107010-VG_115-ML_15-C": [
+        "Note-BiologicalAssets-Short-Crop-FairValueChange",
+        "Note-BiologicalAssets-Short-FairValueChange-Total"
+    ],
+    "107010-VG_115-ML_11-D": [
+        "Note-BiologicalAssets-Short-Crop-Acquisition",
+        "Note-BiologicalAssets-Short-Acquisition-Total"
+    ],
+    "107010-VG_115-ML_11-C": [
+        "Note-BiologicalAssets-Short-Crop-Acquisition",
+        "Note-BiologicalAssets-Short-Acquisition-Total"
+    ],
+    "107010-VG_115-ML_12-D": [
+        "Note-BiologicalAssets-Short-Crop-Disposal",
+        "Note-BiologicalAssets-Short-Disposal-Total"
+    ],
+    "107010-VG_115-ML_12-C": [
+        "Note-BiologicalAssets-Short-Crop-Disposal",
+        "Note-BiologicalAssets-Short-Disposal-Total"
+    ],
+    "107010-VG_115-ML_18-D": [
+        "Note-BiologicalAssets-Short-Crop-DecreaseToProduction",
+        "Note-BiologicalAssets-Short-DecreaseToProduction-Total"
+    ],
+    "107010-VG_115-ML_18-C": [
+        "Note-BiologicalAssets-Short-Crop-DecreaseToProduction",
+        "Note-BiologicalAssets-Short-DecreaseToProduction-Total"
+    ],
+    "107010-VG_115-ML_19-D": [
+        "Note-BiologicalAssets-Short-Crop-IncreaseGrowth",
+        "Note-BiologicalAssets-Short-IncreaseGrowth-Total"
+    ],
+    "107010-VG_115-ML_19-C": [
+        "Note-BiologicalAssets-Short-Crop-IncreaseGrowth",
+        "Note-BiologicalAssets-Short-IncreaseGrowth-Total"
+    ],
+    "107010-VG_115-ML_14-D": [
+        "Note-BiologicalAssets-Short-Crop-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total"
+    ],
+    "107010-VG_115-ML_14-C": [
+        "Note-BiologicalAssets-Short-Crop-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total"
+    ],
+    "107010-VG_115-ML_17-C": [
+        "Note-BiologicalAssets-Short-Crop-ImpairmentLoss",
+        "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total"
+    ],
+    "107010-VG_115-ML_17-D": [
+        "Note-BiologicalAssets-Short-Crop-ImpairmentLossReverse",
+        "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total"
+    ],
+    "107010-VG_115-ML_99-D": [
+        "Note-BiologicalAssets-Short-Crop-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_115-ML_99-C": [
+        "Note-BiologicalAssets-Short-Crop-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_115-ML_13-D": [
+        "Note-BiologicalAssets-Short-Crop-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_115-ML_13-C": [
+        "Note-BiologicalAssets-Short-Crop-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_115-*-D": [
+        "Note-BiologicalAssets-Short-Crop-ClosingBalance",
+        "Note-BiologicalAssets-Short-ClosingBalance-Total"
+    ],
+    "107010-VG_115-*-C": [
+        "Note-BiologicalAssets-Short-Crop-ClosingBalance",
+        "Note-BiologicalAssets-Short-ClosingBalance-Total"
+    ],
+    "107011-VG_115-ML_15-D": [
+        "Note-BiologicalAssets-Long-Crop-FairValueChange",
+        "Note-BiologicalAssets-Long-FairValueChange-Total"
+    ],
+    "107011-VG_115-ML_15-C": [
+        "Note-BiologicalAssets-Long-Crop-FairValueChange",
+        "Note-BiologicalAssets-Long-FairValueChange-Total"
+    ],
+    "107011-VG_115-ML_11-D": [
+        "Note-BiologicalAssets-Long-Crop-Acquisition",
+        "Note-BiologicalAssets-Long-Acquisition-Total"
+    ],
+    "107011-VG_115-ML_11-C": [
+        "Note-BiologicalAssets-Long-Crop-Acquisition",
+        "Note-BiologicalAssets-Long-Acquisition-Total"
+    ],
+    "107011-VG_115-ML_12-D": [
+        "Note-BiologicalAssets-Long-Crop-Disposal",
+        "Note-BiologicalAssets-Long-Disposal-Total"
+    ],
+    "107011-VG_115-ML_12-C": [
+        "Note-BiologicalAssets-Long-Crop-Disposal",
+        "Note-BiologicalAssets-Long-Disposal-Total"
+    ],
+    "107011-VG_115-ML_18-D": [
+        "Note-BiologicalAssets-Long-Crop-DecreaseToProduction",
+        "Note-BiologicalAssets-Long-DecreaseToProduction-Total"
+    ],
+    "107011-VG_115-ML_18-C": [
+        "Note-BiologicalAssets-Long-Crop-DecreaseToProduction",
+        "Note-BiologicalAssets-Long-DecreaseToProduction-Total"
+    ],
+    "107011-VG_115-ML_19-D": [
+        "Note-BiologicalAssets-Long-Crop-IncreaseGrowth",
+        "Note-BiologicalAssets-Long-IncreaseGrowth-Total"
+    ],
+    "107011-VG_115-ML_19-C": [
+        "Note-BiologicalAssets-Long-Crop-IncreaseGrowth",
+        "Note-BiologicalAssets-Long-IncreaseGrowth-Total"
+    ],
+    "107011-VG_115-ML_14-D": [
+        "Note-BiologicalAssets-Long-Crop-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total"
+    ],
+    "107011-VG_115-ML_14-C": [
+        "Note-BiologicalAssets-Long-Crop-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total"
+    ],
+    "107011-VG_115-ML_17-C": [
+        "Note-BiologicalAssets-Long-Crop-ImpairmentLoss",
+        "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total"
+    ],
+    "107011-VG_115-ML_17-D": [
+        "Note-BiologicalAssets-Long-Crop-ImpairmentLossReverse",
+        "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total"
+    ],
+    "107011-VG_115-ML_99-D": [
+        "Note-BiologicalAssets-Long-Crop-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_115-ML_99-C": [
+        "Note-BiologicalAssets-Long-Crop-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_115-ML_13-D": [
+        "Note-BiologicalAssets-Long-Crop-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_115-ML_13-C": [
+        "Note-BiologicalAssets-Long-Crop-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_115-*-D": [
+        "Note-BiologicalAssets-Long-Crop-ClosingBalance-FairValue",
+        "Note-BiologicalAssets-Long-Crop-ClosingBalance-CostValue",
+        "Note-BiologicalAssets-Long-Crop-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total"
+    ],
+    "107011-VG_115-*-C": [
+        "Note-BiologicalAssets-Long-Crop-ClosingBalance-FairValue",
+        "Note-BiologicalAssets-Long-Crop-ClosingBalance-CostValue",
+        "Note-BiologicalAssets-Long-Crop-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total"
+    ],
+    "107021-VG_115-*-D": [
+        "Note-BiologicalAssets-Long-Crop-ClosingBalance-Depreciation",
+        "Note-BiologicalAssets-Long-Crop-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total"
+    ],
+    "107021-VG_115-*-C": [
+        "Note-BiologicalAssets-Long-Crop-ClosingBalance-Depreciation",
+        "Note-BiologicalAssets-Long-Crop-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total"
+    ],
+    "107010-VG_116-ML_15-D": [
+        "Note-BiologicalAssets-Short-Grasslands-FairValueChange",
+        "Note-BiologicalAssets-Short-FairValueChange-Total"
+    ],
+    "107010-VG_116-ML_15-C": [
+        "Note-BiologicalAssets-Short-Grasslands-FairValueChange",
+        "Note-BiologicalAssets-Short-FairValueChange-Total"
+    ],
+    "107010-VG_116-ML_11-D": [
+        "Note-BiologicalAssets-Short-Grasslands-Acquisition",
+        "Note-BiologicalAssets-Short-Acquisition-Total"
+    ],
+    "107010-VG_116-ML_11-C": [
+        "Note-BiologicalAssets-Short-Grasslands-Acquisition",
+        "Note-BiologicalAssets-Short-Acquisition-Total"
+    ],
+    "107010-VG_116-ML_12-D": [
+        "Note-BiologicalAssets-Short-Grasslands-Disposal",
+        "Note-BiologicalAssets-Short-Disposal-Total"
+    ],
+    "107010-VG_116-ML_12-C": [
+        "Note-BiologicalAssets-Short-Grasslands-Disposal",
+        "Note-BiologicalAssets-Short-Disposal-Total"
+    ],
+    "107010-VG_116-ML_18-D": [
+        "Note-BiologicalAssets-Short-Grasslands-DecreaseToProduction",
+        "Note-BiologicalAssets-Short-DecreaseToProduction-Total"
+    ],
+    "107010-VG_116-ML_18-C": [
+        "Note-BiologicalAssets-Short-Grasslands-DecreaseToProduction",
+        "Note-BiologicalAssets-Short-DecreaseToProduction-Total"
+    ],
+    "107010-VG_116-ML_19-D": [
+        "Note-BiologicalAssets-Short-Grasslands-IncreaseGrowth",
+        "Note-BiologicalAssets-Short-IncreaseGrowth-Total"
+    ],
+    "107010-VG_116-ML_19-C": [
+        "Note-BiologicalAssets-Short-Grasslands-IncreaseGrowth",
+        "Note-BiologicalAssets-Short-IncreaseGrowth-Total"
+    ],
+    "107010-VG_116-ML_14-D": [
+        "Note-BiologicalAssets-Short-Grasslands-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total"
+    ],
+    "107010-VG_116-ML_14-C": [
+        "Note-BiologicalAssets-Short-Grasslands-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total"
+    ],
+    "107010-VG_116-ML_17-C": [
+        "Note-BiologicalAssets-Short-Grasslands-ImpairmentLoss",
+        "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total"
+    ],
+    "107010-VG_116-ML_17-D": [
+        "Note-BiologicalAssets-Short-Grasslands-ImpairmentLossReverse",
+        "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total"
+    ],
+    "107010-VG_116-ML_99-D": [
+        "Note-BiologicalAssets-Short-Grasslands-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_116-ML_99-C": [
+        "Note-BiologicalAssets-Short-Grasslands-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_116-ML_13-D": [
+        "Note-BiologicalAssets-Short-Grasslands-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_116-ML_13-C": [
+        "Note-BiologicalAssets-Short-Grasslands-OtherMovements",
+        "Note-BiologicalAssets-Short-OtherMovements-Total"
+    ],
+    "107010-VG_116-*-D": [
+        "Note-BiologicalAssets-Short-Grasslands-ClosingBalance",
+        "Note-BiologicalAssets-Short-ClosingBalance-Total"
+    ],
+    "107010-VG_116-*-C": [
+        "Note-BiologicalAssets-Short-Grasslands-ClosingBalance",
+        "Note-BiologicalAssets-Short-ClosingBalance-Total"
+    ],
+    "107011-VG_116-ML_15-D": [
+        "Note-BiologicalAssets-Long-Grasslands-FairValueChange",
+        "Note-BiologicalAssets-Long-FairValueChange-Total"
+    ],
+    "107011-VG_116-ML_15-C": [
+        "Note-BiologicalAssets-Long-Grasslands-FairValueChange",
+        "Note-BiologicalAssets-Long-FairValueChange-Total"
+    ],
+    "107011-VG_116-ML_11-D": [
+        "Note-BiologicalAssets-Long-Grasslands-Acquisition",
+        "Note-BiologicalAssets-Long-Acquisition-Total"
+    ],
+    "107011-VG_116-ML_11-C": [
+        "Note-BiologicalAssets-Long-Grasslands-Acquisition",
+        "Note-BiologicalAssets-Long-Acquisition-Total"
+    ],
+    "107011-VG_116-ML_12-D": [
+        "Note-BiologicalAssets-Long-Grasslands-Disposal",
+        "Note-BiologicalAssets-Long-Disposal-Total"
+    ],
+    "107011-VG_116-ML_12-C": [
+        "Note-BiologicalAssets-Long-Grasslands-Disposal",
+        "Note-BiologicalAssets-Long-Disposal-Total"
+    ],
+    "107011-VG_116-ML_18-D": [
+        "Note-BiologicalAssets-Long-Grasslands-DecreaseToProduction",
+        "Note-BiologicalAssets-Long-DecreaseToProduction-Total"
+    ],
+    "107011-VG_116-ML_18-C": [
+        "Note-BiologicalAssets-Long-Grasslands-DecreaseToProduction",
+        "Note-BiologicalAssets-Long-DecreaseToProduction-Total"
+    ],
+    "107011-VG_116-ML_19-D": [
+        "Note-BiologicalAssets-Long-Grasslands-IncreaseGrowth",
+        "Note-BiologicalAssets-Long-IncreaseGrowth-Total"
+    ],
+    "107011-VG_116-ML_19-C": [
+        "Note-BiologicalAssets-Long-Grasslands-IncreaseGrowth",
+        "Note-BiologicalAssets-Long-IncreaseGrowth-Total"
+    ],
+    "107011-VG_116-ML_14-D": [
+        "Note-BiologicalAssets-Long-Grasslands-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total"
+    ],
+    "107011-VG_116-ML_14-C": [
+        "Note-BiologicalAssets-Long-Grasslands-IncreaseBusinessCombnations",
+        "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total"
+    ],
+    "107011-VG_116-ML_17-C": [
+        "Note-BiologicalAssets-Long-Grasslands-ImpairmentLoss",
+        "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total"
+    ],
+    "107011-VG_116-ML_17-D": [
+        "Note-BiologicalAssets-Long-Grasslands-ImpairmentLossReverse",
+        "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+        "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total"
+    ],
+    "107011-VG_116-ML_99-D": [
+        "Note-BiologicalAssets-Long-Grasslands-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_116-ML_99-C": [
+        "Note-BiologicalAssets-Long-Grasslands-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_116-ML_13-D": [
+        "Note-BiologicalAssets-Long-Grasslands-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_116-ML_13-C": [
+        "Note-BiologicalAssets-Long-Grasslands-OtherMovements",
+        "Note-BiologicalAssets-Long-OtherMovements-Total"
+    ],
+    "107011-VG_116-*-D": [
+        "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-FairValue",
+        "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-CostValue",
+        "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total"
+    ],
+    "107011-VG_116-*-C": [
+        "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-FairValue",
+        "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-CostValue",
+        "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total"
+    ],
+    "107021-VG_116-*-D": [
+        "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-Depreciation",
+        "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total"
+    ],
+    "107021-VG_116-*-C": [
+        "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-Depreciation",
+        "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-ResidualValue",
+        "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+        "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total"
+    ],
+    "107020-VG_112-ML_11-D": [
+        "Note-BiologicalAssets-Short-Prepayments-Acquisition"
+    ],
+    "107020-VG_112-ML_11-C": [
+        "Note-BiologicalAssets-Short-Prepayments-Acquisition"
+    ],
+    "107020-VG_113-ML_11-D": [
+        "Note-BiologicalAssets-Short-Prepayments-Acquisition"
+    ],
+    "107020-VG_113-ML_11-C": [
+        "Note-BiologicalAssets-Short-Prepayments-Acquisition"
+    ],
+    "107020-VG_114-ML_11-D": [
+        "Note-BiologicalAssets-Short-Prepayments-Acquisition"
+    ],
+    "107020-VG_114-ML_11-C": [
+        "Note-BiologicalAssets-Short-Prepayments-Acquisition"
+    ],
+    "107020-VG_115-ML_11-D": [
+        "Note-BiologicalAssets-Short-Prepayments-Acquisition"
+    ],
+    "107020-VG_115-ML_11-C": [
+        "Note-BiologicalAssets-Short-Prepayments-Acquisition"
+    ],
+    "107020-VG_116-ML_11-D": [
+        "Note-BiologicalAssets-Short-Prepayments-Acquisition"
+    ],
+    "107020-VG_116-ML_11-C": [
+        "Note-BiologicalAssets-Short-Prepayments-Acquisition"
+    ],
+    "107020-VG_112-ML_12-D": [
+        "Note-BiologicalAssets-Short-Prepayments-Disposal"
+    ],
+    "107020-VG_112-ML_12-C": [
+        "Note-BiologicalAssets-Short-Prepayments-Disposal"
+    ],
+    "107020-VG_113-ML_12-D": [
+        "Note-BiologicalAssets-Short-Prepayments-Disposal"
+    ],
+    "107020-VG_113-ML_12-C": [
+        "Note-BiologicalAssets-Short-Prepayments-Disposal"
+    ],
+    "107020-VG_114-ML_12-D": [
+        "Note-BiologicalAssets-Short-Prepayments-Disposal"
+    ],
+    "107020-VG_114-ML_12-C": [
+        "Note-BiologicalAssets-Short-Prepayments-Disposal"
+    ],
+    "107020-VG_115-ML_12-D": [
+        "Note-BiologicalAssets-Short-Prepayments-Disposal"
+    ],
+    "107020-VG_115-ML_12-C": [
+        "Note-BiologicalAssets-Short-Prepayments-Disposal"
+    ],
+    "107020-VG_116-ML_12-D": [
+        "Note-BiologicalAssets-Short-Prepayments-Disposal"
+    ],
+    "107020-VG_116-ML_12-C": [
+        "Note-BiologicalAssets-Short-Prepayments-Disposal"
+    ],
+    "107020-VG_112-ML_99-D": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_112-ML_99-C": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_112-ML_13-D": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_112-ML_13-C": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_113-ML_99-D": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_113-ML_99-C": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_113-ML_13-D": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_113-ML_13-C": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_114-ML_99-D": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_114-ML_99-C": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_114-ML_13-D": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_114-ML_13-C": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_115-ML_99-D": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_115-ML_99-C": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_115-ML_13-D": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_115-ML_13-C": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_116-ML_99-D": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_116-ML_99-C": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_116-ML_13-D": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_116-ML_13-C": [
+        "Note-BiologicalAssets-Short-Prepayments-OtherMovements"
+    ],
+    "107020-VG_112-*-D": [
+        "Note-BiologicalAssets-Short-Prepayments-ClosingBalance"
+    ],
+    "107020-VG_112-*-C": [
+        "Note-BiologicalAssets-Short-Prepayments-ClosingBalance"
+    ],
+    "107020-VG_113-*-D": [
+        "Note-BiologicalAssets-Short-Prepayments-ClosingBalance"
+    ],
+    "107020-VG_113-*-C": [
+        "Note-BiologicalAssets-Short-Prepayments-ClosingBalance"
+    ],
+    "107020-VG_114-*-D": [
+        "Note-BiologicalAssets-Short-Prepayments-ClosingBalance"
+    ],
+    "107020-VG_114-*-C": [
+        "Note-BiologicalAssets-Short-Prepayments-ClosingBalance"
+    ],
+    "107020-VG_115-*-D": [
+        "Note-BiologicalAssets-Short-Prepayments-ClosingBalance"
+    ],
+    "107020-VG_115-*-C": [
+        "Note-BiologicalAssets-Short-Prepayments-ClosingBalance"
+    ],
+    "107020-VG_116-*-D": [
+        "Note-BiologicalAssets-Short-Prepayments-ClosingBalance"
+    ],
+    "107020-VG_116-*-C": [
+        "Note-BiologicalAssets-Short-Prepayments-ClosingBalance"
+    ],
+    "107051-VG_112-ML_11-D": [
+        "Note-BiologicalAssets-Long-Prepayments-Acquisition"
+    ],
+    "107051-VG_112-ML_11-C": [
+        "Note-BiologicalAssets-Long-Prepayments-Acquisition"
+    ],
+    "107051-VG_113-ML_11-D": [
+        "Note-BiologicalAssets-Long-Prepayments-Acquisition"
+    ],
+    "107051-VG_113-ML_11-C": [
+        "Note-BiologicalAssets-Long-Prepayments-Acquisition"
+    ],
+    "107051-VG_114-ML_11-D": [
+        "Note-BiologicalAssets-Long-Prepayments-Acquisition"
+    ],
+    "107051-VG_114-ML_11-C": [
+        "Note-BiologicalAssets-Long-Prepayments-Acquisition"
+    ],
+    "107051-VG_115-ML_11-D": [
+        "Note-BiologicalAssets-Long-Prepayments-Acquisition"
+    ],
+    "107051-VG_115-ML_11-C": [
+        "Note-BiologicalAssets-Long-Prepayments-Acquisition"
+    ],
+    "107051-VG_116-ML_11-D": [
+        "Note-BiologicalAssets-Long-Prepayments-Acquisition"
+    ],
+    "107051-VG_116-ML_11-C": [
+        "Note-BiologicalAssets-Long-Prepayments-Acquisition"
+    ],
+    "107051-VG_112-ML_12-D": [
+        "Note-BiologicalAssets-Long-Prepayments-Disposal"
+    ],
+    "107051-VG_112-ML_12-C": [
+        "Note-BiologicalAssets-Long-Prepayments-Disposal"
+    ],
+    "107051-VG_113-ML_12-D": [
+        "Note-BiologicalAssets-Long-Prepayments-Disposal"
+    ],
+    "107051-VG_113-ML_12-C": [
+        "Note-BiologicalAssets-Long-Prepayments-Disposal"
+    ],
+    "107051-VG_114-ML_12-D": [
+        "Note-BiologicalAssets-Long-Prepayments-Disposal"
+    ],
+    "107051-VG_114-ML_12-C": [
+        "Note-BiologicalAssets-Long-Prepayments-Disposal"
+    ],
+    "107051-VG_115-ML_12-D": [
+        "Note-BiologicalAssets-Long-Prepayments-Disposal"
+    ],
+    "107051-VG_115-ML_12-C": [
+        "Note-BiologicalAssets-Long-Prepayments-Disposal"
+    ],
+    "107051-VG_116-ML_12-D": [
+        "Note-BiologicalAssets-Long-Prepayments-Disposal"
+    ],
+    "107051-VG_116-ML_12-C": [
+        "Note-BiologicalAssets-Long-Prepayments-Disposal"
+    ],
+    "107051-VG_112-ML_99-D": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_112-ML_99-C": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_112-ML_13-D": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_112-ML_13-C": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_113-ML_99-D": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_113-ML_99-C": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_113-ML_13-D": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_113-ML_13-C": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_114-ML_99-D": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_114-ML_99-C": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_114-ML_13-D": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_114-ML_13-C": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_115-ML_99-D": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_115-ML_99-C": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_115-ML_13-D": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_115-ML_13-C": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_116-ML_99-D": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_116-ML_99-C": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_116-ML_13-D": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_116-ML_13-C": [
+        "Note-BiologicalAssets-Long-Prepayments-OtherMovements"
+    ],
+    "107051-VG_112-*-D": [
+        "Note-BiologicalAssets-Long-Prepayments-ClosingBalance"
+    ],
+    "107051-VG_112-*-C": [
+        "Note-BiologicalAssets-Long-Prepayments-ClosingBalance"
+    ],
+    "107051-VG_113-*-D": [
+        "Note-BiologicalAssets-Long-Prepayments-ClosingBalance"
+    ],
+    "107051-VG_113-*-C": [
+        "Note-BiologicalAssets-Long-Prepayments-ClosingBalance"
+    ],
+    "107051-VG_114-*-D": [
+        "Note-BiologicalAssets-Long-Prepayments-ClosingBalance"
+    ],
+    "107051-VG_114-*-C": [
+        "Note-BiologicalAssets-Long-Prepayments-ClosingBalance"
+    ],
+    "107051-VG_115-*-D": [
+        "Note-BiologicalAssets-Long-Prepayments-ClosingBalance"
+    ],
+    "107051-VG_115-*-C": [
+        "Note-BiologicalAssets-Long-Prepayments-ClosingBalance"
+    ],
+    "107051-VG_116-*-D": [
+        "Note-BiologicalAssets-Long-Prepayments-ClosingBalance"
+    ],
+    "107051-VG_116-*-C": [
+        "Note-BiologicalAssets-Long-Prepayments-ClosingBalance"
+    ],
+    "107011-VG_112-ML_16-D": [
+        "Note-BiologicalAssets-Long-Depreciation-Total"
+    ],
+    "107011-VG_112-ML_16-C": [
+        "Note-BiologicalAssets-Long-Depreciation-Total"
+    ],
+    "107011-VG_113-ML_16-D": [
+        "Note-BiologicalAssets-Long-Depreciation-Total"
+    ],
+    "107011-VG_113-ML_16-C": [
+        "Note-BiologicalAssets-Long-Depreciation-Total"
+    ],
+    "107011-VG_114-ML_16-D": [
+        "Note-BiologicalAssets-Long-Depreciation-Total"
+    ],
+    "107011-VG_114-ML_16-C": [
+        "Note-BiologicalAssets-Long-Depreciation-Total"
+    ],
+    "107011-VG_115-ML_16-D": [
+        "Note-BiologicalAssets-Long-Depreciation-Total"
+    ],
+    "107011-VG_115-ML_16-C": [
+        "Note-BiologicalAssets-Long-Depreciation-Total"
+    ],
+    "107011-VG_116-ML_16-D": [
+        "Note-BiologicalAssets-Long-Depreciation-Total"
+    ],
+    "107011-VG_116-ML_16-C": [
+        "Note-BiologicalAssets-Long-Depreciation-Total"
+    ],
+    "111011-VG_108-ML_11-D": [
+        "Note-IntangibleAssets-Goodwill-AcquisitionAndAdditions"
+    ],
+    "111011-VG_108-ML_11-C": [
+        "Note-IntangibleAssets-Goodwill-AcquisitionAndAdditions"
+    ],
+    "111011-VG_108-ML_14-D": [
+        "Note-IntangibleAssets-Goodwill-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-Goodwill-OtherMovements"
+    ],
+    "111011-VG_108-ML_14-C": [
+        "Note-IntangibleAssets-Goodwill-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-Goodwill-OtherMovements"
+    ],
+    "111011-VG_108-ML_17-C": [
+        "Note-IntangibleAssets-Goodwill-ImpairmentLoss"
+    ],
+    "111011-VG_108-ML_17-D": [
+        "Note-IntangibleAssets-Goodwill-ImpairmentLossReverse"
+    ],
+    "111011-VG_108-ML_12-D": [
+        "Note-IntangibleAssets-Goodwill-Disposals"
+    ],
+    "111011-VG_108-ML_12-C": [
+        "Note-IntangibleAssets-Goodwill-Disposals"
+    ],
+    "111011-VG_108-ML_13-D": [
+        "Note-IntangibleAssets-Goodwill-Reclassifications"
+    ],
+    "111011-VG_108-ML_13-C": [
+        "Note-IntangibleAssets-Goodwill-Reclassifications"
+    ],
+    "111011-VG_108-ML_99-D": [
+        "Note-IntangibleAssets-Goodwill-OtherMovements"
+    ],
+    "111011-VG_108-ML_99-C": [
+        "Note-IntangibleAssets-Goodwill-OtherMovements"
+    ],
+    "111011-VG_108-*-D": [
+        "Note-IntangibleAssets-Goodwill-ClosingBalance",
+        "Note-IntangibleAssets-Goodwill-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-Goodwill-ClosingBalance-ResidualValue"
+    ],
+    "111011-VG_108-*-C": [
+        "Note-IntangibleAssets-Goodwill-ClosingBalance",
+        "Note-IntangibleAssets-Goodwill-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-Goodwill-ClosingBalance-ResidualValue"
+    ],
+    "111021-VG_108-*-D": [
+        "Note-IntangibleAssets-Goodwill-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-Goodwill-ClosingBalance-ResidualValue"
+    ],
+    "111021-VG_108-*-C": [
+        "Note-IntangibleAssets-Goodwill-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-Goodwill-ClosingBalance-ResidualValue"
+    ],
+    "111011-VG_109-ML_11-D": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-AcquisitionAndAdditions"
+    ],
+    "111011-VG_109-ML_11-C": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-AcquisitionAndAdditions"
+    ],
+    "111011-VG_109-ML_14-D": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-DevelopmentExpenditures-OtherMovements"
+    ],
+    "111011-VG_109-ML_14-C": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-DevelopmentExpenditures-OtherMovements"
+    ],
+    "111011-VG_109-ML_17-C": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-ImpairmentLoss"
+    ],
+    "111011-VG_109-ML_17-D": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-ImpairmentLossReverse"
+    ],
+    "111011-VG_109-ML_12-D": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-Disposals"
+    ],
+    "111011-VG_109-ML_12-C": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-Disposals"
+    ],
+    "111011-VG_109-ML_13-D": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-Reclassifications"
+    ],
+    "111011-VG_109-ML_13-C": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-Reclassifications"
+    ],
+    "111011-VG_109-ML_99-D": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-OtherMovements"
+    ],
+    "111011-VG_109-ML_99-C": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-OtherMovements"
+    ],
+    "111011-VG_109-*-D": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance",
+        "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-ResidualValue"
+    ],
+    "111011-VG_109-*-C": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance",
+        "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-ResidualValue"
+    ],
+    "111021-VG_109-*-D": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-ResidualValue"
+    ],
+    "111021-VG_109-*-C": [
+        "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-ResidualValue"
+    ],
+    "111011-VG_110-ML_11-D": [
+        "Note-IntangibleAssets-ComputerSoftware-AcquisitionAndAdditions"
+    ],
+    "111011-VG_110-ML_11-C": [
+        "Note-IntangibleAssets-ComputerSoftware-AcquisitionAndAdditions"
+    ],
+    "111011-VG_110-ML_14-D": [
+        "Note-IntangibleAssets-ComputerSoftware-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-ComputerSoftware-OtherMovements"
+    ],
+    "111011-VG_110-ML_14-C": [
+        "Note-IntangibleAssets-ComputerSoftware-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-ComputerSoftware-OtherMovements"
+    ],
+    "111011-VG_110-ML_17-D": [
+        "Note-IntangibleAssets-ComputerSoftware-ImpairmentLoss",
+        "Note-IntangibleAssets-ComputerSoftware-ImpairmentLossReverse"
+    ],
+    "111011-VG_110-ML_12-D": [
+        "Note-IntangibleAssets-ComputerSoftware-Disposals"
+    ],
+    "111011-VG_110-ML_12-C": [
+        "Note-IntangibleAssets-ComputerSoftware-Disposals"
+    ],
+    "111011-VG_110-ML_13-D": [
+        "Note-IntangibleAssets-ComputerSoftware-Reclassifications"
+    ],
+    "111011-VG_110-ML_13-C": [
+        "Note-IntangibleAssets-ComputerSoftware-Reclassifications"
+    ],
+    "111011-VG_110-ML_99-D": [
+        "Note-IntangibleAssets-ComputerSoftware-OtherMovements"
+    ],
+    "111011-VG_110-ML_99-C": [
+        "Note-IntangibleAssets-ComputerSoftware-OtherMovements"
+    ],
+    "111011-VG_110-*-D": [
+        "Note-IntangibleAssets-ComputerSoftware-ClosingBalance",
+        "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-ResidualValue"
+    ],
+    "111011-VG_110-*-C": [
+        "Note-IntangibleAssets-ComputerSoftware-ClosingBalance",
+        "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-ResidualValue"
+    ],
+    "111021-VG_110-*-D": [
+        "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-ResidualValue"
+    ],
+    "111021-VG_110-*-C": [
+        "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-ResidualValue"
+    ],
+    "111011-VG_111-ML_11-D": [
+        "Note-IntangibleAssets-IntellectualProperty-AcquisitionAndAdditions",
+        "Note-IntangibleAssets-OtherIntangibleAssets-AcquisitionAndAdditions"
+    ],
+    "111011-VG_111-ML_11-C": [
+        "Note-IntangibleAssets-IntellectualProperty-AcquisitionAndAdditions",
+        "Note-IntangibleAssets-OtherIntangibleAssets-AcquisitionAndAdditions"
+    ],
+    "111011-VG_111-ML_14-D": [
+        "Note-IntangibleAssets-IntellectualProperty-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-IntellectualProperty-OtherMovements",
+        "Note-IntangibleAssets-OtherIntangibleAssets-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-OtherIntangibleAssets-OtherMovements"
+    ],
+    "111011-VG_111-ML_14-C": [
+        "Note-IntangibleAssets-IntellectualProperty-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-IntellectualProperty-OtherMovements",
+        "Note-IntangibleAssets-OtherIntangibleAssets-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-OtherIntangibleAssets-OtherMovements"
+    ],
+    "111011-VG_111-ML_17-C": [
+        "Note-IntangibleAssets-IntellectualProperty-ImpairmentLoss",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ImpairmentLoss"
+    ],
+    "111011-VG_111-ML_17-D": [
+        "Note-IntangibleAssets-IntellectualProperty-ImpairmentLossReverse",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ImpairmentLossReverse"
+    ],
+    "111011-VG_111-ML_12-D": [
+        "Note-IntangibleAssets-IntellectualProperty-Disposals",
+        "Note-IntangibleAssets-OtherIntangibleAssets-Disposals"
+    ],
+    "111011-VG_111-ML_12-C": [
+        "Note-IntangibleAssets-IntellectualProperty-Disposals",
+        "Note-IntangibleAssets-OtherIntangibleAssets-Disposals"
+    ],
+    "111011-VG_111-ML_13-D": [
+        "Note-IntangibleAssets-IntellectualProperty-Reclassifications",
+        "Note-IntangibleAssets-OtherIntangibleAssets-Reclassifications"
+    ],
+    "111011-VG_111-ML_13-C": [
+        "Note-IntangibleAssets-IntellectualProperty-Reclassifications",
+        "Note-IntangibleAssets-OtherIntangibleAssets-Reclassifications"
+    ],
+    "111011-VG_111-ML_99-D": [
+        "Note-IntangibleAssets-IntellectualProperty-OtherMovements",
+        "Note-IntangibleAssets-OtherIntangibleAssets-OtherMovements"
+    ],
+    "111011-VG_111-ML_99-C": [
+        "Note-IntangibleAssets-IntellectualProperty-OtherMovements",
+        "Note-IntangibleAssets-OtherIntangibleAssets-OtherMovements"
+    ],
+    "111011-VG_111-*-D": [
+        "Note-IntangibleAssets-IntellectualProperty-ClosingBalance",
+        "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-ResidualValue",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-ResidualValue"
+    ],
+    "111011-VG_111-*-C": [
+        "Note-IntangibleAssets-IntellectualProperty-ClosingBalance",
+        "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-ResidualValue",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-CostValue",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-ResidualValue"
+    ],
+    "111021-VG_111-*-D": [
+        "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-ResidualValue",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-ResidualValue"
+    ],
+    "111021-VG_111-*-C": [
+        "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-ResidualValue",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-Depreciation",
+        "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-ResidualValue"
+    ],
+    "111041-*-ML_11-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-AcquisitionAndAdditions",
+        "Note-IntangibleAssets-AcquisitionAndAdditions-Total"
+    ],
+    "111041-*-ML_11-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-AcquisitionAndAdditions",
+        "Note-IntangibleAssets-AcquisitionAndAdditions-Total"
+    ],
+    "111031-*-ML_11-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-AcquisitionAndAdditions",
+        "Note-IntangibleAssets-AcquisitionAndAdditions-Total"
+    ],
+    "111031-*-ML_11-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-AcquisitionAndAdditions",
+        "Note-IntangibleAssets-AcquisitionAndAdditions-Total"
+    ],
+    "111041-*-ML_14-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-OtherMovements",
+        "Note-IntangibleAssets-IncreaseBusinessCombnations-Total",
+        "Note-IntangibleAssets-OtherMovements-Total"
+    ],
+    "111041-*-ML_14-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-OtherMovements",
+        "Note-IntangibleAssets-IncreaseBusinessCombnations-Total",
+        "Note-IntangibleAssets-OtherMovements-Total"
+    ],
+    "111031-*-ML_14-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-OtherMovements",
+        "Note-IntangibleAssets-IncreaseBusinessCombnations-Total",
+        "Note-IntangibleAssets-OtherMovements-Total"
+    ],
+    "111031-*-ML_14-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-IncreaseBusinessCombnations",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-OtherMovements",
+        "Note-IntangibleAssets-IncreaseBusinessCombnations-Total",
+        "Note-IntangibleAssets-OtherMovements-Total"
+    ],
+    "111041-*-ML_17-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLoss",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLossReverse",
+        "Note-IntangibleAssets-ImpairmentLoss-Total"
+    ],
+    "111031-*-ML_17-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLoss",
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLossReverse",
+        "Note-IntangibleAssets-ImpairmentLoss-Total"
+    ],
+    "111041-*-ML_12-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Disposals",
+        "Note-IntangibleAssets-Disposals-Total"
+    ],
+    "111041-*-ML_12-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Disposals",
+        "Note-IntangibleAssets-Disposals-Total"
+    ],
+    "111031-*-ML_12-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Disposals",
+        "Note-IntangibleAssets-Disposals-Total"
+    ],
+    "111031-*-ML_12-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Disposals",
+        "Note-IntangibleAssets-Disposals-Total"
+    ],
+    "111041-*-ML_13-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Reclassifications",
+        "Note-IntangibleAssets-Reclassifications-Total"
+    ],
+    "111041-*-ML_13-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Reclassifications",
+        "Note-IntangibleAssets-Reclassifications-Total"
+    ],
+    "111031-*-ML_13-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Reclassifications",
+        "Note-IntangibleAssets-Reclassifications-Total"
+    ],
+    "111031-*-ML_13-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Reclassifications",
+        "Note-IntangibleAssets-Reclassifications-Total"
+    ],
+    "111041-*-ML_99-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-OtherMovements",
+        "Note-IntangibleAssets-OtherMovements-Total"
+    ],
+    "111041-*-ML_99-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-OtherMovements",
+        "Note-IntangibleAssets-OtherMovements-Total"
+    ],
+    "111031-*-ML_99-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-OtherMovements",
+        "Note-IntangibleAssets-OtherMovements-Total"
+    ],
+    "111031-*-ML_99-C": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-OtherMovements",
+        "Note-IntangibleAssets-OtherMovements-Total"
+    ],
+    "111011-*-ML_11-D": [
+        "Note-IntangibleAssets-AcquisitionAndAdditions-Total"
+    ],
+    "111011-*-ML_11-C": [
+        "Note-IntangibleAssets-AcquisitionAndAdditions-Total"
+    ],
+    "111041-*-ML_17-D": [
+        "Note-IntangibleAssets-ImpairmentLossReverse-Total"
+    ],
+    "111031-*-ML_17-D": [
+        "Note-IntangibleAssets-ImpairmentLossReverse-Total"
+    ]
 }

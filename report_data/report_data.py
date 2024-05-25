@@ -10,7 +10,7 @@ SOURCE_DATA_PATH = "annual_report/report_data/source_data/"
 OUTPUT_PATH = "annual_report/report_data/output/"
 PATTERN_FILE = "report_element_pattern.json"
 
-CLASSIFICATIONS = ["MAJANDUSLIKSISU2024ap"]
+CLASSIFICATIONS_FOR_PATTERN = ["MAJANDUSLIKSISU2024ap", "SEOTUDOSAPOOL2024ap"]
 ELEMENT_CODES = {}
 
 
@@ -124,7 +124,11 @@ class ReportData():
                     combinations, item["filter_rule"]["MUUTUSELIIK2024ap"])
             else:
                 combinations = make_combinations(combinations, ["*"])
-
+            if "DEBIT-CREDIT" in item["filter_rule"].keys():
+                combinations = make_combinations(
+                    combinations, item["filter_rule"]["DEBIT-CREDIT"])
+            else:
+                combinations = make_combinations(combinations, ["*"])
             for combination in combinations:
                 if combination not in result.keys():
                     result[combination] = []
@@ -156,7 +160,7 @@ class ReportElement():
 
 def load_gl_element_codes():
     """Load classifications element codes."""
-    for classification in CLASSIFICATIONS:
+    for classification in CLASSIFICATIONS_FOR_PATTERN:
         ELEMENT_CODES[classification] = Classification(
             classification).element_codes
 
@@ -191,6 +195,7 @@ def generate_report_element_filtering_rules(pattern_file=PATTERN_FILE) -> dict:
                             item["elements"][classification]
                     else:
                         element_codes[classification] = item["elements"][classification]
+            element_codes["DEBIT-CREDIT"] = item["debit-credit"]
             mapping_rules.append({
                 "code": item["code"],
                 "filter_rule": element_codes
