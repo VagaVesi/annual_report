@@ -79,6 +79,32 @@
                     }
                 }
             ]
+        },
+        {
+            "entryHeader": {
+                "entryNumber": 4,
+                "postingDate": "2024-05-25",
+                "decription": {
+                    "en": "Test simple entry"
+                }
+            },
+            "entryDetail": [
+                {
+                    "lineNumber": 1,
+                    "accountMainID": "101020",
+                    "debitCreditCode": "D",
+                    "amount": 200.0
+                },
+                {
+                    "lineNumber": 2,
+                    "accountMainID": "418012",
+                    "debitCreditCode": "C",
+                    "amount": 200.0,
+                    "accountSub": {
+                        "EMTAK2008ap": "07101"
+                    }
+                }
+            ]
         }
     ]
 }

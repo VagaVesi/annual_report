@@ -1,260 +1,303 @@
 {
-  "created": "2024-05-24",
+  "created": "2024-05-25",
   "Report element pattern": [
     {
       "code": "BS-AssetsShort-Cash",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^101\\d{3}$"
       }
     },
     {
       "code": "BS-AssetsShort-FinancialInvestments",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^102\\d{2}0$"
       }
     },
     {
       "code": "BS-AssetsShort-ReceivablesAndPrepayments",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10[345]\\d{2}0$"
       }
     },
     {
       "code": "BS-AssetsShort-Inventories",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^106\\d{3}$"
       }
     },
     {
       "code": "BS-AssetsShort-BiologicalAssets",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^107\\d{2}0$"
       }
     },
     {
       "code": "BS-AssetsShort-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^1\\d{4}0$"
       }
     },
     {
       "code": "BS-AssetsLong-InvestmentsInSubsidiariesAndAssociates",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^108\\d{2}0$"
       }
     },
     {
       "code": "BS-AssetsLong-FinancialInvestments",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^102\\d{2}1$"
       }
     },
     {
       "code": "BS-AssetsLong-ReceivablesAndPrepayments",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10[345]\\d{2}1$"
       }
     },
     {
       "code": "BS-AssetsLong-InvestmentProperty",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^109\\d{3}$"
       }
     },
     {
       "code": "BS-AssetsLong-PropertyPlantAndEquipment",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^110\\d{3}$"
       }
     },
     {
       "code": "BS-AssetsLong-BiologicalAssets",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^107\\d{2}1$"
       }
     },
     {
       "code": "BS-AssetsLong-IntangibleAssets",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^111\\d{3}$"
       }
     },
     {
       "code": "BS-AssetsLong-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^1\\d{4}1$"
       }
     },
     {
       "code": "BS-Assets-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^1\\d{5}$"
       }
     },
     {
       "code": "BS-LiabilitiesShort-LoanLiablities",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^212\\d{2}0$"
       }
     },
     {
       "code": "BS-LiabilitiesShort-PayablesAndPrepayments",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^2[01][245]\\d{2}0$"
       }
     },
     {
       "code": "BS-LiabilitiesShort-Provisions",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^213\\d{2}0$"
       }
     },
     {
       "code": "BS-LiabilitiesShort-GovernmentGrants",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^214\\d{2}0$"
       }
     },
     {
       "code": "BS-LiabilitiesShort-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^2\\d{4}0$"
       }
     },
     {
       "code": "BS-LiabilitiesLong-LoanLiablities",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^212\\d{2}1$"
       }
     },
     {
       "code": "BS-LiabilitiesLong-PayablesAndPrepayments",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^2[01][245]\\d{2}1$"
       }
     },
     {
       "code": "BS-LiabilitiesLong-Provisions",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^213\\d{2}1$"
       }
     },
     {
       "code": "BS-LiabilitiesLong-GovernmentGrants",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^214\\d{2}1$"
       }
     },
     {
       "code": "BS-LiabilitiesLong-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^2\\d{4}1$"
       }
     },
     {
       "code": "BS-Liabilities-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^2\\d{5}$"
       }
     },
     {
       "code": "BS-Equity-IssuedCapital",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["315011"]
       }
     },
     {
       "code": "BS-Equity-UnregistredEquity",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["315021"]
       }
     },
     {
       "code": "BS-Equity-UnpaidCapital",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["315031"]
       }
     },
     {
       "code": "BS-Equity-SharePremium",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["315041"]
       }
     },
     {
       "code": "BS-Equity-TreasuryShares",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["315051"]
       }
     },
     {
       "code": "BS-Equity-StatutoryReserveCapital",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["316011"]
       }
     },
     {
       "code": "BS-Equity-OtherEquity",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["315991"]
       }
     },
     {
       "code": "BS-Equity-RetainedEarningsLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["317011"]
       }
     },
     {
       "code": "BS-Equity-AnnualPeriodProfitLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["317021"]
       }
     },
     {
       "code": "BS-Equity-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^3\\d{4}1$"
       }
     },
     {
       "code": "BS-LiabilitiesAndEquity-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^3\\d{5}$"
       }
     },
     {
       "code": "Note-Cash-CashInHand",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["101010"]
       }
     },
     {
       "code": "Note-Cash-BankAccounts",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["101020"]
       }
     },
     {
       "code": "Note-Cash-Deposits",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["101030"]
       }
     },
     {
       "code": "Note-Cash-Other",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["101990"]
       }
     },
     {
       "code": "Note-Cash-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^101\\d{3}$"
       }
     },
     {
       "code": "Note-FinancialInvestments-Short-Shares-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"],
@@ -263,6 +306,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Shares-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"],
@@ -271,6 +315,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Shares-ProfitLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"],
@@ -279,6 +324,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Shares-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"],
@@ -287,6 +333,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Shares-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"]
@@ -294,6 +341,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Shares-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"]
@@ -301,6 +349,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Shares-CorrectedCostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"]
@@ -308,6 +357,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Shares-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"]
@@ -315,6 +365,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-FundUnits-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"],
@@ -323,6 +374,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-FundUnits-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"],
@@ -331,6 +383,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-FundUnits-ProfitLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"],
@@ -339,6 +392,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-FundUnits-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"],
@@ -347,6 +401,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-FundUnits-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"]
@@ -354,6 +409,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-FundUnits-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"]
@@ -361,6 +417,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-FundUnits-CorrectedCostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"]
@@ -368,6 +425,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-FundUnits-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"]
@@ -375,6 +433,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Bonds-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"],
@@ -383,6 +442,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Bonds-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"],
@@ -391,6 +451,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Bonds-ProfitLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"],
@@ -399,6 +460,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Bonds-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"],
@@ -407,6 +469,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Bonds-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"]
@@ -414,6 +477,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Bonds-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"]
@@ -421,6 +485,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Bonds-CorrectedCostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"]
@@ -428,6 +493,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Bonds-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"]
@@ -435,6 +501,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Other-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"],
@@ -443,6 +510,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Other-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"],
@@ -451,6 +519,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Other-ProfitLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"],
@@ -459,6 +528,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Other-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"],
@@ -467,6 +537,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Other-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"]
@@ -474,6 +545,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Other-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"]
@@ -481,6 +553,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Other-CorrectedCostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"]
@@ -488,6 +561,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Other-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"]
@@ -495,6 +569,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Acquisition-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "MUUTUSELIIK2024ap": ["ML_11"]
@@ -502,6 +577,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-Disposal-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "MUUTUSELIIK2024ap": ["ML_12"]
@@ -509,6 +585,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-ProfitLoss-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
@@ -516,6 +593,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-OtherMovements-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
@@ -523,30 +601,35 @@
     },
     {
       "code": "Note-FinancialInvestments-Short-ClosingBalance-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Short-FairValue-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Short-CorrectedCostValue-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Short-CostValue-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Long-Shares-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"],
@@ -555,6 +638,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Shares-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"],
@@ -563,6 +647,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Shares-ProfitLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"],
@@ -571,6 +656,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Shares-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"],
@@ -579,6 +665,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Shares-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"]
@@ -586,6 +673,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Shares-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"]
@@ -593,6 +681,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Shares-CorrectedCostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"]
@@ -600,6 +689,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Shares-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"]
@@ -607,6 +697,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-FundUnits-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"],
@@ -615,6 +706,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-FundUnits-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"],
@@ -623,6 +715,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-FundUnits-ProfitLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"],
@@ -631,6 +724,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-FundUnits-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"],
@@ -639,6 +733,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-FundUnits-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"]
@@ -646,6 +741,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-FundUnits-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"]
@@ -653,6 +749,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-FundUnits-CorrectedCostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"]
@@ -660,6 +757,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-FundUnits-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"]
@@ -667,6 +765,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Bonds-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"],
@@ -675,6 +774,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Bonds-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"],
@@ -683,6 +783,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Bonds-ProfitLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"],
@@ -691,6 +792,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Bonds-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"],
@@ -699,6 +801,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Bonds-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"]
@@ -706,6 +809,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Bonds-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"]
@@ -713,6 +817,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Bonds-CorrectedCostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"]
@@ -720,6 +825,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Bonds-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"]
@@ -727,6 +833,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Other-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"],
@@ -735,6 +842,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Other-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"],
@@ -743,6 +851,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Other-ProfitLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"],
@@ -751,6 +860,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Other-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"],
@@ -759,6 +869,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Other-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"]
@@ -766,6 +877,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Other-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"]
@@ -773,6 +885,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Other-CorrectedCostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"]
@@ -780,6 +893,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Other-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"]
@@ -787,6 +901,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Acquisition-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "MUUTUSELIIK2024ap": ["ML_11"]
@@ -794,6 +909,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-Disposal-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "MUUTUSELIIK2024ap": ["ML_12"]
@@ -801,6 +917,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-ProfitLoss-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
@@ -808,6 +925,7 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-OtherMovements-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
@@ -815,114 +933,133 @@
     },
     {
       "code": "Note-FinancialInvestments-Long-ClosingBalance-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Long-FairValue-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Long-CorrectedCostValue-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Long-CostValue-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-AccountsReceivables",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10301\\d{1}$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-AllowanceForDoubtfulReceivables",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10302\\d{1}$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^103\\d{3}$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^1040[12]\\d{1}$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-LoanReceivables",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10303\\d{1}$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-InterestReceivables",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10304\\d{1}$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-DividendReceivables",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10305\\d{1}$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-AccruedIncome",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10306\\d{1}$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-OtherReceivables",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10399\\d{1}$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-DeferredExpenses",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10501\\d{1}$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10599\\d{1}$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10[2345]\\d{2}0$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-AccountsReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103010"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-AllowanceForDoubtfulReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103020"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^103\\d{2}0$",
         "SEOTUDOSAPOOL2024ap": "^SOP_\\d{2}$"
@@ -930,66 +1067,77 @@
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-TaxPrepaymentsAndReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["104010", "104020"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-LoanReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103030"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-InterestReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103040"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-DividendReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103050"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-AccruedIncome",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103060"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-OtherReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103990"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-DeferredExpenses",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["105010"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-OtherPaidPrepayments",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["105990"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Short-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10[2345]\\d{2}0$"
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Long-AccountsReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103011"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^103\\d{2}1$",
         "SEOTUDOSAPOOL2024ap": "^SOP_\\d{2}$"
@@ -997,283 +1145,301 @@
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Long-TaxPrepaymentsAndReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["104011"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Long-LoanReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103031"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Long-InterestReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103041"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Long-DividendReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103051"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Long-AccruedIncome",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103061"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Long-OtherReceivables",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["103991"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Long-DeferredExpenses",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["105011"]
       }
     },
     {
       "code": "Note-ReceivablesAndPrepayments-Long-OtherPaidPrepayments",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["105991"]
       }
     },
     {
       "code": "Note-AccountsReceivables-Receivables",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10301\\d{1}$"
       }
     },
     {
       "code": "Note-AccountsReceivables-AllowanceForDoubtfulReceivables",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^10302\\d{1}$"
       }
     },
     {
       "code": "Note-AccountsReceivables-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^1030[12]\\d{1}$"
       }
     },
     {
       "code": "Note-Inventories-RawMaterials",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["106010"]
       }
     },
     {
       "code": "Note-Inventories-WorkInProgress",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["106020"]
       }
     },
     {
       "code": "Note-Inventories-FinishedGoods",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["106030"]
       }
     },
     {
       "code": "Note-Inventories-Merchandise",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["106040"]
       }
     },
     {
       "code": "Note-Inventories-Prepayments",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["106050"]
       }
     },
     {
       "code": "Note-Inventories-Total",
+      "debit-credit": ["D", "C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^106\\d{3}$"
       }
     },
     {
       "code": "Note-Taxes-Prepayments-CorporateIncomeTax",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20401\\d{1}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-ValueAddedTax",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20402\\d{1}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-PersonalIncomeTax",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20403\\d{1}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-FringeBenefitIncomeTax",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20404\\d{1}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-SocialTax",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20405\\d{1}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-ContributionsToMandatoryFundedPension",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20406\\d{1}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-UnemploymentInsuranceTax",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20407\\d{1}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-LandTax",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20408\\d{1}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-ExciseDutyTax",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20409\\d{1}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-Interest",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20410\\d{1}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-OtherTaxPrepaymentsAndLiabilities",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20499\\d{1}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-PrepaymentAccount",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^104\\d{3}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Prepayments-Total",
+      "debit-credit": ["D"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^[12]04\\d{3}$"
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-CorporateIncomeTax",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20401\\d{1}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-ValueAddedTax",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20402\\d{1}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-PersonalIncomeTax",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20403\\d{1}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-FringeBenefitIncomeTax",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20404\\d{1}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-SocialTax",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20405\\d{1}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-ContributionsToMandatoryFundedPension",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20406\\d{1}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-UnemploymentInsuranceTax",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20407\\d{1}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-LandTax",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20408\\d{1}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-ExciseDutyTax",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20409\\d{1}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-Interest",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20410\\d{1}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-OtherTaxPrepaymentsAndLiabilities",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^20499\\d{1}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-Taxes-Liabilities-Total",
+      "debit-credit": ["C"],
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^204\\d{3}$"
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-InvestmentsInSubsidiariesAndAssociates-SharesOfSubsidiaries",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["108011"],
         "SEOTUDOSAPOOL2024ap": ["SOP_12"]
@@ -1281,6 +1447,7 @@
     },
     {
       "code": "Note-InvestmentsInSubsidiariesAndAssociates-SharesOfAssociates",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["108011"],
         "SEOTUDOSAPOOL2024ap": ["SOP_13"]
@@ -1288,6 +1455,7 @@
     },
     {
       "code": "Note-InvestmentsInSubsidiariesAndAssociates-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["108011"],
         "SEOTUDOSAPOOL2024ap": ["SOP_12", "SOP_13"]
@@ -1295,6 +1463,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Animals-FairValueChange",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1303,6 +1472,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Animals-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1311,6 +1481,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Animals-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1319,6 +1490,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Animals-DecreaseToProduction",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1327,6 +1499,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Animals-IncreaseGrowth",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1335,6 +1508,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Animals-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1343,24 +1517,25 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Animals-ImpairmentLoss",
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Short-Animals-ImpairmentLossReverse",
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Short-Animals-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1369,6 +1544,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Animals-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"]
@@ -1376,6 +1552,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-FairValueChange",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1384,6 +1561,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1392,6 +1570,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1400,6 +1579,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-DecreaseToProduction",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1408,6 +1588,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-IncreaseGrowth",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1416,6 +1597,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1424,24 +1606,25 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-ImpairmentLoss",
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-ImpairmentLossReverse",
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
@@ -1450,6 +1633,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-ClosingBalance-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"]
@@ -1457,6 +1641,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-ClosingBalance-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"]
@@ -1464,6 +1649,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-ClosingBalance-Depreciation",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
         "VARAGRUPP2024ap": ["VG_112"]
@@ -1471,6 +1657,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Animals-ClosingBalance-ResidualValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
         "VARAGRUPP2024ap": ["VG_112"]
@@ -1478,6 +1665,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Plantations-FairValueChange",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1486,6 +1674,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Plantations-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1494,6 +1683,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Plantations-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1502,6 +1692,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Plantations-DecreaseToProduction",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1510,6 +1701,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Plantations-IncreaseGrowth",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1518,6 +1710,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Plantations-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1526,24 +1719,25 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Plantations-ImpairmentLoss",
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Short-Plantations-ImpairmentLossReverse",
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Short-Plantations-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1552,6 +1746,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Plantations-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"]
@@ -1559,6 +1754,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-FairValueChange",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1567,6 +1763,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1575,6 +1772,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1583,6 +1781,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-DecreaseToProduction",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1591,6 +1790,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-IncreaseGrowth",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1599,6 +1799,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1607,24 +1808,25 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-ImpairmentLoss",
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-ImpairmentLossReverse",
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
@@ -1633,6 +1835,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-ClosingBalance-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"]
@@ -1640,6 +1843,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-ClosingBalance-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"]
@@ -1647,6 +1851,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-ClosingBalance-Depreciation",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
         "VARAGRUPP2024ap": ["VG_113"]
@@ -1654,6 +1859,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Plantations-ClosingBalance-ResidualValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
         "VARAGRUPP2024ap": ["VG_113"]
@@ -1661,6 +1867,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Forest-FairValueChange",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1669,6 +1876,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Forest-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1677,6 +1885,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Forest-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1685,6 +1894,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Forest-DecreaseToProduction",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1693,6 +1903,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Forest-IncreaseGrowth",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1701,6 +1912,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Forest-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1709,24 +1921,25 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Forest-ImpairmentLoss",
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Short-Forest-ImpairmentLossReverse",
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Short-Forest-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1735,6 +1948,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Forest-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"]
@@ -1742,6 +1956,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-FairValueChange",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1750,6 +1965,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1758,6 +1974,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1766,6 +1983,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-DecreaseToProduction",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1774,6 +1992,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-IncreaseGrowth",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1782,6 +2001,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1790,24 +2010,25 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-ImpairmentLoss",
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-ImpairmentLossReverse",
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
@@ -1816,6 +2037,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-ClosingBalance-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"]
@@ -1823,6 +2045,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-ClosingBalance-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"]
@@ -1830,6 +2053,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-ClosingBalance-Depreciation",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
         "VARAGRUPP2024ap": ["VG_114"]
@@ -1837,6 +2061,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Forest-ClosingBalance-ResidualValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
         "VARAGRUPP2024ap": ["VG_114"]
@@ -1844,6 +2069,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Crop-FairValueChange",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1852,6 +2078,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Crop-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1860,6 +2087,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Crop-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1868,6 +2096,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Crop-DecreaseToProduction",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1876,6 +2105,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Crop-IncreaseGrowth",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1884,6 +2114,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Crop-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1892,24 +2123,25 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Crop-ImpairmentLoss",
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Short-Crop-ImpairmentLossReverse",
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Short-Crop-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1918,6 +2150,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Crop-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"]
@@ -1925,6 +2158,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-FairValueChange",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1933,6 +2167,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1941,6 +2176,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1949,6 +2185,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-DecreaseToProduction",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1957,6 +2194,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-IncreaseGrowth",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1965,6 +2203,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1973,24 +2212,25 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-ImpairmentLoss",
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-ImpairmentLossReverse",
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
@@ -1999,6 +2239,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-ClosingBalance-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"]
@@ -2006,6 +2247,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-ClosingBalance-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"]
@@ -2013,6 +2255,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-ClosingBalance-Depreciation",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
         "VARAGRUPP2024ap": ["VG_115"]
@@ -2020,6 +2263,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Crop-ClosingBalance-ResidualValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
         "VARAGRUPP2024ap": ["VG_115"]
@@ -2027,6 +2271,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Grasslands-FairValueChange",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2035,6 +2280,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Grasslands-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2043,6 +2289,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Grasslands-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2051,6 +2298,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Grasslands-DecreaseToProduction",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2059,6 +2307,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Grasslands-IncreaseGrowth",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2067,6 +2316,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Grasslands-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2075,24 +2325,25 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Grasslands-ImpairmentLoss",
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Short-Grasslands-ImpairmentLossReverse",
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Short-Grasslands-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2101,6 +2352,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Grasslands-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"]
@@ -2108,6 +2360,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-FairValueChange",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2116,6 +2369,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2124,6 +2378,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2132,6 +2387,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-DecreaseToProduction",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2140,6 +2396,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-IncreaseGrowth",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2148,6 +2405,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2156,24 +2414,25 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-ImpairmentLoss",
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "C"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-ImpairmentLossReverse",
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
         "MUUTUSELIIK2024ap": ["ML_17"]
-      },
-      "DEBIT_CREDIT": "D"
+      }
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
@@ -2182,6 +2441,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-FairValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"]
@@ -2189,6 +2449,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"]
@@ -2196,6 +2457,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-Depreciation",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
         "VARAGRUPP2024ap": ["VG_116"]
@@ -2203,6 +2465,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Grasslands-ClosingBalance-ResidualValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
         "VARAGRUPP2024ap": ["VG_116"]
@@ -2210,6 +2473,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Prepayments-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107020"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2218,6 +2482,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Prepayments-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107020"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2226,6 +2491,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Prepayments-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107020"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2234,6 +2500,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Prepayments-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107020"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
@@ -2241,6 +2508,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Prepayments-Acquisition",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107051"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2249,6 +2517,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Prepayments-Disposal",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107051"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2257,6 +2526,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Prepayments-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107051"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2265,6 +2535,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Prepayments-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107051"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
@@ -2272,6 +2543,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-FairValueChange-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2280,6 +2552,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Acquisition-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2288,6 +2561,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-Disposal-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2296,6 +2570,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-DecreaseToProduction-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2304,6 +2579,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-IncreaseGrowth-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2312,6 +2588,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-IncreaseBusinessCombnations-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2320,6 +2597,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-ImpairmentLoss-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2328,6 +2606,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-ImpairmentLossReverse-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2336,6 +2615,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-OtherMovements-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2344,6 +2624,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Short-ClosingBalance-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
@@ -2351,6 +2632,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-FairValueChange-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2359,6 +2641,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Acquisition-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2367,6 +2650,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Disposal-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2375,6 +2659,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-DecreaseToProduction-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2383,6 +2668,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-IncreaseGrowth-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2391,6 +2677,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-IncreaseBusinessCombnations-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2399,6 +2686,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-Depreciation-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2407,6 +2695,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-ImpairmentLoss-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2415,6 +2704,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-ImpairmentLossReverse-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2423,6 +2713,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-OtherMovements-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
@@ -2431,6 +2722,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-ClosingBalance-FairValue-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
@@ -2438,6 +2730,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-ClosingBalance-CostValue-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
@@ -2445,6 +2738,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-ClosingBalance-Depreciation-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
@@ -2452,6 +2746,7 @@
     },
     {
       "code": "Note-BiologicalAssets-Long-ClosingBalance-ResidualValue-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
@@ -2459,6 +2754,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-AcquisitionAndAdditions",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
@@ -2467,6 +2763,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
@@ -2475,6 +2772,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-ImpairmentLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
@@ -2484,6 +2782,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-ImpairmentLossReverse",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
@@ -2493,6 +2792,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-Disposals",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
@@ -2501,6 +2801,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-Reclassifications",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
@@ -2509,6 +2810,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
@@ -2517,6 +2819,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"]
@@ -2524,6 +2827,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-ClosingBalance-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"]
@@ -2531,6 +2835,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-ClosingBalance-Depreciation",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111021"],
         "VARAGRUPP2024ap": ["VG_108"]
@@ -2538,6 +2843,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-ClosingBalance-ResidualValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
         "VARAGRUPP2024ap": ["VG_108"]
@@ -2545,6 +2851,7 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-AcquisitionAndAdditions",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
@@ -2553,6 +2860,7 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
@@ -2561,6 +2869,7 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-ImpairmentLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
@@ -2570,6 +2879,7 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-ImpairmentLossReverse",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
@@ -2579,6 +2889,7 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-Disposals",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
@@ -2587,6 +2898,7 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-Reclassifications",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
@@ -2595,6 +2907,7 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
@@ -2603,6 +2916,7 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"]
@@ -2610,6 +2924,7 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"]
@@ -2617,6 +2932,7 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-Depreciation",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111021"],
         "VARAGRUPP2024ap": ["VG_109"]
@@ -2624,6 +2940,7 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-ClosingBalance-ResidualValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
         "VARAGRUPP2024ap": ["VG_109"]
@@ -2631,6 +2948,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-AcquisitionAndAdditions",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
@@ -2639,6 +2957,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
@@ -2647,6 +2966,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-ImpairmentLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
@@ -2656,6 +2976,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-ImpairmentLossReverse",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
@@ -2665,6 +2986,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-Disposals",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
@@ -2673,6 +2995,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-Reclassifications",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
@@ -2681,6 +3004,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
@@ -2689,6 +3013,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"]
@@ -2696,6 +3021,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"]
@@ -2703,6 +3029,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-Depreciation",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111021"],
         "VARAGRUPP2024ap": ["VG_110"]
@@ -2710,6 +3037,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-ClosingBalance-ResidualValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
         "VARAGRUPP2024ap": ["VG_110"]
@@ -2717,6 +3045,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-AcquisitionAndAdditions",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2725,6 +3054,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2733,6 +3063,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-ImpairmentLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2742,6 +3073,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-ImpairmentLossReverse",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2751,6 +3083,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-Disposals",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2759,6 +3092,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-Reclassifications",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2767,6 +3101,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2775,6 +3110,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"]
@@ -2782,6 +3118,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"]
@@ -2789,6 +3126,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-Depreciation",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111021"],
         "VARAGRUPP2024ap": ["VG_111"]
@@ -2796,6 +3134,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-ClosingBalance-ResidualValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
         "VARAGRUPP2024ap": ["VG_111"]
@@ -2803,6 +3142,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-AcquisitionAndAdditions",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2811,6 +3151,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2819,6 +3160,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-ImpairmentLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2828,6 +3170,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-ImpairmentLossReverse",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2837,6 +3180,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-Disposals",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2845,6 +3189,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-Reclassifications",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2853,6 +3198,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
@@ -2861,6 +3207,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"]
@@ -2868,6 +3215,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"]
@@ -2875,6 +3223,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-Depreciation",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111021"],
         "VARAGRUPP2024ap": ["VG_111"]
@@ -2882,6 +3231,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-ClosingBalance-ResidualValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
         "VARAGRUPP2024ap": ["VG_111"]
@@ -2889,6 +3239,7 @@
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-AcquisitionAndAdditions",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_11"]
@@ -2896,6 +3247,7 @@
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-IncreaseBusinessCombnations",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_14"]
@@ -2903,6 +3255,7 @@
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLoss",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_17"],
@@ -2911,6 +3264,7 @@
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLossReverse",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_17"],
@@ -2919,6 +3273,7 @@
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Disposals",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_12"]
@@ -2926,6 +3281,7 @@
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Reclassifications",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_13"]
@@ -2933,6 +3289,7 @@
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-OtherMovements",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
@@ -2940,30 +3297,35 @@
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
       }
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-CostValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
       }
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-Depreciation",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
       }
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-ResidualValue",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
       }
     },
     {
       "code": "Note-IntangibleAssets-AcquisitionAndAdditions-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_11"]
@@ -2971,6 +3333,7 @@
     },
     {
       "code": "Note-IntangibleAssets-IncreaseBusinessCombnations-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_14"]
@@ -2978,6 +3341,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ImpairmentLoss-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_17"],
@@ -2986,6 +3350,7 @@
     },
     {
       "code": "Note-IntangibleAssets-ImpairmentLossReverse-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_17"],
@@ -2994,6 +3359,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Disposals-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_12"]
@@ -3001,6 +3367,7 @@
     },
     {
       "code": "Note-IntangibleAssets-Reclassifications-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_13"]
@@ -3008,6 +3375,7 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherMovements-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
@@ -3015,30 +3383,35 @@
     },
     {
       "code": "Note-IntangibleAssets-ClosingBalance-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
       }
     },
     {
       "code": "Note-IntangibleAssets-ClosingBalance-CostValue-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
       }
     },
     {
       "code": "Note-IntangibleAssets-ClosingBalance-Depreciation-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
       }
     },
     {
       "code": "Note-IntangibleAssets-ClosingBalance-ResidualValue-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
       }
     },
     {
       "code": "Note-IntangibleAssets-Sales-Total",
+      "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
       }

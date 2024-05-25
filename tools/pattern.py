@@ -31,7 +31,7 @@ class Pattern:
         if xls_raw != None:
             elements_count = len(xls_raw['Element-code'])
             for i in range(0, elements_count):
-                element = {}
+                element = {'DEBIT_CREDIT': ["D", "C"]}
                 for x, y in xls_raw.items():
                     if pd.notna(y[i]):
                         if x == 'Element-code':
@@ -52,7 +52,7 @@ class Pattern:
                                 element['SEOTUDOSAPOOL2024ap'] = str(y[i])
                         if x == 'debitCreditCode':
                             if str(y[i]) != None:
-                                element['DEBIT_CREDIT'] = str(y[i])
+                                element['DEBIT_CREDIT'] = [str(y[i])]
                 result.append(element)
         self.source_data = result
 
@@ -77,8 +77,7 @@ class Pattern:
                 if k == "code":
                     element["code"] = clear_string(v)
                 elif k == "DEBIT_CREDIT":
-                    if v != "":
-                        element["DEBIT_CREDIT"] = v
+                    element["debit-credit"] = v
                 else:
                     combinations = return_pattern_and_elements_from_string(v)
                     if len(combinations[0]) > 0:
@@ -91,7 +90,7 @@ class Pattern:
                             element["elements"][k] = combinations[1]
                         else:
                             element["elements"] = {k: combinations[1]}
-            result.append(element)
+            result.append(dict(sorted(element.items())))
         self.patterns["Report element pattern"] = result
         self.update_timestamp()
 
@@ -100,7 +99,7 @@ class Pattern:
         self.patterns["created"] = datetime.fromtimestamp(
             time.time()).strftime("%Y-%m-%d")
 
-    def save_dict_to_json_file(self, file_name=OUTPUT_FILE) -> bool:
+    def save_to_json_file(self, file_name=OUTPUT_FILE) -> bool:
         """Save dict to JSON file"""
         try:
             with open(file_name, "w", encoding='utf-8') as outfile:

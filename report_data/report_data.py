@@ -15,7 +15,7 @@ ELEMENT_CODES = {}
 
 
 class ReportData():
-    """Report holds its source data (ledger) and result (report elements)"""
+    """ReportData holds its source data (ledger) and result (report elements)"""
 
     def __init__(self, ledger: dict, pattern_file=PATTERN_FILE) -> None:
         """Init data to generate report elements."""
@@ -51,6 +51,7 @@ class ReportData():
                         combinations, [entrydetail["accountSub"]["MUUTUSELIIK2024ap"]])
                 else:
                     combinations = make_combinations(combinations, ["*"])
+
             else:
                 combinations = make_combinations(combinations, ["*-*"])
             # add element to report_elements based on combination

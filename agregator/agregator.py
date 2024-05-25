@@ -169,6 +169,7 @@ def get_normalised_entry_detail(entrydetail: dict):
         "CountryId": "",
         "RelatedPartyId": "",
         "ActivityId": "",
+        "debitCreditCode": entrydetail["debitCreditCode"],
         "DebitAmount": 0.0,
         "CreditAmount": 0.0
     }
@@ -196,7 +197,8 @@ def get_normalised_entry_detail(entrydetail: dict):
                                        entry_normalized["ChangeTypeId"],
                                        entry_normalized["RelatedPartyId"],
                                        entry_normalized["CountryId"],
-                                       entry_normalized["ActivityId"]
+                                       entry_normalized["ActivityId"],
+                                       entry_normalized["debitCreditCode"]
                                        )
     entry_normalized["hash"] = hash(entry_normalized["combination"])
     return entry_normalized
@@ -209,6 +211,7 @@ def modify_data_according_dataset(entry_normalized: dict, dataset_code: str) -> 
         modified_entry["PresentationId"] = ""
         modified_entry["ChangeTypeId"] = ""
         modified_entry["AssetTypeId"] = ""
+        modified_entry["debitCreditCode"] = ""
     if dataset_code == DATASET_BALANCE_STARDARD:
         modified_entry["ChangeTypeId"] = ""
     if dataset_code == DATASET_CHANGES_STARDARD:
@@ -223,7 +226,8 @@ def modify_data_according_dataset(entry_normalized: dict, dataset_code: str) -> 
                                      modified_entry["ChangeTypeId"],
                                      modified_entry["RelatedPartyId"],
                                      modified_entry["CountryId"],
-                                     modified_entry["ActivityId"]
+                                     modified_entry["ActivityId"],
+                                     modified_entry["debitCreditCode"]
                                      )
     modified_entry["hash"] = hash(modified_entry["combination"])
     return modified_entry
