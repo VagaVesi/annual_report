@@ -211,13 +211,13 @@ def modify_data_according_dataset(entry_normalized: dict, dataset_code: str) -> 
         modified_entry["PresentationId"] = ""
         modified_entry["ChangeTypeId"] = ""
         modified_entry["AssetTypeId"] = ""
-        modified_entry["debitCreditCode"] = ""
     if dataset_code == DATASET_BALANCE_STARDARD:
         modified_entry["ChangeTypeId"] = ""
     if dataset_code == DATASET_CHANGES_STARDARD:
         if "ChangeTypeId" in modified_entry.keys():
-            return {}
+            return {}  # If no changes then return empty dictionary
         else:
+            # FILTER ONLY ENTRIES WITH "ChangeTypeId"
             modified_entry["CountryId"] = ""
             modified_entry["ActivityId"] = ""
     modified_entry["combination"] = (modified_entry["MainAccountId"],

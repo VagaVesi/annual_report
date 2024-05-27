@@ -10,13 +10,20 @@ Steps
 6. Prepare report mapping rules (JSON format) - OK
 7. Convert XBRL-GL annual one dataset to Annual Report elements using mapping rules -> store result in json - OK
 8. Prepare mapping rules json from xls - OK
-9. Add Debit and Credit for element selection logic
-10. Generate simple Annual Report object from Annual Report elements
+9. Add Debit and Credit for element selection logic - OK
+10. Add validation checks for Annual Report elements
+    - Missing combinations in mapping
+    - Some masic checks between elements
+11. Generate simple Annual Report object from Annual Report elements
 
 # ADDITIONAL FEATURES:
 
-1. Modify source dataset based on dataset code (balances and movements) - OK
+1. Modify source dataset based on dataset code (balances and movements)
 2. Save several datasets to one file
 3. Make report elements from multiple datasets
 4. Countries and activityType additional info
 5. Related parties additional info (separate set of data) - have to eliminate from standard dataset (except investments)
+
+# LIVE TO ADD
+
+1. Pattern input validation (Complex pattern OR is not supported in prototype)

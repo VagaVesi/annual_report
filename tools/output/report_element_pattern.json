@@ -1,5 +1,5 @@
 {
-  "created": "2024-05-25",
+  "created": "2024-05-27",
   "Report element pattern": [
     {
       "code": "BS-AssetsShort-Cash",
@@ -244,20 +244,23 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["317021"]
+      },
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^[456]\\d{4}2$"
       }
     },
     {
       "code": "BS-Equity-Total",
       "debit-credit": ["D", "C"],
       "pattern": {
-        "MAJANDUSLIKSISU2024ap": "^3\\d{4}1$"
+        "MAJANDUSLIKSISU2024ap": "^[3456]\\d{4}[12]$"
       }
     },
     {
       "code": "BS-LiabilitiesAndEquity-Total",
       "debit-credit": ["D", "C"],
       "pattern": {
-        "MAJANDUSLIKSISU2024ap": "^3\\d{5}$"
+        "MAJANDUSLIKSISU2024ap": "^[3456]\\d{4}2$"
       }
     },
     {
@@ -2772,22 +2775,20 @@
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-ImpairmentLoss",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["C"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
       "code": "Note-IntangibleAssets-Goodwill-ImpairmentLossReverse",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["D"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
@@ -2869,22 +2870,20 @@
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-ImpairmentLoss",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["C"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
       "code": "Note-IntangibleAssets-DevelopmentExpenditures-ImpairmentLossReverse",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["D"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
@@ -2966,22 +2965,20 @@
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-ImpairmentLoss",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["C"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
       "code": "Note-IntangibleAssets-ComputerSoftware-ImpairmentLossReverse",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["D"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
@@ -3063,22 +3060,20 @@
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-ImpairmentLoss",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["C"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
       "code": "Note-IntangibleAssets-IntellectualProperty-ImpairmentLossReverse",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["D"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
@@ -3160,22 +3155,20 @@
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-ImpairmentLoss",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["C"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
       "code": "Note-IntangibleAssets-OtherIntangibleAssets-ImpairmentLossReverse",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["D"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
@@ -3255,20 +3248,18 @@
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLoss",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["C"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLossReverse",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["D"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
@@ -3341,20 +3332,18 @@
     },
     {
       "code": "Note-IntangibleAssets-ImpairmentLoss-Total",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["C"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
       "code": "Note-IntangibleAssets-ImpairmentLossReverse-Total",
-      "debit-credit": ["D", "C"],
+      "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
-        "MUUTUSELIIK2024ap": ["ML_17"],
-        "SEOTUDOSAPOOL2024ap": ["D"]
+        "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
     {
@@ -3414,6 +3403,185 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+      }
+    },
+    {
+      "code": "IS-Revenue",
+      "debit-credit": ["D", "C"],
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^418\\d{3}$"
+      }
+    },
+    {
+      "code": "IS-OtherIncome",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": [
+          "619012",
+          "619022",
+          "619032",
+          "619042",
+          "619052",
+          "619992"
+        ]
+      }
+    },
+    {
+      "code": "IS-ChangesInInventoriesOfAgriculturalProduction",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["619072"]
+      }
+    },
+    {
+      "code": "IS-BiologicalAssets-ProfitLoss",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["623032"],
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+      }
+    },
+    {
+      "code": "IS-ChangesInInventoriesOfFinishedGoodsAndWorkInProgress",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["619062"]
+      }
+    },
+    {
+      "code": "IS-WorkPerformedByEntityAndCapitalised",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["619082"]
+      }
+    },
+    {
+      "code": "IS-Expenses-RawMaterialsAndConsumablesUsed",
+      "debit-credit": ["D", "C"],
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^520\\d{3}$"
+      }
+    },
+    {
+      "code": "IS-Expenses-OtherOperatingExpenses",
+      "debit-credit": ["D", "C"],
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^520\\d{3}$"
+      }
+    },
+    {
+      "code": "IS-Expenses-EmployeeExpenses",
+      "debit-credit": ["D", "C"],
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^521\\d{3}$"
+      }
+    },
+    {
+      "code": "IS-Expenses-DepreciationAndImpairmentLoss",
+      "debit-credit": ["D", "C"],
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^522\\d{3}$"
+      }
+    },
+    {
+      "code": "IS-Expenses-OtherBusinessIncomeAndExpenses",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": [
+          "623012",
+          "623022",
+          "623032",
+          "623042",
+          "623052",
+          "623062",
+          "623992"
+        ],
+        "VARAGRUPP2024ap": [
+          "VG_101",
+          "VG_102",
+          "VG_103",
+          "VG_104",
+          "VG_105",
+          "VG_106",
+          "VG_107",
+          "VG_108",
+          "VG_109",
+          "VG_110",
+          "VG_111",
+          "VG_199"
+        ]
+      }
+    },
+    {
+      "code": "IS-Operating-ProfitLoss",
+      "debit-credit": ["D", "C"],
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^[456][12][012389]\\d{3}$"
+      }
+    },
+    {
+      "code": "IS-FinancialExpenseIncome-Subsidiaries",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["624012"],
+        "SEOTUDOSAPOOL2024ap": ["SOP_12"]
+      }
+    },
+    {
+      "code": "IS-FinancialExpenseIncome-Associates",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["624012"],
+        "SEOTUDOSAPOOL2024ap": ["SOP_13"]
+      }
+    },
+    {
+      "code": "IS-FinancialExpenseIncome-OtherFinancialInvestments",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["624032"]
+      }
+    },
+    {
+      "code": "IS-FinancialExpenseIncome-InterestIncome",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["624042"]
+      }
+    },
+    {
+      "code": "IS-FinancialExpenseIncome-InterestExpenses",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["624052", "624062"]
+      }
+    },
+    {
+      "code": "IS-Expenses-OtherFinancialIncomeAndExpenses",
+      "debit-credit": ["D", "C"],
+      "elements": {
+        "MAJANDUSLIKSISU2024ap": ["624992"]
+      }
+    },
+    {
+      "code": "IS-BeforeTax-ProfitLoss",
+      "debit-credit": ["D", "C"],
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^[456][12][0123489]\\d{3}$"
+      }
+    },
+    {
+      "code": "IS-Income Tax",
+      "debit-credit": ["D", "C"],
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^625\\d{3}$"
+      }
+    },
+    {
+      "code": "IS-Net-ProfitLoss",
+      "debit-credit": ["D", "C"],
+      "pattern": {
+        "MAJANDUSLIKSISU2024ap": "^[456]\\d{5}$"
       }
     }
   ]

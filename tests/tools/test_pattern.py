@@ -58,6 +58,12 @@ class TestPattern():
         assert result[0] == "^10\\d{2}31$"
         assert result[1] == ["107011"]
 
+    def test_return_pattern_and_elements_from_complex_pattern(self):
+        elements_string = "3****1, 4****2, 5****2, 6****2"
+        result = return_pattern_and_elements_from_string(elements_string)
+
+        assert result[0] == "^[3456]\\d{4}[12]$"
+
     def test_init_pattern_generate_combinations(self):
         """Generate combinations from xls"""
         pattern_v1 = Pattern()

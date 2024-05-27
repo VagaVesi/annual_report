@@ -69,6 +69,32 @@
         "Note-ReceivablesAndPrepayments-Total",
         "Note-ReceivablesAndPrepayments-Short-Total"
     ],
+    "103010-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-Total",
+        "Note-AccountsReceivables-Receivables",
+        "Note-AccountsReceivables-Total"
+    ],
+    "103010-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-AccountsReceivables",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-Total",
+        "Note-AccountsReceivables-Receivables",
+        "Note-AccountsReceivables-Total"
+    ],
     "103020-*-*-D": [
         "BS-AssetsShort-ReceivablesAndPrepayments",
         "BS-AssetsShort-Total",
@@ -95,6 +121,50 @@
         "Note-AccountsReceivables-AllowanceForDoubtfulReceivables",
         "Note-AccountsReceivables-Total"
     ],
+    "103990-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103990-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103050-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-DividendReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-DividendReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103050-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-DividendReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-DividendReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
     "104010-*-*-D": [
         "BS-AssetsShort-ReceivablesAndPrepayments",
         "BS-AssetsShort-Total",
@@ -107,6 +177,88 @@
         "Note-Taxes-Prepayments-Total"
     ],
     "104010-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103060-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103060-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103030-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "103030-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Short-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "105990-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "105990-*-*-C": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Short-Total"
+    ],
+    "104020-*-*-D": [
+        "BS-AssetsShort-ReceivablesAndPrepayments",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Total",
+        "Note-ReceivablesAndPrepayments-Short-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Short-Total",
+        "Note-Taxes-Prepayments-PrepaymentAccount",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "104020-*-*-C": [
         "BS-AssetsShort-ReceivablesAndPrepayments",
         "BS-AssetsShort-Total",
         "BS-Assets-Total",
@@ -137,114 +289,6 @@
         "Note-ReceivablesAndPrepayments-Short-InterestReceivables",
         "Note-ReceivablesAndPrepayments-Short-Total"
     ],
-    "103060-*-*-D": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-AccruedIncome",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Short-AccruedIncome",
-        "Note-ReceivablesAndPrepayments-Short-Total"
-    ],
-    "103060-*-*-C": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-AccruedIncome",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Short-AccruedIncome",
-        "Note-ReceivablesAndPrepayments-Short-Total"
-    ],
-    "104020-*-*-D": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-TaxPrepaymentsAndReceivables",
-        "Note-ReceivablesAndPrepayments-Short-Total",
-        "Note-Taxes-Prepayments-PrepaymentAccount",
-        "Note-Taxes-Prepayments-Total"
-    ],
-    "104020-*-*-C": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-TaxPrepaymentsAndReceivables",
-        "Note-ReceivablesAndPrepayments-Short-Total"
-    ],
-    "103010-*-*-D": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-AccountsReceivables",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-AccountsReceivables",
-        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Short-Total",
-        "Note-AccountsReceivables-Receivables",
-        "Note-AccountsReceivables-Total"
-    ],
-    "103010-*-*-C": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-AccountsReceivables",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-AccountsReceivables",
-        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Short-Total",
-        "Note-AccountsReceivables-Receivables",
-        "Note-AccountsReceivables-Total"
-    ],
-    "105990-*-*-D": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-OtherPaidPrepayments",
-        "Note-ReceivablesAndPrepayments-Short-Total"
-    ],
-    "105990-*-*-C": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-OtherPaidPrepayments",
-        "Note-ReceivablesAndPrepayments-Short-Total"
-    ],
-    "103990-*-*-D": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-OtherReceivables",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Short-OtherReceivables",
-        "Note-ReceivablesAndPrepayments-Short-Total"
-    ],
-    "103990-*-*-C": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-OtherReceivables",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Short-OtherReceivables",
-        "Note-ReceivablesAndPrepayments-Short-Total"
-    ],
     "105010-*-*-D": [
         "BS-AssetsShort-ReceivablesAndPrepayments",
         "BS-AssetsShort-Total",
@@ -263,50 +307,6 @@
         "Note-ReceivablesAndPrepayments-Short-DeferredExpenses",
         "Note-ReceivablesAndPrepayments-Short-Total"
     ],
-    "103030-*-*-D": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-LoanReceivables",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Short-LoanReceivables",
-        "Note-ReceivablesAndPrepayments-Short-Total"
-    ],
-    "103030-*-*-C": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-LoanReceivables",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Short-LoanReceivables",
-        "Note-ReceivablesAndPrepayments-Short-Total"
-    ],
-    "103050-*-*-D": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-DividendReceivables",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Short-DividendReceivables",
-        "Note-ReceivablesAndPrepayments-Short-Total"
-    ],
-    "103050-*-*-C": [
-        "BS-AssetsShort-ReceivablesAndPrepayments",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-DividendReceivables",
-        "Note-ReceivablesAndPrepayments-Total",
-        "Note-ReceivablesAndPrepayments-Short-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Short-DividendReceivables",
-        "Note-ReceivablesAndPrepayments-Short-Total"
-    ],
     "106040-*-*-D": [
         "BS-AssetsShort-Inventories",
         "BS-AssetsShort-Total",
@@ -319,46 +319,6 @@
         "BS-AssetsShort-Total",
         "BS-Assets-Total",
         "Note-Inventories-Merchandise",
-        "Note-Inventories-Total"
-    ],
-    "106020-*-*-D": [
-        "BS-AssetsShort-Inventories",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-Inventories-WorkInProgress",
-        "Note-Inventories-Total"
-    ],
-    "106020-*-*-C": [
-        "BS-AssetsShort-Inventories",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-Inventories-WorkInProgress",
-        "Note-Inventories-Total"
-    ],
-    "106030-*-*-D": [
-        "BS-AssetsShort-Inventories",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-Inventories-FinishedGoods",
-        "Note-Inventories-Total"
-    ],
-    "106030-*-*-C": [
-        "BS-AssetsShort-Inventories",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-Inventories-FinishedGoods",
-        "Note-Inventories-Total"
-    ],
-    "106990-*-*-D": [
-        "BS-AssetsShort-Inventories",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
-        "Note-Inventories-Total"
-    ],
-    "106990-*-*-C": [
-        "BS-AssetsShort-Inventories",
-        "BS-AssetsShort-Total",
-        "BS-Assets-Total",
         "Note-Inventories-Total"
     ],
     "106050-*-*-D": [
@@ -375,6 +335,34 @@
         "Note-Inventories-Prepayments",
         "Note-Inventories-Total"
     ],
+    "106030-*-*-D": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-FinishedGoods",
+        "Note-Inventories-Total"
+    ],
+    "106030-*-*-C": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-FinishedGoods",
+        "Note-Inventories-Total"
+    ],
+    "106020-*-*-D": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-WorkInProgress",
+        "Note-Inventories-Total"
+    ],
+    "106020-*-*-C": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-WorkInProgress",
+        "Note-Inventories-Total"
+    ],
     "106010-*-*-D": [
         "BS-AssetsShort-Inventories",
         "BS-AssetsShort-Total",
@@ -387,6 +375,18 @@
         "BS-AssetsShort-Total",
         "BS-Assets-Total",
         "Note-Inventories-RawMaterials",
+        "Note-Inventories-Total"
+    ],
+    "106990-*-*-D": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
+        "Note-Inventories-Total"
+    ],
+    "106990-*-*-C": [
+        "BS-AssetsShort-Inventories",
+        "BS-AssetsShort-Total",
+        "BS-Assets-Total",
         "Note-Inventories-Total"
     ],
     "107020-*-*-D": [
@@ -418,74 +418,6 @@
         "BS-AssetsLong-FinancialInvestments",
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
-    ],
-    "103991-*-*-D": [
-        "BS-AssetsLong-ReceivablesAndPrepayments",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-OtherReceivables",
-        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Long-OtherReceivables"
-    ],
-    "103991-*-*-C": [
-        "BS-AssetsLong-ReceivablesAndPrepayments",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-OtherReceivables",
-        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Long-OtherReceivables"
-    ],
-    "103031-*-*-D": [
-        "BS-AssetsLong-ReceivablesAndPrepayments",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-LoanReceivables",
-        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Long-LoanReceivables"
-    ],
-    "103031-*-*-C": [
-        "BS-AssetsLong-ReceivablesAndPrepayments",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-LoanReceivables",
-        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Long-LoanReceivables"
-    ],
-    "105991-*-*-D": [
-        "BS-AssetsLong-ReceivablesAndPrepayments",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
-        "Note-ReceivablesAndPrepayments-Long-OtherPaidPrepayments"
-    ],
-    "105991-*-*-C": [
-        "BS-AssetsLong-ReceivablesAndPrepayments",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
-        "Note-ReceivablesAndPrepayments-Long-OtherPaidPrepayments"
-    ],
-    "103061-*-*-D": [
-        "BS-AssetsLong-ReceivablesAndPrepayments",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-AccruedIncome",
-        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Long-AccruedIncome"
-    ],
-    "103061-*-*-C": [
-        "BS-AssetsLong-ReceivablesAndPrepayments",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-AccruedIncome",
-        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
-        "Note-ReceivablesAndPrepayments-Long-AccruedIncome"
     ],
     "103051-*-*-D": [
         "BS-AssetsLong-ReceivablesAndPrepayments",
@@ -527,6 +459,58 @@
         "Note-AccountsReceivables-Receivables",
         "Note-AccountsReceivables-Total"
     ],
+    "103061-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-AccruedIncome"
+    ],
+    "103061-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-AccruedIncome",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-AccruedIncome"
+    ],
+    "104011-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Long-TaxPrepaymentsAndReceivables",
+        "Note-Taxes-Prepayments-PrepaymentAccount",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "104011-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
+        "Note-ReceivablesAndPrepayments-Long-TaxPrepaymentsAndReceivables"
+    ],
+    "103991-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-OtherReceivables"
+    ],
+    "103991-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-OtherReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-OtherReceivables"
+    ],
     "105011-*-*-D": [
         "BS-AssetsLong-ReceivablesAndPrepayments",
         "BS-AssetsLong-Total",
@@ -559,31 +543,37 @@
         "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
         "Note-ReceivablesAndPrepayments-Long-InterestReceivables"
     ],
-    "104011-*-*-D": [
+    "105991-*-*-D": [
         "BS-AssetsLong-ReceivablesAndPrepayments",
         "BS-AssetsLong-Total",
         "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
-        "Note-ReceivablesAndPrepayments-Long-TaxPrepaymentsAndReceivables",
-        "Note-Taxes-Prepayments-PrepaymentAccount",
-        "Note-Taxes-Prepayments-Total"
+        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Long-OtherPaidPrepayments"
     ],
-    "104011-*-*-C": [
+    "105991-*-*-C": [
         "BS-AssetsLong-ReceivablesAndPrepayments",
         "BS-AssetsLong-Total",
         "BS-Assets-Total",
-        "Note-ReceivablesAndPrepayments-TaxPrepaymentsAndReceivables",
-        "Note-ReceivablesAndPrepayments-Long-TaxPrepaymentsAndReceivables"
+        "Note-ReceivablesAndPrepayments-OtherPaidPrepayments",
+        "Note-ReceivablesAndPrepayments-Long-OtherPaidPrepayments"
     ],
-    "109031-*-*-D": [
-        "BS-AssetsLong-InvestmentProperty",
+    "103031-*-*-D": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
         "BS-AssetsLong-Total",
-        "BS-Assets-Total"
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-LoanReceivables"
     ],
-    "109031-*-*-C": [
-        "BS-AssetsLong-InvestmentProperty",
+    "103031-*-*-C": [
+        "BS-AssetsLong-ReceivablesAndPrepayments",
         "BS-AssetsLong-Total",
-        "BS-Assets-Total"
+        "BS-Assets-Total",
+        "Note-ReceivablesAndPrepayments-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-LoanReceivables",
+        "Note-ReceivablesAndPrepayments-Long-ReceivablesFromRelatedParties",
+        "Note-ReceivablesAndPrepayments-Long-LoanReceivables"
     ],
     "109011-*-*-D": [
         "BS-AssetsLong-InvestmentProperty",
@@ -595,12 +585,12 @@
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
     ],
-    "109041-*-*-D": [
+    "109031-*-*-D": [
         "BS-AssetsLong-InvestmentProperty",
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
     ],
-    "109041-*-*-C": [
+    "109031-*-*-C": [
         "BS-AssetsLong-InvestmentProperty",
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
@@ -625,32 +615,22 @@
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
     ],
-    "110011-*-*-D": [
+    "109041-*-*-D": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "109041-*-*-C": [
+        "BS-AssetsLong-InvestmentProperty",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110021-*-*-D": [
         "BS-AssetsLong-PropertyPlantAndEquipment",
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
     ],
-    "110011-*-*-C": [
-        "BS-AssetsLong-PropertyPlantAndEquipment",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total"
-    ],
-    "110041-*-*-D": [
-        "BS-AssetsLong-PropertyPlantAndEquipment",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total"
-    ],
-    "110041-*-*-C": [
-        "BS-AssetsLong-PropertyPlantAndEquipment",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total"
-    ],
-    "110051-*-*-D": [
-        "BS-AssetsLong-PropertyPlantAndEquipment",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total"
-    ],
-    "110051-*-*-C": [
+    "110021-*-*-C": [
         "BS-AssetsLong-PropertyPlantAndEquipment",
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
@@ -665,13 +645,43 @@
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
     ],
-    "110021-*-*-D": [
+    "110041-*-*-D": [
         "BS-AssetsLong-PropertyPlantAndEquipment",
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
     ],
-    "110021-*-*-C": [
+    "110041-*-*-C": [
         "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110011-*-*-D": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110011-*-*-C": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110051-*-*-D": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "110051-*-*-C": [
+        "BS-AssetsLong-PropertyPlantAndEquipment",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "107021-*-*-D": [
+        "BS-AssetsLong-BiologicalAssets",
+        "BS-AssetsLong-Total",
+        "BS-Assets-Total"
+    ],
+    "107021-*-*-C": [
+        "BS-AssetsLong-BiologicalAssets",
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
     ],
@@ -685,13 +695,13 @@
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
     ],
-    "107021-*-*-D": [
-        "BS-AssetsLong-BiologicalAssets",
+    "111011-*-*-D": [
+        "BS-AssetsLong-IntangibleAssets",
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
     ],
-    "107021-*-*-C": [
-        "BS-AssetsLong-BiologicalAssets",
+    "111011-*-*-C": [
+        "BS-AssetsLong-IntangibleAssets",
         "BS-AssetsLong-Total",
         "BS-Assets-Total"
     ],
@@ -761,16 +771,6 @@
         "Note-IntangibleAssets-ClosingBalance-ResidualValue-Total",
         "Note-IntangibleAssets-Sales-Total"
     ],
-    "111011-*-*-D": [
-        "BS-AssetsLong-IntangibleAssets",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total"
-    ],
-    "111011-*-*-C": [
-        "BS-AssetsLong-IntangibleAssets",
-        "BS-AssetsLong-Total",
-        "BS-Assets-Total"
-    ],
     "108011-*-*-D": [
         "BS-AssetsLong-Total",
         "BS-Assets-Total",
@@ -785,30 +785,6 @@
         "Note-InvestmentsInSubsidiariesAndAssociates-SharesOfAssociates",
         "Note-InvestmentsInSubsidiariesAndAssociates-Total"
     ],
-    "212060-*-*-D": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212060-*-*-C": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212090-*-*-D": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212090-*-*-C": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
     "212070-*-*-D": [
         "BS-LiabilitiesShort-LoanLiablities",
         "BS-LiabilitiesShort-PayablesAndPrepayments",
@@ -821,73 +797,13 @@
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
     ],
-    "212990-*-*-D": [
+    "212060-*-*-D": [
         "BS-LiabilitiesShort-LoanLiablities",
         "BS-LiabilitiesShort-PayablesAndPrepayments",
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
     ],
-    "212990-*-*-C": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212050-*-*-D": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212050-*-*-C": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212020-*-*-D": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212020-*-*-C": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212100-*-*-D": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212100-*-*-C": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212030-*-*-D": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212030-*-*-C": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212080-*-*-D": [
-        "BS-LiabilitiesShort-LoanLiablities",
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212080-*-*-C": [
+    "212060-*-*-C": [
         "BS-LiabilitiesShort-LoanLiablities",
         "BS-LiabilitiesShort-PayablesAndPrepayments",
         "BS-LiabilitiesShort-Total",
@@ -905,6 +821,78 @@
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
     ],
+    "212050-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212050-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212100-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212100-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212080-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212080-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212090-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212090-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212990-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212990-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212020-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212020-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
     "212010-*-*-D": [
         "BS-LiabilitiesShort-LoanLiablities",
         "BS-LiabilitiesShort-PayablesAndPrepayments",
@@ -917,137 +905,17 @@
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
     ],
-    "204040-*-*-D": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Prepayments-FringeBenefitIncomeTax",
-        "Note-Taxes-Prepayments-Total"
-    ],
-    "204040-*-*-C": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Liabilities-FringeBenefitIncomeTax",
-        "Note-Taxes-Liabilities-Total"
-    ],
-    "204020-*-*-D": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Prepayments-ValueAddedTax",
-        "Note-Taxes-Prepayments-Total"
-    ],
-    "204020-*-*-C": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Liabilities-ValueAddedTax",
-        "Note-Taxes-Liabilities-Total"
-    ],
-    "204010-*-*-D": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Prepayments-CorporateIncomeTax",
-        "Note-Taxes-Prepayments-Total"
-    ],
-    "204010-*-*-C": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Liabilities-CorporateIncomeTax",
-        "Note-Taxes-Liabilities-Total"
-    ],
-    "204060-*-*-D": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Prepayments-ContributionsToMandatoryFundedPension",
-        "Note-Taxes-Prepayments-Total"
-    ],
-    "204060-*-*-C": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Liabilities-ContributionsToMandatoryFundedPension",
-        "Note-Taxes-Liabilities-Total"
-    ],
-    "205990-*-*-D": [
+    "212030-*-*-D": [
+        "BS-LiabilitiesShort-LoanLiablities",
         "BS-LiabilitiesShort-PayablesAndPrepayments",
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
     ],
-    "205990-*-*-C": [
+    "212030-*-*-C": [
+        "BS-LiabilitiesShort-LoanLiablities",
         "BS-LiabilitiesShort-PayablesAndPrepayments",
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
-    ],
-    "204090-*-*-D": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Prepayments-ExciseDutyTax",
-        "Note-Taxes-Prepayments-Total"
-    ],
-    "204090-*-*-C": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Liabilities-ExciseDutyTax",
-        "Note-Taxes-Liabilities-Total"
-    ],
-    "205010-*-*-D": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "205010-*-*-C": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total"
-    ],
-    "204080-*-*-D": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Prepayments-LandTax",
-        "Note-Taxes-Prepayments-Total"
-    ],
-    "204080-*-*-C": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Liabilities-LandTax",
-        "Note-Taxes-Liabilities-Total"
-    ],
-    "204990-*-*-D": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Prepayments-OtherTaxPrepaymentsAndLiabilities",
-        "Note-Taxes-Prepayments-Total"
-    ],
-    "204990-*-*-C": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Liabilities-OtherTaxPrepaymentsAndLiabilities",
-        "Note-Taxes-Liabilities-Total"
-    ],
-    "204070-*-*-D": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Prepayments-UnemploymentInsuranceTax",
-        "Note-Taxes-Prepayments-Total"
-    ],
-    "204070-*-*-C": [
-        "BS-LiabilitiesShort-PayablesAndPrepayments",
-        "BS-LiabilitiesShort-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Liabilities-UnemploymentInsuranceTax",
-        "Note-Taxes-Liabilities-Total"
     ],
     "214010-*-*-D": [
         "BS-LiabilitiesShort-PayablesAndPrepayments",
@@ -1058,6 +926,16 @@
     "214010-*-*-C": [
         "BS-LiabilitiesShort-PayablesAndPrepayments",
         "BS-LiabilitiesShort-GovernmentGrants",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "205010-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total"
+    ],
+    "205010-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
     ],
@@ -1075,18 +953,46 @@
         "Note-Taxes-Liabilities-PersonalIncomeTax",
         "Note-Taxes-Liabilities-Total"
     ],
-    "204100-*-*-D": [
+    "204080-*-*-D": [
         "BS-LiabilitiesShort-PayablesAndPrepayments",
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total",
-        "Note-Taxes-Prepayments-Interest",
+        "Note-Taxes-Prepayments-LandTax",
         "Note-Taxes-Prepayments-Total"
     ],
-    "204100-*-*-C": [
+    "204080-*-*-C": [
         "BS-LiabilitiesShort-PayablesAndPrepayments",
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total",
-        "Note-Taxes-Liabilities-Interest",
+        "Note-Taxes-Liabilities-LandTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204040-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-FringeBenefitIncomeTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204040-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-FringeBenefitIncomeTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204090-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-ExciseDutyTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204090-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-ExciseDutyTax",
         "Note-Taxes-Liabilities-Total"
     ],
     "204050-*-*-D": [
@@ -1103,15 +1009,99 @@
         "Note-Taxes-Liabilities-SocialTax",
         "Note-Taxes-Liabilities-Total"
     ],
-    "213010-*-*-D": [
-        "BS-LiabilitiesShort-Provisions",
+    "204010-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-CorporateIncomeTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204010-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-CorporateIncomeTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "205990-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
     ],
-    "213010-*-*-C": [
-        "BS-LiabilitiesShort-Provisions",
+    "205990-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
+    ],
+    "204060-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-ContributionsToMandatoryFundedPension",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204060-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-ContributionsToMandatoryFundedPension",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204020-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-ValueAddedTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204020-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-ValueAddedTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204070-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-UnemploymentInsuranceTax",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204070-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-UnemploymentInsuranceTax",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204990-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-OtherTaxPrepaymentsAndLiabilities",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204990-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-OtherTaxPrepaymentsAndLiabilities",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "204100-*-*-D": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-Interest",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204100-*-*-C": [
+        "BS-LiabilitiesShort-PayablesAndPrepayments",
+        "BS-LiabilitiesShort-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-Interest",
+        "Note-Taxes-Liabilities-Total"
     ],
     "213990-*-*-D": [
         "BS-LiabilitiesShort-Provisions",
@@ -1133,16 +1123,14 @@
         "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
     ],
-    "212061-*-*-D": [
-        "BS-LiabilitiesLong-LoanLiablities",
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-Total",
+    "213010-*-*-D": [
+        "BS-LiabilitiesShort-Provisions",
+        "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
     ],
-    "212061-*-*-C": [
-        "BS-LiabilitiesLong-LoanLiablities",
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-Total",
+    "213010-*-*-C": [
+        "BS-LiabilitiesShort-Provisions",
+        "BS-LiabilitiesShort-Total",
         "BS-Liabilities-Total"
     ],
     "212991-*-*-D": [
@@ -1152,30 +1140,6 @@
         "BS-Liabilities-Total"
     ],
     "212991-*-*-C": [
-        "BS-LiabilitiesLong-LoanLiablities",
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212071-*-*-D": [
-        "BS-LiabilitiesLong-LoanLiablities",
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212071-*-*-C": [
-        "BS-LiabilitiesLong-LoanLiablities",
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212021-*-*-D": [
-        "BS-LiabilitiesLong-LoanLiablities",
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total"
-    ],
-    "212021-*-*-C": [
         "BS-LiabilitiesLong-LoanLiablities",
         "BS-LiabilitiesLong-PayablesAndPrepayments",
         "BS-LiabilitiesLong-Total",
@@ -1205,6 +1169,78 @@
         "BS-LiabilitiesLong-Total",
         "BS-Liabilities-Total"
     ],
+    "212021-*-*-D": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212021-*-*-C": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212071-*-*-D": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212071-*-*-C": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212061-*-*-D": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "212061-*-*-C": [
+        "BS-LiabilitiesLong-LoanLiablities",
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "214021-*-*-D": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-GovernmentGrants",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "214021-*-*-C": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-GovernmentGrants",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "204991-*-*-D": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Prepayments-OtherTaxPrepaymentsAndLiabilities",
+        "Note-Taxes-Prepayments-Total"
+    ],
+    "204991-*-*-C": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total",
+        "Note-Taxes-Liabilities-OtherTaxPrepaymentsAndLiabilities",
+        "Note-Taxes-Liabilities-Total"
+    ],
+    "205991-*-*-D": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "205991-*-*-C": [
+        "BS-LiabilitiesLong-PayablesAndPrepayments",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
     "214031-*-*-D": [
         "BS-LiabilitiesLong-PayablesAndPrepayments",
         "BS-LiabilitiesLong-GovernmentGrants",
@@ -1224,52 +1260,6 @@
     ],
     "205011-*-*-C": [
         "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total"
-    ],
-    "214021-*-*-D": [
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-GovernmentGrants",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total"
-    ],
-    "214021-*-*-C": [
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-GovernmentGrants",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total"
-    ],
-    "205991-*-*-D": [
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total"
-    ],
-    "205991-*-*-C": [
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total"
-    ],
-    "204991-*-*-D": [
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Prepayments-OtherTaxPrepaymentsAndLiabilities",
-        "Note-Taxes-Prepayments-Total"
-    ],
-    "204991-*-*-C": [
-        "BS-LiabilitiesLong-PayablesAndPrepayments",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total",
-        "Note-Taxes-Liabilities-OtherTaxPrepaymentsAndLiabilities",
-        "Note-Taxes-Liabilities-Total"
-    ],
-    "213991-*-*-D": [
-        "BS-LiabilitiesLong-Provisions",
-        "BS-LiabilitiesLong-Total",
-        "BS-Liabilities-Total"
-    ],
-    "213991-*-*-C": [
-        "BS-LiabilitiesLong-Provisions",
         "BS-LiabilitiesLong-Total",
         "BS-Liabilities-Total"
     ],
@@ -1293,103 +1283,1457 @@
         "BS-LiabilitiesLong-Total",
         "BS-Liabilities-Total"
     ],
+    "213991-*-*-D": [
+        "BS-LiabilitiesLong-Provisions",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
+    "213991-*-*-C": [
+        "BS-LiabilitiesLong-Provisions",
+        "BS-LiabilitiesLong-Total",
+        "BS-Liabilities-Total"
+    ],
     "315011-*-*-D": [
         "BS-Equity-IssuedCapital",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "315011-*-*-C": [
         "BS-Equity-IssuedCapital",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "315021-*-*-D": [
         "BS-Equity-UnregistredEquity",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "315021-*-*-C": [
         "BS-Equity-UnregistredEquity",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "315031-*-*-D": [
         "BS-Equity-UnpaidCapital",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "315031-*-*-C": [
         "BS-Equity-UnpaidCapital",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "315041-*-*-D": [
         "BS-Equity-SharePremium",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "315041-*-*-C": [
         "BS-Equity-SharePremium",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "315051-*-*-D": [
         "BS-Equity-TreasuryShares",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "315051-*-*-C": [
         "BS-Equity-TreasuryShares",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "316011-*-*-D": [
         "BS-Equity-StatutoryReserveCapital",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "316011-*-*-C": [
         "BS-Equity-StatutoryReserveCapital",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "315991-*-*-D": [
         "BS-Equity-OtherEquity",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "315991-*-*-C": [
         "BS-Equity-OtherEquity",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "317011-*-*-D": [
         "BS-Equity-RetainedEarningsLoss",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "317011-*-*-C": [
         "BS-Equity-RetainedEarningsLoss",
+        "BS-Equity-Total"
+    ],
+    "624052-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
         "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-FinancialExpenseIncome-InterestExpenses",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "624052-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-FinancialExpenseIncome-InterestExpenses",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520102-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520102-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520432-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520432-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "521992-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "521992-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "624032-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-FinancialExpenseIncome-OtherFinancialInvestments",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "624032-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-FinancialExpenseIncome-OtherFinancialInvestments",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623062-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623062-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520292-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520292-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520562-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520562-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520212-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520212-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520202-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520202-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520572-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520572-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418012-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418012-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619012-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619012-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520222-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520222-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520312-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520312-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619062-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-ChangesInInventoriesOfFinishedGoodsAndWorkInProgress",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619062-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-ChangesInInventoriesOfFinishedGoodsAndWorkInProgress",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520032-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520032-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520552-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520552-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520322-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520322-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "521032-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "521032-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520822-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520822-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520122-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520122-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520512-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520512-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520332-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520332-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520802-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520802-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520612-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520612-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520412-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520412-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "521102-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "521102-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418052-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418052-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520702-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520702-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520392-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520392-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520992-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520992-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619052-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619052-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520492-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520492-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623052-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623052-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "521112-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "521112-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619992-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619992-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "624012-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-FinancialExpenseIncome-Subsidiaries",
+        "IS-FinancialExpenseIncome-Associates",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "624012-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-FinancialExpenseIncome-Subsidiaries",
+        "IS-FinancialExpenseIncome-Associates",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520342-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520342-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520302-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520302-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "626992-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Net-ProfitLoss"
+    ],
+    "626992-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Net-ProfitLoss"
+    ],
+    "520042-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520042-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520112-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520112-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "521022-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "521022-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520132-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520132-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "626012-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Net-ProfitLoss"
+    ],
+    "626012-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Net-ProfitLoss"
+    ],
+    "521012-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "521012-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-EmployeeExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623032-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623032-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623012-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623012-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418992-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418992-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623022-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623022-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "624062-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-FinancialExpenseIncome-InterestExpenses",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "624062-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-FinancialExpenseIncome-InterestExpenses",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520382-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520382-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "522012-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-DepreciationAndImpairmentLoss",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "522012-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-DepreciationAndImpairmentLoss",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619072-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-ChangesInInventoriesOfAgriculturalProduction",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619072-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-ChangesInInventoriesOfAgriculturalProduction",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619032-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619032-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619022-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619022-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "624992-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-OtherFinancialIncomeAndExpenses",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "624992-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-OtherFinancialIncomeAndExpenses",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "625012-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Income Tax",
+        "IS-Net-ProfitLoss"
+    ],
+    "625012-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Income Tax",
+        "IS-Net-ProfitLoss"
+    ],
+    "619042-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619042-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-OtherIncome",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418032-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418032-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623992-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623992-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "624042-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-FinancialExpenseIncome-InterestIncome",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "624042-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-FinancialExpenseIncome-InterestIncome",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520022-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520022-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520422-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520422-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520052-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520052-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418022-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418022-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520812-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520812-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520012-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520012-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619082-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-WorkPerformedByEntityAndCapitalised",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "619082-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-WorkPerformedByEntityAndCapitalised",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623042-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "623042-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520402-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520402-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418042-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "418042-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Revenue",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520712-*-*-D": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
+    ],
+    "520712-*-*-C": [
+        "BS-Equity-AnnualPeriodProfitLoss",
+        "BS-Equity-Total",
+        "BS-LiabilitiesAndEquity-Total",
+        "IS-Expenses-RawMaterialsAndConsumablesUsed",
+        "IS-Expenses-OtherOperatingExpenses",
+        "IS-Operating-ProfitLoss",
+        "IS-BeforeTax-ProfitLoss",
+        "IS-Net-ProfitLoss"
     ],
     "317021-*-*-D": [
         "BS-Equity-AnnualPeriodProfitLoss",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "317021-*-*-C": [
         "BS-Equity-AnnualPeriodProfitLoss",
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "316991-*-*-D": [
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "316991-*-*-C": [
-        "BS-Equity-Total",
-        "BS-LiabilitiesAndEquity-Total"
+        "BS-Equity-Total"
     ],
     "102010-VG_201-ML_11-D": [
         "Note-FinancialInvestments-Short-Shares-Acquisition"
@@ -3307,8 +4651,10 @@
         "Note-IntangibleAssets-ComputerSoftware-IncreaseBusinessCombnations",
         "Note-IntangibleAssets-ComputerSoftware-OtherMovements"
     ],
+    "111011-VG_110-ML_17-C": [
+        "Note-IntangibleAssets-ComputerSoftware-ImpairmentLoss"
+    ],
     "111011-VG_110-ML_17-D": [
-        "Note-IntangibleAssets-ComputerSoftware-ImpairmentLoss",
         "Note-IntangibleAssets-ComputerSoftware-ImpairmentLossReverse"
     ],
     "111011-VG_110-ML_12-D": [
@@ -3469,13 +4815,19 @@
     ],
     "111041-*-ML_17-C": [
         "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLoss",
-        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLossReverse",
         "Note-IntangibleAssets-ImpairmentLoss-Total"
     ],
     "111031-*-ML_17-C": [
         "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLoss",
-        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLossReverse",
         "Note-IntangibleAssets-ImpairmentLoss-Total"
+    ],
+    "111041-*-ML_17-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLossReverse",
+        "Note-IntangibleAssets-ImpairmentLossReverse-Total"
+    ],
+    "111031-*-ML_17-D": [
+        "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ImpairmentLossReverse",
+        "Note-IntangibleAssets-ImpairmentLossReverse-Total"
     ],
     "111041-*-ML_12-D": [
         "Note-IntangibleAssets-UnfinishedProjectsPrepayments-Disposals",
@@ -3531,10 +4883,538 @@
     "111011-*-ML_11-C": [
         "Note-IntangibleAssets-AcquisitionAndAdditions-Total"
     ],
-    "111041-*-ML_17-D": [
-        "Note-IntangibleAssets-ImpairmentLossReverse-Total"
+    "623032-VG_112-*-D": [
+        "IS-BiologicalAssets-ProfitLoss"
     ],
-    "111031-*-ML_17-D": [
-        "Note-IntangibleAssets-ImpairmentLossReverse-Total"
+    "623032-VG_112-*-C": [
+        "IS-BiologicalAssets-ProfitLoss"
+    ],
+    "623032-VG_113-*-D": [
+        "IS-BiologicalAssets-ProfitLoss"
+    ],
+    "623032-VG_113-*-C": [
+        "IS-BiologicalAssets-ProfitLoss"
+    ],
+    "623032-VG_114-*-D": [
+        "IS-BiologicalAssets-ProfitLoss"
+    ],
+    "623032-VG_114-*-C": [
+        "IS-BiologicalAssets-ProfitLoss"
+    ],
+    "623032-VG_115-*-D": [
+        "IS-BiologicalAssets-ProfitLoss"
+    ],
+    "623032-VG_115-*-C": [
+        "IS-BiologicalAssets-ProfitLoss"
+    ],
+    "623032-VG_116-*-D": [
+        "IS-BiologicalAssets-ProfitLoss"
+    ],
+    "623032-VG_116-*-C": [
+        "IS-BiologicalAssets-ProfitLoss"
+    ],
+    "623012-VG_101-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_101-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_102-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_102-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_103-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_103-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_104-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_104-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_105-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_105-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_106-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_106-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_107-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_107-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_108-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_108-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_109-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_109-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_110-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_110-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_111-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_111-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_199-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623012-VG_199-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_101-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_101-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_102-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_102-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_103-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_103-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_104-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_104-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_105-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_105-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_106-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_106-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_107-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_107-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_108-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_108-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_109-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_109-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_110-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_110-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_111-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_111-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_199-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623022-VG_199-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_101-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_101-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_102-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_102-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_103-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_103-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_104-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_104-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_105-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_105-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_106-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_106-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_107-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_107-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_108-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_108-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_109-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_109-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_110-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_110-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_111-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_111-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_199-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623032-VG_199-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_101-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_101-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_102-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_102-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_103-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_103-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_104-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_104-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_105-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_105-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_106-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_106-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_107-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_107-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_108-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_108-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_109-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_109-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_110-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_110-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_111-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_111-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_199-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623042-VG_199-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_101-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_101-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_102-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_102-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_103-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_103-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_104-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_104-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_105-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_105-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_106-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_106-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_107-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_107-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_108-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_108-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_109-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_109-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_110-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_110-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_111-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_111-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_199-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623052-VG_199-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_101-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_101-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_102-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_102-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_103-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_103-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_104-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_104-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_105-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_105-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_106-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_106-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_107-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_107-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_108-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_108-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_109-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_109-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_110-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_110-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_111-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_111-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_199-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623062-VG_199-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_101-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_101-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_102-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_102-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_103-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_103-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_104-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_104-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_105-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_105-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_106-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_106-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_107-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_107-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_108-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_108-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_109-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_109-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_110-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_110-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_111-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_111-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_199-*-D": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
+    ],
+    "623992-VG_199-*-C": [
+        "IS-Expenses-OtherBusinessIncomeAndExpenses"
     ]
 }
