@@ -1,13 +1,13 @@
 """Call all functions to simulatete annual accounts process."""
 
-from path import Path
-from json import loads
-from report_data.report_data import ReportData, generate_report_element_filtering_rules, save_as_json
+# from path import Path
+# from json import loads
+# from report_data.report_data import ReportData, generate_report_element_filtering_rules, save_as_json
 # from tools.json_validator import validate
 # from classifications.classification import ClassificationsList
-# from agregator.agregator import generate_dataset_from_entries, save_dataset
+from agregator.agregator import save_ledger, AgregatorEntries, AgregatorEntriesDataSet
 # from classifications.classification import ClassificationsList
-from annual_report.report_data.pattern import Pattern
+# from annual_report.report_data.pattern import Pattern
 
 
 def main():
@@ -16,10 +16,28 @@ def main():
     # cls = ClassificationsList(do_update=True)
     # cls.update_classification_elements()
 
+    """Generate pattern json from xls"""
+    # pattern = Pattern()
+    # pattern.generate_combinations()
+    # pattern.save_to_json_file()
+
+    """Generate report elements from dataset"""
+    # mapping1 = generate_report_element_filtering_rules()
+    # save_as_json(mapping1, "report_element_accounts_filter_rules")
+
     """Generate from transactions file a dataset file."""
-    # dataset = generate_dataset_from_entries(
-    #     "annual_report/tests/entry/modified_entries_list.json", "11308014", "2023-01-01", "2023-12-31")
-    # save_dataset(dataset)
+    agregator = AgregatorEntriesDataSet(
+        "annual_report/tests/entry/modified_entries_list.json", "EE0301010")
+    sample_dataset = agregator.generate_ledger_from_entries(
+        "11308014", "2023-01-01", "2023-12-31")
+    save_ledger(sample_dataset)
+
+    # data_for_dataset = AgregatorEntriesDataSet("EE0301010",agregator)
+    # data_for_dataset.
+
+    # dataset = generate_ledger_from_entries(
+    #     , "11308014", "2023-01-01", "2023-12-31")
+    # save_ledger(dataset)
 
     """Validate json file."""
     # file_name = "annual_report/agregator/output/11308014-2024-05-13T14:14:07:726.json"
@@ -30,22 +48,13 @@ def main():
     # result = validate(dataset, schema)
     # print(result)
 
-    """Generate pattern json from xls"""
-    pattern = Pattern()
-    pattern.generate_combinations()
-    pattern.save_to_json_file()
-
-    """Generate report elements from dataset"""
-    mapping1 = generate_report_element_filtering_rules()
-    save_as_json(mapping1, "report_element_accounts_filter_rules")
-
     """Generate report elements for micro"""
-    path = Path(
-        "annual_report/tests/report_data/source_data/sample_dataset_micro.json")
-    sample_dataset = loads(path.read_text(encoding="utf-8"))
-    report_data = ReportData(sample_dataset)
-    save_as_json(report_data.account_combinations_mapping,
-                 "account_combination_report_elements_mapping")
+    # path = Path(
+    #     "annual_report/tests/report_data/source_data/sample_dataset_micro.json")
+    # sample_dataset = loads(path.read_text(encoding="utf-8"))
+    # report_data = ReportData(sample_dataset)
+    # save_as_json(report_data.account_combinations_mapping,
+    #              "account_combination_report_elements_mapping")
 
     # report_elements_for_xbrl = report_data.return_report_elements()
     # print(report_elements_for_xbrl)

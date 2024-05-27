@@ -25,10 +25,11 @@ DATASET_CLASSIFICATIONS = {
 class AgregatorEntries:
     """Agregate data by column combinations"""
 
-    def __init__(self) -> None:
+    def __init__(self, source_data_path: str) -> None:
         """Stores entry details for calculations in normalized structure."""
         self.entries = []  # normalized entries
         self.combinations = {}  # possible combinations based on entries
+        self.load_entries_from_file(source_data_path)
 
     def add_normalized_entry(self, entry_normalized: dict):
         """Add normalized entry to agregator"""
@@ -58,8 +59,32 @@ class AgregatorEntries:
                            "Credit_total": credit_amount_sum})
         return result
 
+
+class AgregatorEntriesDataSet(AgregatorEntries):
+    """Agregator modifies source data to generate dataset."""
+
+    def __init__(self, source_data_path: str, dataset_code: str) -> None:
+        """Make dataset specific entries list from agregated entries"""
+        super().__init__(source_data_path)
+        self.dataset = dataset_code
+        self.modified_entries = []
+        self.combinations = {}
+        for entry in self.entries:
+            self.add_modified_entry(entry)
+
+    def add_modified_entry(self, entry_normalized: dict):
+        """Add modified normalized entry to agregator"""
+        modified_entry = modify_data_according_dataset(
+            entry_normalized, self.dataset)
+        if modified_entry != {}:
+            self.modified_entries.append(modified_entry)
+            self.combinations[modified_entry["hash"]
+                              ] = modified_entry["combination"]
+
     def get_aggregated_entryDetail_for_dataset(self) -> list:
         """Return agregated data as entryDetail."""
+        if len(self.combinations) == 0:
+            self.aggregate_combination_amounts()
         entryDetail = []
         line_number = 1
         for item in self.aggregate_combination_amounts():
@@ -88,64 +113,43 @@ class AgregatorEntries:
             line_number += 1
         return entryDetail
 
+    def generate_ledger_from_entries(self, entity_id: str, period_start: str, period_end: str) -> dict:
+        """Aggregate data from entries and generate dataset.
 
-class AgregatorEntriesDataSet(AgregatorEntries):
-    """Agregator modifies source data to generate dataset."""
+        param:
+        file path(str): path to json file with entries
+        entity_id(str): entity identification code
+        period_start(str): dataset period start in format 'YYYY-MM-DD'
+        period_en(str): dataset period end in format 'YYYY-MM-DD'
 
-    def __init__(self, dataset_code: str, source_entries: AgregatorEntries) -> None:
-        """Make dataset specific entries list from agregated entries"""
-        super().__init__()
-        self.dataset = dataset_code
-        for entry in source_entries.entries:
-            self.__add_normalized_entry(entry, dataset_code)
-
-    def __add_normalized_entry(self, entry_normalized: dict):
-        """Add modified normalized entry to agregator"""
-        modified_entry = modify_data_according_dataset(
-            entry_normalized, self.dataset)
-        if modified_entry != {}:
-            self.entries.append(modified_entry)
-            self.combinations[modified_entry["hash"]
-                              ] = modified_entry["combination"]
-
-
-def generate_ledger_from_entries(source_data: AgregatorEntriesDataSet, entity_id: str, period_start: str, period_end: str) -> dict:
-    """Aggregate data from entries and generate dataset.
-
-    param:
-    file path(str): path to json file with entries
-    entity_id(str): entity identification code
-    period_start(str): dataset period start in format 'YYYY-MM-DD'
-    period_en(str): dataset period end in format 'YYYY-MM-DD'
-
-    result: dataset
-    """
-    agregated_data = source_data.get_aggregated_entryDetail_for_dataset()
-    report_timestamp = datetime.fromtimestamp(
-        time.time()).strftime("%Y-%m-%dT%H:%M:%S:%f")
-    return {
-        "documentInfo":
-        {
-            "uniqueID": f"{entity_id}-{report_timestamp[0:-3]}",
-            "language": "iso639:et",
-            "creationDate": report_timestamp[0:10],
-            "creator": "EE37903216506",
-            "periodCoveredStart": period_start,
-            "periodCoveredEnd": period_end,
-            "sourceApplication": "python-test",
-            "defaultCurrency": "iso4217:eur"
-        },
-        "entityInformation": {
-            "organizationIdentifier": entity_id,
-            "organizationDescription": "e-äriregister"
-        },
-        "datasets": [
+        result: dataset
+        """
+        agregated_data = self.get_aggregated_entryDetail_for_dataset()
+        report_timestamp = datetime.fromtimestamp(
+            time.time()).strftime("%Y-%m-%dT%H:%M:%S:%f")
+        return {
+            "documentInfo":
             {
-                "entryNumber": source_data.dataset,
-                "entryDetail": agregated_data
-            }
-        ]
-    }
+                "uniqueID": f"{entity_id}-{report_timestamp[0:-3]}",
+                "language": "iso639:et",
+                "creationDate": report_timestamp[0:10],
+                "creator": "EE37903216506",
+                "periodCoveredStart": period_start,
+                "periodCoveredEnd": period_end,
+                "sourceApplication": "python-test",
+                "defaultCurrency": "iso4217:eur"
+            },
+            "entityInformation": {
+                "organizationIdentifier": entity_id,
+                "organizationDescription": "e-äriregister"
+            },
+            "datasets": [
+                {
+                    "entryNumber": self.dataset,
+                    "entryDetail": agregated_data
+                }
+            ]
+        }
 
 
 def save_ledger(ledger: dict, dir=LEDGER_OUTPUT_PATH):
