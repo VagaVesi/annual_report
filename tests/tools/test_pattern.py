@@ -1,4 +1,4 @@
-from tools.pattern import Pattern, make_pattern, return_pattern_and_elements_from_string
+from annual_report.report_data.pattern import Pattern, make_pattern, return_pattern_and_elements_from_string
 
 
 class TestPattern():

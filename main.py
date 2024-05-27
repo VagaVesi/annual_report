@@ -7,7 +7,7 @@ from report_data.report_data import ReportData, generate_report_element_filterin
 # from classifications.classification import ClassificationsList
 # from agregator.agregator import generate_dataset_from_entries, save_dataset
 # from classifications.classification import ClassificationsList
-from tools.pattern import Pattern
+from annual_report.report_data.pattern import Pattern
 
 
 def main():

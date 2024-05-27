@@ -13,7 +13,7 @@ Steps
 9. Add Debit and Credit for element selection logic - OK
 10. Add validation checks for Annual Report elements
     - Missing combinations in mapping
-    - Some masic checks between elements
+    - Some basic element comparsions
 11. Generate simple Annual Report object from Annual Report elements
 
 # ADDITIONAL FEATURES:

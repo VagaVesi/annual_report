@@ -8,9 +8,9 @@ from datetime import datetime
 import time
 import pandas as pd
 import json
-INPUT_FILE = "annual_report/tools/input/Elementide_seosed.xlsx"
+INPUT_FILE = "annual_report/report_data/input/Elementide_seosed.xlsx"
 SHEET_NAME = "final"
-OUTPUT_FILE = "annual_report/tools/output/report_element_pattern.json"
+OUTPUT_FILE = "annual_report/report_data/output/report_element_pattern.json"
 
 
 class Pattern:

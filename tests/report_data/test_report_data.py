@@ -57,17 +57,19 @@ class TestReportData():
         report_data = ReportData(sample_dataset)
 
         elements1 = report_data.find_elements_based_combination(
-            "102010-VG_201-ML_11")
+            "102010-VG_201-ML_11-D")
         elements3 = report_data.find_elements_based_combination(
-            "102010-*-*")
+            "102010-*-*-D")
 
         assert elements1 == [
-            "Note-FinancialInvestments-Short-Shares-Aquisition"]
+            "Note-FinancialInvestments-Short-Shares-Acquisition"]
 
         assert elements3 == [
             "BS-AssetsShort-FinancialInvestments",
             "BS-AssetsShort-Total",
-            "BS-Assets-Total"
+            "BS-Assets-Total",
+            "Note-ReceivablesAndPrepayments-Total",
+            "Note-ReceivablesAndPrepayments-Short-Total"
         ]
 
     def test_calcucate_elements_values(self):

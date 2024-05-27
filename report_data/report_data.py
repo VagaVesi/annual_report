@@ -51,9 +51,11 @@ class ReportData():
                         combinations, [entrydetail["accountSub"]["MUUTUSELIIK2024ap"]])
                 else:
                     combinations = make_combinations(combinations, ["*"])
-
             else:
                 combinations = make_combinations(combinations, ["*-*"])
+            if "debitCreditCode" in entrydetail.keys():
+                combinations = make_combinations(
+                    combinations, [entrydetail["debitCreditCode"]])
             # add element to report_elements based on combination
             for combination in combinations:
                 for element_code in self.find_elements_based_combination(combination):
