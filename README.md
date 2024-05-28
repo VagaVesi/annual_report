@@ -20,7 +20,7 @@ Steps
 
 1. Modify source dataset based on dataset code (balances and movements) - OK
 2. Save several datasets to one file - OK
-3. Make report elements from multiple datasets
+3. Make report elements from multiple datasets - OK
 4. Related parties additional info (separate set of data) - have to eliminate from standard dataset (except investments)
 5. Countries and activityType additional info
 

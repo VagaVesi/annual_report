@@ -6,9 +6,8 @@ from path import Path
 from classifications.classification import Classification
 from agregator.agregator import get_normalised_entry_detail
 
-SOURCE_DATA_PATH = "annual_report/report_data/source_data/"
 OUTPUT_PATH = "annual_report/report_data/output/"
-PATTERN_FILE = "report_element_pattern.json"
+PATTERN_FILE = "annual_report/report_data/output/report_element_pattern.json"
 
 CLASSIFICATIONS_FOR_PATTERN = ["MAJANDUSLIKSISU2024ap", "SEOTUDOSAPOOL2024ap"]
 ELEMENT_CODES = {}
@@ -51,8 +50,18 @@ class ReportData():
                         combinations, [entrydetail["accountSub"]["MUUTUSELIIK2024ap"]])
                 else:
                     combinations = make_combinations(combinations, ["*"])
+                if "ANDMETEESITLUSVIIS2024ap" in entrydetail["accountSub"].keys():
+                    combinations = make_combinations(
+                        combinations, [entrydetail["accountSub"]["ANDMETEESITLUSVIIS2024ap"]])
+                else:
+                    combinations = make_combinations(combinations, ["*"])
+                if "SEOTUDOSAPOOL2024ap" in entrydetail["accountSub"].keys():
+                    combinations = make_combinations(
+                        combinations, [entrydetail["accountSub"]["SEOTUDOSAPOOL2024ap"]])
+                else:
+                    combinations = make_combinations(combinations, ["*"])
             else:
-                combinations = make_combinations(combinations, ["*-*"])
+                combinations = make_combinations(combinations, ["*-*-*-*"])
             if "debitCreditCode" in entrydetail.keys():
                 combinations = make_combinations(
                     combinations, [entrydetail["debitCreditCode"]])
@@ -107,7 +116,7 @@ class ReportData():
     def generate_account_combination_report_elements_mapping_rules(self, pattern_file=PATTERN_FILE) -> dict:
         """Generate account combination and list of report elements.
 
-        result: dict {mainAccountId-AssetsGroupId-ChangeTypeId: [report element codes]}
+        result: dict {mainAccountId-AssetsGroupId-ChangeTypeId-PresentationId-RelatedPartyId-debitCredit: [report element codes]}
         """
         source = self.element_finding_rules if len(
             self.element_finding_rules) > 1 else generate_report_element_filtering_rules(pattern_file)
@@ -124,6 +133,16 @@ class ReportData():
             if "MUUTUSELIIK2024ap" in item["filter_rule"].keys():
                 combinations = make_combinations(
                     combinations, item["filter_rule"]["MUUTUSELIIK2024ap"])
+            else:
+                combinations = make_combinations(combinations, ["*"])
+            if "ANDMETEESITLUSVIIS2024ap" in item["filter_rule"].keys():
+                combinations = make_combinations(
+                    combinations, item["filter_rule"]["ANDMETEESITLUSVIIS2024ap"])
+            else:
+                combinations = make_combinations(combinations, ["*"])
+            if "SEOTUDOSAPOOL2024ap" in item["filter_rule"].keys():
+                combinations = make_combinations(
+                    combinations, item["filter_rule"]["SEOTUDOSAPOOL2024ap"])
             else:
                 combinations = make_combinations(combinations, ["*"])
             if "DEBIT-CREDIT" in item["filter_rule"].keys():
@@ -180,7 +199,7 @@ def find_gl_element_codes_based_pattern(classification: str, pattern: str) -> li
 
 def generate_report_element_filtering_rules(pattern_file=PATTERN_FILE) -> dict:
     """Generate report element with list of gl-element to select."""
-    source_path = Path(SOURCE_DATA_PATH + pattern_file)
+    source_path = Path(pattern_file)
     if source_path.exists:
         mapping_rules = []
         pattern_source = loads(source_path.read_text(encoding="utf-8"))
@@ -215,6 +234,6 @@ def make_combinations(list1: list, list2: list) -> list:
 
 
 def save_as_json(data: dict,  output_file_name: str):
-    output_path = Path(SOURCE_DATA_PATH + output_file_name + ".json")
+    output_path = Path(OUTPUT_PATH + output_file_name + ".json")
     output_path.write_text(
         dumps(data, indent=4, ensure_ascii=False), encoding="utf-8")

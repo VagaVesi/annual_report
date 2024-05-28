@@ -1,5 +1,5 @@
 {
-  "created": "2024-05-27",
+  "created": "2024-05-28",
   "Report element pattern": [
     {
       "code": "BS-AssetsShort-Cash",
@@ -304,6 +304,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -313,6 +314,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -322,6 +324,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
       }
     },
@@ -331,6 +334,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
         "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -339,7 +343,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
-        "VARAGRUPP2024ap": ["VG_201"]
+        "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"]
       }
     },
     {
@@ -347,7 +352,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
-        "VARAGRUPP2024ap": ["VG_201"]
+        "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -355,7 +361,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
-        "VARAGRUPP2024ap": ["VG_201"]
+        "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_15"]
       }
     },
     {
@@ -363,7 +370,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102010"],
-        "VARAGRUPP2024ap": ["VG_201"]
+        "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -372,6 +380,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -381,6 +390,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -390,6 +400,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
       }
     },
@@ -399,6 +410,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
         "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -407,7 +419,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
-        "VARAGRUPP2024ap": ["VG_202"]
+        "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"]
       }
     },
     {
@@ -415,7 +428,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
-        "VARAGRUPP2024ap": ["VG_202"]
+        "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -423,7 +437,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
-        "VARAGRUPP2024ap": ["VG_202"]
+        "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_15"]
       }
     },
     {
@@ -431,7 +446,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102020"],
-        "VARAGRUPP2024ap": ["VG_202"]
+        "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -440,6 +456,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -449,6 +466,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -458,6 +476,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
       }
     },
@@ -467,6 +486,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
         "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -475,7 +495,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
-        "VARAGRUPP2024ap": ["VG_203"]
+        "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"]
       }
     },
     {
@@ -483,7 +504,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
-        "VARAGRUPP2024ap": ["VG_203"]
+        "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -491,7 +513,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
-        "VARAGRUPP2024ap": ["VG_203"]
+        "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_15"]
       }
     },
     {
@@ -499,7 +522,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102030"],
-        "VARAGRUPP2024ap": ["VG_203"]
+        "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -508,6 +532,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -517,6 +542,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -526,6 +552,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
       }
     },
@@ -535,6 +562,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
         "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -543,7 +571,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
-        "VARAGRUPP2024ap": ["VG_299"]
+        "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"]
       }
     },
     {
@@ -551,7 +580,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
-        "VARAGRUPP2024ap": ["VG_299"]
+        "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -559,7 +589,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
-        "VARAGRUPP2024ap": ["VG_299"]
+        "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_15"]
       }
     },
     {
@@ -567,7 +598,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
-        "VARAGRUPP2024ap": ["VG_299"]
+        "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -575,6 +607,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -583,6 +616,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -591,6 +625,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
       }
     },
@@ -599,6 +634,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102990"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -606,28 +642,32 @@
       "code": "Note-FinancialInvestments-Short-ClosingBalance-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["102990"]
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Short-FairValue-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["102990"]
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Short-CorrectedCostValue-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["102990"]
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_15"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Short-CostValue-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["102990"]
+        "MAJANDUSLIKSISU2024ap": ["102990"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -636,6 +676,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -645,6 +686,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -654,6 +696,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
       }
     },
@@ -663,6 +706,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
         "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -671,7 +715,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
-        "VARAGRUPP2024ap": ["VG_201"]
+        "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"]
       }
     },
     {
@@ -679,7 +724,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
-        "VARAGRUPP2024ap": ["VG_201"]
+        "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -687,7 +733,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
-        "VARAGRUPP2024ap": ["VG_201"]
+        "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_15"]
       }
     },
     {
@@ -695,7 +742,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102011"],
-        "VARAGRUPP2024ap": ["VG_201"]
+        "VARAGRUPP2024ap": ["VG_201"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -704,6 +752,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -713,6 +762,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -722,6 +772,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
       }
     },
@@ -731,6 +782,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
         "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -739,7 +791,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
-        "VARAGRUPP2024ap": ["VG_202"]
+        "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"]
       }
     },
     {
@@ -747,7 +800,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
-        "VARAGRUPP2024ap": ["VG_202"]
+        "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -755,7 +809,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
-        "VARAGRUPP2024ap": ["VG_202"]
+        "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_15"]
       }
     },
     {
@@ -763,7 +818,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102021"],
-        "VARAGRUPP2024ap": ["VG_202"]
+        "VARAGRUPP2024ap": ["VG_202"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -772,6 +828,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -781,6 +838,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -790,6 +848,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
       }
     },
@@ -799,6 +858,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
         "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -807,7 +867,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
-        "VARAGRUPP2024ap": ["VG_203"]
+        "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"]
       }
     },
     {
@@ -815,7 +876,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
-        "VARAGRUPP2024ap": ["VG_203"]
+        "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -823,7 +885,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
-        "VARAGRUPP2024ap": ["VG_203"]
+        "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_15"]
       }
     },
     {
@@ -831,7 +894,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102031"],
-        "VARAGRUPP2024ap": ["VG_203"]
+        "VARAGRUPP2024ap": ["VG_203"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -840,6 +904,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -849,6 +914,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -858,6 +924,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
       }
     },
@@ -867,6 +934,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
         "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -875,7 +943,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
-        "VARAGRUPP2024ap": ["VG_299"]
+        "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"]
       }
     },
     {
@@ -883,7 +952,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
-        "VARAGRUPP2024ap": ["VG_299"]
+        "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -891,7 +961,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
-        "VARAGRUPP2024ap": ["VG_299"]
+        "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_15"]
       }
     },
     {
@@ -899,7 +970,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
-        "VARAGRUPP2024ap": ["VG_299"]
+        "VARAGRUPP2024ap": ["VG_299"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -907,6 +979,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -915,6 +988,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -923,6 +997,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_23", "ML_13", "ML_15"]
       }
     },
@@ -931,6 +1006,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["102991"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -938,28 +1014,32 @@
       "code": "Note-FinancialInvestments-Long-ClosingBalance-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["102991"]
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12", "AE_15"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Long-FairValue-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["102991"]
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Long-CorrectedCostValue-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["102991"]
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_15"]
       }
     },
     {
       "code": "Note-FinancialInvestments-Long-CostValue-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["102991"]
+        "MAJANDUSLIKSISU2024ap": ["102991"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -1227,40 +1307,48 @@
       "code": "Note-Inventories-RawMaterials",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["106010"]
+        "MAJANDUSLIKSISU2024ap": ["106010"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12", "AE_13", "AE_14"]
       }
     },
     {
       "code": "Note-Inventories-WorkInProgress",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["106020"]
+        "MAJANDUSLIKSISU2024ap": ["106020"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12", "AE_13", "AE_14"]
       }
     },
     {
       "code": "Note-Inventories-FinishedGoods",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["106030"]
+        "MAJANDUSLIKSISU2024ap": ["106030"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12", "AE_13", "AE_14"]
       }
     },
     {
       "code": "Note-Inventories-Merchandise",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["106040"]
+        "MAJANDUSLIKSISU2024ap": ["106040"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12", "AE_13", "AE_14"]
       }
     },
     {
       "code": "Note-Inventories-Prepayments",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["106050"]
+        "MAJANDUSLIKSISU2024ap": ["106050"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12", "AE_13", "AE_14"]
       }
     },
     {
       "code": "Note-Inventories-Total",
       "debit-credit": ["D", "C"],
+      "elements": {
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12", "AE_13", "AE_14"]
+      },
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^106\\d{3}$"
       }
@@ -1470,6 +1558,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -1479,6 +1568,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -1488,6 +1578,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -1497,6 +1588,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -1506,6 +1598,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -1515,6 +1608,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -1524,6 +1618,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -1533,6 +1628,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -1542,6 +1638,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -1550,7 +1647,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
-        "VARAGRUPP2024ap": ["VG_112"]
+        "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"]
       }
     },
     {
@@ -1559,6 +1657,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -1568,6 +1667,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -1577,6 +1677,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -1586,6 +1687,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -1595,6 +1697,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -1604,6 +1707,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -1613,6 +1717,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -1622,6 +1727,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -1631,6 +1737,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -1639,7 +1746,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_112"]
+        "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -1647,7 +1755,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_112"]
+        "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -1655,7 +1764,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
-        "VARAGRUPP2024ap": ["VG_112"]
+        "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -1663,7 +1773,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
-        "VARAGRUPP2024ap": ["VG_112"]
+        "VARAGRUPP2024ap": ["VG_112"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -1672,6 +1783,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -1681,6 +1793,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -1690,6 +1803,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -1699,6 +1813,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -1708,6 +1823,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -1717,6 +1833,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -1726,6 +1843,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -1735,6 +1853,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -1744,6 +1863,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -1752,7 +1872,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
-        "VARAGRUPP2024ap": ["VG_113"]
+        "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"]
       }
     },
     {
@@ -1761,6 +1882,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -1770,6 +1892,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -1779,6 +1902,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -1788,6 +1912,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -1797,6 +1922,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -1806,6 +1932,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -1815,6 +1942,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -1824,6 +1952,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -1833,6 +1962,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -1841,7 +1971,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_113"]
+        "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -1849,7 +1980,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_113"]
+        "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -1857,7 +1989,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
-        "VARAGRUPP2024ap": ["VG_113"]
+        "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -1865,7 +1998,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
-        "VARAGRUPP2024ap": ["VG_113"]
+        "VARAGRUPP2024ap": ["VG_113"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -1874,6 +2008,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -1883,6 +2018,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -1892,6 +2028,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -1901,6 +2038,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -1910,6 +2048,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -1919,6 +2058,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -1928,6 +2068,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -1937,6 +2078,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -1946,6 +2088,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -1954,7 +2097,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
-        "VARAGRUPP2024ap": ["VG_114"]
+        "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"]
       }
     },
     {
@@ -1963,6 +2107,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -1972,6 +2117,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -1981,6 +2127,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -1990,6 +2137,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -1999,6 +2147,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -2008,6 +2157,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -2017,6 +2167,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2026,6 +2177,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2035,6 +2187,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -2043,7 +2196,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_114"]
+        "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -2051,7 +2205,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_114"]
+        "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2059,7 +2214,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
-        "VARAGRUPP2024ap": ["VG_114"]
+        "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2067,7 +2223,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
-        "VARAGRUPP2024ap": ["VG_114"]
+        "VARAGRUPP2024ap": ["VG_114"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2076,6 +2233,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -2085,6 +2243,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -2094,6 +2253,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -2103,6 +2263,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -2112,6 +2273,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -2121,6 +2283,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -2130,6 +2293,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2139,6 +2303,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2148,6 +2313,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -2156,7 +2322,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
-        "VARAGRUPP2024ap": ["VG_115"]
+        "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"]
       }
     },
     {
@@ -2165,6 +2332,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -2174,6 +2342,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -2183,6 +2352,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -2192,6 +2362,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -2201,6 +2372,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -2210,6 +2382,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -2219,6 +2392,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2228,6 +2402,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2237,6 +2412,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -2245,7 +2421,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_115"]
+        "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -2253,7 +2430,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_115"]
+        "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2261,7 +2439,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
-        "VARAGRUPP2024ap": ["VG_115"]
+        "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2269,7 +2448,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
-        "VARAGRUPP2024ap": ["VG_115"]
+        "VARAGRUPP2024ap": ["VG_115"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2278,6 +2458,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -2287,6 +2468,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -2296,6 +2478,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -2305,6 +2488,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -2314,6 +2498,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -2323,6 +2508,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -2332,6 +2518,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2341,6 +2528,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2350,6 +2538,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -2358,7 +2547,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
-        "VARAGRUPP2024ap": ["VG_116"]
+        "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"]
       }
     },
     {
@@ -2367,6 +2557,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -2376,6 +2567,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -2385,6 +2577,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -2394,6 +2587,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -2403,6 +2597,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -2412,6 +2607,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -2421,6 +2617,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2430,6 +2627,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2439,6 +2637,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -2447,7 +2646,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_116"]
+        "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"]
       }
     },
     {
@@ -2455,7 +2655,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_116"]
+        "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2463,7 +2664,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
-        "VARAGRUPP2024ap": ["VG_116"]
+        "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2471,7 +2673,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
-        "VARAGRUPP2024ap": ["VG_116"]
+        "VARAGRUPP2024ap": ["VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2550,6 +2753,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -2559,6 +2763,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -2568,6 +2773,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -2577,6 +2783,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -2586,6 +2793,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -2595,6 +2803,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -2604,6 +2813,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2613,6 +2823,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2622,6 +2833,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -2630,7 +2842,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107010"],
-        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"]
       }
     },
     {
@@ -2639,6 +2852,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_15"]
       }
     },
@@ -2648,6 +2862,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -2657,6 +2872,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -2666,6 +2882,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_18"]
       }
     },
@@ -2675,6 +2892,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_19"]
       }
     },
@@ -2684,6 +2902,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -2693,6 +2912,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_16"]
       }
     },
@@ -2702,6 +2922,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2711,6 +2932,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2720,6 +2942,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
         "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_13"]
       }
     },
@@ -2728,7 +2951,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2736,7 +2960,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107021"],
-        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2744,7 +2969,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011", "107021"],
-        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2752,7 +2978,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["107011"],
-        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"]
+        "VARAGRUPP2024ap": ["VG_112", "VG_113", "VG_114", "VG_115", "VG_116"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_11", "AE_12"]
       }
     },
     {
@@ -2761,6 +2988,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -2770,6 +2998,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -2779,6 +3008,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2788,6 +3018,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2797,6 +3028,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -2806,6 +3038,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_13"]
       }
     },
@@ -2815,6 +3048,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_108"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -2823,7 +3057,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
-        "VARAGRUPP2024ap": ["VG_108"]
+        "VARAGRUPP2024ap": ["VG_108"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2831,7 +3066,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
-        "VARAGRUPP2024ap": ["VG_108"]
+        "VARAGRUPP2024ap": ["VG_108"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2839,7 +3075,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111021"],
-        "VARAGRUPP2024ap": ["VG_108"]
+        "VARAGRUPP2024ap": ["VG_108"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2847,7 +3084,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
-        "VARAGRUPP2024ap": ["VG_108"]
+        "VARAGRUPP2024ap": ["VG_108"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2856,6 +3094,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -2865,6 +3104,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -2874,6 +3114,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2883,6 +3124,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2892,6 +3134,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -2901,6 +3144,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_13"]
       }
     },
@@ -2910,6 +3154,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_109"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -2918,7 +3163,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
-        "VARAGRUPP2024ap": ["VG_109"]
+        "VARAGRUPP2024ap": ["VG_109"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2926,7 +3172,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
-        "VARAGRUPP2024ap": ["VG_109"]
+        "VARAGRUPP2024ap": ["VG_109"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2934,7 +3181,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111021"],
-        "VARAGRUPP2024ap": ["VG_109"]
+        "VARAGRUPP2024ap": ["VG_109"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2942,7 +3190,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
-        "VARAGRUPP2024ap": ["VG_109"]
+        "VARAGRUPP2024ap": ["VG_109"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -2951,6 +3200,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -2960,6 +3210,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -2969,6 +3220,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2978,6 +3230,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -2987,6 +3240,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -2996,6 +3250,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_13"]
       }
     },
@@ -3005,6 +3260,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_110"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -3013,7 +3269,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
-        "VARAGRUPP2024ap": ["VG_110"]
+        "VARAGRUPP2024ap": ["VG_110"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3021,7 +3278,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
-        "VARAGRUPP2024ap": ["VG_110"]
+        "VARAGRUPP2024ap": ["VG_110"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3029,7 +3287,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111021"],
-        "VARAGRUPP2024ap": ["VG_110"]
+        "VARAGRUPP2024ap": ["VG_110"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3037,7 +3296,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
-        "VARAGRUPP2024ap": ["VG_110"]
+        "VARAGRUPP2024ap": ["VG_110"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3046,6 +3306,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -3055,6 +3316,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -3064,6 +3326,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -3073,6 +3336,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -3082,6 +3346,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -3091,6 +3356,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_13"]
       }
     },
@@ -3100,6 +3366,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -3108,7 +3375,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
-        "VARAGRUPP2024ap": ["VG_111"]
+        "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3116,7 +3384,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
-        "VARAGRUPP2024ap": ["VG_111"]
+        "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3124,7 +3393,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111021"],
-        "VARAGRUPP2024ap": ["VG_111"]
+        "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3132,7 +3402,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
-        "VARAGRUPP2024ap": ["VG_111"]
+        "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3141,6 +3412,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -3150,6 +3422,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -3159,6 +3432,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -3168,6 +3442,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -3177,6 +3452,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -3186,6 +3462,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_13"]
       }
     },
@@ -3195,6 +3472,7 @@
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
         "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -3203,7 +3481,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
-        "VARAGRUPP2024ap": ["VG_111"]
+        "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3211,7 +3490,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011"],
-        "VARAGRUPP2024ap": ["VG_111"]
+        "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3219,7 +3499,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111021"],
-        "VARAGRUPP2024ap": ["VG_111"]
+        "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3227,7 +3508,8 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111021"],
-        "VARAGRUPP2024ap": ["VG_111"]
+        "VARAGRUPP2024ap": ["VG_111"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3235,6 +3517,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -3243,6 +3526,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -3251,6 +3535,7 @@
       "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -3259,6 +3544,7 @@
       "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -3267,6 +3553,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -3275,6 +3562,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_13"]
       }
     },
@@ -3283,6 +3571,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -3290,28 +3579,32 @@
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-CostValue",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-Depreciation",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
       "code": "Note-IntangibleAssets-UnfinishedProjectsPrepayments-ClosingBalance-ResidualValue",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3319,6 +3612,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111011", "111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_11"]
       }
     },
@@ -3327,6 +3621,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_14"]
       }
     },
@@ -3335,6 +3630,7 @@
       "debit-credit": ["C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -3343,6 +3639,7 @@
       "debit-credit": ["D"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_17"]
       }
     },
@@ -3351,6 +3648,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_12"]
       }
     },
@@ -3359,6 +3657,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_13"]
       }
     },
@@ -3367,6 +3666,7 @@
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"],
         "MUUTUSELIIK2024ap": ["ML_99", "ML_14"]
       }
     },
@@ -3374,35 +3674,40 @@
       "code": "Note-IntangibleAssets-ClosingBalance-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
       "code": "Note-IntangibleAssets-ClosingBalance-CostValue-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
       "code": "Note-IntangibleAssets-ClosingBalance-Depreciation-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
       "code": "Note-IntangibleAssets-ClosingBalance-ResidualValue-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
       "code": "Note-IntangibleAssets-Sales-Total",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["111041", "111031"]
+        "MAJANDUSLIKSISU2024ap": ["111041", "111031"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_12"]
       }
     },
     {
@@ -3427,10 +3732,11 @@
       }
     },
     {
-      "code": "IS-ChangesInInventoriesOfAgriculturalProduction",
+      "code": "IS1-ChangesInInventoriesOfAgriculturalProduction",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["619072"]
+        "MAJANDUSLIKSISU2024ap": ["619072"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_20"]
       }
     },
     {
@@ -3442,49 +3748,63 @@
       }
     },
     {
-      "code": "IS-ChangesInInventoriesOfFinishedGoodsAndWorkInProgress",
+      "code": "IS1-ChangesInInventoriesOfFinishedGoodsAndWorkInProgress",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["619062"]
+        "MAJANDUSLIKSISU2024ap": ["619062"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_20"]
       }
     },
     {
-      "code": "IS-WorkPerformedByEntityAndCapitalised",
+      "code": "IS1-WorkPerformedByEntityAndCapitalised",
       "debit-credit": ["D", "C"],
       "elements": {
-        "MAJANDUSLIKSISU2024ap": ["619082"]
+        "MAJANDUSLIKSISU2024ap": ["619082"],
+        "ANDMETEESITLUSVIIS2024ap": ["AE_20"]
       }
     },
     {
-      "code": "IS-Expenses-RawMaterialsAndConsumablesUsed",
+      "code": "IS1-Expenses-RawMaterialsAndConsumablesUsed",
       "debit-credit": ["D", "C"],
+      "elements": {
+        "ANDMETEESITLUSVIIS2024ap": ["AE_20"]
+      },
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^520\\d{3}$"
       }
     },
     {
-      "code": "IS-Expenses-OtherOperatingExpenses",
+      "code": "IS1-Expenses-OtherOperatingExpenses",
       "debit-credit": ["D", "C"],
+      "elements": {
+        "ANDMETEESITLUSVIIS2024ap": ["AE_21", "AE_22"]
+      },
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^520\\d{3}$"
       }
     },
     {
-      "code": "IS-Expenses-EmployeeExpenses",
+      "code": "IS1-Expenses-EmployeeExpenses",
       "debit-credit": ["D", "C"],
+      "elements": {
+        "ANDMETEESITLUSVIIS2024ap": ["AE_20", "AE_21", "AE_22"]
+      },
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^521\\d{3}$"
       }
     },
     {
-      "code": "IS-Expenses-DepreciationAndImpairmentLoss",
+      "code": "IS1-Expenses-DepreciationAndImpairmentLoss",
       "debit-credit": ["D", "C"],
+      "elements": {
+        "ANDMETEESITLUSVIIS2024ap": ["AE_20", "AE_21", "AE_22"]
+      },
       "pattern": {
         "MAJANDUSLIKSISU2024ap": "^522\\d{3}$"
       }
     },
     {
-      "code": "IS-Expenses-OtherBusinessIncomeAndExpenses",
+      "code": "IS1-Expenses-OtherBusinessIncomeAndExpenses",
       "debit-credit": ["D", "C"],
       "elements": {
         "MAJANDUSLIKSISU2024ap": [

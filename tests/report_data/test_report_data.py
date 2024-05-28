@@ -82,6 +82,14 @@ class TestReportData():
 
         assert len(report_data.report_elements) > 1
 
+    def test_generate_account_combination_report_elements_mapping_rules(self):
+        path = Path(
+            "annual_report/tests/report_data/source_data/sample_dataset_micro.json")
+        sample_ledger = loads(path.read_text(encoding="utf-8"))
+        report_data = ReportData(sample_ledger)
+        mapping = report_data.generate_account_combination_report_elements_mapping_rules()
+        assert len(mapping) > 1
+
     def test_return_elements(self):
         path = Path(
             "annual_report/tests/report_data/source_data/sample_dataset_micro.json")
