@@ -1,0 +1,56 @@
+{
+    "documentInfo": {
+        "uniqueID": "11308014-2024-05-28T08:46:49:617",
+        "language": "iso639:et",
+        "creationDate": "2024-05-28",
+        "creator": "EE37903216506",
+        "periodCoveredStart": "2023-01-01",
+        "periodCoveredEnd": "2023-12-31",
+        "sourceApplication": "python-test",
+        "defaultCurrency": "iso4217:eur"
+    },
+    "entityInformation": {
+        "organizationIdentifier": "11308014",
+        "organizationDescription": "e-äriregister"
+    },
+    "datasets": [
+        {
+            "entryNumber": "EE0301010",
+            "entryDetail": [
+                {
+                    "lineNumberCounter": 1,
+                    "accountMainID": "101020",
+                    "debitCreditCode": "D",
+                    "amount": 4100.0
+                },
+                {
+                    "lineNumberCounter": 2,
+                    "accountMainID": "315011",
+                    "debitCreditCode": "C",
+                    "amount": 2500.0
+                },
+                {
+                    "lineNumberCounter": 3,
+                    "accountMainID": "418012",
+                    "debitCreditCode": "C",
+                    "amount": 1600.0,
+                    "accountSub": {
+                        "EMTAK2008ap": "07101"
+                    }
+                },
+                {
+                    "lineNumberCounter": 4,
+                    "accountMainID": "530102",
+                    "debitCreditCode": "D",
+                    "amount": 350.0
+                },
+                {
+                    "lineNumberCounter": 5,
+                    "accountMainID": "212010",
+                    "debitCreditCode": "C",
+                    "amount": 350.0
+                }
+            ]
+        }
+    ]
+}

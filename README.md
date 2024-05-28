@@ -18,12 +18,13 @@ Steps
 
 # ADDITIONAL FEATURES:
 
-1. Modify source dataset based on dataset code (balances and movements)
-2. Save several datasets to one file
+1. Modify source dataset based on dataset code (balances and movements) - OK
+2. Save several datasets to one file - OK
 3. Make report elements from multiple datasets
-4. Countries and activityType additional info
-5. Related parties additional info (separate set of data) - have to eliminate from standard dataset (except investments)
+4. Related parties additional info (separate set of data) - have to eliminate from standard dataset (except investments)
+5. Countries and activityType additional info
 
 # LIVE TO ADD
 
 1. Pattern input validation (Complex pattern OR is not supported in prototype)
+2. Ledger agregator: replace datsets_list -> report_code

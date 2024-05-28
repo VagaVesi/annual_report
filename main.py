@@ -5,7 +5,7 @@
 # from report_data.report_data import ReportData, generate_report_element_filtering_rules, save_as_json
 # from tools.json_validator import validate
 # from classifications.classification import ClassificationsList
-from agregator.agregator import save_ledger, AgregatorEntries, AgregatorEntriesDataSet
+from agregator.agregator import save_ledger, generate_ledger_from_entries
 # from classifications.classification import ClassificationsList
 # from annual_report.report_data.pattern import Pattern
 
@@ -26,18 +26,13 @@ def main():
     # save_as_json(mapping1, "report_element_accounts_filter_rules")
 
     """Generate from transactions file a dataset file."""
-    agregator = AgregatorEntriesDataSet(
-        "annual_report/tests/entry/modified_entries_list.json", "EE0301010")
-    sample_dataset = agregator.generate_ledger_from_entries(
-        "11308014", "2023-01-01", "2023-12-31")
-    save_ledger(sample_dataset)
+    # sample_ledger_micro = generate_ledger_from_entries("annual_report/tests/entry/modified_entries_list.json", ["EE0301010"],
+    #                                                    "11308014", "2023-01-01", "2023-12-31")
+    # save_ledger(sample_ledger_micro)
 
-    # data_for_dataset = AgregatorEntriesDataSet("EE0301010",agregator)
-    # data_for_dataset.
-
-    # dataset = generate_ledger_from_entries(
-    #     , "11308014", "2023-01-01", "2023-12-31")
-    # save_ledger(dataset)
+    sample_ledger_standard = generate_ledger_from_entries("annual_report/tests/entry/modified_entries_list.json", ["EE0301020",  "EE0302010"],
+                                                          "13333333", "2023-01-01", "2023-12-31")
+    save_ledger(sample_ledger_standard)
 
     """Validate json file."""
     # file_name = "annual_report/agregator/output/11308014-2024-05-13T14:14:07:726.json"
