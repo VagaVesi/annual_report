@@ -12,6 +12,7 @@ DATASET_BALANCE_MICRO = "EE0301010"
 DATASET_BALANCE_STARDARD = "EE0301020"
 DATASET_CHANGES_STARDARD = "EE0302010"
 
+# Dataset classifications used
 DATASET_CLASSIFICATIONS = {
     DATASET_BALANCE_MICRO: ["MAJANDUSLIKSISU2024ap",
                             "EMTAK2008ap", "SEOTUDOSAPOOL2024ap"],
@@ -31,18 +32,18 @@ class AgregatorEntries:
         self.combinations = {}  # agregated combinations based on entries
         self.load_entries_from_file(source_data_path)
 
-    def add_normalized_entry(self, entry_normalized: dict):
-        """Add normalized entry to agregator"""
-        self.entries.append(entry_normalized)
-        self.combinations[entry_normalized["hash"]
-                          ] = entry_normalized["combination"]
-
     def load_entries_from_file(self, file_path: str):
         """Load entries from file"""
         for entry in load_entries(file_path)["entries"]:
             for entrydetail in entry["entryDetail"]:
                 entry_normalized = get_normalised_entry_detail(entrydetail)
                 self.add_normalized_entry(entry_normalized)
+
+    def add_normalized_entry(self, entry_normalized: dict):
+        """Add normalized entry to agregator"""
+        self.entries.append(entry_normalized)
+        self.combinations[entry_normalized["hash"]
+                          ] = entry_normalized["combination"]
 
     def aggregate_combination_amounts(self) -> list:
         """Return combination and debit and credit amount total"""
@@ -172,15 +173,6 @@ def generate_ledger_from_entries(file_path: str, dataset_codes: list, entity_id:
     }
 
 
-def save_ledger(ledger: dict, dir=LEDGER_OUTPUT_PATH):
-    """Save dataset data to json file"""
-    filename = ledger["documentInfo"]["uniqueID"]
-
-    path = Path(dir + filename+".json")
-    path.write_text(dumps(ledger, indent=4,
-                    ensure_ascii=False), encoding="utf-8")
-
-
 def get_normalised_entry_detail(entrydetail: dict):
     """Normalize entry details for calculations."""
     entry_normalized = {
@@ -254,3 +246,12 @@ def modify_data_according_dataset(entry_normalized: dict, dataset_code: str) -> 
                                      )
     modified_entry["hash"] = hash(modified_entry["combination"])
     return modified_entry
+
+
+def save_ledger(ledger: dict, dir=LEDGER_OUTPUT_PATH):
+    """Save dataset data to json file"""
+    filename = ledger["documentInfo"]["uniqueID"]
+
+    path = Path(dir + filename+".json")
+    path.write_text(dumps(ledger, indent=4,
+                    ensure_ascii=False), encoding="utf-8")

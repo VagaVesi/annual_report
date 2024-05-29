@@ -53,15 +53,6 @@ class ClassificationsList:
                 classifications = classifications_update
         return classifications
 
-    def get_links(self) -> dict:
-        """Returns links to download classifications.
-
-        result: pairs: classification code - link."""
-        links = {}
-        for item in self.classifications:
-            links[item["code"]] = item["links"]["get"]
-        return links
-
     def update_classification_elements(self):
         """Download classifications elementss from API and save to file."""
         for code, api_link in self.get_links().items():
@@ -75,6 +66,15 @@ class ClassificationsList:
             else:
                 path.write_text(dumps(classifications_update,
                                 indent=4, ensure_ascii=False), encoding="utf-8")
+
+    def get_links(self) -> dict:
+        """Returns links to download classifications.
+
+        result: pairs: classification code - link."""
+        links = {}
+        for item in self.classifications:
+            links[item["code"]] = item["links"]["get"]
+        return links
 
 
 class Classification:
@@ -102,7 +102,7 @@ class Classification:
     def is_code_correct(self, element_code: str) -> bool:
         """Check if classification code exists.
 
-        initsialises classification elements_codes set 
+        initialises classification elements_codes set 
 
         params:
         code (str): Element code to validate
