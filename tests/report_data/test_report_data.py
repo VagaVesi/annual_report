@@ -57,9 +57,9 @@ class TestReportData():
         report_data = ReportData(sample_dataset)
 
         elements1 = report_data.find_elements_based_combination(
-            "102010-VG_201-ML_11-D")
+            "102010-VG_201-ML_11-AE_11-*-D")
         elements3 = report_data.find_elements_based_combination(
-            "102010-*-*-D")
+            "102010-*-*-*-*-D")
 
         assert elements1 == [
             "Note-FinancialInvestments-Short-Shares-Acquisition"]

@@ -34,6 +34,30 @@
           "accountMainID": "315011",
           "debitCreditCode": "C",
           "amount": 2500.0
+        },
+        {
+          "lineNumberCounter": 4,
+          "accountMainID": "520102",
+          "debitCreditCode": "D",
+          "amount": 300.0
+        },
+        {
+          "lineNumberCounter": 5,
+          "accountMainID": "212010",
+          "debitCreditCode": "C",
+          "amount": 300.0
+        },
+        {
+          "lineNumberCounter": 6,
+          "accountMainID": "418012",
+          "debitCreditCode": "C",
+          "amount": 400.0
+        },
+        {
+          "lineNumberCounter": 7,
+          "accountMainID": "103010",
+          "debitCreditCode": "D",
+          "amount": 400.0
         }
       ]
     }

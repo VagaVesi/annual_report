@@ -1,0 +1,92 @@
+[
+  {
+    "code": "BS-AssetsShort-Cash",
+    "debitCreditCode": "D",
+    "amount": 4100.0
+  },
+  {
+    "code": "BS-AssetsShort-Total",
+    "debitCreditCode": "D",
+    "amount": 4100.0
+  },
+  {
+    "code": "BS-Assets-Total",
+    "debitCreditCode": "D",
+    "amount": 4100.0
+  },
+  {
+    "code": "Note-Cash-BankAccounts",
+    "debitCreditCode": "D",
+    "amount": 4100.0
+  },
+  {
+    "code": "Note-Cash-Total",
+    "debitCreditCode": "D",
+    "amount": 4100.0
+  },
+  {
+    "code": "BS-Equity-IssuedCapital",
+    "debitCreditCode": "C",
+    "amount": 2500.0
+  },
+  {
+    "code": "BS-Equity-Total",
+    "debitCreditCode": "C",
+    "amount": 3750.0
+  },
+  {
+    "code": "BS-Equity-AnnualPeriodProfitLoss",
+    "debitCreditCode": "C",
+    "amount": 1250.0
+  },
+  {
+    "code": "BS-LiabilitiesAndEquity-Total",
+    "debitCreditCode": "C",
+    "amount": 4100.0
+  },
+  {
+    "code": "IS-Revenue",
+    "debitCreditCode": "C",
+    "amount": 1600.0
+  },
+  {
+    "code": "IS-Operating-ProfitLoss",
+    "debitCreditCode": "C",
+    "amount": 1600.0
+  },
+  {
+    "code": "IS-BeforeTax-ProfitLoss",
+    "debitCreditCode": "C",
+    "amount": 1250.0
+  },
+  {
+    "code": "IS-Net-ProfitLoss",
+    "debitCreditCode": "C",
+    "amount": 1250.0
+  },
+  {
+    "code": "IS1-Expenses-OtherOperatingExpenses",
+    "debitCreditCode": "D",
+    "amount": 350.0
+  },
+  {
+    "code": "BS-LiabilitiesShort-LoanLiablities",
+    "debitCreditCode": "C",
+    "amount": 350.0
+  },
+  {
+    "code": "BS-LiabilitiesShort-PayablesAndPrepayments",
+    "debitCreditCode": "C",
+    "amount": 350.0
+  },
+  {
+    "code": "BS-LiabilitiesShort-Total",
+    "debitCreditCode": "C",
+    "amount": 350.0
+  },
+  {
+    "code": "BS-Liabilities-Total",
+    "debitCreditCode": "C",
+    "amount": 350.0
+  }
+]

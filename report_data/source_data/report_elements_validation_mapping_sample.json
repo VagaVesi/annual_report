@@ -1,0 +1,34 @@
+{
+  "Comparing the values of the report elements": [
+    {
+      "id": 1,
+      "target-element": "BS-LiabilitiesAndEquity-Total",
+      "compare-to-elements": ["BS-Assets-Total"]
+    },
+    {
+      "id": 2,
+      "target-element": "Note-Cash-Total",
+      "compare-to-elements": ["BS-AssetsShort-Cash"]
+    },
+    {
+      "id": 3,
+      "target-element": "Note-FinancialInvestments-Long-ClosingBalance-Total",
+      "compare-to-elements": ["BS-AssetsLong-FinancialInvestments"]
+    },
+    {
+      "id": 4,
+      "target-element": "BS-Equity-AnnualPeriodProfitLoss",
+      "compare-to-elements": ["IS-Net-ProfitLoss"]
+    },
+    {
+      "id": 5,
+      "target-element": "Note-Cash-Total",
+      "compare-to-elements": [
+        "Note-Cash-CashInHand",
+        "Note-Cash-BankAccounts",
+        "Note-Cash-Deposits",
+        "Note-Cash-Other"
+      ]
+    }
+  ]
+}

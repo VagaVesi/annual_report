@@ -110,7 +110,7 @@ class ReportData():
         for element in self.report_elements:
             report_elements.append(
                 {"code": element.code, "debitCreditCode": element.debitCreditCode, "amount": element.amount})
-
+        # TODO add header
         return report_elements
 
     def generate_account_combination_report_elements_mapping_rules(self, pattern_file=PATTERN_FILE) -> dict:
@@ -154,6 +154,7 @@ class ReportData():
                 if combination not in result.keys():
                     result[combination] = []
                 result[combination].append(item["code"])
+         # TODO - ADD ACCOUNT EXEPTIONS PresentationId - PROFIT TOTALS
         return result
 
 

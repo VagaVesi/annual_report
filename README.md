@@ -13,7 +13,7 @@ Steps
 9. Add Debit and Credit for element selection logic - OK
 10. Add sample validation checks for Annual Report elements
     - Missing combinations in mapping
-    - Some basic element comparsions
+    - Some basic element comparsions - OK
 11. Make sample reports elements file
 
 # ADDITIONAL FEATURES:
