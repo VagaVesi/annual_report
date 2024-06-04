@@ -16,9 +16,9 @@ def main():
     # cls.update_classification_elements()
 
     """Generate pattern json from xls"""
-    # pattern = Pattern()
-    # pattern.generate_combinations()
-    # pattern.save_to_json_file()
+    pattern = Pattern()
+    pattern.generate_combinations()
+    pattern.save_to_json_file()
 
     """Generate report elements from dataset"""
     # mapping1 = generate_report_element_filtering_rules()

@@ -2,7 +2,7 @@
 
 ## Agregator
 
-Calculate total amounts based on source data. For group by source data combinations are normalized. Return correct Debit or Credit based total amounts.
+Calculate total amounts based on source data. For grouping source data combinations are normalized. Return correct Debit or Credit based total amounts.
 
 1. AgregatorEntries - agregate possible combinations from entries json file
 2. AgregatorEntriesDataSet - agregate entries for dataset and make Ledger
@@ -29,6 +29,10 @@ Make report elements from Ledger
 1. Pattern - make mapping pattern json from xls source file
 2. ReportData - generate ReporElements based on ledger and pattern
 3. ReportElement - hold source data and calculate its value based
+
+## ReportDataValidator
+
+Validates generated report elements against rules
 
 ## Report
 

@@ -32,17 +32,17 @@
     {
         "code": "BS-Equity-Total",
         "debitCreditCode": "C",
+        "amount": 3750.0
+    },
+    {
+        "code": "BS-LiabilitiesAndEquity-Total",
+        "debitCreditCode": "C",
         "amount": 4100.0
     },
     {
         "code": "BS-Equity-AnnualPeriodProfitLoss",
         "debitCreditCode": "C",
-        "amount": 1600.0
-    },
-    {
-        "code": "BS-LiabilitiesAndEquity-Total",
-        "debitCreditCode": "C",
-        "amount": 1600.0
+        "amount": 1250.0
     },
     {
         "code": "IS-Revenue",
@@ -62,7 +62,7 @@
     {
         "code": "IS-Net-ProfitLoss",
         "debitCreditCode": "C",
-        "amount": 1600.0
+        "amount": 1250.0
     },
     {
         "code": "IS1-Expenses-OtherOperatingExpenses",

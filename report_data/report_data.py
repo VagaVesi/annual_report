@@ -154,7 +154,21 @@ class ReportData():
                 if combination not in result.keys():
                     result[combination] = []
                 result[combination].append(item["code"])
-         # TODO - ADD ACCOUNT EXEPTIONS PresentationId - PROFIT TOTALS
+
+        # add elements to profit calculations
+        bs_items = ["BS-Equity-AnnualPeriodProfitLoss", "BS-Equity-Total",
+                    "BS-LiabilitiesAndEquity-Total", "IS-Net-ProfitLoss"]
+        for combination, report_elements in result.items():
+            if combination[0] in ["4", "5", "6"]:
+                for additional_item in bs_items:
+                    if additional_item not in report_elements:
+                        result[combination].append(additional_item)
+            if combination[0:2] in ["520", "521", "522", "619", "623"]:
+                if "IS-Operating-ProfitLoss" not in report_elements:
+                    result[combination].append("IS-Operating-ProfitLoss")
+            if combination[0:2] in ["520", "521", "522", "619", "623", "624"]:
+                if "IS-BeforeTax-ProfitLoss" not in report_elements:
+                    result[combination].append("IS-BeforeTax-ProfitLoss")
         return result
 
 
